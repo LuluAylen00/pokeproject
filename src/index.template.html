@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Pok&eacute;mon Damage Calculator</title>
+    <title>Pokemón Damage Calculator</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css" />
     <link type="text/css" rel="stylesheet" href="./css/main.css?" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css" />
@@ -27,7 +27,7 @@
 
 <nav class="hide"><div class="header"><div class="header-inner">
     <ul class="nav">
-        <li><a class="button nav-first" href="//pokemonshowdown.com"><img src="./img/pokemonshowdownbeta.png" alt="Pok&eacute;mon Showdown! (beta)" /> Home</a></li>
+        <li><a class="button nav-first" href="//pokemonshowdown.com"><img src="./img/pokemonshowdownbeta.png" alt="Pokemón Showdown! (beta)" /> Home</a></li>
         <li><a class="button" href="//dex.pokemonshowdown.com">Pok&eacute;dex</a></li>
         <li><a class="button" href="//replay.pokemonshowdown.com/">Replays</a></li>
         <li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
@@ -41,7 +41,7 @@
 <div class="wrapper">
 
     <div class="hide" aria-label="Settings" role="region">
-        <span class="title-text">Pok&eacute;mon Damage Calculator</span>
+        <span class="title-text">Pokemón Damage Calculator</span>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
             <input class="gen visually-hidden" type="radio" name="gen" value="1" id="gen1" /><label class="btn btn-small btn-left" for="gen1">RBY</label>
@@ -70,7 +70,7 @@
     </span>
     <div aria-label="Move selection" class="move-result-group" role="region" title="Select a move to show detailed results.">
         <div  aria-labelledby="resultHeaderL" class="move-result-subgroup" role="radiogroup">
-            <div class="result-move-header"><span id="resultHeaderL">Pok&eacute;mon 1's Moves (select one to show detailed results)</span>
+            <div class="result-move-header"><span id="resultHeaderL">Pokemón 1's Moves (select one to show detailed results)</span>
             </div>
             <div>
                 <input class="result-move visually-hidden" type="radio" name="resultMove" id="resultMoveL1" checked="checked" aria-describedby="resultDamageL1" />
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div aria-labelledby="resultHeaderR" class="move-result-subgroup" role="radiogroup">
-            <div class="result-move-header"><span id="resultHeaderR">Pok&eacute;mon 2's Moves (select one to show detailed results)</span>
+            <div class="result-move-header"><span id="resultHeaderR">Pokemón 2's Moves (select one to show detailed results)</span>
             </div>
             <div>
                 <input class="result-move visually-hidden" type="radio" name="resultMove" id="resultMoveR1" aria-describedby="resultDamageR1" />
@@ -126,10 +126,23 @@
         <div class="small-text"><span id="damageValues">(If you see this message for more than a few seconds, try enabling JavaScript.)</span>
         </div>
     </div>
-
-    <div aria-label="Pok&eacute;mon 1" class="panel" role="region">
+    <form id="tier-form">
+        <input type="radio" name="tier2" id="tier-2-All" class="tier visually-hidden" value="All" checked>
+        <label for="tier-2-All" class="btn btn-left">Todos</label>
+        <input type="radio" name="tier2" id="tier-2-OU" class="tier visually-hidden" value="OU">
+        <label for="tier-2-OU" class="btn btn-mid">OU</label>
+        <input type="radio" name="tier2" id="tier-2-UU" class="tier visually-hidden" value="UU">
+        <label for="tier-2-UU" class="btn btn-mid">UU</label>
+        <input type="radio" name="tier2" id="tier-2-NU" class="tier visually-hidden" value="NU">
+        <label for="tier-2-NU" class="btn btn-mid">NU</label>
+        <input type="radio" name="tier2" id="tier-2-LC" class="tier visually-hidden" value="LC">
+        <label for="tier-2-LC" class="btn btn-mid">LC</label>
+        <input type="radio" name="tier2" id="tier-2-DS" class="tier visually-hidden" value="DS">
+        <label for="tier-2-DS" class="btn btn-right">Dubs</label>
+    </form>
+    <div aria-label="Pokemón 1" class="panel" role="region">
         <fieldset class="poke-info" id="p1">
-            <legend align="center">Pok&eacute;mon 1</legend>
+            <legend align="center">Pokemón 1</legend>
             <input type="text" class="set-selector calc-trigger" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Solo mostrar sets personalizados <br />
@@ -145,7 +158,7 @@
                 <div class="gen-specific g9">
                     <label>Tera Type</label>
                     <select class="teraType terrain-trigger calc-trigger"></select>
-                    <input type="checkbox" title= "Has this Pok&eacute;mon terastalized?" class="teraToggle terrain-trigger calc-trigger">
+                    <input type="checkbox" title= "Has this Pokemón terastalized?" class="teraToggle terrain-trigger calc-trigger">
                 </div>
                 <div class="hide">
                     <label>Forma</label>
@@ -417,31 +430,31 @@
                 <div class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                     <label for="natureL1">Nature</label>
                     <select class="nature calc-trigger" id="natureL1">
-                        <option value="Adamant">Firme (+Atk, -SpA)</option>
-                        <option value="Bashful">Tímida</option>
-                        <option value="Bold">Osada (+Def, -Atk)</option>
-                        <option value="Brave">Audaz (+Atk, -Spe)</option>
-                        <option value="Calm">Serena (+SpD, -Atk)</option>
-                        <option value="Careful">Cauta (+SpD, -SpA)</option>
-                        <option value="Docile">Dócil</option>
-                        <option value="Gentle">Amable (+SpD, -Def)</option>
-                        <option value="Hardy" selected="selected">Fuerte</option>
                         <option value="Hasty">Activa (+Spe, -Def)</option>
+                        <option value="Mild">Afable (+SpA, -Def)</option>
                         <option value="Impish">Agitada (+Def, -SpA)</option>
                         <option value="Jolly">Alegre (+Spe, -SpA)</option>
-                        <option value="Lax">Floja (+Def, -SpD)</option>
-                        <option value="Lonely">Huraña (+Atk, -Def)</option>
-                        <option value="Mild">Afable (+SpA, -Def)</option>
-                        <option value="Modest">Modesta (+SpA, -Atk)</option>
-                        <option value="Naive">Ingenua (+Spe, -SpD)</option>
-                        <option value="Naughty">Pícara (+Atk, -SpD)</option>
-                        <option value="Quiet">Mansa (+SpA, -Spe)</option>
-                        <option value="Quirky">Rara</option>
                         <option value="Rash">Alocada (+SpA, -SpD)</option>
-                        <option value="Relaxed">Plácida (+Def, -Spe)</option>
+                        <option value="Gentle">Amable (+SpD, -Def)</option>
+                        <option value="Brave">Audaz (+Atk, -Spe)</option>
+                        <option value="Careful">Cauta (+SpD, -SpA)</option>
+                        <option value="Docile">Dócil</option>
+                        <option value="Adamant">Firme (+Atk, -SpA)</option>
+                        <option value="Lax">Floja (+Def, -SpD)</option>
+                        <option value="Hardy" selected="selected">Fuerte</option>
                         <option value="Sassy">Grosera (+SpD, -Spe)</option>
-                        <option value="Serious">Seria</option>
+                        <option value="Lonely">Huraña (+Atk, -Def)</option>
+                        <option value="Naive">Ingenua (+Spe, -SpD)</option>
+                        <option value="Quiet">Mansa (+SpA, -Spe)</option>
                         <option value="Timid">Miedosa (+Spe, -Atk)</option>
+                        <option value="Modest">Modesta (+SpA, -Atk)</option>
+                        <option value="Bold">Osada (+Def, -Atk)</option>
+                        <option value="Naughty">Pícara (+Atk, -SpD)</option>
+                        <option value="Relaxed">Plácida (+Def, -Spe)</option>
+                        <option value="Quirky">Rara</option>
+                        <option value="Calm">Serena (+SpD, -Atk)</option>
+                        <option value="Serious">Seria</option>
+                        <option value="Bashful">Tímida</option>
                     </select>
                 </div>
                 <div class="gen-specific g3 g4 g5 g6 g7 g8 g9">
@@ -492,8 +505,8 @@
                 </div>
             </div>
             <div class="info-group gen-specific g9">
-                <div class="left" title="Has this Pok&eacute;mon been cured with Salt Cure?">
-                    <div hidden id="selectRevealInstruction">Has this Pok&eacute;mon been cured with Salt Cure?</div>
+                <div class="left" title="Has this Pokemón been cured with Salt Cure?">
+                    <div hidden id="selectRevealInstruction">Has this Pokemón been cured with Salt Cure?</div>
                     <input aria-describedby="selectRevealInstruction" class="visually-hidden saltcure calc-trigger" type="checkbox" id="cureL" />
                     <label class="btn btn-xxwide" for="cureL">Salt Cure</label>
                 </div>
@@ -669,7 +682,7 @@
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Misty" id="misty" /><label class="btn btn-xxxwide btn-right" for="misty">Misty Terrain</label>
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-xxxwide btn-mid" for="psychic">Psychic Terrain</label>
                 </div>
-					 <div aria-labelledby="selectRuinInstruction" class="hide gen-specific g9 format-specific doubles" role="group" style="margin: 5px auto auto;" title="Select the ruin abilities from other Pok&eacute;mon on the field.">
+					 <div aria-labelledby="selectRuinInstruction" class="hide gen-specific g9 format-specific doubles" role="group" style="margin: 5px auto auto;" title="Select the ruin abilities from other Pokemón on the field.">
                     <span class="visually-hidden" id="selectRuinInstruction">Select the active Ruin abilities from other Poke&eacute;mon on the field.</span>
                     <input class="visually-hidden calc-trigger" type="checkbox" name="ruin" value="Beads" id="beads" />
 						  <label class="btn btn-xxxwide btn-left" for="beads">Beads of Ruin</label>
@@ -744,8 +757,8 @@
                 <table class="field">
                     <thead>
                         <tr>
-                            <th scope="col"><div class="visually-hidden">Lado del 1° Pok&eacute;mon</div></th>
-                            <th scope="col"><div class="visually-hidden">Lado del 2° Pok&eacute;mon</div></th>
+                            <th scope="col"><div class="visually-hidden">Lado del 1° Pokemón</div></th>
+                            <th scope="col"><div class="visually-hidden">Lado del 2° Pokemón</div></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -835,14 +848,14 @@
                             </div></td>
                         </tr>
                         <tr>
-                            <td><div class="left" title="Este Pok&eacute;mon tiene alguna protección (Barrera/Pantalla Luz)?">
-                                <div hidden id="selectScreenInstruction">Este Pok&eacute;mon tiene alguna protección (Barrera/Pantalla Luz)?</div>
+                            <td><div class="left" title="Este Pokemón tiene alguna protección (Barrera/Pantalla Luz)?">
+                                <div hidden id="selectScreenInstruction">Este Pokemón tiene alguna protección (Barrera/Pantalla Luz)?</div>
                                 <input aria-describedby="selectScreenInstruction" class="visually-hidden calc-trigger" type="checkbox" id="reflectL" />
                                 <label class="btn btn-left" for="reflectL">Barrera</label>
                                 <input aria-describedby="selectScreenInstruction" class="visually-hidden calc-trigger" type="checkbox" id="lightScreenL" />
                                 <label class="btn btn-xwide btn-right" for="lightScreenL">Pantalla Luz</label>
                             </div></td>
-                            <td><div class="right" title="Este Pok&eacute;mon tiene alguna protección (Barrera/Pantalla Luz)?">
+                            <td><div class="right" title="Este Pokemón tiene alguna protección (Barrera/Pantalla Luz)?">
                                 <input aria-describedby="selectScreenInstruction" class="visually-hidden calc-trigger" type="checkbox" id="lightScreenR" />
                                 <label class="btn btn-xwide btn-left" for="lightScreenR">Pantalla Luz</label>
                                 <input aria-describedby="selectScreenInstruction" class="visually-hidden calc-trigger" type="checkbox" id="reflectR" />
@@ -850,142 +863,142 @@
                             </div></td>
                         </tr>
                         <tr class="gen-specific g2 g3 g4 g5 g6 g7 g8 g9">
-                            <td><div class="left" title="Este Pok&eacute;mon tiene protección activa?">
-                                <div hidden id="selectProtectInstruction">Este Pok&eacute;mon tiene protección activa?</div>
+                            <td><div class="left" title="Este Pokemón tiene protección activa?">
+                                <div hidden id="selectProtectInstruction">Este Pokemón tiene protección activa?</div>
                                 <input aria-describedby="selectProtectInstruction" class="visually-hidden calc-trigger" type="checkbox" id="protectL" />
                                 <label class="btn btn-wide" for="protectL">Protección</label>
                             </div></td>
-                            <td><div class="right" title="Este Pok&eacute;mon tiene protección activa?">
+                            <td><div class="right" title="Este Pokemón tiene protección activa?">
                                 <input aria-describedby="selectProtectInstruction" class="visually-hidden calc-trigger" type="checkbox" id="protectR" />
                                 <label class="btn btn-wide" for="protectR">Protección</label>
                             </div></td>
                         </tr>
                         <tr>
-                            <td><div class="left" title="Has this Pok&eacute;mon been affected by Leech Seed?">
-                                <div hidden id="selectLeechSeedInstruction">Este Pok&eacute;mon está siendo afectado por Drenadoras?</div>
+                            <td><div class="left" title="Has this Pokemón been affected by Leech Seed?">
+                                <div hidden id="selectLeechSeedInstruction">Este Pokemón está siendo afectado por Drenadoras?</div>
                                 <input aria-describedby="selectLeechSeedInstruction" class="visually-hidden calc-trigger" type="checkbox" id="leechSeedL" />
                                 <label class="btn btn-wide" for="leechSeedL">Drenadoras</label>
                             </div></td>
-                            <td><div class="right" title="Has this Pok&eacute;mon been affected by Leech Seed?">
+                            <td><div class="right" title="Has this Pokemón been affected by Leech Seed?">
                                 <input aria-describedby="selectLeechSeedInstruction" class="visually-hidden calc-trigger" type="checkbox" id="leechSeedR" />
                                 <label class="btn btn-wide" for="leechSeedR">Drenadoras</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g2 g3 g4 g5 g6 g7 g8 g9">
-                            <td><div class="left" title="Este Pok&eacute;mon está siendo rastreado (Rastreo/Profecía)?">
-                                <div hidden id="selectRevealInstruction">Este Pok&eacute;mon está siendo rastreado (Rastreo/Profecía)?</div>
+                            <td><div class="left" title="Este Pokemón está siendo rastreado (Rastreo/Profecía)?">
+                                <div hidden id="selectRevealInstruction">Este Pokemón está siendo rastreado (Rastreo/Profecía)?</div>
                                 <input aria-describedby="selectRevealInstruction" class="visually-hidden calc-trigger" type="checkbox" id="foresightL" />
                                 <label class="btn btn-wide" for="foresightL">Profecía</label>
                             </div></td>
-                            <td><div class="right" title="Este Pok&eacute;mon está siendo rastreado (Rastreo/Profecía)?">
+                            <td><div class="right" title="Este Pokemón está siendo rastreado (Rastreo/Profecía)?">
                                 <input aria-describedby="selectRevealInstruction" class="visually-hidden calc-trigger" type="checkbox" id="foresightR" />
                                 <label class="btn btn-wide" for="foresightR">Profecía</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g3 g4 g5 g6 g7 g8 g9">
-                            <td><div class="left" title="Este Pok&eacute;mon está recibiendo Refuerzo?">
-                                <div hidden id="selectHelpingHandInstruction">Este Pok&eacute;mon está recibiendo Refuerzo?</div>
+                            <td><div class="left" title="Este Pokemón está recibiendo Refuerzo?">
+                                <div hidden id="selectHelpingHandInstruction">Este Pokemón está recibiendo Refuerzo?</div>
                                 <input aria-describedby="selectHelpingHandInstruction" class="visually-hidden calc-trigger" type="checkbox" id="helpingHandL" />
                                 <label class="btn btn-xxwide" for="helpingHandL">Refuerzo</label>
                             </div></td>
-                            <td><div class="right" title="Este Pok&eacute;mon está recibiendo Refuerzo?">
+                            <td><div class="right" title="Este Pokemón está recibiendo Refuerzo?">
                                 <input aria-describedby="selectHelpingHandInstruction" class="visually-hidden calc-trigger" type="checkbox" id="helpingHandR" />
                                 <label class="btn btn-xxwide" for="helpingHandR">Refuerzo</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g4 g5 g6 g7 g8 g9">
-                            <td><div class="left" title="Este Pok&eacute;mon está siendo reforzado por Viento Afín?">
-                                <div hidden id="selectTailwindInstruction">Este Pok&eacute;mon está siendo reforzado por Viento Afín?</div>
+                            <td><div class="left" title="Este Pokemón está siendo reforzado por Viento Afín?">
+                                <div hidden id="selectTailwindInstruction">Este Pokemón está siendo reforzado por Viento Afín?</div>
                                 <input aria-describedby="selectTailwindInstruction" class="visually-hidden calc-trigger" type="checkbox" id="tailwindL" />
                                 <label class="btn btn-xxwide" for="tailwindL">Viento afín</label>
                             </div></td>
-                            <td><div class="right" title="Este Pok&eacute;mon está siendo reforzado por Viento Afín?">
+                            <td><div class="right" title="Este Pokemón está siendo reforzado por Viento Afín?">
                                 <input aria-describedby="selectTailwindInstruction" class="visually-hidden calc-trigger" type="checkbox" id="tailwindR" />
                                 <label class="btn btn-xxwide" for="tailwindR">Viento afín</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g4 g5 g6 g7 g8 g9">
-                            <td><div class="left" title="El Pok&eacute;mon está recibiendo una mejora por Don Floral?">
-                                <div hidden id="selectFlowerGiftInstruction">El Pok&eacute;mon está recibiendo una mejora por Don Floral?</div>
+                            <td><div class="left" title="El Pokemón está recibiendo una mejora por Don Floral?">
+                                <div hidden id="selectFlowerGiftInstruction">El Pokemón está recibiendo una mejora por Don Floral?</div>
                                 <input aria-describedby="selectFlowerGiftInstruction" class="visually-hidden calc-trigger" type="checkbox" id="flowerGiftL" />
                                 <label class="btn btn-xxwide" for="flowerGiftL">Don Floral</label>
                             </div></td>
-                            <td><div class="right" title="El Pok&eacute;mon está recibiendo una mejora por Don Floral?">
+                            <td><div class="right" title="El Pokemón está recibiendo una mejora por Don Floral?">
                                 <input aria-describedby="selectFlowerGiftInstruction" class="visually-hidden calc-trigger" type="checkbox" id="flowerGiftR" />
                                 <label class="btn btn-xxwide" for="flowerGiftR">Don Floral</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g5 g6 g7 g8 g9">
-                            <td><div class="left" title="Este Pok&eacute;mon está siendo cubierto por Compiescolta?">
-                                <div hidden id="selectFriendGuardInstruction">Este Pok&eacute;mon está siendo cubierto por Compiescolta?</div>
+                            <td><div class="left" title="Este Pokemón está siendo cubierto por Compiescolta?">
+                                <div hidden id="selectFriendGuardInstruction">Este Pokemón está siendo cubierto por Compiescolta?</div>
                                 <input aria-describedby="selectFriendGuardInstruction" class="visually-hidden calc-trigger" type="checkbox" id="friendGuardL" />
                                 <label class="btn btn-xxwide" for="friendGuardL">Compiescolta</label>
                             </div></td>
-                            <td><div class="right" title="Este Pok&eacute;mon está siendo cubierto por Compiescolta?">
+                            <td><div class="right" title="Este Pokemón está siendo cubierto por Compiescolta?">
                                 <input aria-describedby="selectFriendGuardInstruction" class="visually-hidden calc-trigger" type="checkbox" id="friendGuardR" />
                                 <label class="btn btn-xxwide" for="friendGuardR">Compiescolta</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g7 g8 g9 hide">
-                            <td><div class="left" title="Is the Pok&eacute;mon protected by an ally's Aurora Veil?">
-                                <div hidden id="selectAuroraVeilInstruction">Is the Pok&eacute;mon protected by an ally's Aurora Veil?</div>
+                            <td><div class="left" title="Is the Pokemón protected by an ally's Aurora Veil?">
+                                <div hidden id="selectAuroraVeilInstruction">Is the Pokemón protected by an ally's Aurora Veil?</div>
                                 <input aria-describedby="selectAuroraVeilInstruction" class="visually-hidden calc-trigger" type="checkbox" id="auroraVeilL" />
                                 <label class="btn btn-xxwide" for="auroraVeilL">Aurora Veil</label>
                             </div></td>
-                            <td><div class="right" title="Is the Pok&eacute;mon protected by an ally's Aurora Veil?">
+                            <td><div class="right" title="Is the Pokemón protected by an ally's Aurora Veil?">
                                 <input aria-describedby="selectAuroraVeilInstruction" class="visually-hidden calc-trigger" type="checkbox" id="auroraVeilR" />
                                 <label class="btn btn-xxwide" for="auroraVeilR">Aurora Veil</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g7 hide">
-                          <td><div class="left" title="Has the Pok&eacute;mon boosted all its stats one stage?">
-                              <div hidden id="selectStatBoostInstruction">Has the Pok&eacute;mon boosted all its stats one stage?</div>
+                          <td><div class="left" title="Has the Pokemón boosted all its stats one stage?">
+                              <div hidden id="selectStatBoostInstruction">Has the Pokemón boosted all its stats one stage?</div>
                                 <input aria-describedby="selectStatBoostInstruction" class="visually-hidden calc-trigger" type="checkbox" id="StatBoostL" />
                                 <label class="btn btn-xxwide" for="StatBoostL">+1 All Stats</label>
                               </div></td>
-                            <td><div class="right" title="Has the Pok&eacute;mon boosted all its stats one stage?">
+                            <td><div class="right" title="Has the Pokemón boosted all its stats one stage?">
                                 <input aria-describedby="selectStatBoostInstruction" class="visually-hidden calc-trigger" type="checkbox" id="StatBoostR" />
                                 <label class="btn btn-xxwide" for="StatBoostR">+1 All Stats</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g7 g8 g9 hide">
-                          <td><div class="left" title="Is the Pok&eacute;mon boosted by an ally's Battery ability?">
-                              <div hidden id="selectBatteryInstruction">Is the Pok&eacute;mon boosted by an ally's Battery ability?</div>
+                          <td><div class="left" title="Is the Pokemón boosted by an ally's Battery ability?">
+                              <div hidden id="selectBatteryInstruction">Is the Pokemón boosted by an ally's Battery ability?</div>
                                 <input aria-describedby="selectBatteryInstruction" class="visually-hidden calc-trigger" type="checkbox" id="batteryL" />
                                 <label class="btn btn-xxwide" for="batteryL">Battery</label>
                               </div></td>
-                            <td><div class="right" title="Is the Pok&eacute;mon boosted by an ally's Battery ability?">
+                            <td><div class="right" title="Is the Pokemón boosted by an ally's Battery ability?">
                                 <input aria-describedby="selectBatteryInstruction" class="visually-hidden calc-trigger" type="checkbox" id="batteryR" />
                                 <label class="btn btn-xxwide" for="batteryR">Battery</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g8 g9 hide">
-                          <td><div class="left" title="Is the Pok&eacute;mon boosted by an ally's Power Spot ability?">
-                              <div hidden id="selectPowerSpotInstruction">Is the Pok&eacute;mon boosted by an ally's Power Spot ability?</div>
+                          <td><div class="left" title="Is the Pokemón boosted by an ally's Power Spot ability?">
+                              <div hidden id="selectPowerSpotInstruction">Is the Pokemón boosted by an ally's Power Spot ability?</div>
                                 <input aria-describedby="selectPowerSpotInstruction" class="visually-hidden calc-trigger" type="checkbox" id="powerSpotL" />
                                 <label class="btn btn-xxwide" for="powerSpotL">Power Spot</label>
                               </div></td>
-                            <td><div class="right" title="Is the Pok&eacute;mon boosted by an ally's Power Spot ability?">
+                            <td><div class="right" title="Is the Pokemón boosted by an ally's Power Spot ability?">
                                 <input aria-describedby="selectPowerSpotInstruction" class="visually-hidden calc-trigger" type="checkbox" id="powerSpotR" />
                                 <label class="btn btn-xxwide" for="powerSpotR">Power Spot</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g2 g3 g4 g5 g6 g7 g8 g9">
-                            <td><div class="left" title="El Pok&eacute;mon defensor se está retirando?">
-                              <div hidden id="selectSwitchingInstruction">El Pok&eacute;mon defensor se está retirando?</div>
+                            <td><div class="left" title="El Pokemón defensor se está retirando?">
+                              <div hidden id="selectSwitchingInstruction">El Pokemón defensor se está retirando?</div>
                                 <input aria-describedby="selectSwitchingInstruction" class="visually-hidden calc-trigger" type="checkbox" id="switchingL" />
                                 <label class="btn btn-xxwide" for="switchingL">Cambio</label>
                               </div></td>
-                            <td><div class="right" title="El Pok&eacute;mon defensor se está retirando?">
+                            <td><div class="right" title="El Pokemón defensor se está retirando?">
                                 <input aria-describedby="selectSwitchingInstruction" class="visually-hidden calc-trigger" type="checkbox" id="switchingR" />
                                 <label class="btn btn-xxwide" for="switchingR">Cambio</label>
                             </div></td>
                         </tr>
                         <tr>
-                            <td><div class="left" title="Export the leftmost Pok&eacute;mon set">
+                            <td><div class="left" title="Export the leftmost Pokemón set">
                                 <button id="exportL">Export</button>
                             </div></td>
-                            <td><div class="right" title="Export the rightmost Pok&eacute;mon set">
+                            <td><div class="right" title="Export the rightmost Pokemón set">
                                 <button id="exportR">Export</button>
                             </div></td>
                         </tr>
@@ -1006,9 +1019,9 @@
             </fieldset>
         </div>
     </div>
-    <div aria-label="Pok&eacute;mon 2" role="region" class="panel">
+    <div aria-label="Pokemón 2" role="region" class="panel">
         <fieldset class="poke-info" id="p2">
-            <legend align="center">Pok&eacute;mon 2</legend>
+            <legend align="center">Pokemón 2</legend>
             <input type="text" class="set-selector calc-trigger" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Solo mostrar sets personalizados <br />
@@ -1024,7 +1037,7 @@
                 <div class="gen-specific g9">
                     <label>Tera Type</label>
                     <select class="teraType terrain-trigger calc-trigger"></select>
-                    <input type="checkbox" title= "Has this Pok&eacute;mon terastalized?" class="teraToggle terrain-trigger calc-trigger">
+                    <input type="checkbox" title= "Has this Pokemón terastalized?" class="teraToggle terrain-trigger calc-trigger">
                 </div>
                 <div class="hide">
                     <label>Forma</label>
@@ -1296,31 +1309,31 @@
                 <div class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                     <label for="natureR1">Nature</label>
                     <select class="nature calc-trigger" id="natureR1">
-                        <option value="Adamant">Firme (+Atk, -SpA)</option>
-                        <option value="Bashful">Tímida</option>
-                        <option value="Bold">Osada (+Def, -Atk)</option>
-                        <option value="Brave">Audaz (+Atk, -Spe)</option>
-                        <option value="Calm">Serena (+SpD, -Atk)</option>
-                        <option value="Careful">Cauta (+SpD, -SpA)</option>
-                        <option value="Docile">Dócil</option>
-                        <option value="Gentle">Amable (+SpD, -Def)</option>
-                        <option value="Hardy" selected="selected">Fuerte</option>
                         <option value="Hasty">Activa (+Spe, -Def)</option>
+                        <option value="Mild">Afable (+SpA, -Def)</option>
                         <option value="Impish">Agitada (+Def, -SpA)</option>
                         <option value="Jolly">Alegre (+Spe, -SpA)</option>
-                        <option value="Lax">Floja (+Def, -SpD)</option>
-                        <option value="Lonely">Huraña (+Atk, -Def)</option>
-                        <option value="Mild">Afable (+SpA, -Def)</option>
-                        <option value="Modest">Modesta (+SpA, -Atk)</option>
-                        <option value="Naive">Ingenua (+Spe, -SpD)</option>
-                        <option value="Naughty">Pícara (+Atk, -SpD)</option>
-                        <option value="Quiet">Mansa (+SpA, -Spe)</option>
-                        <option value="Quirky">Rara</option>
                         <option value="Rash">Alocada (+SpA, -SpD)</option>
-                        <option value="Relaxed">Plácida (+Def, -Spe)</option>
+                        <option value="Gentle">Amable (+SpD, -Def)</option>
+                        <option value="Brave">Audaz (+Atk, -Spe)</option>
+                        <option value="Careful">Cauta (+SpD, -SpA)</option>
+                        <option value="Docile">Dócil</option>
+                        <option value="Adamant">Firme (+Atk, -SpA)</option>
+                        <option value="Lax">Floja (+Def, -SpD)</option>
+                        <option value="Hardy" selected="selected">Fuerte</option>
                         <option value="Sassy">Grosera (+SpD, -Spe)</option>
-                        <option value="Serious">Seria</option>
+                        <option value="Lonely">Huraña (+Atk, -Def)</option>
+                        <option value="Naive">Ingenua (+Spe, -SpD)</option>
+                        <option value="Quiet">Mansa (+SpA, -Spe)</option>
                         <option value="Timid">Miedosa (+Spe, -Atk)</option>
+                        <option value="Modest">Modesta (+SpA, -Atk)</option>
+                        <option value="Bold">Osada (+Def, -Atk)</option>
+                        <option value="Naughty">Pícara (+Atk, -SpD)</option>
+                        <option value="Relaxed">Plácida (+Def, -Spe)</option>
+                        <option value="Quirky">Rara</option>
+                        <option value="Calm">Serena (+SpD, -Atk)</option>
+                        <option value="Serious">Seria</option>
+                        <option value="Bashful">Tímida</option>
                     </select>
                 </div>
                 <div class="gen-specific g3 g4 g5 g6 g7 g8 g9">
@@ -1371,8 +1384,8 @@
                 </div>
             </div>
             <div class="info-group gen-specific g9">
-                <div class="left" title="Has this Pok&eacute;mon been cured with Salt Cure?">
-                    <div hidden id="selectRevealInstruction">Has this Pok&eacute;mon been cured with Salt Cure?</div>
+                <div class="left" title="Has this Pokemón been cured with Salt Cure?">
+                    <div hidden id="selectRevealInstruction">Has this Pokemón been cured with Salt Cure?</div>
                     <input aria-describedby="selectRevealInstruction" class="visually-hidden saltcure calc-trigger" type="checkbox" id="cureR" />
                     <label class="btn btn-xxwide" for="cureR">Salt Cure</label>
                 </div>

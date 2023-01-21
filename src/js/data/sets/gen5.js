@@ -1,7 +1,7 @@
 /* AUTOMATICALLY GENERATED FROM @smogon/sets, DO NOT EDIT! */
 var SETDEX_BW = {
 	Abomasnow: {
-		"OU Protect + 3 Attacks": {
+		"OU Protect + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Snow Warning",
 			item: "Leftovers",
@@ -9,15 +9,7 @@ var SETDEX_BW = {
 			evs: { hp: 172, at: 252, sp: 84 },
 			moves: ["Ice Shard", "Wood Hammer", "Earthquake", "Protect"],
 		},
-        "OU Custom": {
-			level: 50,
-			ability: "Snow Warning",
-			item: "Lefovers",
-			nature: "Adamant",
-			evs: { hp: 172, df: 120, at: 252, sp: 84 },
-			moves: ["Fireblast", "Wood Hammer", "Earthquake", "Protect"],
-		},
-		"UU SubSeed": {
+		"UU SubSeed (Revisar)": {
 			level: 50,
 			ability: "Soundproof",
 			item: "Leftovers",
@@ -25,7 +17,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sd: 252, sp: 8 },
 			moves: ["Substitute", "Leech Seed", "Ice Beam", "Giga Drain"],
 		},
-		"Doubles Focus Sash": {
+		"Doubles Focus Sash (Revisar)": {
 			level: 50,
 			ability: "Snow Warning",
 			item: "Focus Sash",
@@ -33,7 +25,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sa: 252 },
 			moves: ["Blizzard", "Giga Drain", "Ice Shard", "Protect"],
 		},
-		"Doubles Mixed Attacker": {
+		"Doubles Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Snow Warning",
 			item: "Grass Gem",
@@ -41,7 +33,7 @@ var SETDEX_BW = {
 			evs: { hp: 64, at: 124, df: 68, sa: 252 },
 			moves: ["Wood Hammer", "Blizzard", "Ice Shard", "Protect"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Snow Warning",
 			item: "Choice Scarf",
@@ -51,7 +43,7 @@ var SETDEX_BW = {
 		},
 	},
 	Abra: {
-		"ZU Revenge Killer": {
+		"ZU Revenge Killer (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Focus Sash",
@@ -65,7 +57,7 @@ var SETDEX_BW = {
 				"Thunder Wave",
 			],
 		},
-		"LC Focus Sash": {
+		"LC Focus Sash (Revisar)": {
 			level: 5,
 			ability: "Magic Guard",
 			item: "Focus Sash",
@@ -73,7 +65,7 @@ var SETDEX_BW = {
 			evs: { sa: 240, sp: 200 },
 			moves: ["Psychic", "Shadow Ball", "Hidden Power Fighting", "Protect"],
 		},
-		"LC Life Orb": {
+		"LC Life Orb (Revisar)": {
 			level: 5,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -88,7 +80,7 @@ var SETDEX_BW = {
 		},
 	},
 	Absol: {
-		"RU All-Out Attacker": {
+		"RU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Super Luck",
 			item: "Life Orb",
@@ -96,7 +88,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Sucker Punch", "Superpower", "Night Slash", "Fire Blast"],
 		},
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Super Luck",
 			item: "Life Orb",
@@ -106,7 +98,7 @@ var SETDEX_BW = {
 		},
 	},
 	Accelgor: {
-		"UU Suicide Spiker": {
+		"UU Suicide Spiker (Revisar)": {
 			level: 50,
 			ability: "Sticky Hold",
 			item: "Focus Sash",
@@ -114,7 +106,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Spikes", "Bug Buzz", "Focus Blast", "Yawn"],
 		},
-		"UU All-Out Attacker": {
+		"UU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Sticky Hold",
 			item: "Life Orb",
@@ -122,7 +114,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Bug Buzz", "Focus Blast", "Hidden Power Ice", "Acid Spray"],
 		},
-		"RU Offensive": {
+		"RU Offensive (Revisar)": {
 			level: 50,
 			ability: "Sticky Hold",
 			item: "Life Orb",
@@ -130,7 +122,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Bug Buzz", "Focus Blast", "Hidden Power Rock", "Spikes"],
 		},
-		"RU Lead": {
+		"RU Lead (Revisar)": {
 			level: 50,
 			ability: "Sticky Hold",
 			item: "Focus Sash",
@@ -138,7 +130,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sp: 252 },
 			moves: ["Spikes", "Final Gambit", "Bug Buzz", "Focus Blast"],
 		},
-		"RU Substitute + Encore": {
+		"RU Substitute + Encore (Revisar)": {
 			level: 50,
 			ability: "Sticky Hold",
 			item: "Leftovers",
@@ -146,7 +138,7 @@ var SETDEX_BW = {
 			evs: { hp: 208, sa: 48, sp: 252 },
 			moves: ["Encore", "Substitute", "Baton Pass", "Bug Buzz"],
 		},
-		"Uber Lead": {
+		"Uber Lead (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Focus Sash",
@@ -157,7 +149,7 @@ var SETDEX_BW = {
 		},
 	},
 	Aerodactyl: {
-		"OU Suicide Lead": {
+		"OU Suicide Lead (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Focus Sash",
@@ -165,7 +157,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Stealth Rock", "Taunt", "Double-Edge", "Earthquake"],
 		},
-		"UU Stealth Rock": {
+		"UU Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -173,7 +165,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Stealth Rock", "Stone Edge", "Earthquake", "Taunt"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Choice Band",
@@ -181,7 +173,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Stone Edge", "Earthquake", "Aqua Tail", "Double-Edge"],
 		},
-		"RU Life Orb": {
+		"RU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -189,7 +181,7 @@ var SETDEX_BW = {
 			evs: { at: 220, sa: 36, sp: 252 },
 			moves: ["Stone Edge", "Earthquake", "Fire Blast", "Roost"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Choice Band",
@@ -199,7 +191,7 @@ var SETDEX_BW = {
 		},
 	},
 	Aggron: {
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Choice Band",
@@ -207,7 +199,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Head Smash", "Heavy Slam", "Earthquake", "Aqua Tail"],
 		},
-		"UU Autotomize": {
+		"UU Autotomize (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Life Orb",
@@ -215,7 +207,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Autotomize", "Head Smash", "Aqua Tail", "Low Kick"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Choice Band",
@@ -223,7 +215,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Head Smash", "Earthquake", "Heavy Slam", "Aqua Tail"],
 		},
-		"RU Rock Polish": {
+		"RU Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Life Orb",
@@ -233,7 +225,7 @@ var SETDEX_BW = {
 		},
 	},
 	Aipom: {
-		"LC Life Orb": {
+		"LC Life Orb (Revisar)": {
 			level: 5,
 			ability: "Skill Link",
 			item: "Life Orb",
@@ -243,7 +235,7 @@ var SETDEX_BW = {
 		},
 	},
 	Alakazam: {
-		"OU Attacker": {
+		"OU Attacker (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Focus Sash",
@@ -253,7 +245,7 @@ var SETDEX_BW = {
 		},
 	},
 	Alomomola: {
-		"UU Wish Support": {
+		"UU Wish Support (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -261,7 +253,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Wish", "Protect", "Toxic", "Scald"],
 		},
-		"RU Wish Support": {
+		"RU Wish Support (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -269,7 +261,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Wish", "Waterfall", "Protect", "Toxic"],
 		},
-		"NU Wish": {
+		"NU Wish (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -279,7 +271,7 @@ var SETDEX_BW = {
 		},
 	},
 	Altaria: {
-		"UU Offensive Dragon Dance": {
+		"UU Offensive Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Life Orb",
@@ -287,7 +279,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Dragon Dance", "Outrage", "Earthquake", "Roost"],
 		},
-		"UU Bulky Dragon Dance": {
+		"UU Bulky Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Leftovers",
@@ -295,7 +287,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 16, sd: 176, sp: 64 },
 			moves: ["Dragon Dance", "Roost", "Dragon Claw", "Heal Bell"],
 		},
-		"UU Support": {
+		"UU Support (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Leftovers",
@@ -303,7 +295,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Dragon Pulse", "Heal Bell", "Roost", "Perish Song"],
 		},
-		"RU Special Attacker": {
+		"RU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Choice Specs",
@@ -311,7 +303,7 @@ var SETDEX_BW = {
 			evs: { hp: 120, sa: 252, sp: 136 },
 			moves: ["Draco Meteor", "Fire Blast", "Dragon Pulse", "Rest"],
 		},
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Leftovers",
@@ -319,7 +311,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Roost", "Dragon Pulse", "Heal Bell", "Roar"],
 		},
-		"RU Offensive Dragon Dance": {
+		"RU Offensive Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Life Orb",
@@ -327,7 +319,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Dragon Dance", "Outrage", "Earthquake", "Roost"],
 		},
-		"RU Defensive Dragon Dance": {
+		"RU Defensive Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Leftovers",
@@ -335,7 +327,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 192, sp: 64 },
 			moves: ["Dragon Dance", "Dragon Claw", "Roost", "Safeguard"],
 		},
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Choice Specs",
@@ -343,7 +335,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Draco Meteor", "Fire Blast", "Dragon Pulse", "Rest"],
 		},
-		"NU Bulky Dragon Dance": {
+		"NU Bulky Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Leftovers",
@@ -353,7 +345,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ambipom: {
-		"UU All-Out Attacker": {
+		"UU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Life Orb",
@@ -361,7 +353,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Fake Out", "Return", "Low Kick", "Beat Up"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Choice Band",
@@ -371,7 +363,7 @@ var SETDEX_BW = {
 		},
 	},
 	Amoonguss: {
-		"OU Defensive Pivot": {
+		"OU Defensive Pivot (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Black Sludge",
@@ -379,7 +371,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Stun Spore", "Giga Drain", "Hidden Power Ice", "Sludge Bomb"],
 		},
-		"UU Physically Defensive": {
+		"UU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -387,7 +379,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sa: 4 },
 			moves: ["Spore", "Giga Drain", "Clear Smog", "Stun Spore"],
 		},
-		"UU Offensive": {
+		"UU Offensive (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Life Orb",
@@ -395,7 +387,7 @@ var SETDEX_BW = {
 			evs: { hp: 120, df: 128, sa: 252, sp: 8 },
 			moves: ["Spore", "Giga Drain", "Sludge Bomb", "Hidden Power Fire"],
 		},
-		"Doubles Rage Powder": {
+		"Doubles Rage Powder (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Sitrus Berry",
@@ -406,7 +398,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ampharos: {
-		"NU Tank": {
+		"NU Tank (Revisar)": {
 			level: 50,
 			ability: "Static",
 			item: "Life Orb",
@@ -419,7 +411,7 @@ var SETDEX_BW = {
 				"Focus Blast",
 			],
 		},
-		"NU Specially Defensive": {
+		"NU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Static",
 			item: "Leftovers",
@@ -427,7 +419,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sd: 252 },
 			moves: ["Thunderbolt", "Heal Bell", "Toxic", "Volt Switch"],
 		},
-		"NU Dual Screens": {
+		"NU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Static",
 			item: "Light Clay",
@@ -437,7 +429,7 @@ var SETDEX_BW = {
 		},
 	},
 	Anorith: {
-		"LC Utility": {
+		"LC Utility (Revisar)": {
 			level: 5,
 			ability: "Battle Armor",
 			item: "Eviolite",
@@ -447,7 +439,7 @@ var SETDEX_BW = {
 		},
 	},
 	Arbok: {
-		"NU Coil": {
+		"NU Coil (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Black Sludge",
@@ -455,7 +447,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Coil", "Gunk Shot", "Sucker Punch", "Earthquake"],
 		},
-		"ZU Coil": {
+		"ZU Coil (Revisar)": {
 			level: 50,
 			ability: "Shed Skin",
 			item: "Black Sludge",
@@ -463,7 +455,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Coil", "Gunk Shot", "Earthquake", "Sucker Punch"],
 		},
-		"ZU Choice Band": {
+		"ZU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Choice Band",
@@ -471,7 +463,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Gunk Shot", "Earthquake", "Seed Bomb", "Switcheroo"],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Choice Scarf",
@@ -479,7 +471,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Poison Jab", "Earthquake", "Seed Bomb", "Switcheroo"],
 		},
-		"ZU Sub + 3 Attacks": {
+		"ZU Sub + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Black Sludge",
@@ -487,7 +479,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Gunk Shot", "Earthquake", "Seed Bomb"],
 		},
-		"ZU All-Out Attacker": {
+		"ZU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Life Orb",
@@ -497,7 +489,7 @@ var SETDEX_BW = {
 		},
 	},
 	Arcanine: {
-		"UU Offensive": {
+		"UU Offensive (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Life Orb",
@@ -505,7 +497,7 @@ var SETDEX_BW = {
 			evs: { hp: 72, at: 252, sd: 8, sp: 176 },
 			moves: ["Flare Blitz", "Extreme Speed", "Wild Charge", "Close Combat"],
 		},
-		"UU Physically Defensive": {
+		"UU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -513,7 +505,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Flare Blitz", "Extreme Speed", "Morning Sun", "Will-O-Wisp"],
 		},
-		"UU Sunny Day": {
+		"UU Sunny Day (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -523,7 +515,7 @@ var SETDEX_BW = {
 		},
 	},
 	Arceus: {
-		"Uber Extreme Killer (Swords Dance)": {
+		"Uber Extreme Killer (Swords Dance) (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Silk Scarf",
@@ -531,7 +523,7 @@ var SETDEX_BW = {
 			evs: { hp: 200, at: 252, sp: 56 },
 			moves: ["Swords Dance", "Extreme Speed", "Shadow Claw", "Earthquake"],
 		},
-		"Uber Wallceus (Physical Wall)": {
+		"Uber Wallceus (Physical Wall) (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Leftovers",
@@ -539,7 +531,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 200, sp: 56 },
 			moves: ["Will-O-Wisp", "Recover", "Return", "Roar"],
 		},
-		"Uber Bandceus (Choice Band)": {
+		"Uber Bandceus (Choice Band) (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Choice Band",
@@ -548,8 +540,8 @@ var SETDEX_BW = {
 			moves: ["Trick", "Extreme Speed", "Swords Dance", "Earthquake"],
 		},
 	},
-	"Arceus-Bug": {
-		"Uber Calm Mind": {
+	"Arceus-Bug (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Insect Plate",
@@ -557,7 +549,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Calm Mind", "Judgment", "Ice Beam", "Recover"],
 		},
-		"Uber Swords Dance": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Insect Plate",
@@ -566,8 +558,8 @@ var SETDEX_BW = {
 			moves: ["Swords Dance", "X-Scissor", "Stone Edge", "Earthquake"],
 		},
 	},
-	"Arceus-Dark": {
-		"Uber Calm Mind": {
+	"Arceus-Dark (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Dread Plate",
@@ -575,7 +567,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sp: 252 },
 			moves: ["Calm Mind", "Judgment", "Recover", "Refresh"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Dread Plate",
@@ -584,8 +576,8 @@ var SETDEX_BW = {
 			moves: ["Recover", "Payback", "Flamethrower", "Will-O-Wisp"],
 		},
 	},
-	"Arceus-Dragon": {
-		"Uber Swords Dance": {
+	"Arceus-Dragon (Revisar)": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Draco Plate",
@@ -593,7 +585,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Outrage", "Earthquake", "Extreme Speed"],
 		},
-		"Uber Calm Mind": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Draco Plate",
@@ -602,8 +594,8 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Judgment", "Fire Blast", "Recover"],
 		},
 	},
-	"Arceus-Electric": {
-		"Uber Calm Mind": {
+	"Arceus-Electric (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Zap Plate",
@@ -612,8 +604,8 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Thunderbolt", "Ice Beam", "Recover"],
 		},
 	},
-	"Arceus-Fighting": {
-		"Uber Calm Mind": {
+	"Arceus-Fighting (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Fist Plate",
@@ -621,7 +613,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sp: 252 },
 			moves: ["Calm Mind", "Judgment", "Ice Beam", "Recover"],
 		},
-		"Uber Utility Counter": {
+		"Uber Utility Counter (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Fist Plate",
@@ -630,8 +622,8 @@ var SETDEX_BW = {
 			moves: ["Toxic", "Judgment", "Ice Beam", "Recover"],
 		},
 	},
-	"Arceus-Fire": {
-		"Uber Calm Mind": {
+	"Arceus-Fire (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Flame Plate",
@@ -640,8 +632,8 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Flamethrower", "Thunder", "Recover"],
 		},
 	},
-	"Arceus-Flying": {
-		"Uber Calm Mind": {
+	"Arceus-Flying (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Sky Plate",
@@ -650,8 +642,8 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Judgment", "Recover", "Substitute"],
 		},
 	},
-	"Arceus-Ghost": {
-		"Uber Calm Mind": {
+	"Arceus-Ghost (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Spooky Plate",
@@ -659,7 +651,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sp: 252 },
 			moves: ["Calm Mind", "Judgment", "Focus Blast", "Recover"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Spooky Plate",
@@ -667,7 +659,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Judgment", "Recover", "Will-O-Wisp", "Roar"],
 		},
-		"Uber Anti-Lead": {
+		"Uber Anti-Lead (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Spooky Plate",
@@ -675,7 +667,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Judgment", "Flamethrower", "Extreme Speed", "Stealth Rock"],
 		},
-		"Uber Swords Dance": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Spooky Plate",
@@ -684,8 +676,8 @@ var SETDEX_BW = {
 			moves: ["Shadow Force", "Swords Dance", "Brick Break", "Shadow Claw"],
 		},
 	},
-	"Arceus-Grass": {
-		"Uber Calm Mind": {
+	"Arceus-Grass (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Meadow Plate",
@@ -693,7 +685,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sp: 252 },
 			moves: ["Calm Mind", "Recover", "Grass Knot", "Ice Beam"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Meadow Plate",
@@ -702,8 +694,8 @@ var SETDEX_BW = {
 			moves: ["Recover", "Grass Knot", "Ice Beam", "Thunder Wave"],
 		},
 	},
-	"Arceus-Ground": {
-		"Uber Calm Mind": {
+	"Arceus-Ground (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Earth Plate",
@@ -711,7 +703,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sp: 252 },
 			moves: ["Calm Mind", "Judgment", "Recover", "Ice Beam"],
 		},
-		"Uber Swords Dance": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Earth Plate",
@@ -719,7 +711,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, sp: 252 },
 			moves: ["Swords Dance", "Recover", "Earthquake", "Stone Edge"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Earth Plate",
@@ -728,8 +720,8 @@ var SETDEX_BW = {
 			moves: ["Recover", "Will-O-Wisp", "Earthquake", "Stone Edge"],
 		},
 	},
-	"Arceus-Ice": {
-		"Uber Calm Mind": {
+	"Arceus-Ice (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Icicle Plate",
@@ -738,8 +730,8 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Judgment", "Thunder", "Fire Blast"],
 		},
 	},
-	"Arceus-Poison": {
-		"Uber Support": {
+	"Arceus-Poison (Revisar)": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Toxic Plate",
@@ -747,7 +739,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Recover", "Will-O-Wisp", "Ice Beam", "Roar"],
 		},
-		"Uber Calm Mind": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Toxic Plate",
@@ -756,8 +748,8 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Sludge Bomb", "Focus Blast", "Recover"],
 		},
 	},
-	"Arceus-Psychic": {
-		"Uber Support": {
+	"Arceus-Psychic (Revisar)": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Mind Plate",
@@ -765,7 +757,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 144, sp: 112 },
 			moves: ["Will-O-Wisp", "Recover", "Ice Beam", "Toxic"],
 		},
-		"Uber Calm Mind": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Mind Plate",
@@ -774,8 +766,8 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Psyshock", "Recover", "Focus Blast"],
 		},
 	},
-	"Arceus-Rock": {
-		"Uber Mono-Attacker": {
+	"Arceus-Rock (Revisar)": {
+		"Uber Mono-Attacker (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Stone Plate",
@@ -783,7 +775,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sp: 252 },
 			moves: ["Calm Mind", "Judgment", "Recover", "Will-O-Wisp"],
 		},
-		"Uber Offensive Calm Mind": {
+		"Uber Offensive Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Stone Plate",
@@ -791,7 +783,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Calm Mind", "Judgment", "Fire Blast", "Recover"],
 		},
-		"Uber Swords Dance": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Stone Plate",
@@ -800,8 +792,8 @@ var SETDEX_BW = {
 			moves: ["Swords Dance", "Stone Edge", "Earthquake", "Recover"],
 		},
 	},
-	"Arceus-Steel": {
-		"Uber Calm Mind": {
+	"Arceus-Steel (Revisar)": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Iron Plate",
@@ -809,7 +801,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sa: 8, sp: 252 },
 			moves: ["Calm Mind", "Recover", "Judgment", "Roar"],
 		},
-		"Uber Utility Support": {
+		"Uber Utility Support (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Iron Plate",
@@ -817,7 +809,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Will-O-Wisp", "Roar", "Recover", "Ice Beam"],
 		},
-		"Uber Swords Dance": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Iron Plate",
@@ -826,8 +818,8 @@ var SETDEX_BW = {
 			moves: ["Iron Head", "Swords Dance", "Earthquake", "Recover"],
 		},
 	},
-	"Arceus-Water": {
-		"Uber Swords Dance": {
+	"Arceus-Water (Revisar)": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Splash Plate",
@@ -835,7 +827,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Waterfall", "Dragon Claw", "Recover"],
 		},
-		"Uber Offensive Calm Mind": {
+		"Uber Offensive Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Splash Plate",
@@ -843,7 +835,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Calm Mind", "Judgment", "Spacial Rend", "Fire Blast"],
 		},
-		"Uber Defensive Calm Mind": {
+		"Uber Defensive Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Splash Plate",
@@ -851,7 +843,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sp: 252 },
 			moves: ["Calm Mind", "Recover", "Surf", "Will-O-Wisp"],
 		},
-		"Uber Sun Support": {
+		"Uber Sun Support (Revisar)": {
 			level: 50,
 			ability: "Multitype",
 			item: "Splash Plate",
@@ -861,7 +853,7 @@ var SETDEX_BW = {
 		},
 	},
 	Archen: {
-		"LC Acrobatics": {
+		"LC Acrobatics (Revisar)": {
 			level: 5,
 			ability: "Defeatist",
 			item: "Flying Gem",
@@ -871,7 +863,7 @@ var SETDEX_BW = {
 		},
 	},
 	Archeops: {
-		"UU Acrobatics": {
+		"UU Acrobatics (Revisar)": {
 			level: 50,
 			ability: "Defeatist",
 			item: "Flying Gem",
@@ -879,7 +871,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Acrobatics", "Stone Edge", "Earthquake", "U-turn"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Defeatist",
 			item: "Choice Band",
@@ -887,7 +879,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Stone Edge", "Earthquake", "U-turn", "Aerial Ace"],
 		},
-		"RU Acrobatics": {
+		"RU Acrobatics (Revisar)": {
 			level: 50,
 			ability: "Defeatist",
 			item: "Flying Gem",
@@ -897,7 +889,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ariados: {
-		"NU Toxic Spikes": {
+		"NU Toxic Spikes (Revisar)": {
 			level: 50,
 			ability: "Insomnia",
 			item: "Focus Sash",
@@ -907,7 +899,7 @@ var SETDEX_BW = {
 		},
 	},
 	Armaldo: {
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Battle Armor",
 			item: "Choice Band",
@@ -915,7 +907,7 @@ var SETDEX_BW = {
 			evs: { hp: 212, at: 252, sp: 44 },
 			moves: ["X-Scissor", "Stone Edge", "Earthquake", "Rapid Spin"],
 		},
-		"RU Rapid Spin Support": {
+		"RU Rapid Spin Support (Revisar)": {
 			level: 50,
 			ability: "Battle Armor",
 			item: "Leftovers",
@@ -923,7 +915,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Rapid Spin", "Stealth Rock", "Rock Blast", "X-Scissor"],
 		},
-		"RU Swift Swim + Swords Dance": {
+		"RU Swift Swim + Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -931,7 +923,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "X-Scissor", "Stone Edge", "Aqua Tail"],
 		},
-		"NU Swift Swim": {
+		"NU Swift Swim (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Lum Berry",
@@ -941,7 +933,7 @@ var SETDEX_BW = {
 		},
 	},
 	Aron: {
-		"LC Rock Polish": {
+		"LC Rock Polish (Revisar)": {
 			level: 5,
 			ability: "Rock Head",
 			item: "Life Orb",
@@ -949,7 +941,7 @@ var SETDEX_BW = {
 			evs: { at: 196, sd: 116, sp: 196 },
 			moves: ["Rock Polish", "Head Smash", "Iron Head", "Earthquake"],
 		},
-		"LC Choice Band": {
+		"LC Choice Band (Revisar)": {
 			level: 5,
 			ability: "Rock Head",
 			item: "Choice Band",
@@ -959,7 +951,7 @@ var SETDEX_BW = {
 		},
 	},
 	Articuno: {
-		"RU Specially Defensive": {
+		"RU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -967,7 +959,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sd: 176, sp: 84 },
 			moves: ["Ice Beam", "Roost", "Substitute", "Roar"],
 		},
-		"NU Offensive": {
+		"NU Offensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -975,7 +967,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Ice Beam", "Hurricane", "Roost", "Substitute"],
 		},
-		"NU Defensive SubRoost": {
+		"NU Defensive SubRoost (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -985,7 +977,7 @@ var SETDEX_BW = {
 		},
 	},
 	Audino: {
-		"NU Cleric": {
+		"NU Cleric (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -995,7 +987,7 @@ var SETDEX_BW = {
 		},
 	},
 	Axew: {
-		"LC Dragon Dance": {
+		"LC Dragon Dance (Revisar)": {
 			level: 5,
 			ability: "Mold Breaker",
 			item: "Eviolite",
@@ -1003,7 +995,7 @@ var SETDEX_BW = {
 			evs: { hp: 68, at: 220, sp: 220 },
 			moves: ["Dragon Dance", "Outrage", "Aqua Tail", "Dragon Claw"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Mold Breaker",
 			item: "Choice Scarf",
@@ -1013,7 +1005,7 @@ var SETDEX_BW = {
 		},
 	},
 	Azelf: {
-		"UU Nasty Plot": {
+		"UU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -1021,7 +1013,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Nasty Plot", "Psychic", "Fire Blast", "Thunderbolt"],
 		},
-		"UU All-Out Attacker": {
+		"UU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -1029,7 +1021,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Psychic", "Fire Blast", "Shadow Ball", "Stealth Rock"],
 		},
-		"UU Dual Screens": {
+		"UU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Light Clay",
@@ -1037,7 +1029,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 4, sp: 252 },
 			moves: ["Reflect", "Light Screen", "Taunt", "Stealth Rock"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Band",
@@ -1047,7 +1039,7 @@ var SETDEX_BW = {
 		},
 	},
 	Azumarill: {
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Huge Power",
 			item: "Choice Band",
@@ -1057,7 +1049,7 @@ var SETDEX_BW = {
 		},
 	},
 	Azurill: {
-		"LC Trick Room Sweeper": {
+		"LC Trick Room Sweeper (Revisar)": {
 			level: 5,
 			ability: "Huge Power",
 			item: "Life Orb",
@@ -1068,7 +1060,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bagon: {
-		"LC Defensive": {
+		"LC Defensive (Revisar)": {
 			level: 5,
 			ability: "Rock Head",
 			item: "Eviolite",
@@ -1078,7 +1070,7 @@ var SETDEX_BW = {
 		},
 	},
 	Baltoy: {
-		"LC Rapid Spin": {
+		"LC Rapid Spin (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -1086,7 +1078,7 @@ var SETDEX_BW = {
 			evs: { hp: 196, df: 236, sa: 36, sd: 36 },
 			moves: ["Rapid Spin", "Stealth Rock", "Earth Power", "Toxic"],
 		},
-		"LC Dual Screens": {
+		"LC Dual Screens (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -1096,7 +1088,7 @@ var SETDEX_BW = {
 		},
 	},
 	Banette: {
-		"NU Suicide Trick Room": {
+		"NU Suicide Trick Room (Revisar)": {
 			level: 50,
 			ability: "Insomnia",
 			item: "Focus Sash",
@@ -1107,7 +1099,7 @@ var SETDEX_BW = {
 		},
 	},
 	Barboach: {
-		"LC Dragon Dance": {
+		"LC Dragon Dance (Revisar)": {
 			level: 5,
 			ability: "Anticipation",
 			item: "Eviolite",
@@ -1117,7 +1109,7 @@ var SETDEX_BW = {
 		},
 	},
 	Basculin: {
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Adaptability",
 			item: "Choice Band",
@@ -1125,7 +1117,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Waterfall", "Aqua Jet", "Zen Headbutt", "Crunch"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Adaptability",
 			item: "Choice Band",
@@ -1135,7 +1127,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bastiodon: {
-		"NU Utility": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -1145,7 +1137,7 @@ var SETDEX_BW = {
 		},
 	},
 	Beartic: {
-		"NU Bulk Up": {
+		"NU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Leftovers",
@@ -1153,7 +1145,7 @@ var SETDEX_BW = {
 			evs: { hp: 132, at: 252, sp: 124 },
 			moves: ["Bulk Up", "Substitute", "Icicle Crash", "Low Kick"],
 		},
-		"NU All-Out Attacker": {
+		"NU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -1163,7 +1155,7 @@ var SETDEX_BW = {
 		},
 	},
 	Beautifly: {
-		"NU Quiver Dance": {
+		"NU Quiver Dance (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Life Orb",
@@ -1173,7 +1165,7 @@ var SETDEX_BW = {
 		},
 	},
 	Beedrill: {
-		"NU Support": {
+		"NU Support (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Focus Sash",
@@ -1182,7 +1174,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sp: 252 },
 			moves: ["Toxic Spikes", "Endeavor", "U-turn", "Tailwind"],
 		},
-		"ZU Offensive Toxic Spikes": {
+		"ZU Offensive Toxic Spikes (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Black Sludge",
@@ -1192,7 +1184,7 @@ var SETDEX_BW = {
 		},
 	},
 	Beheeyem: {
-		"RU Trick Room": {
+		"RU Trick Room (Revisar)": {
 			level: 50,
 			ability: "Analytic",
 			item: "Life Orb",
@@ -1201,7 +1193,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 252, sd: 4 },
 			moves: ["Trick Room", "Psychic", "Thunderbolt", "Substitute"],
 		},
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Analytic",
 			item: "Choice Specs",
@@ -1209,7 +1201,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sa: 252 },
 			moves: ["Psychic", "Thunderbolt", "Signal Beam", "Trick"],
 		},
-		"NU Trick Room": {
+		"NU Trick Room (Revisar)": {
 			level: 50,
 			ability: "Analytic",
 			item: "Life Orb",
@@ -1218,7 +1210,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sa: 252 },
 			moves: ["Trick Room", "Psychic", "Thunderbolt", "Signal Beam"],
 		},
-		"PU Choice Specs": {
+		"PU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Analytic",
 			item: "Choice Specs",
@@ -1226,7 +1218,7 @@ var SETDEX_BW = {
 			evs: { hp: 160, sa: 252, sp: 96 },
 			moves: ["Psychic", "Signal Beam", "Hidden Power Fighting", "Trick"],
 		},
-		"PU Defensive Setup": {
+		"PU Defensive Setup (Revisar)": {
 			level: 50,
 			ability: "Analytic",
 			item: "Leftovers",
@@ -1234,7 +1226,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sa: 4 },
 			moves: ["Psychic", "Signal Beam", "Recover", "Nasty Plot"],
 		},
-		"PU Trick Room": {
+		"PU Trick Room (Revisar)": {
 			level: 50,
 			ability: "Analytic",
 			item: "Life Orb",
@@ -1245,7 +1237,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bellossom: {
-		"NU Specially Defensive": {
+		"NU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Leftovers",
@@ -1260,7 +1252,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bellsprout: {
-		"LC Mixed Attacker": {
+		"LC Mixed Attacker (Revisar)": {
 			level: 5,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -1270,7 +1262,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bibarel: {
-		"NU Simple Sweeper": {
+		"NU Simple Sweeper (Revisar)": {
 			level: 50,
 			ability: "Simple",
 			item: "Chesto Berry",
@@ -1278,7 +1270,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Curse", "Rest", "Waterfall", "Quick Attack"],
 		},
-		"ZU Suicide Lead": {
+		"ZU Suicide Lead (Revisar)": {
 			level: 50,
 			ability: "Unaware",
 			item: "Focus Sash",
@@ -1289,7 +1281,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bidoof: {
-		"LC Curse": {
+		"LC Curse (Revisar)": {
 			level: 5,
 			ability: "Simple",
 			item: "Eviolite",
@@ -1299,7 +1291,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bisharp: {
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Leftovers",
@@ -1307,7 +1299,7 @@ var SETDEX_BW = {
 			evs: { hp: 52, at: 252, sp: 204 },
 			moves: ["Swords Dance", "Sucker Punch", "Substitute", "Low Kick"],
 		},
-		"Doubles Defiant": {
+		"Doubles Defiant (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Dark Gem",
@@ -1317,7 +1309,7 @@ var SETDEX_BW = {
 		},
 	},
 	Blastoise: {
-		"UU Utility": {
+		"UU Utility (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Leftovers",
@@ -1327,7 +1319,7 @@ var SETDEX_BW = {
 		},
 	},
 	Blaziken: {
-		"Uber Swords Dance": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Speed Boost",
 			item: "Life Orb",
@@ -1335,7 +1327,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Low Kick", "Protect", "Flare Blitz"],
 		},
-		"Doubles Physical Attacker": {
+		"Doubles Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Speed Boost",
 			item: "Life Orb",
@@ -1345,7 +1337,7 @@ var SETDEX_BW = {
 		},
 	},
 	Blissey: {
-		"OU Support": {
+		"OU Support (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Leftovers",
@@ -1353,7 +1345,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Soft-Boiled", "Stealth Rock", "Toxic", "Seismic Toss"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Leftovers",
@@ -1363,7 +1355,7 @@ var SETDEX_BW = {
 		},
 	},
 	Blitzle: {
-		"LC Boosting Sweeper": {
+		"LC Boosting Sweeper (Revisar)": {
 			level: 5,
 			ability: "Lightning Rod",
 			item: "Life Orb",
@@ -1371,7 +1363,7 @@ var SETDEX_BW = {
 			evs: { at: 196, sa: 76, sp: 232 },
 			moves: ["Agility", "Wild Charge", "Hidden Power Ice", "Pursuit"],
 		},
-		"LC Charge Beam": {
+		"LC Charge Beam (Revisar)": {
 			level: 5,
 			ability: "Motor Drive",
 			item: "Life Orb",
@@ -1386,7 +1378,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bonsly: {
-		"LC Rock Polish": {
+		"LC Rock Polish (Revisar)": {
 			level: 5,
 			ability: "Rock Head",
 			item: "Life Orb",
@@ -1396,7 +1388,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bouffalant: {
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Reckless",
 			item: "Lum Berry",
@@ -1404,7 +1396,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Swords Dance", "Head Charge", "Earthquake", "Wild Charge"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Reckless",
 			item: "Choice Band",
@@ -1412,7 +1404,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Head Charge", "Earthquake", "Wild Charge", "Megahorn"],
 		},
-		"RU Substitute": {
+		"RU Substitute (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Leftovers",
@@ -1420,7 +1412,7 @@ var SETDEX_BW = {
 			evs: { hp: 156, at: 252, sp: 100 },
 			moves: ["Substitute", "Return", "Earthquake", "Stone Edge"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Choice Band",
@@ -1428,7 +1420,7 @@ var SETDEX_BW = {
 			evs: { hp: 156, at: 252, sp: 100 },
 			moves: ["Head Charge", "Stone Edge", "Megahorn", "Earthquake"],
 		},
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Leftovers",
@@ -1438,7 +1430,7 @@ var SETDEX_BW = {
 		},
 	},
 	Braviary: {
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Choice Scarf",
@@ -1446,7 +1438,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Brave Bird", "Return", "Superpower", "U-turn"],
 		},
-		"UU Wallbreaker": {
+		"UU Wallbreaker (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Choice Band",
@@ -1454,7 +1446,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Brave Bird", "Return", "Superpower", "U-turn"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Choice Scarf",
@@ -1462,7 +1454,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Brave Bird", "Superpower", "Return", "U-turn"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Choice Band",
@@ -1470,7 +1462,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Brave Bird", "Superpower", "Return", "U-turn"],
 		},
-		"RU Bulk Up": {
+		"RU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Leftovers",
@@ -1478,7 +1470,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 196, sp: 60 },
 			moves: ["Bulk Up", "Brave Bird", "Roost", "Substitute"],
 		},
-		"RU Roost + 3 Attacks": {
+		"RU Roost + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Life Orb",
@@ -1486,7 +1478,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Brave Bird", "Superpower", "Return", "Roost"],
 		},
-		"NU Substitute + Bulk Up": {
+		"NU Substitute + Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Leftovers",
@@ -1494,7 +1486,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 192, sp: 64 },
 			moves: ["Bulk Up", "Roost", "Substitute", "Brave Bird"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Choice Band",
@@ -1502,7 +1494,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Brave Bird", "Return", "Superpower", "U-turn"],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Choice Scarf",
@@ -1512,7 +1504,7 @@ var SETDEX_BW = {
 		},
 	},
 	Breloom: {
-		"OU Bulky Setup Sweeper": {
+		"OU Bulky Setup Sweeper (Revisar)": {
 			level: 50,
 			ability: "Poison Heal",
 			item: "Toxic Orb",
@@ -1520,7 +1512,7 @@ var SETDEX_BW = {
 			evs: { hp: 236, sd: 212, sp: 60 },
 			moves: ["Swords Dance", "Protect", "Drain Punch", "Facade"],
 		},
-		"OU SubPunch": {
+		"OU SubPunch (Revisar)": {
 			level: 50,
 			ability: "Poison Heal",
 			item: "Toxic Orb",
@@ -1528,7 +1520,7 @@ var SETDEX_BW = {
 			evs: { hp: 236, at: 252, sd: 20 },
 			moves: ["Substitute", "Protect", "Focus Punch", "Seed Bomb"],
 		},
-		"OU Technician": {
+		"OU Technician (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Choice Band",
@@ -1536,7 +1528,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Bullet Seed", "Mach Punch", "Low Sweep", "Superpower"],
 		},
-		"Doubles Physical Attacker": {
+		"Doubles Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Life Orb",
@@ -1546,7 +1538,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bronzong: {
-		"OU Tank": {
+		"OU Tank (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -1555,7 +1547,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 168, sd: 88 },
 			moves: ["Stealth Rock", "Gyro Ball", "Hidden Power Ice", "Earthquake"],
 		},
-		"UU Tank": {
+		"UU Tank (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -1564,7 +1556,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Stealth Rock", "Gyro Ball", "Toxic", "Earthquake"],
 		},
-		"UU Dual Screen": {
+		"UU Dual Screen (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Light Clay",
@@ -1573,7 +1565,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Reflect", "Light Screen", "Gyro Ball", "Earthquake"],
 		},
-		"Uber Tank": {
+		"Uber Tank (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -1581,7 +1573,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Stealth Rock", "Gyro Ball", "Light Screen", "Reflect"],
 		},
-		"Uber Trick Room": {
+		"Uber Trick Room (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -1589,7 +1581,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Trick Room", "Gyro Ball", "Earthquake", "Stealth Rock"],
 		},
-		"Doubles Trick Room": {
+		"Doubles Trick Room (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Mental Herb",
@@ -1600,7 +1592,7 @@ var SETDEX_BW = {
 		},
 	},
 	Bronzor: {
-		"NU Calm Mind": {
+		"NU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -1608,7 +1600,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Calm Mind", "Rest", "Flash Cannon", "Toxic"],
 		},
-		"LC Calm Mind": {
+		"LC Calm Mind (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -1616,7 +1608,7 @@ var SETDEX_BW = {
 			evs: { hp: 220, df: 148, sa: 4, sd: 68, sp: 12 },
 			moves: ["Calm Mind", "Flash Cannon", "Rest", "Sleep Talk"],
 		},
-		"LC Defensive": {
+		"LC Defensive (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Oran Berry",
@@ -1626,7 +1618,7 @@ var SETDEX_BW = {
 		},
 	},
 	Budew: {
-		"LC Spikes": {
+		"LC Spikes (Revisar)": {
 			level: 5,
 			ability: "Natural Cure",
 			item: "Eviolite",
@@ -1636,7 +1628,7 @@ var SETDEX_BW = {
 		},
 	},
 	Buizel: {
-		"LC Life Orb": {
+		"LC Life Orb (Revisar)": {
 			level: 5,
 			ability: "Water Veil",
 			item: "Life Orb",
@@ -1645,7 +1637,7 @@ var SETDEX_BW = {
 			evs: { at: 236, sp: 240 },
 			moves: ["Aqua Tail", "Return", "Hidden Power Fire", "Aqua Jet"],
 		},
-		"LC Choice Band": {
+		"LC Choice Band (Revisar)": {
 			level: 5,
 			ability: "Water Veil",
 			item: "Choice Band",
@@ -1655,7 +1647,7 @@ var SETDEX_BW = {
 		},
 	},
 	Buneary: {
-		"LC Anti-Lead": {
+		"LC Anti-Lead (Revisar)": {
 			level: 5,
 			ability: "Klutz",
 			item: "Flame Orb",
@@ -1663,7 +1655,7 @@ var SETDEX_BW = {
 			evs: { at: 236, df: 36, sp: 236 },
 			moves: ["Fake Out", "Switcheroo", "Return", "Encore"],
 		},
-		"LC Choice Band": {
+		"LC Choice Band (Revisar)": {
 			level: 5,
 			ability: "Limber",
 			item: "Choice Band",
@@ -1671,7 +1663,7 @@ var SETDEX_BW = {
 			evs: { at: 236, df: 36, sp: 236 },
 			moves: ["Return", "Jump Kick", "Thunder Punch", "Switcheroo"],
 		},
-		"LC Support": {
+		"LC Support (Revisar)": {
 			level: 5,
 			ability: "Limber",
 			item: "Eviolite",
@@ -1681,7 +1673,7 @@ var SETDEX_BW = {
 		},
 	},
 	Butterfree: {
-		"NU Quiver Dance": {
+		"NU Quiver Dance (Revisar)": {
 			level: 50,
 			ability: "Tinted Lens",
 			item: "Leftovers",
@@ -1689,7 +1681,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Quiver Dance", "Sleep Powder", "Bug Buzz", "Substitute"],
 		},
-		"NU Dual Powder": {
+		"NU Dual Powder (Revisar)": {
 			level: 50,
 			ability: "Compound Eyes",
 			item: "Focus Sash",
@@ -1699,7 +1691,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cacturne: {
-		"RU Offensive Spikes": {
+		"RU Offensive Spikes (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Life Orb",
@@ -1707,7 +1699,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 152, sp: 104 },
 			moves: ["Spikes", "Sucker Punch", "Seed Bomb", "Hidden Power Fire"],
 		},
-		"NU Lead": {
+		"NU Lead (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Focus Sash",
@@ -1715,7 +1707,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Spikes", "Destiny Bond", "Sucker Punch", "Seed Bomb"],
 		},
-		"NU Physical Sweeper": {
+		"NU Physical Sweeper (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Life Orb",
@@ -1725,7 +1717,7 @@ var SETDEX_BW = {
 		},
 	},
 	Camerupt: {
-		"NU Tank": {
+		"NU Tank (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "Leftovers",
@@ -1733,7 +1725,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sd: 252 },
 			moves: ["Stealth Rock", "Lava Plume", "Earth Power", "Roar"],
 		},
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "Choice Specs",
@@ -1743,7 +1735,7 @@ var SETDEX_BW = {
 		},
 	},
 	Carnivine: {
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Focus Sash",
@@ -1751,7 +1743,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Power Whip", "Sleep Powder", "Return"],
 		},
-		"ZU Swords Dance": {
+		"ZU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -1761,7 +1753,7 @@ var SETDEX_BW = {
 		},
 	},
 	Carracosta: {
-		"UU Shell Smash": {
+		"UU Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "White Herb",
@@ -1769,7 +1761,7 @@ var SETDEX_BW = {
 			evs: { hp: 52, at: 252, sp: 204 },
 			moves: ["Shell Smash", "Waterfall", "Stone Edge", "Aqua Jet"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "Choice Band",
@@ -1777,7 +1769,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Waterfall", "Stone Edge", "Earthquake", "Aqua Jet"],
 		},
-		"RU Shell Smash": {
+		"RU Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "Life Orb",
@@ -1785,7 +1777,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Shell Smash", "Stone Edge", "Waterfall", "Aqua Jet"],
 		},
-		"RU Tank": {
+		"RU Tank (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "Leftovers",
@@ -1793,7 +1785,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Stealth Rock", "Waterfall", "Stone Edge", "Aqua Jet"],
 		},
-		"NU Shell Smash": {
+		"NU Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "Life Orb",
@@ -1801,7 +1793,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Shell Smash", "Waterfall", "Stone Edge", "Aqua Jet"],
 		},
-		"NU Tank": {
+		"NU Tank (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "Leftovers",
@@ -1811,7 +1803,7 @@ var SETDEX_BW = {
 		},
 	},
 	Carvanha: {
-		"LC Special": {
+		"LC Special (Revisar)": {
 			level: 5,
 			ability: "Speed Boost",
 			item: "Life Orb",
@@ -1819,7 +1811,7 @@ var SETDEX_BW = {
 			evs: { sa: 236, sd: 36, sp: 236 },
 			moves: ["Hydro Pump", "Dark Pulse", "Ice Beam", "Protect"],
 		},
-		"LC Physical": {
+		"LC Physical (Revisar)": {
 			level: 5,
 			ability: "Speed Boost",
 			item: "Life Orb",
@@ -1829,7 +1821,7 @@ var SETDEX_BW = {
 		},
 	},
 	Castform: {
-		"NU Everybody Look At Me I'm Using Castform": {
+		"NU Everybody Look At Me I'm Using Castform (Revisar)": {
 			level: 50,
 			ability: "Forecast",
 			item: "Life Orb",
@@ -1839,7 +1831,7 @@ var SETDEX_BW = {
 		},
 	},
 	Celebi: {
-		"OU Bulky Pivot": {
+		"OU Bulky Pivot (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Leftovers",
@@ -1849,7 +1841,7 @@ var SETDEX_BW = {
 		},
 	},
 	Chandelure: {
-		"OU Spinblocker": {
+		"OU Spinblocker (Revisar)": {
 			level: 50,
 			ability: "Flame Body",
 			item: "Air Balloon",
@@ -1862,7 +1854,7 @@ var SETDEX_BW = {
 				"Flame Charge",
 			],
 		},
-		"Doubles Offensive Trick Room": {
+		"Doubles Offensive Trick Room (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Focus Sash",
@@ -1871,7 +1863,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, df: 16, sa: 252 },
 			moves: ["Heat Wave", "Shadow Ball", "Trick Room", "Protect"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Choice Scarf",
@@ -1881,7 +1873,7 @@ var SETDEX_BW = {
 		},
 	},
 	Chansey: {
-		"OU Support": {
+		"OU Support (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Eviolite",
@@ -1889,7 +1881,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Soft-Boiled", "Aromatherapy", "Toxic", "Seismic Toss"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Eviolite",
@@ -1899,7 +1891,7 @@ var SETDEX_BW = {
 		},
 	},
 	Charizard: {
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Flying Gem",
@@ -1907,7 +1899,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Acrobatics", "Earthquake", "Fire Punch"],
 		},
-		"RU Solar Power": {
+		"RU Solar Power (Revisar)": {
 			level: 50,
 			ability: "Solar Power",
 			item: "Flame Plate",
@@ -1915,7 +1907,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Sunny Day", "Fire Blast", "Solar Beam", "Roost"],
 		},
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Choice Specs",
@@ -1928,7 +1920,7 @@ var SETDEX_BW = {
 				"Flamethrower",
 			],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Choice Scarf",
@@ -1936,7 +1928,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Fire Blast", "Flamethrower", "Focus Blast", "Air Slash"],
 		},
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Flying Gem",
@@ -1944,7 +1936,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Acrobatics", "Earthquake", "Roost"],
 		},
-		"NU Special Attacker": {
+		"NU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Life Orb",
@@ -1954,7 +1946,7 @@ var SETDEX_BW = {
 		},
 	},
 	Charmander: {
-		"LC Dragon Dance": {
+		"LC Dragon Dance (Revisar)": {
 			level: 5,
 			ability: "Blaze",
 			item: "Life Orb",
@@ -1963,7 +1955,7 @@ var SETDEX_BW = {
 			evs: { at: 180, df: 92, sp: 236 },
 			moves: ["Dragon Dance", "Flare Blitz", "Thunder Punch", "Brick Break"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Blaze",
 			item: "Choice Scarf",
@@ -1973,7 +1965,7 @@ var SETDEX_BW = {
 		},
 	},
 	Chatot: {
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Keen Eye",
 			item: "Choice Specs",
@@ -1983,7 +1975,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cherubi: {
-		"LC Chlorophyll Sweeper": {
+		"LC Chlorophyll Sweeper (Revisar)": {
 			level: 5,
 			ability: "Chlorophyll",
 			item: "Eviolite",
@@ -1993,7 +1985,7 @@ var SETDEX_BW = {
 		},
 	},
 	Chikorita: {
-		"LC Cleric": {
+		"LC Cleric (Revisar)": {
 			level: 5,
 			ability: "Overgrow",
 			item: "Eviolite",
@@ -2001,7 +1993,7 @@ var SETDEX_BW = {
 			evs: { hp: 156, df: 156, sd: 156 },
 			moves: ["Aromatherapy", "Giga Drain", "Toxic", "Synthesis"],
 		},
-		"LC Dual Screens": {
+		"LC Dual Screens (Revisar)": {
 			level: 5,
 			ability: "Overgrow",
 			item: "Light Clay",
@@ -2011,7 +2003,7 @@ var SETDEX_BW = {
 		},
 	},
 	Chimchar: {
-		"LC Lead": {
+		"LC Lead (Revisar)": {
 			level: 5,
 			ability: "Blaze",
 			item: "Focus Sash",
@@ -2021,7 +2013,7 @@ var SETDEX_BW = {
 		},
 	},
 	Chimecho: {
-		"NU Support": {
+		"NU Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Focus Sash",
@@ -2029,7 +2021,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Healing Wish", "Yawn", "Psychic", "Taunt"],
 		},
-		"ZU Physical Wall": {
+		"ZU Physical Wall (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Colbur Berry",
@@ -2038,7 +2030,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Psychic", "Hidden Power Fighting", "Recover", "Healing Wish"],
 		},
-		"ZU Calm Mind": {
+		"ZU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -2049,7 +2041,7 @@ var SETDEX_BW = {
 		},
 	},
 	Chinchou: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Water Absorb",
 			item: "Choice Scarf",
@@ -2062,7 +2054,7 @@ var SETDEX_BW = {
 				"Hidden Power Fire",
 			],
 		},
-		"LC RestTalk": {
+		"LC RestTalk (Revisar)": {
 			level: 5,
 			ability: "Volt Absorb",
 			item: "Eviolite",
@@ -2072,7 +2064,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cinccino: {
-		"UU Physical Attacker": {
+		"UU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Skill Link",
 			item: "Life Orb",
@@ -2080,7 +2072,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Tail Slap", "Rock Blast", "Bullet Seed", "U-turn"],
 		},
-		"RU Life Orb Attacker": {
+		"RU Life Orb Attacker (Revisar)": {
 			level: 50,
 			ability: "Skill Link",
 			item: "Life Orb",
@@ -2088,7 +2080,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Tail Slap", "Bullet Seed", "Rock Blast", "Aqua Tail"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Skill Link",
 			item: "Choice Band",
@@ -2096,7 +2088,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Tail Slap", "Bullet Seed", "Rock Blast", "U-turn"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Skill Link",
 			item: "Choice Scarf",
@@ -2106,7 +2098,7 @@ var SETDEX_BW = {
 		},
 	},
 	Clamperl: {
-		"ZU Shell Smash": {
+		"ZU Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Rattled",
 			item: "Deep Sea Tooth",
@@ -2115,7 +2107,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Shell Smash", "Surf", "Ice Beam", "Hidden Power Grass"],
 		},
-		"LC Shell Smash": {
+		"LC Shell Smash (Revisar)": {
 			level: 5,
 			ability: "Rattled",
 			item: "Deep Sea Tooth",
@@ -2125,7 +2117,7 @@ var SETDEX_BW = {
 		},
 	},
 	Claydol: {
-		"UU Support": {
+		"UU Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -2135,7 +2127,7 @@ var SETDEX_BW = {
 		},
 	},
 	Clefable: {
-		"UU Support": {
+		"UU Support (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Leftovers",
@@ -2143,7 +2135,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Wish", "Seismic Toss", "Knock Off", "Encore"],
 		},
-		"UU Life Orb": {
+		"UU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -2151,7 +2143,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sa: 252 },
 			moves: ["Double-Edge", "Fire Blast", "Grass Knot", "Soft-Boiled"],
 		},
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Leftovers",
@@ -2159,7 +2151,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Wish", "Protect", "Seismic Toss", "Heal Bell"],
 		},
-		"RU Tank": {
+		"RU Tank (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -2167,7 +2159,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sa: 4 },
 			moves: ["Double-Edge", "Grass Knot", "Stealth Rock", "Soft-Boiled"],
 		},
-		"RU Wallbreaker": {
+		"RU Wallbreaker (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -2175,7 +2167,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sa: 252 },
 			moves: ["Double-Edge", "Grass Knot", "Fire Blast", "Soft-Boiled"],
 		},
-		"RU Calm Mind": {
+		"RU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -2185,7 +2177,7 @@ var SETDEX_BW = {
 		},
 	},
 	Clefairy: {
-		"ZU Physical Wall": {
+		"ZU Physical Wall (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Eviolite",
@@ -2194,7 +2186,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Knock Off", "Seismic Toss", "Soft-Boiled", "Stealth Rock"],
 		},
-		"ZU Special Wall": {
+		"ZU Special Wall (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Eviolite",
@@ -2205,7 +2197,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cleffa: {
-		"LC Endeavor": {
+		"LC Endeavor (Revisar)": {
 			level: 5,
 			ability: "Magic Guard",
 			item: "Focus Sash",
@@ -2213,7 +2205,7 @@ var SETDEX_BW = {
 			evs: { sp: 236 },
 			moves: ["Endeavor", "Protect", "Encore", "Thunder Wave"],
 		},
-		"LC Dual Screens": {
+		"LC Dual Screens (Revisar)": {
 			level: 5,
 			ability: "Magic Guard",
 			item: "Light Clay",
@@ -2221,7 +2213,7 @@ var SETDEX_BW = {
 			evs: { hp: 196, df: 212, sd: 76 },
 			moves: ["Reflect", "Light Screen", "Thunder Wave", "Wish"],
 		},
-		"LC Stallbreaker": {
+		"LC Stallbreaker (Revisar)": {
 			level: 5,
 			ability: "Magic Guard",
 			item: "Eviolite",
@@ -2231,7 +2223,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cloyster: {
-		"OU Shell Smash": {
+		"OU Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Skill Link",
 			item: "Never-Melt Ice",
@@ -2239,7 +2231,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Shell Smash", "Icicle Spear", "Rock Blast", "Ice Shard"],
 		},
-		"Uber Shell Smash": {
+		"Uber Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Skill Link",
 			item: "Life Orb",
@@ -2247,7 +2239,7 @@ var SETDEX_BW = {
 			evs: { at: 232, sa: 32, sp: 244 },
 			moves: ["Shell Smash", "Icicle Spear", "Hydro Pump", "Rock Blast"],
 		},
-		"Uber Offensive Support": {
+		"Uber Offensive Support (Revisar)": {
 			level: 50,
 			ability: "Skill Link",
 			item: "Focus Sash",
@@ -2257,7 +2249,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cobalion: {
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -2270,7 +2262,7 @@ var SETDEX_BW = {
 				"Hidden Power Ice",
 			],
 		},
-		"UU Calm Mind": {
+		"UU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Leftovers",
@@ -2283,7 +2275,7 @@ var SETDEX_BW = {
 				"Flash Cannon",
 			],
 		},
-		"UU Utility": {
+		"UU Utility (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Leftovers",
@@ -2293,7 +2285,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cofagrigus: {
-		"UU Offensive Trick Room": {
+		"UU Offensive Trick Room (Revisar)": {
 			level: 50,
 			ability: "Mummy",
 			item: "Leftovers",
@@ -2307,7 +2299,7 @@ var SETDEX_BW = {
 				"Trick Room",
 			],
 		},
-		"UU Defensive": {
+		"UU Defensive (Revisar)": {
 			level: 50,
 			ability: "Mummy",
 			item: "Leftovers",
@@ -2315,7 +2307,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Will-O-Wisp", "Shadow Ball", "Pain Split", "Haze"],
 		},
-		"Doubles Trick Room": {
+		"Doubles Trick Room (Revisar)": {
 			level: 50,
 			ability: "Mummy",
 			item: "Mental Herb",
@@ -2326,7 +2318,7 @@ var SETDEX_BW = {
 		},
 	},
 	Combusken: {
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Speed Boost",
 			item: "Eviolite",
@@ -2334,7 +2326,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Protect", "Flare Blitz", "Sky Uppercut"],
 		},
-		"NU Special Attacker": {
+		"NU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Speed Boost",
 			item: "Life Orb",
@@ -2344,7 +2336,7 @@ var SETDEX_BW = {
 		},
 	},
 	Conkeldurr: {
-		"OU All-out Attacker": {
+		"OU All-out Attacker (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -2352,7 +2344,7 @@ var SETDEX_BW = {
 			evs: { hp: 120, at: 252, sd: 116, sp: 20 },
 			moves: ["Drain Punch", "Mach Punch", "Ice Punch", "Thunder Punch"],
 		},
-		"Doubles Attacker": {
+		"Doubles Attacker (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Life Orb",
@@ -2363,7 +2355,7 @@ var SETDEX_BW = {
 		},
 	},
 	Corphish: {
-		"LC Offensive Dragon Dance": {
+		"LC Offensive Dragon Dance (Revisar)": {
 			level: 5,
 			ability: "Adaptability",
 			item: "Eviolite",
@@ -2371,7 +2363,7 @@ var SETDEX_BW = {
 			evs: { hp: 12, at: 196, sp: 240 },
 			moves: ["Dragon Dance", "Waterfall", "Superpower", "Return"],
 		},
-		"LC Bulky Dragon Dance": {
+		"LC Bulky Dragon Dance (Revisar)": {
 			level: 5,
 			ability: "Adaptability",
 			item: "Eviolite",
@@ -2381,7 +2373,7 @@ var SETDEX_BW = {
 		},
 	},
 	Corsola: {
-		"NU World's Cutest Wall": {
+		"NU World's Cutest Wall (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -2389,7 +2381,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sa: 4 },
 			moves: ["Power Gem", "Recover", "Toxic", "Stealth Rock"],
 		},
-		"ZU Physical Wall": {
+		"ZU Physical Wall (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Rocky Helmet",
@@ -2400,7 +2392,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cottonee: {
-		"LC Annoyer": {
+		"LC Annoyer (Revisar)": {
 			level: 5,
 			ability: "Prankster",
 			item: "Eviolite",
@@ -2410,7 +2402,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cradily: {
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Storm Drain",
 			item: "Leftovers",
@@ -2418,7 +2410,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Stealth Rock", "Toxic", "Recover", "Hidden Power Fire"],
 		},
-		"RU Mono-Attacker": {
+		"RU Mono-Attacker (Revisar)": {
 			level: 50,
 			ability: "Suction Cups",
 			item: "Leftovers",
@@ -2426,7 +2418,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Curse", "Rest", "Sleep Talk", "Rock Slide"],
 		},
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Storm Drain",
 			item: "Leftovers",
@@ -2434,7 +2426,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Swords Dance", "Stone Edge", "Earthquake", "Recover"],
 		},
-		"NU Support": {
+		"NU Support (Revisar)": {
 			level: 50,
 			ability: "Storm Drain",
 			item: "Leftovers",
@@ -2442,7 +2434,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Stealth Rock", "Giga Drain", "Rock Slide", "Recover"],
 		},
-		"NU Mono-Attacker": {
+		"NU Mono-Attacker (Revisar)": {
 			level: 50,
 			ability: "Suction Cups",
 			item: "Leftovers",
@@ -2452,7 +2444,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cranidos: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Mold Breaker",
 			item: "Choice Scarf",
@@ -2460,7 +2452,7 @@ var SETDEX_BW = {
 			evs: { hp: 60, at: 236, sp: 212 },
 			moves: ["Head Smash", "Stone Edge", "Earthquake", "Zen Headbutt"],
 		},
-		"LC Rock Polish": {
+		"LC Rock Polish (Revisar)": {
 			level: 5,
 			ability: "Mold Breaker",
 			item: "Life Orb",
@@ -2470,7 +2462,7 @@ var SETDEX_BW = {
 		},
 	},
 	Crawdaunt: {
-		"UU Dragon Dance": {
+		"UU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Adaptability",
 			item: "Life Orb",
@@ -2478,7 +2470,7 @@ var SETDEX_BW = {
 			evs: { hp: 12, at: 252, sp: 244 },
 			moves: ["Dragon Dance", "Waterfall", "Crunch", "Superpower"],
 		},
-		"RU Dragon Dance": {
+		"RU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Adaptability",
 			item: "Leftovers",
@@ -2486,7 +2478,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Dragon Dance", "Waterfall", "Crunch", "Substitute"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Adaptability",
 			item: "Choice Band",
@@ -2494,7 +2486,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Waterfall", "Crunch", "Superpower", "Toxic"],
 		},
-		"RU Special Attacker": {
+		"RU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Adaptability",
 			item: "Life Orb",
@@ -2504,7 +2496,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cresselia: {
-		"OU Defensive": {
+		"OU Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -2512,7 +2504,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Moonlight", "Toxic", "Ice Beam", "Hidden Power Fire"],
 		},
-		"UU Defensive": {
+		"UU Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -2525,7 +2517,7 @@ var SETDEX_BW = {
 				"Thunder Wave",
 			],
 		},
-		"UU Dual Screens": {
+		"UU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Light Clay",
@@ -2533,7 +2525,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 176, sd: 80 },
 			moves: ["Reflect", "Light Screen", "Lunar Dance", "Psychic"],
 		},
-		"UU Substitute + Calm Mind": {
+		"UU Substitute + Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -2546,7 +2538,7 @@ var SETDEX_BW = {
 				"Hidden Power Fighting",
 			],
 		},
-		"Uber Dual Screens + Lunar Dance": {
+		"Uber Dual Screens + Lunar Dance (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Light Clay",
@@ -2554,7 +2546,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 160, sd: 96 },
 			moves: ["Trick Room", "Light Screen", "Reflect", "Lunar Dance"],
 		},
-		"Uber Wall": {
+		"Uber Wall (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -2562,7 +2554,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Moonlight", "Reflect", "Ice Beam", "Toxic"],
 		},
-		"Doubles Offensive": {
+		"Doubles Offensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Expert Belt",
@@ -2570,7 +2562,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 252, sd: 4 },
 			moves: ["Psychic", "Hidden Power Ground", "Ice Beam", "Thunder Wave"],
 		},
-		"Doubles Speed Control": {
+		"Doubles Speed Control (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Chesto Berry",
@@ -2578,7 +2570,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, df: 12, sa: 40, sd: 216 },
 			moves: ["Icy Wind", "Psyshock", "Helping Hand", "Rest"],
 		},
-		"Doubles Trick Room": {
+		"Doubles Trick Room (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Sitrus Berry",
@@ -2589,7 +2581,7 @@ var SETDEX_BW = {
 		},
 	},
 	Croagunk: {
-		"LC Utility": {
+		"LC Utility (Revisar)": {
 			level: 5,
 			ability: "Dry Skin",
 			item: "Eviolite",
@@ -2597,7 +2589,7 @@ var SETDEX_BW = {
 			evs: { hp: 212, at: 28, df: 36, sa: 108, sd: 116 },
 			moves: ["Drain Punch", "Vacuum Wave", "Shadow Ball", "Knock Off"],
 		},
-		"LC Bulk Up": {
+		"LC Bulk Up (Revisar)": {
 			level: 5,
 			ability: "Dry Skin",
 			item: "Eviolite",
@@ -2607,7 +2599,7 @@ var SETDEX_BW = {
 		},
 	},
 	Crobat: {
-		"UU Stallbreaker": {
+		"UU Stallbreaker (Revisar)": {
 			level: 50,
 			ability: "Inner Focus",
 			item: "Black Sludge",
@@ -2615,7 +2607,7 @@ var SETDEX_BW = {
 			evs: { hp: 176, at: 192, sd: 4, sp: 136 },
 			moves: ["Brave Bird", "Taunt", "Roost", "U-turn"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Infiltrator",
 			item: "Choice Band",
@@ -2625,7 +2617,7 @@ var SETDEX_BW = {
 		},
 	},
 	Crustle: {
-		"UU Custap Lead": {
+		"UU Custap Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -2634,7 +2626,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sp: 252 },
 			moves: ["Stealth Rock", "Spikes", "Stone Edge", "X-Scissor"],
 		},
-		"RU Custap Lead": {
+		"RU Custap Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -2642,7 +2634,7 @@ var SETDEX_BW = {
 			evs: { hp: 220, at: 224, df: 20, sp: 44 },
 			moves: ["Stealth Rock", "Spikes", "Rock Blast", "X-Scissor"],
 		},
-		"RU Shell Smash Lead": {
+		"RU Shell Smash Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Lum Berry",
@@ -2652,7 +2644,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cryogonal: {
-		"UU Defensive Rapid Spin": {
+		"UU Defensive Rapid Spin (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -2660,7 +2652,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sd: 252 },
 			moves: ["Rapid Spin", "Recover", "Ice Beam", "Haze"],
 		},
-		"UU Offensive Rapid Spin": {
+		"UU Offensive Rapid Spin (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -2668,7 +2660,7 @@ var SETDEX_BW = {
 			evs: { hp: 40, sa: 252, sp: 216 },
 			moves: ["Rapid Spin", "Ice Beam", "Hidden Power Ground", "Recover"],
 		},
-		"RU Rapid Spin": {
+		"RU Rapid Spin (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -2677,7 +2669,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 168, sd: 92 },
 			moves: ["Rapid Spin", "Ice Beam", "Recover", "Haze"],
 		},
-		"RU Offensive": {
+		"RU Offensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Icicle Plate",
@@ -2687,7 +2679,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cubchoo: {
-		"LC Hail Sweeper": {
+		"LC Hail Sweeper (Revisar)": {
 			level: 5,
 			ability: "Snow Cloak",
 			item: "Choice Scarf",
@@ -2695,7 +2687,7 @@ var SETDEX_BW = {
 			evs: { hp: 76, sa: 200, sp: 196 },
 			moves: ["Blizzard", "Surf", "Hidden Power Grass", "Toxic"],
 		},
-		"LC SubPunch": {
+		"LC SubPunch (Revisar)": {
 			level: 5,
 			ability: "Rattled",
 			item: "Oran Berry",
@@ -2705,7 +2697,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cubone: {
-		"LC Baton Pass Receiver": {
+		"LC Baton Pass Receiver (Revisar)": {
 			level: 5,
 			ability: "Rock Head",
 			item: "Thick Club",
@@ -2715,7 +2707,7 @@ var SETDEX_BW = {
 		},
 	},
 	Cyndaquil: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Blaze",
 			item: "Choice Scarf",
@@ -2730,7 +2722,7 @@ var SETDEX_BW = {
 		},
 	},
 	Darkrai: {
-		"Uber Special Sweeper": {
+		"Uber Special Sweeper (Revisar)": {
 			level: 50,
 			ability: "Bad Dreams",
 			item: "Leftovers",
@@ -2738,7 +2730,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Dark Void", "Dark Pulse", "Focus Blast", "Nasty Plot"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Bad Dreams",
 			item: "Choice Scarf",
@@ -2746,7 +2738,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Trick", "Dark Void", "Dark Pulse", "Nasty Plot"],
 		},
-		"Uber Double Status": {
+		"Uber Double Status (Revisar)": {
 			level: 50,
 			ability: "Bad Dreams",
 			item: "Focus Sash",
@@ -2754,7 +2746,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Dark Void", "Thunder Wave", "Dark Pulse", "Focus Blast"],
 		},
-		"Doubles Offensive": {
+		"Doubles Offensive (Revisar)": {
 			level: 50,
 			ability: "Bad Dreams",
 			item: "Life Orb",
@@ -2764,7 +2756,7 @@ var SETDEX_BW = {
 		},
 	},
 	Darmanitan: {
-		"UU Physical Attacker": {
+		"UU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -2772,7 +2764,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Flare Blitz", "Rock Slide", "Superpower", "U-turn"],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Choice Scarf",
@@ -2781,8 +2773,8 @@ var SETDEX_BW = {
 			moves: ["Flare Blitz", "U-turn", "Rock Slide", "Superpower"],
 		},
 	},
-	"Darmanitan-Zen": {
-		"UU Physical Attacker": {
+	"Darmanitan-Zen (Revisar)": {
+		"UU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Zen Mode",
 			item: "Life Orb",
@@ -2790,7 +2782,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Flare Blitz", "Rock Slide", "Superpower", "U-turn"],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Zen Mode",
 			item: "Choice Scarf",
@@ -2800,7 +2792,7 @@ var SETDEX_BW = {
 		},
 	},
 	Darumaka: {
-		"LC Choice": {
+		"LC Choice (Revisar)": {
 			level: 5,
 			ability: "Hustle",
 			item: "Choice Scarf",
@@ -2808,7 +2800,7 @@ var SETDEX_BW = {
 			evs: { hp: 116, at: 196, sp: 196 },
 			moves: ["Flare Blitz", "Superpower", "Rock Slide", "U-turn"],
 		},
-		"LC Support": {
+		"LC Support (Revisar)": {
 			level: 5,
 			ability: "Hustle",
 			item: "Eviolite",
@@ -2818,7 +2810,7 @@ var SETDEX_BW = {
 		},
 	},
 	Deerling: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Sap Sipper",
 			item: "Choice Scarf",
@@ -2828,7 +2820,7 @@ var SETDEX_BW = {
 		},
 	},
 	Deino: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Hustle",
 			item: "Choice Scarf",
@@ -2838,7 +2830,7 @@ var SETDEX_BW = {
 		},
 	},
 	Delcatty: {
-		"NU Calm Mind + Baton Pass": {
+		"NU Calm Mind + Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Wonder Skin",
 			item: "Leftovers",
@@ -2848,7 +2840,7 @@ var SETDEX_BW = {
 		},
 	},
 	Delibird: {
-		"NU Band It Like Beckham": {
+		"NU Band It Like Beckham (Revisar)": {
 			level: 50,
 			ability: "Hustle",
 			item: "Choice Band",
@@ -2858,7 +2850,7 @@ var SETDEX_BW = {
 		},
 	},
 	Deoxys: {
-		"Uber Offensive Dual Screens": {
+		"Uber Offensive Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Light Clay",
@@ -2867,8 +2859,8 @@ var SETDEX_BW = {
 			moves: ["Light Screen", "Reflect", "Psycho Boost", "Low Kick"],
 		},
 	},
-	"Deoxys-Attack": {
-		"Uber Focus Sash Attacker": {
+	"Deoxys-Attack (Revisar)": {
+		"Uber Focus Sash Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Focus Sash",
@@ -2876,7 +2868,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Psycho Boost", "Ice Beam", "Superpower", "Extreme Speed"],
 		},
-		"Uber Sash Lead": {
+		"Uber Sash Lead (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Focus Sash",
@@ -2884,7 +2876,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Spikes", "Psycho Boost", "Hidden Power Fire", "Ice Beam"],
 		},
-		"Uber Life Orb": {
+		"Uber Life Orb (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -2892,7 +2884,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Psycho Boost", "Ice Beam", "Superpower", "Extreme Speed"],
 		},
-		"Doubles Mixed Attacker": {
+		"Doubles Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Focus Sash",
@@ -2901,8 +2893,8 @@ var SETDEX_BW = {
 			moves: ["Psycho Boost", "Dark Pulse", "Superpower", "Protect"],
 		},
 	},
-	"Deoxys-Defense": {
-		"Uber Agility + Taunt": {
+	"Deoxys-Defense (Revisar)": {
+		"Uber Agility + Taunt (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -2910,7 +2902,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 108, sp: 148 },
 			moves: ["Taunt", "Agility", "Toxic", "Recover"],
 		},
-		"Uber Utility Wall": {
+		"Uber Utility Wall (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -2919,8 +2911,8 @@ var SETDEX_BW = {
 			moves: ["Spikes", "Recover", "Magic Coat", "Taunt"],
 		},
 	},
-	"Deoxys-Speed": {
-		"Uber Hazard Lead": {
+	"Deoxys-Speed (Revisar)": {
+		"Uber Hazard Lead (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Focus Sash",
@@ -2928,7 +2920,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Spikes", "Magic Coat", "Taunt", "Fire Punch"],
 		},
-		"Uber Dual Screens": {
+		"Uber Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Light Clay",
@@ -2936,7 +2928,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Reflect", "Light Screen", "Taunt", "Stealth Rock"],
 		},
-		"Uber TrickScarf": {
+		"Uber TrickScarf (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Scarf",
@@ -2946,7 +2938,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dewgong: {
-		"NU Specially Defensive": {
+		"NU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -2956,7 +2948,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dialga: {
-		"Uber Defensive": {
+		"Uber Defensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -2964,7 +2956,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 56, sd: 200 },
 			moves: ["Stealth Rock", "Draco Meteor", "Fire Blast", "Roar"],
 		},
-		"Uber Special Attacker": {
+		"Uber Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Specs",
@@ -2972,7 +2964,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 252, sp: 4 },
 			moves: ["Draco Meteor", "Thunder", "Fire Blast", "Dragon Pulse"],
 		},
-		"Uber Mixed": {
+		"Uber Mixed (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -2980,7 +2972,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 252, sp: 4 },
 			moves: ["Draco Meteor", "Outrage", "Fire Blast", "Thunder"],
 		},
-		"Uber Bulk Up + RestTalk": {
+		"Uber Bulk Up + RestTalk (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -2988,7 +2980,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Rest", "Sleep Talk", "Bulk Up", "Outrage"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Scarf",
@@ -2998,7 +2990,7 @@ var SETDEX_BW = {
 		},
 	},
 	Diglett: {
-		"LC Life Orb": {
+		"LC Life Orb (Revisar)": {
 			level: 5,
 			ability: "Arena Trap",
 			item: "Life Orb",
@@ -3006,7 +2998,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 236, sp: 236 },
 			moves: ["Earthquake", "Beat Up", "Sucker Punch", "Substitute"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Arena Trap",
 			item: "Choice Scarf",
@@ -3014,7 +3006,7 @@ var SETDEX_BW = {
 			evs: { hp: 116, at: 156, sd: 76, sp: 156 },
 			moves: ["Earthquake", "Beat Up", "Pursuit", "Final Gambit"],
 		},
-		"LC Sand Force": {
+		"LC Sand Force (Revisar)": {
 			level: 5,
 			ability: "Sand Force",
 			item: "Life Orb",
@@ -3024,7 +3016,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ditto: {
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Imposter",
 			item: "Choice Scarf",
@@ -3033,7 +3025,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Transform"],
 		},
-		"UU REVENGE!": {
+		"UU REVENGE! (Revisar)": {
 			level: 50,
 			ability: "Imposter",
 			item: "Choice Scarf",
@@ -3042,7 +3034,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Transform"],
 		},
-		"RU Ditto That": {
+		"RU Ditto That (Revisar)": {
 			level: 50,
 			ability: "Imposter",
 			item: "Choice Scarf",
@@ -3051,7 +3043,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252 },
 			moves: ["Transform"],
 		},
-		"NU Doppelganger": {
+		"NU Doppelganger (Revisar)": {
 			level: 50,
 			ability: "Imposter",
 			item: "Choice Scarf",
@@ -3062,7 +3054,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dodrio: {
-		"NU KACAW (Choice Band)": {
+		"NU KACAW (Choice Band) (Revisar)": {
 			level: 50,
 			ability: "Early Bird",
 			item: "Choice Band",
@@ -3070,7 +3062,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Brave Bird", "Return", "Pursuit", "Quick Attack"],
 		},
-		"PU Physical Attacker": {
+		"PU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Early Bird",
 			item: "Choice Band",
@@ -3080,7 +3072,7 @@ var SETDEX_BW = {
 		},
 	},
 	Doduo: {
-		"LC Choice Band": {
+		"LC Choice Band (Revisar)": {
 			level: 5,
 			ability: "Tangled Feet",
 			item: "Choice Band",
@@ -3090,7 +3082,7 @@ var SETDEX_BW = {
 		},
 	},
 	Donphan: {
-		"OU Support": {
+		"OU Support (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -3100,7 +3092,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dragonair: {
-		"RU Bulky Dragon Dance": {
+		"RU Bulky Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Marvel Scale",
 			item: "Eviolite",
@@ -3108,7 +3100,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Dragon Dance", "Outrage", "Rest", "Sleep Talk"],
 		},
-		"NU Bulky Dragon Dance": {
+		"NU Bulky Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Shed Skin",
 			item: "Eviolite",
@@ -3116,7 +3108,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Dragon Dance", "Rest", "Outrage", "Sleep Talk"],
 		},
-		"NU RestTalk": {
+		"NU RestTalk (Revisar)": {
 			level: 50,
 			ability: "Marvel Scale",
 			item: "Eviolite",
@@ -3126,7 +3118,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dragonite: {
-		"OU 3 Attacks Dragon Dance": {
+		"OU 3 Attacks Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Multiscale",
 			item: "Lum Berry",
@@ -3134,7 +3126,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Dragon Dance", "Outrage", "Earthquake", "Extreme Speed"],
 		},
-		"OU Substitute + Dragon Dance": {
+		"OU Substitute + Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Multiscale",
 			item: "Leftovers",
@@ -3142,7 +3134,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 72, sd: 60, sp: 124 },
 			moves: ["Substitute", "Dragon Dance", "Dragon Claw", "Roost"],
 		},
-		"OU Choice Band": {
+		"OU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Multiscale",
 			item: "Choice Band",
@@ -3152,7 +3144,7 @@ var SETDEX_BW = {
 		},
 	},
 	Drapion: {
-		"UU Support": {
+		"UU Support (Revisar)": {
 			level: 50,
 			ability: "Battle Armor",
 			item: "Leftovers",
@@ -3160,7 +3152,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Toxic Spikes", "Taunt", "Crunch", "Whirlwind"],
 		},
-		"UU Physical Attacker": {
+		"UU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Sniper",
 			item: "Life Orb",
@@ -3168,7 +3160,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Pursuit", "Earthquake", "Aqua Tail", "Crunch"],
 		},
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Sniper",
 			item: "Life Orb",
@@ -3176,7 +3168,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Crunch", "Earthquake", "Aqua Tail"],
 		},
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Sniper",
 			item: "Life Orb",
@@ -3184,7 +3176,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Crunch", "Earthquake", "Poison Jab"],
 		},
-		"RU All-Out Attacker": {
+		"RU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Sniper",
 			item: "Choice Band",
@@ -3192,7 +3184,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Pursuit", "Crunch", "Earthquake", "Poison Jab"],
 		},
-		"RU Specially Defensive": {
+		"RU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Battle Armor",
 			item: "Black Sludge",
@@ -3202,7 +3194,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dratini: {
-		"LC Offensive Dragon Dance": {
+		"LC Offensive Dragon Dance (Revisar)": {
 			level: 5,
 			ability: "Shed Skin",
 			item: "Life Orb",
@@ -3211,7 +3203,7 @@ var SETDEX_BW = {
 			evs: { at: 244, sa: 36, sp: 196 },
 			moves: ["Dragon Dance", "Outrage", "Extreme Speed", "Fire Blast"],
 		},
-		"LC RestTalk Dragon Dance": {
+		"LC RestTalk Dragon Dance (Revisar)": {
 			level: 5,
 			ability: "Marvel Scale",
 			item: "Eviolite",
@@ -3221,7 +3213,7 @@ var SETDEX_BW = {
 		},
 	},
 	Drifblim: {
-		"UU AcroBlimp": {
+		"UU AcroBlimp (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Flying Gem",
@@ -3229,7 +3221,7 @@ var SETDEX_BW = {
 			evs: { at: 200, df: 104, sp: 204 },
 			moves: ["Acrobatics", "Substitute", "Destiny Bond", "Will-O-Wisp"],
 		},
-		"UU ChestoRest": {
+		"UU ChestoRest (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Chesto Berry",
@@ -3237,7 +3229,7 @@ var SETDEX_BW = {
 			evs: { df: 252, sa: 108, sp: 148 },
 			moves: ["Calm Mind", "Rest", "Shadow Ball", "Thunderbolt"],
 		},
-		"RU AcroBlimp": {
+		"RU AcroBlimp (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Flying Gem",
@@ -3245,7 +3237,7 @@ var SETDEX_BW = {
 			evs: { hp: 20, at: 252, sp: 236 },
 			moves: ["Acrobatics", "Will-O-Wisp", "Destiny Bond", "Shadow Ball"],
 		},
-		"RU Weather Balloon": {
+		"RU Weather Balloon (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Flying Gem",
@@ -3253,7 +3245,7 @@ var SETDEX_BW = {
 			evs: { at: 20, sa: 252, sp: 236 },
 			moves: ["Rain Dance", "Weather Ball", "Thunder", "Acrobatics"],
 		},
-		"RU Calm Mind": {
+		"RU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Chesto Berry",
@@ -3261,7 +3253,7 @@ var SETDEX_BW = {
 			evs: { hp: 20, sa: 252, sp: 236 },
 			moves: ["Calm Mind", "Shadow Ball", "Thunderbolt", "Rest"],
 		},
-		"NU AcroBlimp": {
+		"NU AcroBlimp (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Flying Gem",
@@ -3269,7 +3261,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Acrobatics", "Will-O-Wisp", "Substitute", "Destiny Bond"],
 		},
-		"NU SubCM": {
+		"NU SubCM (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Ghost Gem",
@@ -3279,7 +3271,7 @@ var SETDEX_BW = {
 		},
 	},
 	Drifloon: {
-		"LC Acrobatics": {
+		"LC Acrobatics (Revisar)": {
 			level: 5,
 			ability: "Unburden",
 			item: "Flying Gem",
@@ -3289,7 +3281,7 @@ var SETDEX_BW = {
 		},
 	},
 	Drilbur: {
-		"ZU Offensive Spinner": {
+		"ZU Offensive Spinner (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Eviolite",
@@ -3297,7 +3289,7 @@ var SETDEX_BW = {
 			evs: { hp: 144, at: 252, sp: 112 },
 			moves: ["Rapid Spin", "Earthquake", "Swords Dance", "Rock Slide"],
 		},
-		"LC Utility": {
+		"LC Utility (Revisar)": {
 			level: 5,
 			ability: "Mold Breaker",
 			item: "Eviolite",
@@ -3305,7 +3297,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 236, sp: 212 },
 			moves: ["Earthquake", "Rock Slide", "Stealth Rock", "Rapid Spin"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Sand Force",
 			item: "Choice Scarf",
@@ -3315,7 +3307,7 @@ var SETDEX_BW = {
 		},
 	},
 	Drowzee: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Insomnia",
 			item: "Choice Scarf",
@@ -3325,7 +3317,7 @@ var SETDEX_BW = {
 		},
 	},
 	Druddigon: {
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Choice Band",
@@ -3333,7 +3325,7 @@ var SETDEX_BW = {
 			evs: { hp: 152, at: 252, sd: 4, sp: 100 },
 			moves: ["Outrage", "Earthquake", "Sucker Punch", "Dragon Claw"],
 		},
-		"UU Bulky Paralysis Shuffler": {
+		"UU Bulky Paralysis Shuffler (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Leftovers",
@@ -3341,7 +3333,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, df: 252 },
 			moves: ["Stealth Rock", "Dragon Tail", "Glare", "Dragon Claw"],
 		},
-		"RU Stealth Rock": {
+		"RU Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Leftovers",
@@ -3349,7 +3341,7 @@ var SETDEX_BW = {
 			evs: { hp: 236, at: 252, sp: 20 },
 			moves: ["Stealth Rock", "Outrage", "Earthquake", "Sucker Punch"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Choice Band",
@@ -3357,7 +3349,7 @@ var SETDEX_BW = {
 			evs: { hp: 236, at: 252, sp: 20 },
 			moves: ["Outrage", "Superpower", "Sucker Punch", "Dragon Claw"],
 		},
-		"RU Mixed": {
+		"RU Mixed (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -3365,7 +3357,7 @@ var SETDEX_BW = {
 			evs: { hp: 216, at: 252, sa: 20, sp: 20 },
 			moves: ["Outrage", "Flamethrower", "Earthquake", "Sucker Punch"],
 		},
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Leftovers",
@@ -3375,7 +3367,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ducklett: {
-		"LC Bulky Feather Dance": {
+		"LC Bulky Feather Dance (Revisar)": {
 			level: 5,
 			ability: "Big Pecks",
 			item: "Eviolite",
@@ -3383,7 +3375,7 @@ var SETDEX_BW = {
 			evs: { hp: 180, df: 196, sa: 4, sd: 116 },
 			moves: ["Feather Dance", "Toxic", "Roost", "Surf"],
 		},
-		"LC Bulky Rain Dance": {
+		"LC Bulky Rain Dance (Revisar)": {
 			level: 5,
 			ability: "Hydration",
 			item: "Eviolite",
@@ -3393,7 +3385,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dugtrio: {
-		"OU May the Sand Force be with You": {
+		"OU May the Sand Force be with You (Revisar)": {
 			level: 50,
 			ability: "Sand Force",
 			item: "Life Orb",
@@ -3403,7 +3395,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dunsparce: {
-		"NU ParaFlinch": {
+		"NU ParaFlinch (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Leftovers",
@@ -3413,7 +3405,7 @@ var SETDEX_BW = {
 		},
 	},
 	Duosion: {
-		"NU Calm Mind": {
+		"NU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Eviolite",
@@ -3421,7 +3413,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sa: 4 },
 			moves: ["Calm Mind", "Psychic", "Thunder", "Recover"],
 		},
-		"NU Offensive Trick Room": {
+		"NU Offensive Trick Room (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Eviolite",
@@ -3430,7 +3422,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sa: 252 },
 			moves: ["Trick Room", "Psychic", "Thunder", "Signal Beam"],
 		},
-		"PU Bulky Calm Mind": {
+		"PU Bulky Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Eviolite",
@@ -3440,7 +3432,7 @@ var SETDEX_BW = {
 		},
 	},
 	Durant: {
-		"UU Hone Claws": {
+		"UU Hone Claws (Revisar)": {
 			level: 50,
 			ability: "Hustle",
 			item: "Life Orb",
@@ -3448,7 +3440,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Hone Claws", "X-Scissor", "Rock Slide", "Iron Head"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Hustle",
 			item: "Choice Band",
@@ -3456,7 +3448,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["X-Scissor", "Rock Slide", "Iron Head", "Superpower"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Hustle",
 			item: "Choice Band",
@@ -3464,7 +3456,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["X-Scissor", "Superpower", "Thunder Fang", "Iron Head"],
 		},
-		"RU Hone Claws": {
+		"RU Hone Claws (Revisar)": {
 			level: 50,
 			ability: "Hustle",
 			item: "Lum Berry",
@@ -3472,7 +3464,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Hone Claws", "X-Scissor", "Superpower", "Thunder Fang"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Choice Scarf",
@@ -3482,7 +3474,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dusclops: {
-		"UU Curse": {
+		"UU Curse (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Eviolite",
@@ -3492,7 +3484,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dusknoir: {
-		"RU Tank": {
+		"RU Tank (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -3502,7 +3494,7 @@ var SETDEX_BW = {
 		},
 	},
 	Duskull: {
-		"LC SubSplit": {
+		"LC SubSplit (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -3512,7 +3504,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dustox: {
-		"NU I'll bring the flame to the moth myself": {
+		"NU I'll bring the flame to the moth myself (Revisar)": {
 			level: 50,
 			ability: "Shield Dust",
 			item: "Black Sludge",
@@ -3522,7 +3514,7 @@ var SETDEX_BW = {
 		},
 	},
 	Dwebble: {
-		"NU Custap Lead": {
+		"NU Custap Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -3530,7 +3522,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Stealth Rock", "Spikes", "Endure", "Rock Blast"],
 		},
-		"PU Suicide Lead": {
+		"PU Suicide Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -3538,7 +3530,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Stealth Rock", "Spikes", "Rock Blast", "Toxic"],
 		},
-		"LC Lead": {
+		"LC Lead (Revisar)": {
 			level: 5,
 			ability: "Weak Armor",
 			item: "Custap Berry",
@@ -3548,7 +3540,7 @@ var SETDEX_BW = {
 		},
 	},
 	Eelektrik: {
-		"ZU Defensive Pivot": {
+		"ZU Defensive Pivot (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -3559,7 +3551,7 @@ var SETDEX_BW = {
 		},
 	},
 	Eelektross: {
-		"UU Offensive": {
+		"UU Offensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -3567,7 +3559,7 @@ var SETDEX_BW = {
 			evs: { hp: 172, sa: 252, sp: 84 },
 			moves: ["Thunderbolt", "Flamethrower", "Giga Drain", "Superpower"],
 		},
-		"UU Coil": {
+		"UU Coil (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -3575,7 +3567,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 16, sd: 240 },
 			moves: ["Coil", "Thunder Punch", "Drain Punch", "Dragon Tail"],
 		},
-		"RU Offensive Pivot": {
+		"RU Offensive Pivot (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -3583,7 +3575,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sa: 252, sp: 8 },
 			moves: ["Volt Switch", "Flamethrower", "Giga Drain", "Thunderbolt"],
 		},
-		"RU Coil": {
+		"RU Coil (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -3591,7 +3583,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sd: 252, sp: 8 },
 			moves: ["Coil", "Thunder Punch", "Drain Punch", "Substitute"],
 		},
-		"NU Eebeltross": {
+		"NU Eebeltross (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Expert Belt",
@@ -3599,7 +3591,7 @@ var SETDEX_BW = {
 			evs: { at: 140, sa: 244, sp: 124 },
 			moves: ["Thunderbolt", "Superpower", "Flamethrower", "Giga Drain"],
 		},
-		"NU Special Attacker": {
+		"NU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -3607,7 +3599,7 @@ var SETDEX_BW = {
 			evs: { hp: 172, sa: 252, sp: 84 },
 			moves: ["Volt Switch", "Giga Drain", "Flamethrower", "Thunderbolt"],
 		},
-		"NU Physical Attacker": {
+		"NU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Band",
@@ -3617,7 +3609,7 @@ var SETDEX_BW = {
 		},
 	},
 	Eevee: {
-		"LC Mixed Attacker": {
+		"LC Mixed Attacker (Revisar)": {
 			level: 5,
 			ability: "Adaptability",
 			item: "Life Orb",
@@ -3627,7 +3619,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ekans: {
-		"LC Coil": {
+		"LC Coil (Revisar)": {
 			level: 5,
 			ability: "Shed Skin",
 			item: "Eviolite",
@@ -3637,7 +3629,7 @@ var SETDEX_BW = {
 		},
 	},
 	Electabuzz: {
-		"NU Eviolite": {
+		"NU Eviolite (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Eviolite",
@@ -3650,7 +3642,7 @@ var SETDEX_BW = {
 				"Hidden Power Ice",
 			],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Choice Scarf",
@@ -3665,7 +3657,7 @@ var SETDEX_BW = {
 		},
 	},
 	Electivire: {
-		"RU Mixed Attacker": {
+		"RU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Motor Drive",
 			item: "Life Orb",
@@ -3675,7 +3667,7 @@ var SETDEX_BW = {
 		},
 	},
 	Electrike: {
-		"LC Choice": {
+		"LC Choice (Revisar)": {
 			level: 5,
 			ability: "Lightning Rod",
 			item: "Choice Specs",
@@ -3688,7 +3680,7 @@ var SETDEX_BW = {
 				"Hidden Power Grass",
 			],
 		},
-		"LC Substitute + Charge Beam": {
+		"LC Substitute + Charge Beam (Revisar)": {
 			level: 5,
 			ability: "Lightning Rod",
 			item: "Life Orb",
@@ -3703,7 +3695,7 @@ var SETDEX_BW = {
 		},
 	},
 	Electrode: {
-		"NU Special Attacker": {
+		"NU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Aftermath",
 			item: "Life Orb",
@@ -3718,7 +3710,7 @@ var SETDEX_BW = {
 		},
 	},
 	Elekid: {
-		"LC Physical Attacker": {
+		"LC Physical Attacker (Revisar)": {
 			level: 5,
 			ability: "Vital Spirit",
 			item: "Life Orb",
@@ -3729,7 +3721,7 @@ var SETDEX_BW = {
 		},
 	},
 	Elgyem: {
-		"LC Bulky Attacker": {
+		"LC Bulky Attacker (Revisar)": {
 			level: 5,
 			ability: "Analytic",
 			item: "Eviolite",
@@ -3739,7 +3731,7 @@ var SETDEX_BW = {
 		},
 	},
 	Emboar: {
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Choice Scarf",
@@ -3747,7 +3739,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Flare Blitz", "Superpower", "Wild Charge", "Sleep Talk"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Choice Band",
@@ -3755,7 +3747,7 @@ var SETDEX_BW = {
 			evs: { hp: 236, at: 252, sp: 20 },
 			moves: ["Flare Blitz", "Superpower", "Wild Charge", "Sleep Talk"],
 		},
-		"RU Mixed Attacker": {
+		"RU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Expert Belt",
@@ -3763,7 +3755,7 @@ var SETDEX_BW = {
 			evs: { at: 72, sa: 252, sp: 184 },
 			moves: ["Fire Blast", "Superpower", "Grass Knot", "Wild Charge"],
 		},
-		"RU BigPig (Defensive)": {
+		"RU BigPig (Defensive) (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Leftovers",
@@ -3773,7 +3765,7 @@ var SETDEX_BW = {
 		},
 	},
 	Emolga: {
-		"NU Tailwind Support": {
+		"NU Tailwind Support (Revisar)": {
 			level: 50,
 			ability: "Motor Drive",
 			item: "Leftovers",
@@ -3781,7 +3773,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Tailwind", "Encore", "U-turn", "Air Slash"],
 		},
-		"ZU Offensive Pivot": {
+		"ZU Offensive Pivot (Revisar)": {
 			level: 50,
 			ability: "Motor Drive",
 			item: "Flying Gem",
@@ -3789,7 +3781,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Acrobatics", "U-turn", "Roost", "Taunt"],
 		},
-		"ZU SubTox": {
+		"ZU SubTox (Revisar)": {
 			level: 50,
 			ability: "Motor Drive",
 			item: "Leftovers",
@@ -3800,7 +3792,7 @@ var SETDEX_BW = {
 		},
 	},
 	Empoleon: {
-		"UU SubPetaya": {
+		"UU SubPetaya (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Petaya Berry",
@@ -3809,7 +3801,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Agility", "Substitute", "Surf", "Ice Beam"],
 		},
-		"UU Specially Defensive": {
+		"UU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Leftovers",
@@ -3817,7 +3809,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sd: 252 },
 			moves: ["Stealth Rock", "Scald", "Ice Beam", "Roar"],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Choice Specs",
@@ -3825,7 +3817,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Hydro Pump", "Ice Beam", "Grass Knot", "Scald"],
 		},
-		"UU Offensive Stealth Rock": {
+		"UU Offensive Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Leftovers",
@@ -3833,7 +3825,7 @@ var SETDEX_BW = {
 			evs: { hp: 172, sa: 252, sp: 84 },
 			moves: ["Stealth Rock", "Hydro Pump", "Ice Beam", "Grass Knot"],
 		},
-		"UU Agility": {
+		"UU Agility (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -3843,7 +3835,7 @@ var SETDEX_BW = {
 		},
 	},
 	Entei: {
-		"UU Physical Attacker": {
+		"UU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Band",
@@ -3856,7 +3848,7 @@ var SETDEX_BW = {
 				"Hidden Power Grass",
 			],
 		},
-		"UU Calm Mind": {
+		"UU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -3869,7 +3861,7 @@ var SETDEX_BW = {
 				"Hidden Power Grass",
 			],
 		},
-		"UU Sunny Day": {
+		"UU Sunny Day (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -3877,7 +3869,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Sunny Day", "Calm Mind", "Fire Blast", "Solar Beam"],
 		},
-		"RU Physical Attacker": {
+		"RU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Band",
@@ -3890,7 +3882,7 @@ var SETDEX_BW = {
 				"Hidden Power Grass",
 			],
 		},
-		"RU Substitute + Calm Mind": {
+		"RU Substitute + Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -3905,7 +3897,7 @@ var SETDEX_BW = {
 		},
 	},
 	Escavalier: {
-		"UU Offensive": {
+		"UU Offensive (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Choice Band",
@@ -3913,7 +3905,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 252, sd: 8 },
 			moves: ["Megahorn", "Iron Head", "Pursuit", "Return"],
 		},
-		"UU Defensive": {
+		"UU Defensive (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Leftovers",
@@ -3921,7 +3913,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 8, sd: 252 },
 			moves: ["Megahorn", "Iron Head", "Pursuit", "Toxic"],
 		},
-		"RU Tank": {
+		"RU Tank (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Choice Band",
@@ -3929,7 +3921,7 @@ var SETDEX_BW = {
 			evs: { hp: 132, at: 252, sp: 124 },
 			moves: ["Megahorn", "Pursuit", "Iron Head", "Sleep Talk"],
 		},
-		"Doubles Trick Room Attacker": {
+		"Doubles Trick Room Attacker (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Bug Gem",
@@ -3940,7 +3932,7 @@ var SETDEX_BW = {
 		},
 	},
 	Espeon: {
-		"OU Screens Setter": {
+		"OU Screens Setter (Revisar)": {
 			level: 50,
 			ability: "Magic Bounce",
 			item: "Light Clay",
@@ -3948,7 +3940,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Reflect", "Light Screen", "Psychic", "Grass Knot"],
 		},
-		"Uber Focus Sash Attacker": {
+		"Uber Focus Sash Attacker (Revisar)": {
 			level: 50,
 			ability: "Magic Bounce",
 			item: "Focus Sash",
@@ -3958,7 +3950,7 @@ var SETDEX_BW = {
 		},
 	},
 	Excadrill: {
-		"OU Offensive": {
+		"OU Offensive (Revisar)": {
 			level: 50,
 			ability: "Sand Force",
 			item: "Leftovers",
@@ -3966,7 +3958,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Earthquake", "Iron Head", "Protect", "Rapid Spin"],
 		},
-		"OU Specially Defensive": {
+		"OU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Leftovers",
@@ -3974,7 +3966,7 @@ var SETDEX_BW = {
 			evs: { hp: 208, sd: 252, sp: 48 },
 			moves: ["Earthquake", "Rapid Spin", "Toxic", "Protect"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Choice Scarf",
@@ -3982,7 +3974,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Earthquake", "Iron Head", "Rapid Spin", "Rock Slide"],
 		},
-		"Uber Bulky Rapid Spin": {
+		"Uber Bulky Rapid Spin (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Leftovers",
@@ -3990,7 +3982,7 @@ var SETDEX_BW = {
 			evs: { hp: 176, at: 60, sd: 252, sp: 20 },
 			moves: ["Rapid Spin", "Earthquake", "Swords Dance", "Rock Slide"],
 		},
-		"Uber Offensive Swords Dance": {
+		"Uber Offensive Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Sand Rush",
 			item: "Life Orb",
@@ -3998,7 +3990,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Earthquake", "Rock Slide", "Iron Head"],
 		},
-		"Doubles Offensive Drill": {
+		"Doubles Offensive Drill (Revisar)": {
 			level: 50,
 			ability: "Sand Rush",
 			item: "Life Orb",
@@ -4008,7 +4000,7 @@ var SETDEX_BW = {
 		},
 	},
 	Exeggcute: {
-		"LC Physical Wall": {
+		"LC Physical Wall (Revisar)": {
 			level: 5,
 			ability: "Chlorophyll",
 			item: "Eviolite",
@@ -4018,7 +4010,7 @@ var SETDEX_BW = {
 		},
 	},
 	Exeggutor: {
-		"UU Sunny Day": {
+		"UU Sunny Day (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -4031,7 +4023,7 @@ var SETDEX_BW = {
 				"Sleep Powder",
 			],
 		},
-		"UU SubSeed": {
+		"UU SubSeed (Revisar)": {
 			level: 50,
 			ability: "Harvest",
 			item: "Sitrus Berry",
@@ -4039,7 +4031,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sp: 4 },
 			moves: ["Leech Seed", "Protect", "Substitute", "Hidden Power Fire"],
 		},
-		"UU Trick Room": {
+		"UU Trick Room (Revisar)": {
 			level: 50,
 			ability: "Harvest",
 			item: "Life Orb",
@@ -4048,7 +4040,7 @@ var SETDEX_BW = {
 			evs: { hp: 232, df: 24, sa: 252 },
 			moves: ["Trick Room", "Sleep Powder", "Leaf Storm", "Psyshock"],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Choice Specs",
@@ -4057,7 +4049,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Leaf Storm", "Psyshock", "Hidden Power Fire", "Sleep Powder"],
 		},
-		"NU LumRest": {
+		"NU LumRest (Revisar)": {
 			level: 50,
 			ability: "Harvest",
 			item: "Lum Berry",
@@ -4065,7 +4057,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sa: 176, sp: 84 },
 			moves: ["Rest", "Sleep Powder", "Giga Drain", "Psychic"],
 		},
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Choice Specs",
@@ -4078,7 +4070,7 @@ var SETDEX_BW = {
 				"Sleep Powder",
 			],
 		},
-		"NU SubSeed": {
+		"NU SubSeed (Revisar)": {
 			level: 50,
 			ability: "Harvest",
 			item: "Sitrus Berry",
@@ -4086,7 +4078,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 176, sp: 84 },
 			moves: ["Substitute", "Leech Seed", "Psychic", "Protect"],
 		},
-		"NU Sun Sweeper": {
+		"NU Sun Sweeper (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -4094,7 +4086,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Sunny Day", "Solar Beam", "Psychic", "Sleep Powder"],
 		},
-		"Doubles Trick Room": {
+		"Doubles Trick Room (Revisar)": {
 			level: 50,
 			ability: "Harvest",
 			item: "Sitrus Berry",
@@ -4103,7 +4095,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 12, sa: 24, sd: 220 },
 			moves: ["Trick Room", "Leaf Storm", "Psyshock", "Protect"],
 		},
-		"Doubles Chlorophyll": {
+		"Doubles Chlorophyll (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -4113,7 +4105,7 @@ var SETDEX_BW = {
 		},
 	},
 	Exploud: {
-		"NU Wallbreaker": {
+		"NU Wallbreaker (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Life Orb",
@@ -4121,7 +4113,7 @@ var SETDEX_BW = {
 			evs: { at: 68, sa: 252, sp: 188 },
 			moves: ["Hyper Voice", "Surf", "Fire Blast", "Low Kick"],
 		},
-		"ZU Special Attacker": {
+		"ZU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Life Orb",
@@ -4130,7 +4122,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Hyper Voice", "Surf", "Fire Blast", "Focus Blast"],
 		},
-		"ZU Choice Band": {
+		"ZU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Choice Band",
@@ -4139,8 +4131,8 @@ var SETDEX_BW = {
 			moves: ["Return", "Low Kick", "Crunch", "Earthquake"],
 		},
 	},
-	"Farfetch’d": {
-		"NU Swords Dance 'Sweeper'": {
+	"Farfetch’d (Revisar)": {
+		"NU Swords Dance 'Sweeper' (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Life Orb",
@@ -4150,7 +4142,7 @@ var SETDEX_BW = {
 		},
 	},
 	Fearow: {
-		"NU Physical Attacker": {
+		"NU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Sniper",
 			item: "Choice Band",
@@ -4158,7 +4150,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Return", "Drill Peck", "Drill Run", "U-turn"],
 		},
-		"ZU Choice Band": {
+		"ZU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Sniper",
 			item: "Choice Band",
@@ -4166,7 +4158,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Return", "Drill Peck", "U-turn", "Drill Run"],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Sniper",
 			item: "Choice Scarf",
@@ -4176,7 +4168,7 @@ var SETDEX_BW = {
 		},
 	},
 	Feraligatr: {
-		"UU Dragon Dance": {
+		"UU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -4184,7 +4176,7 @@ var SETDEX_BW = {
 			evs: { hp: 28, at: 252, sp: 228 },
 			moves: ["Dragon Dance", "Waterfall", "Ice Punch", "Earthquake"],
 		},
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -4192,7 +4184,7 @@ var SETDEX_BW = {
 			evs: { hp: 148, at: 252, sp: 108 },
 			moves: ["Swords Dance", "Waterfall", "Return", "Aqua Jet"],
 		},
-		"UU Substitute + Dragon Dance": {
+		"UU Substitute + Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Leftovers",
@@ -4200,7 +4192,7 @@ var SETDEX_BW = {
 			evs: { hp: 144, at: 252, sp: 112 },
 			moves: ["Substitute", "Dragon Dance", "Waterfall", "Return"],
 		},
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -4208,7 +4200,7 @@ var SETDEX_BW = {
 			evs: { hp: 104, at: 252, sp: 152 },
 			moves: ["Swords Dance", "Aqua Jet", "Waterfall", "Return"],
 		},
-		"RU Dragon Dance": {
+		"RU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -4218,7 +4210,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ferroseed: {
-		"UU Spiker": {
+		"UU Spiker (Revisar)": {
 			level: 50,
 			ability: "Iron Barbs",
 			item: "Eviolite",
@@ -4227,7 +4219,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Spikes", "Leech Seed", "Thunder Wave", "Gyro Ball"],
 		},
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Iron Barbs",
 			item: "Eviolite",
@@ -4236,7 +4228,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 248, sd: 12 },
 			moves: ["Spikes", "Thunder Wave", "Leech Seed", "Gyro Ball"],
 		},
-		"LC Defensive": {
+		"LC Defensive (Revisar)": {
 			level: 5,
 			ability: "Iron Barbs",
 			item: "Eviolite",
@@ -4246,7 +4238,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ferrothorn: {
-		"OU Standard": {
+		"OU Standard (Revisar)": {
 			level: 50,
 			ability: "Iron Barbs",
 			item: "Leftovers",
@@ -4254,7 +4246,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 48, sd: 208 },
 			moves: ["Spikes", "Knock Off", "Power Whip", "Stealth Rock"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Iron Barbs",
 			item: "Leftovers",
@@ -4263,7 +4255,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 48, sd: 208 },
 			moves: ["Spikes", "Power Whip", "Gyro Ball", "Stealth Rock"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Iron Barbs",
 			item: "Choice Band",
@@ -4274,7 +4266,7 @@ var SETDEX_BW = {
 		},
 	},
 	Finneon: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Storm Drain",
 			item: "Choice Scarf",
@@ -4282,7 +4274,7 @@ var SETDEX_BW = {
 			evs: { at: 44, sa: 208, sd: 28, sp: 228 },
 			moves: ["Surf", "U-turn", "Ice Beam", "Hidden Power Electric"],
 		},
-		"LC Rain Dance": {
+		"LC Rain Dance (Revisar)": {
 			level: 5,
 			ability: "Swift Swim",
 			item: "Damp Rock",
@@ -4292,7 +4284,7 @@ var SETDEX_BW = {
 		},
 	},
 	Flareon: {
-		"RU Special Tank": {
+		"RU Special Tank (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Leftovers",
@@ -4300,7 +4292,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Wish", "Protect", "Flamethrower", "Toxic"],
 		},
-		"NU Wish": {
+		"NU Wish (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Leftovers",
@@ -4308,7 +4300,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sd: 252 },
 			moves: ["Wish", "Protect", "Lava Plume", "Heal Bell"],
 		},
-		"NU Guts": {
+		"NU Guts (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -4316,7 +4308,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Facade", "Superpower", "Flame Charge", "Bite"],
 		},
-		"ZU All-Out Attacker": {
+		"ZU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Expert Belt",
@@ -4330,7 +4322,7 @@ var SETDEX_BW = {
 				"Hidden Power Grass",
 			],
 		},
-		"ZU Special Wall": {
+		"ZU Special Wall (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Leftovers",
@@ -4340,7 +4332,7 @@ var SETDEX_BW = {
 		},
 	},
 	Floatzel: {
-		"RU Mixed Rain Dance": {
+		"RU Mixed Rain Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -4348,7 +4340,7 @@ var SETDEX_BW = {
 			evs: { at: 196, sa: 252, sp: 60 },
 			moves: ["Waterfall", "Ice Beam", "Brick Break", "Rain Dance"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Choice Band",
@@ -4356,7 +4348,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Waterfall", "Return", "Crunch", "Switcheroo"],
 		},
-		"RU Baton Pass": {
+		"RU Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Water Veil",
 			item: "Leftovers",
@@ -4364,7 +4356,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 40, sp: 216 },
 			moves: ["Bulk Up", "Taunt", "Baton Pass", "Waterfall"],
 		},
-		"NU Mixed Attacker": {
+		"NU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Water Veil",
 			item: "Life Orb",
@@ -4372,7 +4364,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Hydro Pump", "Ice Beam", "Crunch", "Hidden Power Grass"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Water Veil",
 			item: "Choice Band",
@@ -4380,7 +4372,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Waterfall", "Ice Punch", "Return", "Switcheroo"],
 		},
-		"NU Bulk Up": {
+		"NU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Water Veil",
 			item: "Leftovers",
@@ -4390,7 +4382,7 @@ var SETDEX_BW = {
 		},
 	},
 	Flygon: {
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Band",
@@ -4398,7 +4390,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Outrage", "Earthquake", "U-turn", "Fire Punch"],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -4406,7 +4398,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Outrage", "Earthquake", "U-turn", "Fire Punch"],
 		},
-		"UU Physical Life Orb": {
+		"UU Physical Life Orb (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -4416,7 +4408,7 @@ var SETDEX_BW = {
 		},
 	},
 	Foongus: {
-		"LC Defensive": {
+		"LC Defensive (Revisar)": {
 			level: 5,
 			ability: "Regenerator",
 			item: "Eviolite",
@@ -4426,7 +4418,7 @@ var SETDEX_BW = {
 		},
 	},
 	Forretress: {
-		"OU Support": {
+		"OU Support (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -4434,7 +4426,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Spikes", "Rapid Spin", "Volt Switch", "Hidden Power Ice"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -4442,7 +4434,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Spikes", "Rapid Spin", "Toxic Spikes", "Pain Split"],
 		},
-		"Uber Custap Lead": {
+		"Uber Custap Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -4453,7 +4445,7 @@ var SETDEX_BW = {
 		},
 	},
 	Fraxure: {
-		"RU Dragon Dance": {
+		"RU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Eviolite",
@@ -4461,7 +4453,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Dragon Dance", "Outrage", "Low Kick", "Taunt"],
 		},
-		"NU Dragon Dance": {
+		"NU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Eviolite",
@@ -4469,7 +4461,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Dragon Dance", "Outrage", "Low Kick", "Taunt"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Choice Band",
@@ -4477,7 +4469,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Outrage", "Superpower", "Aqua Tail", "Dragon Claw"],
 		},
-		"PU Dragon Dance": {
+		"PU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Eviolite",
@@ -4487,7 +4479,7 @@ var SETDEX_BW = {
 		},
 	},
 	Frillish: {
-		"NU Physically Defensive": {
+		"NU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Eviolite",
@@ -4495,7 +4487,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 160, sp: 100 },
 			moves: ["Recover", "Night Shade", "Will-O-Wisp", "Taunt"],
 		},
-		"ZU Defensive Utility": {
+		"ZU Defensive Utility (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Eviolite",
@@ -4504,7 +4496,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 160, sp: 100 },
 			moves: ["Taunt", "Night Shade", "Will-O-Wisp", "Recover"],
 		},
-		"LC Defensive": {
+		"LC Defensive (Revisar)": {
 			level: 5,
 			ability: "Cursed Body",
 			item: "Eviolite",
@@ -4514,7 +4506,7 @@ var SETDEX_BW = {
 		},
 	},
 	Froslass: {
-		"OU Suicide Lead": {
+		"OU Suicide Lead (Revisar)": {
 			level: 50,
 			ability: "Cursed Body",
 			item: "Focus Sash",
@@ -4522,7 +4514,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Spikes", "Taunt", "Ice Beam", "Destiny Bond"],
 		},
-		"Uber Spikes": {
+		"Uber Spikes (Revisar)": {
 			level: 50,
 			ability: "Cursed Body",
 			item: "Focus Sash",
@@ -4532,7 +4524,7 @@ var SETDEX_BW = {
 		},
 	},
 	Furret: {
-		"NU It's a Trick!": {
+		"NU It's a Trick! (Revisar)": {
 			level: 50,
 			ability: "Frisk",
 			item: "Choice Band",
@@ -4542,7 +4534,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gabite: {
-		"NU Tank": {
+		"NU Tank (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Eviolite",
@@ -4550,7 +4542,7 @@ var SETDEX_BW = {
 			evs: { hp: 64, at: 252, sp: 192 },
 			moves: ["Stealth Rock", "Outrage", "Earthquake", "Toxic"],
 		},
-		"PU Utility": {
+		"PU Utility (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Eviolite",
@@ -4558,7 +4550,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Stealth Rock", "Earthquake", "Dragon Claw", "Roar"],
 		},
-		"PU Choice Band": {
+		"PU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Choice Band",
@@ -4568,7 +4560,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gallade: {
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -4576,7 +4568,7 @@ var SETDEX_BW = {
 			evs: { hp: 68, at: 252, sp: 188 },
 			moves: ["Swords Dance", "Close Combat", "Ice Punch", "Shadow Sneak"],
 		},
-		"UU Choice": {
+		"UU Choice (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Scarf",
@@ -4584,7 +4576,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Close Combat", "Ice Punch", "Zen Headbutt", "Trick"],
 		},
-		"UU Bulk Up": {
+		"UU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Leftovers",
@@ -4592,7 +4584,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 68, sp: 188 },
 			moves: ["Bulk Up", "Drain Punch", "Ice Punch", "Night Slash"],
 		},
-		"RU Bulky Swords Dance": {
+		"RU Bulky Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Lum Berry",
@@ -4600,7 +4592,7 @@ var SETDEX_BW = {
 			evs: { hp: 200, at: 252, sp: 56 },
 			moves: ["Swords Dance", "Drain Punch", "Psycho Cut", "Night Slash"],
 		},
-		"RU Substitute + 3 Attacks": {
+		"RU Substitute + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -4608,7 +4600,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Drain Punch", "Night Slash", "Psycho Cut"],
 		},
-		"RU Offensive Swords Dance": {
+		"RU Offensive Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Lum Berry",
@@ -4616,7 +4608,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Close Combat", "Psycho Cut", "Night Slash"],
 		},
-		"RU Specially Defensive": {
+		"RU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Steadfast",
 			item: "Leftovers",
@@ -4624,7 +4616,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sd: 244, sp: 16 },
 			moves: ["Wish", "Protect", "Drain Punch", "Will-O-Wisp"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Band",
@@ -4632,7 +4624,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Close Combat", "Psycho Cut", "Night Slash", "Stone Edge"],
 		},
-		"RU Bulk Up": {
+		"RU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Leftovers",
@@ -4642,7 +4634,7 @@ var SETDEX_BW = {
 		},
 	},
 	Galvantula: {
-		"UU Special Attacker": {
+		"UU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Compound Eyes",
 			item: "Life Orb",
@@ -4650,7 +4642,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Thunder", "Bug Buzz", "Hidden Power Ice", "Energy Ball"],
 		},
-		"RU All-Out Attacker": {
+		"RU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Compound Eyes",
 			item: "Life Orb",
@@ -4660,7 +4652,7 @@ var SETDEX_BW = {
 		},
 	},
 	Garbodor: {
-		"RU Tank": {
+		"RU Tank (Revisar)": {
 			level: 50,
 			ability: "Aftermath",
 			item: "Black Sludge",
@@ -4668,7 +4660,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Toxic Spikes", "Spikes", "Gunk Shot", "Payback"],
 		},
-		"NU Spikes": {
+		"NU Spikes (Revisar)": {
 			level: 50,
 			ability: "Aftermath",
 			item: "Rocky Helmet",
@@ -4678,7 +4670,7 @@ var SETDEX_BW = {
 		},
 	},
 	Garchomp: {
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Choice Scarf",
@@ -4686,7 +4678,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Outrage", "Earthquake", "Rock Slide", "Dual Chop"],
 		},
-		"OU Stealth Rock Lead": {
+		"OU Stealth Rock Lead (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Focus Sash",
@@ -4694,7 +4686,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Stealth Rock", "Outrage", "Earthquake", "Swords Dance"],
 		},
-		"OU Swords Dance": {
+		"OU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Yache Berry",
@@ -4702,7 +4694,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Earthquake", "Outrage", "Dragon Claw"],
 		},
-		"OU Mixed": {
+		"OU Mixed (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Life Orb",
@@ -4710,7 +4702,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Draco Meteor", "Earthquake", "Stealth Rock", "Fire Blast"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Sand Veil",
 			item: "Choice Scarf",
@@ -4718,7 +4710,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Outrage", "Earthquake", "Dragon Claw", "Stone Edge"],
 		},
-		"Uber Swords Dance": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Sand Veil",
 			item: "Life Orb",
@@ -4726,7 +4718,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Outrage", "Earthquake", "Stone Edge"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Sand Veil",
 			item: "Choice Band",
@@ -4734,7 +4726,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Outrage", "Earthquake", "Stone Edge", "Dragon Claw"],
 		},
-		"Uber Substitute + Swords Dance": {
+		"Uber Substitute + Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Sand Veil",
 			item: "Leftovers",
@@ -4742,7 +4734,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Substitute", "Swords Dance", "Outrage", "Earthquake"],
 		},
-		"Doubles Offensive Chomp": {
+		"Doubles Offensive Chomp (Revisar)": {
 			level: 50,
 			ability: "Rough Skin",
 			item: "Yache Berry",
@@ -4752,7 +4744,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gardevoir: {
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Trace",
 			item: "Leftovers",
@@ -4760,7 +4752,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Will-O-Wisp", "Wish", "Protect", "Psychic"],
 		},
-		"RU Choice": {
+		"RU Choice (Revisar)": {
 			level: 50,
 			ability: "Trace",
 			item: "Choice Scarf",
@@ -4768,7 +4760,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Psychic", "Thunderbolt", "Focus Blast", "Trick"],
 		},
-		"RU Dual Screens": {
+		"RU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Trace",
 			item: "Light Clay",
@@ -4776,7 +4768,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Reflect", "Light Screen", "Memento", "Psychic"],
 		},
-		"RU Substitute + 3 Attacks": {
+		"RU Substitute + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Trace",
 			item: "Leftovers",
@@ -4784,7 +4776,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Substitute", "Psychic", "Thunderbolt", "Focus Blast"],
 		},
-		"NU All-Out Attacker": {
+		"NU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Trace",
 			item: "Life Orb",
@@ -4792,7 +4784,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Psychic", "Signal Beam", "Focus Blast", "Destiny Bond"],
 		},
-		"NU SubCM": {
+		"NU SubCM (Revisar)": {
 			level: 50,
 			ability: "Trace",
 			item: "Leftovers",
@@ -4800,7 +4792,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Calm Mind", "Substitute", "Psychic", "Signal Beam"],
 		},
-		"NU Dual Screens": {
+		"NU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Trace",
 			item: "Light Clay",
@@ -4810,7 +4802,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gastly: {
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -4819,7 +4811,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Shadow Ball", "Sludge Bomb", "Hidden Power Ground", "Trick"],
 		},
-		"ZU Stallbreaker": {
+		"ZU Stallbreaker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Black Sludge",
@@ -4828,7 +4820,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Taunt", "Shadow Ball", "Sludge Bomb"],
 		},
-		"ZU SubSplit": {
+		"ZU SubSplit (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -4837,7 +4829,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Pain Split", "Shadow Ball", "Sludge Bomb"],
 		},
-		"LC Life Orb": {
+		"LC Life Orb (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -4850,7 +4842,7 @@ var SETDEX_BW = {
 				"Hidden Power Fighting",
 			],
 		},
-		"LC Black Sludge": {
+		"LC Black Sludge (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Black Sludge",
@@ -4863,7 +4855,7 @@ var SETDEX_BW = {
 				"Will-O-Wisp",
 			],
 		},
-		"LC Eviolite": {
+		"LC Eviolite (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -4876,7 +4868,7 @@ var SETDEX_BW = {
 				"Pain Split",
 			],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -4886,7 +4878,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gastrodon: {
-		"OU Physically Defensive": {
+		"OU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Storm Drain",
 			item: "Leftovers",
@@ -4894,7 +4886,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Recover", "Scald", "Ice Beam", "Toxic"],
 		},
-		"Uber Tank": {
+		"Uber Tank (Revisar)": {
 			level: 50,
 			ability: "Storm Drain",
 			item: "Leftovers",
@@ -4904,7 +4896,7 @@ var SETDEX_BW = {
 		},
 	},
 	Genesect: {
-		"Uber Physically Based Choice Scarf": {
+		"Uber Physically Based Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Download",
 			item: "Choice Scarf",
@@ -4912,7 +4904,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["U-turn", "Ice Beam", "Explosion", "Iron Head"],
 		},
-		"Uber Specially Based Choice Scarf": {
+		"Uber Specially Based Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Download",
 			item: "Choice Scarf",
@@ -4920,7 +4912,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["U-turn", "Ice Beam", "Bug Buzz", "Flamethrower"],
 		},
-		"Uber Special Attacker": {
+		"Uber Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Download",
 			item: "Expert Belt",
@@ -4928,7 +4920,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["U-turn", "Ice Beam", "Thunder", "Flamethrower"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Download",
 			item: "Choice Band",
@@ -4936,7 +4928,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["U-turn", "Explosion", "Iron Head", "Ice Beam"],
 		},
-		"Doubles All-Out Attacker": {
+		"Doubles All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Download",
 			item: "Expert Belt",
@@ -4944,7 +4936,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["U-turn", "Ice Beam", "Thunderbolt", "Protect"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Download",
 			item: "Choice Scarf",
@@ -4954,7 +4946,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gengar: {
-		"OU Offensive": {
+		"OU Offensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Black Sludge",
@@ -4967,7 +4959,7 @@ var SETDEX_BW = {
 				"Hidden Power Ice",
 			],
 		},
-		"OU Substitute + Will-O-Wisp": {
+		"OU Substitute + Will-O-Wisp (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Black Sludge",
@@ -4977,7 +4969,7 @@ var SETDEX_BW = {
 		},
 	},
 	Geodude: {
-		"LC Stealth Rock": {
+		"LC Stealth Rock (Revisar)": {
 			level: 5,
 			ability: "Sturdy",
 			item: "Oran Berry",
@@ -4985,7 +4977,7 @@ var SETDEX_BW = {
 			evs: { at: 196, df: 116, sd: 196 },
 			moves: ["Stealth Rock", "Stone Edge", "Earthquake", "Fire Punch"],
 		},
-		"LC Rock Polish": {
+		"LC Rock Polish (Revisar)": {
 			level: 5,
 			ability: "Sturdy",
 			item: "Oran Berry",
@@ -4995,7 +4987,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gigalith: {
-		"NU Custap Lead": {
+		"NU Custap Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -5005,7 +4997,7 @@ var SETDEX_BW = {
 		},
 	},
 	Girafarig: {
-		"NU Baton Pass": {
+		"NU Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Leftovers",
@@ -5013,7 +5005,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Baton Pass", "Calm Mind", "Psychic", "Hyper Voice"],
 		},
-		"ZU Mixed Attacker": {
+		"ZU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Inner Focus",
 			item: "Life Orb",
@@ -5023,7 +5015,7 @@ var SETDEX_BW = {
 		},
 	},
 	Giratina: {
-		"Uber The Great Wall": {
+		"Uber The Great Wall (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -5031,7 +5023,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Rest", "Sleep Talk", "Roar", "Will-O-Wisp"],
 		},
-		"Uber Specially Defensive": {
+		"Uber Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -5039,7 +5031,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sd: 252 },
 			moves: ["Rest", "Sleep Talk", "Roar", "Will-O-Wisp"],
 		},
-		"Uber ChestoRest": {
+		"Uber ChestoRest (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Chesto Berry",
@@ -5047,7 +5039,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sa: 252, sp: 8 },
 			moves: ["Calm Mind", "Rest", "Dragon Pulse", "Aura Sphere"],
 		},
-		"Uber Mono-Attacker": {
+		"Uber Mono-Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -5056,8 +5048,8 @@ var SETDEX_BW = {
 			moves: ["Rest", "Sleep Talk", "Calm Mind", "Dragon Pulse"],
 		},
 	},
-	"Giratina-Origin": {
-		"Uber Support": {
+	"Giratina-Origin (Revisar)": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Griseous Orb",
@@ -5065,7 +5057,7 @@ var SETDEX_BW = {
 			evs: { hp: 164, at: 252, df: 8, sp: 84 },
 			moves: ["Dragon Tail", "Shadow Sneak", "Earthquake", "Substitute"],
 		},
-		"Uber RestTalk": {
+		"Uber RestTalk (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Griseous Orb",
@@ -5073,7 +5065,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sp: 252 },
 			moves: ["Rest", "Sleep Talk", "Dragon Tail", "Roar"],
 		},
-		"Uber Mixed Attacker": {
+		"Uber Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Griseous Orb",
@@ -5086,7 +5078,7 @@ var SETDEX_BW = {
 				"Hidden Power Fire",
 			],
 		},
-		"Uber SubCM": {
+		"Uber SubCM (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Griseous Orb",
@@ -5096,7 +5088,7 @@ var SETDEX_BW = {
 		},
 	},
 	Glaceon: {
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Ice Body",
 			item: "Choice Specs",
@@ -5109,7 +5101,7 @@ var SETDEX_BW = {
 				"Baton Pass",
 			],
 		},
-		"ZU Choice Specs": {
+		"ZU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Ice Body",
 			item: "Choice Specs",
@@ -5123,7 +5115,7 @@ var SETDEX_BW = {
 				"Hidden Power Fighting",
 			],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Ice Body",
 			item: "Choice Scarf",
@@ -5139,7 +5131,7 @@ var SETDEX_BW = {
 		},
 	},
 	Glalie: {
-		"NU Suicide Spiker": {
+		"NU Suicide Spiker (Revisar)": {
 			level: 50,
 			ability: "Inner Focus",
 			item: "Focus Sash",
@@ -5149,7 +5141,7 @@ var SETDEX_BW = {
 		},
 	},
 	Glameow: {
-		"LC Mixed Attacker": {
+		"LC Mixed Attacker (Revisar)": {
 			level: 5,
 			ability: "Limber",
 			item: "Life Orb",
@@ -5160,7 +5152,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gligar: {
-		"UU Defensive": {
+		"UU Defensive (Revisar)": {
 			level: 50,
 			ability: "Immunity",
 			item: "Eviolite",
@@ -5170,7 +5162,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gliscor: {
-		"OU Stealth Rock": {
+		"OU Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Poison Heal",
 			item: "Toxic Orb",
@@ -5178,7 +5170,7 @@ var SETDEX_BW = {
 			evs: { hp: 244, df: 140, sd: 124 },
 			moves: ["Stealth Rock", "Earthquake", "Protect", "Knock Off"],
 		},
-		"OU Swords Dance": {
+		"OU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Poison Heal",
 			item: "Toxic Orb",
@@ -5186,7 +5178,7 @@ var SETDEX_BW = {
 			evs: { hp: 244, df: 72, sd: 192 },
 			moves: ["Swords Dance", "Earthquake", "Protect", "Facade"],
 		},
-		"Uber Substitute": {
+		"Uber Substitute (Revisar)": {
 			level: 50,
 			ability: "Poison Heal",
 			item: "Toxic Orb",
@@ -5196,7 +5188,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gloom: {
-		"ZU Physically Defensive": {
+		"ZU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Eviolite",
@@ -5207,7 +5199,7 @@ var SETDEX_BW = {
 		},
 	},
 	Golbat: {
-		"RU Defensive": {
+		"RU Defensive (Revisar)": {
 			level: 50,
 			ability: "Inner Focus",
 			item: "Eviolite",
@@ -5215,7 +5207,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 172, sd: 84 },
 			moves: ["Brave Bird", "Roost", "Taunt", "Super Fang"],
 		},
-		"NU Physically Defensive": {
+		"NU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Inner Focus",
 			item: "Eviolite",
@@ -5225,7 +5217,7 @@ var SETDEX_BW = {
 		},
 	},
 	Goldeen: {
-		"LC Bulky Attacker": {
+		"LC Bulky Attacker (Revisar)": {
 			level: 5,
 			ability: "Lightning Rod",
 			item: "Eviolite",
@@ -5235,7 +5227,7 @@ var SETDEX_BW = {
 		},
 	},
 	Golduck: {
-		"NU Substitute + Calm Mind": {
+		"NU Substitute + Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Cloud Nine",
 			item: "Leftovers",
@@ -5243,7 +5235,7 @@ var SETDEX_BW = {
 			evs: { hp: 196, sd: 176, sp: 136 },
 			moves: ["Calm Mind", "Substitute", "Surf", "Signal Beam"],
 		},
-		"PU Cloud Nine": {
+		"PU Cloud Nine (Revisar)": {
 			level: 50,
 			ability: "Cloud Nine",
 			item: "Choice Scarf",
@@ -5253,7 +5245,7 @@ var SETDEX_BW = {
 		},
 	},
 	Golem: {
-		"NU Utility": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -5261,7 +5253,7 @@ var SETDEX_BW = {
 			evs: { hp: 200, at: 252, sp: 56 },
 			moves: ["Stealth Rock", "Rock Blast", "Earthquake", "Sucker Punch"],
 		},
-		"NU Custap Lead": {
+		"NU Custap Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -5271,7 +5263,7 @@ var SETDEX_BW = {
 		},
 	},
 	Golett: {
-		"LC Stealth Rock": {
+		"LC Stealth Rock (Revisar)": {
 			level: 5,
 			ability: "Iron Fist",
 			item: "Eviolite",
@@ -5281,7 +5273,7 @@ var SETDEX_BW = {
 		},
 	},
 	Golurk: {
-		"UU Tank": {
+		"UU Tank (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Leftovers",
@@ -5289,7 +5281,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Stealth Rock", "Earthquake", "Fire Punch", "Shadow Punch"],
 		},
-		"RU Tank": {
+		"RU Tank (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Leftovers",
@@ -5297,7 +5289,7 @@ var SETDEX_BW = {
 			evs: { hp: 156, at: 252, sp: 100 },
 			moves: ["Stealth Rock", "Earthquake", "Shadow Punch", "Drain Punch"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Choice Band",
@@ -5305,7 +5297,7 @@ var SETDEX_BW = {
 			evs: { hp: 156, at: 252, sp: 100 },
 			moves: ["Earthquake", "Shadow Punch", "Fire Punch", "Stone Edge"],
 		},
-		"RU Rock Polish": {
+		"RU Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Life Orb",
@@ -5313,7 +5305,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Rock Polish", "Earthquake", "Shadow Punch", "Fire Punch"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Choice Band",
@@ -5321,7 +5313,7 @@ var SETDEX_BW = {
 			evs: { hp: 80, at: 252, sp: 176 },
 			moves: ["Earthquake", "Shadow Punch", "Ice Punch", "Drain Punch"],
 		},
-		"NU Stealth Rock": {
+		"NU Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Leftovers",
@@ -5331,7 +5323,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gorebyss: {
-		"RU Shell Smash": {
+		"RU Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -5339,7 +5331,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Shell Smash", "Surf", "Shadow Ball", "Ice Beam"],
 		},
-		"NU Shell Smash": {
+		"NU Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -5349,7 +5341,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gothita: {
-		"LC Life Orb": {
+		"LC Life Orb (Revisar)": {
 			level: 5,
 			ability: "Frisk",
 			item: "Life Orb",
@@ -5360,7 +5352,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gothitelle: {
-		"OU I Wanna Be The Latios": {
+		"OU I Wanna Be The Latios (Revisar)": {
 			level: 50,
 			ability: "Frisk",
 			item: "Choice Specs",
@@ -5370,7 +5362,7 @@ var SETDEX_BW = {
 		},
 	},
 	Granbull: {
-		"NU Offensive Support": {
+		"NU Offensive Support (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -5378,7 +5370,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sp: 4 },
 			moves: ["Return", "Close Combat", "Heal Bell", "Toxic"],
 		},
-		"ZU Choice Band": {
+		"ZU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Quick Feet",
 			item: "Choice Band",
@@ -5388,7 +5380,7 @@ var SETDEX_BW = {
 		},
 	},
 	Graveler: {
-		"ZU Tank": {
+		"ZU Tank (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Eviolite",
@@ -5398,7 +5390,7 @@ var SETDEX_BW = {
 		},
 	},
 	Grimer: {
-		"LC Bulky Attacker": {
+		"LC Bulky Attacker (Revisar)": {
 			level: 5,
 			ability: "Sticky Hold",
 			item: "Eviolite",
@@ -5406,7 +5398,7 @@ var SETDEX_BW = {
 			evs: { hp: 116, at: 196, df: 116, sd: 36 },
 			moves: ["Poison Jab", "Fire Punch", "Shadow Sneak", "Pain Split"],
 		},
-		"LC Curse": {
+		"LC Curse (Revisar)": {
 			level: 5,
 			ability: "Sticky Hold",
 			item: "Eviolite",
@@ -5416,7 +5408,7 @@ var SETDEX_BW = {
 		},
 	},
 	Groudon: {
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Drought",
 			item: "Leftovers",
@@ -5424,7 +5416,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, df: 252 },
 			moves: ["Earthquake", "Stone Edge", "Stealth Rock", "Dragon Tail"],
 		},
-		"Uber Rock Polish": {
+		"Uber Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Drought",
 			item: "Life Orb",
@@ -5432,7 +5424,7 @@ var SETDEX_BW = {
 			evs: { hp: 80, at: 252, sp: 176 },
 			moves: ["Rock Polish", "Earthquake", "Dragon Claw", "Stone Edge"],
 		},
-		"Uber Paradancer": {
+		"Uber Paradancer (Revisar)": {
 			level: 50,
 			ability: "Drought",
 			item: "Leftovers",
@@ -5440,7 +5432,7 @@ var SETDEX_BW = {
 			evs: { hp: 200, at: 200, df: 108 },
 			moves: ["Swords Dance", "Thunder Wave", "Earthquake", "Stone Edge"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Drought",
 			item: "Choice Band",
@@ -5448,7 +5440,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Earthquake", "Dragon Claw", "Stone Edge", "Fire Punch"],
 		},
-		"Uber Offensive Stealth Rock": {
+		"Uber Offensive Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Drought",
 			item: "Life Orb",
@@ -5458,7 +5450,7 @@ var SETDEX_BW = {
 		},
 	},
 	Growlithe: {
-		"LC Pivot": {
+		"LC Pivot (Revisar)": {
 			level: 5,
 			ability: "Intimidate",
 			item: "Eviolite",
@@ -5468,7 +5460,7 @@ var SETDEX_BW = {
 		},
 	},
 	Grumpig: {
-		"NU Utility Support": {
+		"NU Utility Support (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -5476,7 +5468,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sd: 252 },
 			moves: ["Heal Bell", "Psychic", "Whirlwind", "Thunder Wave"],
 		},
-		"ZU Bulky Calm Mind": {
+		"ZU Bulky Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -5485,7 +5477,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 4, sp: 252 },
 			moves: ["Calm Mind", "Psychic", "Taunt", "Hidden Power Fighting"],
 		},
-		"ZU Offensive Calm Mind": {
+		"ZU Offensive Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -5494,7 +5486,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Calm Mind", "Psychic", "Hidden Power Fighting", "Taunt"],
 		},
-		"ZU Specially Defensive": {
+		"ZU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -5505,7 +5497,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gulpin: {
-		"LC Stockpile": {
+		"LC Stockpile (Revisar)": {
 			level: 5,
 			ability: "Liquid Ooze",
 			item: "Eviolite",
@@ -5515,7 +5507,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gurdurr: {
-		"RU Bulk Up": {
+		"RU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Eviolite",
@@ -5523,7 +5515,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Bulk Up", "Drain Punch", "Thunder Punch", "Mach Punch"],
 		},
-		"NU Bulky Attacker": {
+		"NU Bulky Attacker (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Eviolite",
@@ -5531,7 +5523,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Drain Punch", "Mach Punch", "Ice Punch", "Knock Off"],
 		},
-		"NU Bulk Up": {
+		"NU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Eviolite",
@@ -5541,7 +5533,7 @@ var SETDEX_BW = {
 		},
 	},
 	Gyarados: {
-		"OU Bulky Dragon Dance": {
+		"OU Bulky Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -5549,7 +5541,7 @@ var SETDEX_BW = {
 			evs: { hp: 88, at: 248, df: 4, sp: 168 },
 			moves: ["Substitute", "Dragon Dance", "Waterfall", "Bounce"],
 		},
-		"OU Offensive Dragon Dance": {
+		"OU Offensive Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Life Orb",
@@ -5557,7 +5549,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Dragon Dance", "Waterfall", "Bounce", "Stone Edge"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Choice Scarf",
@@ -5565,7 +5557,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Waterfall", "Ice Fang", "Stone Edge", "Earthquake"],
 		},
-		"OU RestTalk": {
+		"OU RestTalk (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -5573,7 +5565,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Rest", "Sleep Talk", "Waterfall", "Roar"],
 		},
-		"OU Choice Band": {
+		"OU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Choice Band",
@@ -5581,7 +5573,7 @@ var SETDEX_BW = {
 			evs: { hp: 88, at: 252, sp: 168 },
 			moves: ["Waterfall", "Double-Edge", "Ice Fang", "Earthquake"],
 		},
-		"Doubles Intimidate Support": {
+		"Doubles Intimidate Support (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Wacan Berry",
@@ -5589,7 +5581,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 60, df: 148, sd: 16, sp: 36 },
 			moves: ["Waterfall", "Thunder Wave", "Taunt", "Protect"],
 		},
-		"Doubles Dragon Dance": {
+		"Doubles Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Water Gem",
@@ -5599,7 +5591,7 @@ var SETDEX_BW = {
 		},
 	},
 	Happiny: {
-		"LC Support": {
+		"LC Support (Revisar)": {
 			level: 5,
 			ability: "Natural Cure",
 			item: "Eviolite",
@@ -5609,7 +5601,7 @@ var SETDEX_BW = {
 		},
 	},
 	Hariyama: {
-		"UU Guts": {
+		"UU Guts (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -5617,7 +5609,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 172, sp: 84 },
 			moves: ["Fake Out", "Close Combat", "Stone Edge", "Bullet Punch"],
 		},
-		"UU RestTalk": {
+		"UU RestTalk (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -5625,7 +5617,7 @@ var SETDEX_BW = {
 			evs: { hp: 12, df: 244, sd: 252 },
 			moves: ["Whirlwind", "Rest", "Sleep Talk", "Force Palm"],
 		},
-		"UU Bulk Up": {
+		"UU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -5633,7 +5625,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sd: 252 },
 			moves: ["Bulk Up", "Force Palm", "Stone Edge", "Ice Punch"],
 		},
-		"UU SubPunch": {
+		"UU SubPunch (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -5641,7 +5633,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sd: 252 },
 			moves: ["Substitute", "Focus Punch", "Stone Edge", "Bulk Up"],
 		},
-		"RU All-Out Attacker": {
+		"RU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -5649,7 +5641,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 172, sp: 84 },
 			moves: ["Close Combat", "Facade", "Fake Out", "Stone Edge"],
 		},
-		"RU RestTalk": {
+		"RU RestTalk (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -5657,7 +5649,7 @@ var SETDEX_BW = {
 			evs: { hp: 12, df: 244, sd: 252 },
 			moves: ["Whirlwind", "Force Palm", "Rest", "Sleep Talk"],
 		},
-		"Doubles Trick Room Attacker": {
+		"Doubles Trick Room Attacker (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -5668,7 +5660,7 @@ var SETDEX_BW = {
 		},
 	},
 	Haunter: {
-		"RU Life Orb": {
+		"RU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -5681,7 +5673,7 @@ var SETDEX_BW = {
 				"Substitute",
 			],
 		},
-		"RU SubDisable": {
+		"RU SubDisable (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Black Sludge",
@@ -5689,7 +5681,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Disable", "Shadow Ball", "Sludge Bomb"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -5702,7 +5694,7 @@ var SETDEX_BW = {
 				"Hidden Power Ground",
 			],
 		},
-		"NU Life Orb": {
+		"NU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -5715,7 +5707,7 @@ var SETDEX_BW = {
 				"Destiny Bond",
 			],
 		},
-		"NU SubDisable": {
+		"NU SubDisable (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Black Sludge",
@@ -5723,7 +5715,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Substitute", "Disable", "Shadow Ball", "Sludge Bomb"],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -5733,7 +5725,7 @@ var SETDEX_BW = {
 		},
 	},
 	Haxorus: {
-		"OU Dragon Dance": {
+		"OU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Lum Berry",
@@ -5743,7 +5735,7 @@ var SETDEX_BW = {
 		},
 	},
 	Heatmor: {
-		"NU Mixed Attacker": {
+		"NU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Life Orb",
@@ -5751,7 +5743,7 @@ var SETDEX_BW = {
 			evs: { at: 132, sa: 252, sp: 124 },
 			moves: ["Fire Blast", "Giga Drain", "Superpower", "Sucker Punch"],
 		},
-		"ZU Mixed Attacker": {
+		"ZU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Life Orb",
@@ -5761,7 +5753,7 @@ var SETDEX_BW = {
 		},
 	},
 	Heatran: {
-		"OU Offensive": {
+		"OU Offensive (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Leftovers",
@@ -5769,7 +5761,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Magma Storm", "Protect", "Earth Power", "Hidden Power Ice"],
 		},
-		"OU Substitute + Protect": {
+		"OU Substitute + Protect (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Leftovers",
@@ -5777,7 +5769,7 @@ var SETDEX_BW = {
 			evs: { hp: 8, sa: 156, sd: 100, sp: 244 },
 			moves: ["Substitute", "Protect", "Lava Plume", "Toxic"],
 		},
-		"OU Specially Defensive": {
+		"OU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Leftovers",
@@ -5785,7 +5777,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Stealth Rock", "Lava Plume", "Roar", "Protect"],
 		},
-		"OU Sunny Day Trapper": {
+		"OU Sunny Day Trapper (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Leftovers",
@@ -5793,7 +5785,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 96, sp: 160 },
 			moves: ["Magma Storm", "Sunny Day", "Solar Beam", "Earth Power"],
 		},
-		"Uber Stallbreaker": {
+		"Uber Stallbreaker (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Leftovers",
@@ -5801,7 +5793,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 148, sp: 108 },
 			moves: ["Taunt", "Toxic", "Roar", "Flamethrower"],
 		},
-		"Uber Defensive": {
+		"Uber Defensive (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Leftovers",
@@ -5809,7 +5801,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 232, sd: 24 },
 			moves: ["Lava Plume", "Protect", "Roar", "Stealth Rock"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Choice Scarf",
@@ -5822,7 +5814,7 @@ var SETDEX_BW = {
 				"Flamethrower",
 			],
 		},
-		"Doubles Substitute": {
+		"Doubles Substitute (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Leftovers",
@@ -5830,7 +5822,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 252, sp: 4 },
 			moves: ["Substitute", "Protect", "Heat Wave", "Earth Power"],
 		},
-		"Doubles Offensive Tran": {
+		"Doubles Offensive Tran (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Shuca Berry",
@@ -5838,7 +5830,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Heat Wave", "Earth Power", "Flash Cannon", "Protect"],
 		},
-		"Doubles ErupTran": {
+		"Doubles ErupTran (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Charcoal",
@@ -5849,7 +5841,7 @@ var SETDEX_BW = {
 		},
 	},
 	Heracross: {
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Choice Scarf",
@@ -5857,7 +5849,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Close Combat", "Megahorn", "Stone Edge", "Earthquake"],
 		},
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Leftovers",
@@ -5865,7 +5857,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Close Combat", "Megahorn", "Stone Edge"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Choice Band",
@@ -5873,7 +5865,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Close Combat", "Megahorn", "Stone Edge", "Sleep Talk"],
 		},
-		"UU Substitute": {
+		"UU Substitute (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Leftovers",
@@ -5881,7 +5873,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Substitute", "Close Combat", "Megahorn", "Stone Edge"],
 		},
-		"Doubles All-Out Attacker": {
+		"Doubles All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Bug Gem",
@@ -5889,7 +5881,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Megahorn", "Close Combat", "Feint", "Protect"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Choice Scarf",
@@ -5899,7 +5891,7 @@ var SETDEX_BW = {
 		},
 	},
 	Hippopotas: {
-		"ZU Physical Wall": {
+		"ZU Physical Wall (Revisar)": {
 			level: 50,
 			ability: "Sand Force",
 			item: "Eviolite",
@@ -5907,7 +5899,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, df: 252 },
 			moves: ["Stealth Rock", "Earthquake", "Rock Slide", "Slack Off"],
 		},
-		"LC Defensive": {
+		"LC Defensive (Revisar)": {
 			level: 5,
 			ability: "Sand Stream",
 			item: "Eviolite",
@@ -5917,7 +5909,7 @@ var SETDEX_BW = {
 		},
 	},
 	Hippowdon: {
-		"OU Mixed Wall": {
+		"OU Mixed Wall (Revisar)": {
 			level: 50,
 			ability: "Sand Stream",
 			item: "Leftovers",
@@ -5925,7 +5917,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 12, sd: 244 },
 			moves: ["Slack Off", "Earthquake", "Stealth Rock", "Whirlwind"],
 		},
-		"Uber Physical Wall": {
+		"Uber Physical Wall (Revisar)": {
 			level: 50,
 			ability: "Sand Stream",
 			item: "Leftovers",
@@ -5935,7 +5927,7 @@ var SETDEX_BW = {
 		},
 	},
 	Hitmonchan: {
-		"RU Life Orb": {
+		"RU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Life Orb",
@@ -5945,7 +5937,7 @@ var SETDEX_BW = {
 		},
 	},
 	Hitmonlee: {
-		"UU Endure + Reversal Sweeper": {
+		"UU Endure + Reversal Sweeper (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Liechi Berry",
@@ -5953,7 +5945,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Endure", "Reversal", "Stone Edge", "Earthquake"],
 		},
-		"RU Unburden": {
+		"RU Unburden (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Fighting Gem",
@@ -5961,7 +5953,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Close Combat", "Stone Edge", "Mach Punch", "Return"],
 		},
-		"RU Life Orb": {
+		"RU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Reckless",
 			item: "Life Orb",
@@ -5969,7 +5961,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["High Jump Kick", "Sucker Punch", "Double-Edge", "Earthquake"],
 		},
-		"RU Reversal Sweeper": {
+		"RU Reversal Sweeper (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Liechi Berry",
@@ -5979,7 +5971,7 @@ var SETDEX_BW = {
 		},
 	},
 	Hitmontop: {
-		"UU Rapid Spin": {
+		"UU Rapid Spin (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -5987,7 +5979,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, df: 252 },
 			moves: ["Rapid Spin", "Foresight", "Sucker Punch", "Close Combat"],
 		},
-		"Doubles Offensive Utility": {
+		"Doubles Offensive Utility (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Fighting Gem",
@@ -5995,7 +5987,7 @@ var SETDEX_BW = {
 			evs: { hp: 124, at: 252, sp: 132 },
 			moves: ["Fake Out", "Close Combat", "Feint", "Wide Guard"],
 		},
-		"Doubles Support": {
+		"Doubles Support (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Sitrus Berry",
@@ -6004,8 +5996,8 @@ var SETDEX_BW = {
 			moves: ["Fake Out", "Close Combat", "Feint", "Wide Guard"],
 		},
 	},
-	"Ho-Oh": {
-		"Uber Tank": {
+	"Ho-Oh (Revisar)": {
+		"Uber Tank (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -6013,7 +6005,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 176, sd: 84 },
 			moves: ["Sacred Fire", "Brave Bird", "Substitute", "Roost"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Choice Band",
@@ -6021,7 +6013,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 252, sp: 8 },
 			moves: ["Sacred Fire", "Brave Bird", "Earthquake", "Sleep Talk"],
 		},
-		"Uber Physical Sweeper": {
+		"Uber Physical Sweeper (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Life Orb",
@@ -6029,7 +6021,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Flame Charge", "Sacred Fire", "Brave Bird", "Roost"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Choice Scarf",
@@ -6037,7 +6029,7 @@ var SETDEX_BW = {
 			evs: { hp: 52, at: 252, sp: 204 },
 			moves: ["Sacred Fire", "Brave Bird", "Earthquake", "Punishment"],
 		},
-		"Uber Physically Defensive": {
+		"Uber Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -6047,7 +6039,7 @@ var SETDEX_BW = {
 		},
 	},
 	Honchkrow: {
-		"UU Life Orb": {
+		"UU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Life Orb",
@@ -6055,7 +6047,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Sucker Punch", "Brave Bird", "Superpower", "Roost"],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Choice Scarf",
@@ -6065,7 +6057,7 @@ var SETDEX_BW = {
 		},
 	},
 	Hoppip: {
-		"LC Parry, Parry, Thrust": {
+		"LC Parry, Parry, Thrust (Revisar)": {
 			level: 5,
 			ability: "Chlorophyll",
 			item: "Flying Gem",
@@ -6075,7 +6067,7 @@ var SETDEX_BW = {
 		},
 	},
 	Horsea: {
-		"LC Swift Swim Sweeper": {
+		"LC Swift Swim Sweeper (Revisar)": {
 			level: 5,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -6085,7 +6077,7 @@ var SETDEX_BW = {
 		},
 	},
 	Houndoom: {
-		"UU Mixed Attacker": {
+		"UU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Life Orb",
@@ -6093,7 +6085,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Pursuit", "Sucker Punch", "Fire Blast", "Crunch"],
 		},
-		"UU Nasty Plot": {
+		"UU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Life Orb",
@@ -6108,7 +6100,7 @@ var SETDEX_BW = {
 		},
 	},
 	Houndour: {
-		"LC Mixed Attacker": {
+		"LC Mixed Attacker (Revisar)": {
 			level: 5,
 			ability: "Early Bird",
 			item: "Life Orb",
@@ -6119,7 +6111,7 @@ var SETDEX_BW = {
 		},
 	},
 	Huntail: {
-		"NU Shell Smash": {
+		"NU Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Water Veil",
 			item: "White Herb",
@@ -6129,7 +6121,7 @@ var SETDEX_BW = {
 		},
 	},
 	Hydreigon: {
-		"OU Attacker": {
+		"OU Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -6137,7 +6129,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Draco Meteor", "Fire Blast", "Dark Pulse", "Focus Blast"],
 		},
-		"Doubles Special Attacker": {
+		"Doubles Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -6147,7 +6139,7 @@ var SETDEX_BW = {
 		},
 	},
 	Hypno: {
-		"NU Specially Defensive": {
+		"NU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Insomnia",
 			item: "Leftovers",
@@ -6157,7 +6149,7 @@ var SETDEX_BW = {
 		},
 	},
 	Illumise: {
-		"NU Weather Supporter": {
+		"NU Weather Supporter (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Damp Rock",
@@ -6165,7 +6157,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Rain Dance", "U-turn", "Encore", "Thunder Wave"],
 		},
-		"ZU Sun Setter": {
+		"ZU Sun Setter (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Heat Rock",
@@ -6176,7 +6168,7 @@ var SETDEX_BW = {
 		},
 	},
 	Infernape: {
-		"OU Mixed": {
+		"OU Mixed (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Expert Belt",
@@ -6184,7 +6176,7 @@ var SETDEX_BW = {
 			evs: { at: 96, sa: 160, sp: 252 },
 			moves: ["Overheat", "Close Combat", "Grass Knot", "Hidden Power Ice"],
 		},
-		"Doubles Mixed Fake Out": {
+		"Doubles Mixed Fake Out (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Focus Sash",
@@ -6194,7 +6186,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ivysaur: {
-		"ZU Physical Wall": {
+		"ZU Physical Wall (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Eviolite",
@@ -6204,7 +6196,7 @@ var SETDEX_BW = {
 		},
 	},
 	Jellicent: {
-		"OU Standard": {
+		"OU Standard (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -6212,7 +6204,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 124, sp: 136 },
 			moves: ["Taunt", "Will-O-Wisp", "Recover", "Night Shade"],
 		},
-		"Doubles Trick Room support": {
+		"Doubles Trick Room support (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Sitrus Berry",
@@ -6223,7 +6215,7 @@ var SETDEX_BW = {
 		},
 	},
 	Jirachi: {
-		"OU Lead": {
+		"OU Lead (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Leftovers",
@@ -6232,7 +6224,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 40, sd: 216 },
 			moves: ["Stealth Rock", "Icy Wind", "Thunder", "U-turn"],
 		},
-		"OU Utility": {
+		"OU Utility (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Leftovers",
@@ -6240,7 +6232,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 240, sp: 16 },
 			moves: ["Wish", "Iron Head", "Body Slam", "Protect"],
 		},
-		"OU Substitute + Calm Mind": {
+		"OU Substitute + Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Leftovers",
@@ -6248,7 +6240,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 108, sp: 148 },
 			moves: ["Substitute", "Calm Mind", "Thunder", "Hidden Power Ice"],
 		},
-		"OU Substitute + 3 Attacks": {
+		"OU Substitute + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Leftovers",
@@ -6256,7 +6248,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 72, sp: 184 },
 			moves: ["Substitute", "Iron Head", "Thunder", "Hidden Power Ice"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Choice Scarf",
@@ -6264,7 +6256,7 @@ var SETDEX_BW = {
 			evs: { hp: 72, at: 252, sp: 184 },
 			moves: ["Iron Head", "U-turn", "Ice Punch", "Healing Wish"],
 		},
-		"Uber Specially Defensive": {
+		"Uber Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Leftovers",
@@ -6272,7 +6264,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Wish", "Stealth Rock", "Iron Head", "Toxic"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Choice Scarf",
@@ -6282,7 +6274,7 @@ var SETDEX_BW = {
 		},
 	},
 	Jolteon: {
-		"OU Choice Specs": {
+		"OU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Choice Specs",
@@ -6297,7 +6289,7 @@ var SETDEX_BW = {
 		},
 	},
 	Joltik: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Swarm",
 			item: "Choice Scarf",
@@ -6305,7 +6297,7 @@ var SETDEX_BW = {
 			evs: { df: 36, sa: 220, sp: 236 },
 			moves: ["Volt Switch", "Thunderbolt", "Bug Buzz", "Giga Drain"],
 		},
-		"LC Agility": {
+		"LC Agility (Revisar)": {
 			level: 5,
 			ability: "Unnerve",
 			item: "Life Orb",
@@ -6313,7 +6305,7 @@ var SETDEX_BW = {
 			evs: { df: 36, sa: 220, sp: 236 },
 			moves: ["Agility", "Thunderbolt", "Bug Buzz", "Giga Drain"],
 		},
-		"LC Eviolite": {
+		"LC Eviolite (Revisar)": {
 			level: 5,
 			ability: "Unnerve",
 			item: "Eviolite",
@@ -6323,7 +6315,7 @@ var SETDEX_BW = {
 		},
 	},
 	Jumpluff: {
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Flying Gem",
@@ -6331,7 +6323,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Acrobatics", "Seed Bomb", "Sleep Powder"],
 		},
-		"NU Support Pivot": {
+		"NU Support Pivot (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Leftovers",
@@ -6339,7 +6331,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sp: 252 },
 			moves: ["Encore", "Sleep Powder", "U-turn", "Leech Seed"],
 		},
-		"NU Sunny Day": {
+		"NU Sunny Day (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Heat Rock",
@@ -6347,7 +6339,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sp: 252 },
 			moves: ["Sunny Day", "Sleep Powder", "Encore", "Memento"],
 		},
-		"PU Encore": {
+		"PU Encore (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Flying Gem",
@@ -6357,7 +6349,7 @@ var SETDEX_BW = {
 		},
 	},
 	Jynx: {
-		"UU Nasty Plot": {
+		"UU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Dry Skin",
 			item: "Leftovers",
@@ -6365,7 +6357,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Nasty Plot", "Ice Beam", "Psyshock", "Lovely Kiss"],
 		},
-		"UU Calm Mind": {
+		"UU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Dry Skin",
 			item: "Leftovers",
@@ -6373,7 +6365,7 @@ var SETDEX_BW = {
 			evs: { hp: 200, sa: 56, sp: 252 },
 			moves: ["Calm Mind", "Ice Beam", "Taunt", "Lovely Kiss"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Dry Skin",
 			item: "Choice Scarf",
@@ -6383,7 +6375,7 @@ var SETDEX_BW = {
 		},
 	},
 	Kabuto: {
-		"LC Rain Sweeper": {
+		"LC Rain Sweeper (Revisar)": {
 			level: 5,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -6391,7 +6383,7 @@ var SETDEX_BW = {
 			evs: { at: 196, df: 36, sp: 236 },
 			moves: ["Waterfall", "Rock Slide", "Aqua Jet", "Rain Dance"],
 		},
-		"LC Lead": {
+		"LC Lead (Revisar)": {
 			level: 5,
 			ability: "Swift Swim",
 			item: "Focus Sash",
@@ -6401,7 +6393,7 @@ var SETDEX_BW = {
 		},
 	},
 	Kabutops: {
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -6409,7 +6401,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Waterfall", "Stone Edge", "Aqua Jet"],
 		},
-		"UU Support": {
+		"UU Support (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Leftovers",
@@ -6417,7 +6409,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 68, df: 188 },
 			moves: ["Rapid Spin", "Stealth Rock", "Aqua Jet", "Stone Edge"],
 		},
-		"RU Offensive Rapid Spin": {
+		"RU Offensive Rapid Spin (Revisar)": {
 			level: 50,
 			ability: "Weak Armor",
 			item: "Life Orb",
@@ -6425,7 +6417,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Rapid Spin", "Stone Edge", "Aqua Jet", "Swords Dance"],
 		},
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Weak Armor",
 			item: "Life Orb",
@@ -6433,7 +6425,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Stone Edge", "Aqua Jet", "Waterfall"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Weak Armor",
 			item: "Choice Band",
@@ -6441,7 +6433,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Stone Edge", "Aqua Jet", "Waterfall", "Superpower"],
 		},
-		"Uber Cleaner": {
+		"Uber Cleaner (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -6449,7 +6441,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Waterfall", "Stone Edge", "Low Kick", "Rapid Spin"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Choice Band",
@@ -6459,7 +6451,7 @@ var SETDEX_BW = {
 		},
 	},
 	Kadabra: {
-		"RU Special Attacker": {
+		"RU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Focus Sash",
@@ -6467,7 +6459,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Psychic", "Shadow Ball", "Hidden Power Fire", "Encore"],
 		},
-		"NU Special Attacker": {
+		"NU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Focus Sash",
@@ -6477,7 +6469,7 @@ var SETDEX_BW = {
 		},
 	},
 	Kangaskhan: {
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Choice Band",
@@ -6485,7 +6477,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Double-Edge", "Hammer Arm", "Aqua Tail", "Earthquake"],
 		},
-		"UU SubPunch": {
+		"UU SubPunch (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Leftovers",
@@ -6493,7 +6485,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, at: 252, sp: 16 },
 			moves: ["Substitute", "Focus Punch", "Return", "Sucker Punch"],
 		},
-		"RU Physical Attacker": {
+		"RU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Silk Scarf",
@@ -6501,7 +6493,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Double-Edge", "Drain Punch", "Fake Out", "Sucker Punch"],
 		},
-		"RU SubPunch": {
+		"RU SubPunch (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Leftovers",
@@ -6509,7 +6501,7 @@ var SETDEX_BW = {
 			evs: { hp: 216, at: 236, sp: 56 },
 			moves: ["Substitute", "Focus Punch", "Return", "Sucker Punch"],
 		},
-		"NU All-Out Attacker": {
+		"NU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Silk Scarf",
@@ -6517,7 +6509,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Double-Edge", "Earthquake", "Fake Out", "Sucker Punch"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Choice Band",
@@ -6525,7 +6517,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Double-Edge", "Earthquake", "Sucker Punch", "Return"],
 		},
-		"NU SubPunch": {
+		"NU SubPunch (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Leftovers",
@@ -6535,7 +6527,7 @@ var SETDEX_BW = {
 		},
 	},
 	Karrablast: {
-		"LC Choice": {
+		"LC Choice (Revisar)": {
 			level: 5,
 			ability: "Shed Skin",
 			item: "Choice Band",
@@ -6545,7 +6537,7 @@ var SETDEX_BW = {
 		},
 	},
 	Kecleon: {
-		"NU Specially Defensive": {
+		"NU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Color Change",
 			item: "Leftovers",
@@ -6553,7 +6545,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Stealth Rock", "Recover", "Foul Play", "Toxic"],
 		},
-		"ZU Special Wall": {
+		"ZU Special Wall (Revisar)": {
 			level: 50,
 			ability: "Color Change",
 			item: "Leftovers",
@@ -6563,7 +6555,7 @@ var SETDEX_BW = {
 		},
 	},
 	Keldeo: {
-		"OU Choice Specs": {
+		"OU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Specs",
@@ -6571,7 +6563,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Hydro Pump", "Secret Sword", "Hidden Power Grass", "Surf"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Scarf",
@@ -6579,7 +6571,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Hydro Pump", "Secret Sword", "Hidden Power Ice", "Surf"],
 		},
-		"OU Leftovers Attacker": {
+		"OU Leftovers Attacker (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Leftovers",
@@ -6587,7 +6579,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Scald", "Secret Sword", "Hidden Power Ice", "Protect"],
 		},
-		"OU Toxic + Protect": {
+		"OU Toxic + Protect (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Leftovers",
@@ -6595,7 +6587,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Toxic", "Protect", "Scald", "Secret Sword"],
 		},
-		"OU Calm Mind": {
+		"OU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Leftovers",
@@ -6608,7 +6600,7 @@ var SETDEX_BW = {
 				"Hidden Power Ghost",
 			],
 		},
-		"Doubles All-Out Attacker": {
+		"Doubles All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -6617,8 +6609,8 @@ var SETDEX_BW = {
 			moves: ["Hydro Pump", "Secret Sword", "Protect", "Icy Wind"],
 		},
 	},
-	"Keldeo-Resolute": {
-		"OU Choice Specs": {
+	"Keldeo-Resolute (Revisar)": {
+		"OU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Specs",
@@ -6626,7 +6618,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Hydro Pump", "Secret Sword", "Hidden Power Grass", "Surf"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Scarf",
@@ -6634,7 +6626,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Hydro Pump", "Secret Sword", "Hidden Power Ice", "Surf"],
 		},
-		"OU Leftovers Attacker": {
+		"OU Leftovers Attacker (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Leftovers",
@@ -6642,7 +6634,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Scald", "Secret Sword", "Hidden Power Ice", "Protect"],
 		},
-		"OU Toxic + Protect": {
+		"OU Toxic + Protect (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Leftovers",
@@ -6650,7 +6642,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Toxic", "Protect", "Scald", "Secret Sword"],
 		},
-		"OU Calm Mind": {
+		"OU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Leftovers",
@@ -6663,7 +6655,7 @@ var SETDEX_BW = {
 				"Hidden Power Ghost",
 			],
 		},
-		"Doubles All-Out Attacker": {
+		"Doubles All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -6673,7 +6665,7 @@ var SETDEX_BW = {
 		},
 	},
 	Kingdra: {
-		"OU Rain Dance": {
+		"OU Rain Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -6681,7 +6673,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Rain Dance", "Hydro Pump", "Draco Meteor", "Surf"],
 		},
-		"UU Substitute + Dragon Dance": {
+		"UU Substitute + Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Lum Berry",
@@ -6689,7 +6681,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Dragon Dance", "Outrage", "Waterfall"],
 		},
-		"UU Rain Dance Sweeper": {
+		"UU Rain Dance Sweeper (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -6697,7 +6689,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Rain Dance", "Hydro Pump", "Draco Meteor", "Dragon Pulse"],
 		},
-		"UU Offensive Dragon Dance": {
+		"UU Offensive Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -6705,7 +6697,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Dragon Dance", "Outrage", "Waterfall", "Rain Dance"],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Choice Specs",
@@ -6718,7 +6710,7 @@ var SETDEX_BW = {
 				"Hidden Power Electric",
 			],
 		},
-		"UU ChestoRest": {
+		"UU ChestoRest (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Chesto Berry",
@@ -6726,7 +6718,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Rest", "Dragon Dance", "Outrage", "Waterfall"],
 		},
-		"Uber Mixed Attacker": {
+		"Uber Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -6734,7 +6726,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Surf", "Waterfall", "Outrage", "Draco Meteor"],
 		},
-		"Uber Dragon Dance": {
+		"Uber Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -6742,7 +6734,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Dragon Dance", "Waterfall", "Outrage", "Draco Meteor"],
 		},
-		"Uber Choice Specs": {
+		"Uber Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Choice Specs",
@@ -6750,7 +6742,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Draco Meteor", "Hydro Pump", "Dragon Pulse", "Surf"],
 		},
-		"Doubles Rain Attacker": {
+		"Doubles Rain Attacker (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -6760,7 +6752,7 @@ var SETDEX_BW = {
 		},
 	},
 	Kingler: {
-		"NU Substitute + Swords Dance": {
+		"NU Substitute + Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Hyper Cutter",
 			item: "Salac Berry",
@@ -6768,7 +6760,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Substitute", "Swords Dance", "Crabhammer", "Return"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Hyper Cutter",
 			item: "Choice Band",
@@ -6776,7 +6768,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Crabhammer", "X-Scissor", "Double-Edge", "Toxic"],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Hyper Cutter",
 			item: "Choice Scarf",
@@ -6784,7 +6776,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Crabhammer", "Return", "X-Scissor", "Superpower"],
 		},
-		"ZU Substitute + Swords Dance": {
+		"ZU Substitute + Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Hyper Cutter",
 			item: "Leftovers",
@@ -6792,7 +6784,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Swords Dance", "Crabhammer", "Return"],
 		},
-		"ZU Agility": {
+		"ZU Agility (Revisar)": {
 			level: 50,
 			ability: "Hyper Cutter",
 			item: "Life Orb",
@@ -6802,7 +6794,7 @@ var SETDEX_BW = {
 		},
 	},
 	Klang: {
-		"NU Mono-Attacker": {
+		"NU Mono-Attacker (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Eviolite",
@@ -6810,7 +6802,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, df: 136, sd: 40, sp: 92 },
 			moves: ["Shift Gear", "Rest", "Gear Grind", "Sleep Talk"],
 		},
-		"NU Offensive Shift Gear": {
+		"NU Offensive Shift Gear (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Eviolite",
@@ -6818,7 +6810,7 @@ var SETDEX_BW = {
 			evs: { hp: 88, at: 252, sp: 168 },
 			moves: ["Shift Gear", "Gear Grind", "Return", "Substitute"],
 		},
-		"PU Pivot": {
+		"PU Pivot (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Eviolite",
@@ -6828,7 +6820,7 @@ var SETDEX_BW = {
 		},
 	},
 	Klink: {
-		"LC Special Attacker": {
+		"LC Special Attacker (Revisar)": {
 			level: 5,
 			ability: "Plus",
 			item: "Eviolite",
@@ -6843,7 +6835,7 @@ var SETDEX_BW = {
 		},
 	},
 	Klinklang: {
-		"RU Shift Gear": {
+		"RU Shift Gear (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Leftovers",
@@ -6853,7 +6845,7 @@ var SETDEX_BW = {
 		},
 	},
 	Koffing: {
-		"LC Pain Split": {
+		"LC Pain Split (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -6861,7 +6853,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, df: 236, sd: 236 },
 			moves: ["Pain Split", "Clear Smog", "Will-O-Wisp", "Fire Blast"],
 		},
-		"LC RestTalk": {
+		"LC RestTalk (Revisar)": {
 			level: 5,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -6871,7 +6863,7 @@ var SETDEX_BW = {
 		},
 	},
 	Krabby: {
-		"LC Boosting Sweeper": {
+		"LC Boosting Sweeper (Revisar)": {
 			level: 5,
 			ability: "Hyper Cutter",
 			item: "Oran Berry",
@@ -6879,7 +6871,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 236, df: 36, sp: 196 },
 			moves: ["Agility", "Swords Dance", "Crabhammer", "Return"],
 		},
-		"LC All-Out Attacker": {
+		"LC All-Out Attacker (Revisar)": {
 			level: 5,
 			ability: "Shell Armor",
 			item: "Life Orb",
@@ -6887,7 +6879,7 @@ var SETDEX_BW = {
 			evs: { at: 236, df: 36, sp: 196 },
 			moves: ["Crabhammer", "Return", "Superpower", "X-Scissor"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Sheer Force",
 			item: "Choice Scarf",
@@ -6897,7 +6889,7 @@ var SETDEX_BW = {
 		},
 	},
 	Kricketune: {
-		"NU np Sabre Dance - Aram Khachaturian": {
+		"NU np Sabre Dance - Aram Khachaturian (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Life Orb",
@@ -6907,7 +6899,7 @@ var SETDEX_BW = {
 		},
 	},
 	Krookodile: {
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Choice Scarf",
@@ -6917,7 +6909,7 @@ var SETDEX_BW = {
 		},
 	},
 	Kyogre: {
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Choice Scarf",
@@ -6925,7 +6917,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Water Spout", "Surf", "Thunder", "Ice Beam"],
 		},
-		"Uber Choice Specs": {
+		"Uber Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Choice Specs",
@@ -6933,7 +6925,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 252, sp: 4 },
 			moves: ["Water Spout", "Surf", "Thunder", "Ice Beam"],
 		},
-		"Uber Calm Mind + 3 Attacks": {
+		"Uber Calm Mind + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Leftovers",
@@ -6941,7 +6933,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 252, sp: 4 },
 			moves: ["Calm Mind", "Surf", "Thunder", "Ice Beam"],
 		},
-		"Uber Mono-Attacker": {
+		"Uber Mono-Attacker (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Leftovers",
@@ -6949,7 +6941,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sp: 4 },
 			moves: ["Calm Mind", "Scald", "Rest", "Sleep Talk"],
 		},
-		"Uber Specially Defensive": {
+		"Uber Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Leftovers",
@@ -6957,7 +6949,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sd: 252 },
 			moves: ["Scald", "Roar", "Rest", "Sleep Talk"],
 		},
-		"Uber Thunder Wave": {
+		"Uber Thunder Wave (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Leftovers",
@@ -6965,7 +6957,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sa: 252 },
 			moves: ["Thunder Wave", "Surf", "Ice Beam", "Thunder"],
 		},
-		"Uber SubCM": {
+		"Uber SubCM (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Leftovers",
@@ -6973,7 +6965,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 252, sp: 4 },
 			moves: ["Substitute", "Calm Mind", "Surf", "Ice Beam"],
 		},
-		"Uber ChestoRest": {
+		"Uber ChestoRest (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Chesto Berry",
@@ -6983,7 +6975,7 @@ var SETDEX_BW = {
 		},
 	},
 	Kyurem: {
-		"OU SubRoost": {
+		"OU SubRoost (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -6991,7 +6983,7 @@ var SETDEX_BW = {
 			evs: { hp: 56, sa: 200, sp: 252 },
 			moves: ["Ice Beam", "Earth Power", "Substitute", "Roost"],
 		},
-		"Doubles Substitute": {
+		"Doubles Substitute (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Ice Gem",
@@ -6999,7 +6991,7 @@ var SETDEX_BW = {
 			evs: { hp: 32, sa: 252, sp: 224 },
 			moves: ["Blizzard", "Earth Power", "Substitute", "Protect"],
 		},
-		"Doubles Choiced Attacker": {
+		"Doubles Choiced Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Scarf",
@@ -7007,7 +6999,7 @@ var SETDEX_BW = {
 			evs: { hp: 104, sa: 252, sp: 152 },
 			moves: ["Blizzard", "Draco Meteor", "Earth Power", "Dragon Pulse"],
 		},
-		"Doubles Bulky Attacker": {
+		"Doubles Bulky Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Haban Berry",
@@ -7016,8 +7008,8 @@ var SETDEX_BW = {
 			moves: ["Draco Meteor", "Blizzard", "Earth Power", "Protect"],
 		},
 	},
-	"Kyurem-Black": {
-		"OU Choice Band": {
+	"Kyurem-Black (Revisar)": {
+		"OU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Choice Band",
@@ -7025,7 +7017,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Outrage", "Dragon Claw", "Fusion Bolt", "Ice Beam"],
 		},
-		"OU Substitute Attacker": {
+		"OU Substitute Attacker (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Leftovers",
@@ -7033,7 +7025,7 @@ var SETDEX_BW = {
 			evs: { hp: 56, sa: 228, sp: 224 },
 			moves: ["Substitute", "Ice Beam", "Fusion Bolt", "Earth Power"],
 		},
-		"Doubles Choice Band": {
+		"Doubles Choice Band (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Choice Band",
@@ -7041,7 +7033,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Dragon Claw", "Fusion Bolt", "Outrage", "Sleep Talk"],
 		},
-		"Doubles Substitute": {
+		"Doubles Substitute (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Leftovers",
@@ -7049,7 +7041,7 @@ var SETDEX_BW = {
 			evs: { hp: 192, sa: 36, sd: 52, sp: 224 },
 			moves: ["Ice Beam", "Earth Power", "Substitute", "Protect"],
 		},
-		"Doubles Mixed Attacker": {
+		"Doubles Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Life Orb",
@@ -7057,7 +7049,7 @@ var SETDEX_BW = {
 			evs: { at: 228, sa: 44, sp: 236 },
 			moves: ["Dragon Claw", "Fusion Bolt", "Earth Power", "Protect"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Choice Scarf",
@@ -7066,8 +7058,8 @@ var SETDEX_BW = {
 			moves: ["Dragon Claw", "Ice Beam", "Fusion Bolt", "Rock Slide"],
 		},
 	},
-	"Kyurem-White": {
-		"Uber Choice Specs": {
+	"Kyurem-White (Revisar)": {
+		"Uber Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Turboblaze",
 			item: "Choice Specs",
@@ -7075,7 +7067,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Draco Meteor", "Ice Beam", "Focus Blast", "Fusion Flare"],
 		},
-		"Uber Burning Red White Kyurem (Choice-less)": {
+		"Uber Burning Red White Kyurem (Choice-less) (Revisar)": {
 			level: 50,
 			ability: "Turboblaze",
 			item: "Life Orb",
@@ -7083,7 +7075,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Draco Meteor", "Ice Beam", "Focus Blast", "Roost"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Turboblaze",
 			item: "Choice Scarf",
@@ -7093,7 +7085,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lairon: {
-		"NU Tank": {
+		"NU Tank (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Eviolite",
@@ -7101,7 +7093,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Stealth Rock", "Head Smash", "Earthquake", "Roar"],
 		},
-		"NU Offensive": {
+		"NU Offensive (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Eviolite",
@@ -7109,7 +7101,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Autotomize", "Head Smash", "Earthquake", "Iron Head"],
 		},
-		"ZU Bulky Stealth Rock": {
+		"ZU Bulky Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Eviolite",
@@ -7117,7 +7109,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Stealth Rock", "Head Smash", "Iron Head", "Roar"],
 		},
-		"ZU Choice Band": {
+		"ZU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Choice Band",
@@ -7125,7 +7117,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Head Smash", "Iron Head", "Heavy Slam", "Superpower"],
 		},
-		"ZU Offensive": {
+		"ZU Offensive (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Eviolite",
@@ -7135,7 +7127,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lampent: {
-		"NU Trick Room": {
+		"NU Trick Room (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Life Orb",
@@ -7144,7 +7136,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sa: 252 },
 			moves: ["Trick Room", "Fire Blast", "Shadow Ball", "Energy Ball"],
 		},
-		"ZU Calm Mind": {
+		"ZU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Eviolite",
@@ -7152,7 +7144,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Calm Mind", "Substitute", "Shadow Ball", "Fire Blast"],
 		},
-		"ZU Choice Specs": {
+		"ZU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Choice Specs",
@@ -7160,7 +7152,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Shadow Ball", "Fire Blast", "Energy Ball", "Trick"],
 		},
-		"ZU Stallbreaker": {
+		"ZU Stallbreaker (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Eviolite",
@@ -7170,7 +7162,7 @@ var SETDEX_BW = {
 		},
 	},
 	Landorus: {
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Sand Force",
 			item: "Choice Scarf",
@@ -7178,7 +7170,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Earthquake", "Stone Edge", "U-turn", "Grass Knot"],
 		},
-		"Uber Swords Dance": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Sand Force",
 			item: "Life Orb",
@@ -7186,7 +7178,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Earthquake", "Stone Edge", "Rock Polish"],
 		},
-		"Doubles Special Attacker": {
+		"Doubles Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -7194,7 +7186,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Earth Power", "Hidden Power Flying", "Grass Knot", "Protect"],
 		},
-		"Doubles Physical Attacker": {
+		"Doubles Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Sand Force",
 			item: "Yache Berry",
@@ -7203,8 +7195,8 @@ var SETDEX_BW = {
 			moves: ["Earthquake", "Rock Slide", "Substitute", "Protect"],
 		},
 	},
-	"Landorus-Therian": {
-		"OU Defensive": {
+	"Landorus-Therian (Revisar)": {
+		"OU Defensive (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -7213,7 +7205,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, df: 16, sp: 252 },
 			moves: ["Stealth Rock", "Earthquake", "U-turn", "Hidden Power Ice"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Choice Scarf",
@@ -7222,7 +7214,7 @@ var SETDEX_BW = {
 			evs: { hp: 72, at: 140, df: 60, sp: 236 },
 			moves: ["Earthquake", "U-turn", "Hidden Power Ice", "Stone Edge"],
 		},
-		"OU Lead": {
+		"OU Lead (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Focus Sash",
@@ -7230,7 +7222,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Stealth Rock", "Earthquake", "Imprison", "Explosion"],
 		},
-		"OU Swords Dance": {
+		"OU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Fist Plate",
@@ -7244,7 +7236,7 @@ var SETDEX_BW = {
 				"Hidden Power Ice",
 			],
 		},
-		"Uber Defensive": {
+		"Uber Defensive (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -7252,7 +7244,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 76, df: 180 },
 			moves: ["Stealth Rock", "Earthquake", "Toxic", "Stone Edge"],
 		},
-		"Uber SubSD": {
+		"Uber SubSD (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -7260,7 +7252,7 @@ var SETDEX_BW = {
 			evs: { hp: 196, at: 140, df: 96, sp: 76 },
 			moves: ["Substitute", "Swords Dance", "Earthquake", "Stone Edge"],
 		},
-		"Uber Double Dance": {
+		"Uber Double Dance (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Life Orb",
@@ -7268,7 +7260,7 @@ var SETDEX_BW = {
 			evs: { hp: 80, at: 252, df: 8, sp: 168 },
 			moves: ["Rock Polish", "Swords Dance", "Earthquake", "Stone Edge"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Choice Band",
@@ -7276,7 +7268,7 @@ var SETDEX_BW = {
 			evs: { hp: 224, at: 252, df: 32 },
 			moves: ["Earthquake", "U-turn", "Stone Edge", "Superpower"],
 		},
-		"Doubles Offensive": {
+		"Doubles Offensive (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Focus Sash",
@@ -7284,7 +7276,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Earthquake", "Stone Edge", "Superpower", "Stealth Rock"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Choice Scarf",
@@ -7294,7 +7286,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lanturn: {
-		"UU Special Tank": {
+		"UU Special Tank (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Leftovers",
@@ -7302,7 +7294,7 @@ var SETDEX_BW = {
 			evs: { hp: 204, df: 96, sd: 208 },
 			moves: ["Scald", "Volt Switch", "Heal Bell", "Thunder Wave"],
 		},
-		"UU Rain Dance": {
+		"UU Rain Dance (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Damp Rock",
@@ -7310,7 +7302,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 104, sp: 152 },
 			moves: ["Rain Dance", "Volt Switch", "Thunder", "Hydro Pump"],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Choice Specs",
@@ -7318,7 +7310,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 104, sp: 152 },
 			moves: ["Hydro Pump", "Volt Switch", "Ice Beam", "Thunderbolt"],
 		},
-		"RU Pivot": {
+		"RU Pivot (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Leftovers",
@@ -7326,7 +7318,7 @@ var SETDEX_BW = {
 			evs: { hp: 204, df: 96, sd: 208 },
 			moves: ["Scald", "Volt Switch", "Thunder Wave", "Protect"],
 		},
-		"RU Special Attacker": {
+		"RU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Choice Specs",
@@ -7336,7 +7328,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lapras: {
-		"NU Bulky Attacker": {
+		"NU Bulky Attacker (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -7346,7 +7338,7 @@ var SETDEX_BW = {
 		},
 	},
 	Larvesta: {
-		"LC Eviolite": {
+		"LC Eviolite (Revisar)": {
 			level: 5,
 			ability: "Flame Body",
 			item: "Eviolite",
@@ -7354,7 +7346,7 @@ var SETDEX_BW = {
 			evs: { hp: 76, at: 156, df: 156, sp: 116 },
 			moves: ["Flare Blitz", "U-turn", "Will-O-Wisp", "Morning Sun"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Flame Body",
 			item: "Choice Scarf",
@@ -7364,7 +7356,7 @@ var SETDEX_BW = {
 		},
 	},
 	Larvitar: {
-		"LC Boosting Sweeper": {
+		"LC Boosting Sweeper (Revisar)": {
 			level: 5,
 			ability: "Guts",
 			item: "Flame Orb",
@@ -7374,7 +7366,7 @@ var SETDEX_BW = {
 		},
 	},
 	Latias: {
-		"OU Calm Mind": {
+		"OU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -7382,7 +7374,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sp: 252 },
 			moves: ["Calm Mind", "Roost", "Dragon Pulse", "Roar"],
 		},
-		"OU Dual Screens": {
+		"OU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Light Clay",
@@ -7390,7 +7382,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sa: 8, sp: 252 },
 			moves: ["Reflect", "Light Screen", "Healing Wish", "Draco Meteor"],
 		},
-		"Uber Classic": {
+		"Uber Classic (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Soul Dew",
@@ -7398,7 +7390,7 @@ var SETDEX_BW = {
 			evs: { hp: 48, sa: 208, sp: 252 },
 			moves: ["Calm Mind", "Roost", "Dragon Pulse", "Thunder"],
 		},
-		"Uber Defensive Calm Mind": {
+		"Uber Defensive Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Soul Dew",
@@ -7406,7 +7398,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Calm Mind", "Roost", "Dragon Pulse", "Roar"],
 		},
-		"Uber All-Out Attacker": {
+		"Uber All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Soul Dew",
@@ -7414,7 +7406,7 @@ var SETDEX_BW = {
 			evs: { hp: 164, sa: 148, sp: 196 },
 			moves: ["Draco Meteor", "Roost", "Grass Knot", "Hidden Power Fire"],
 		},
-		"Uber Calm Mind Draco Meteor": {
+		"Uber Calm Mind Draco Meteor (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Soul Dew",
@@ -7422,7 +7414,7 @@ var SETDEX_BW = {
 			evs: { hp: 68, sa: 248, sp: 192 },
 			moves: ["Draco Meteor", "Calm Mind", "Psyshock", "Roost"],
 		},
-		"Uber Specially Defensive": {
+		"Uber Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Soul Dew",
@@ -7430,7 +7422,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 120, sp: 136 },
 			moves: ["Light Screen", "Roost", "Roar", "Dragon Pulse"],
 		},
-		"Doubles Speedy Support": {
+		"Doubles Speedy Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Sitrus Berry",
@@ -7440,7 +7432,7 @@ var SETDEX_BW = {
 		},
 	},
 	Latios: {
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -7448,7 +7440,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Draco Meteor", "Surf", "Trick", "Dragon Pulse"],
 		},
-		"OU Colbur Berry": {
+		"OU Colbur Berry (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Colbur Berry",
@@ -7456,7 +7448,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Draco Meteor", "Surf", "Recover", "Roar"],
 		},
-		"OU Choice Specs": {
+		"OU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Specs",
@@ -7464,7 +7456,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Draco Meteor", "Surf", "Trick", "Dragon Pulse"],
 		},
-		"OU Calm Mind": {
+		"OU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Draco Plate",
@@ -7472,7 +7464,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Calm Mind", "Draco Meteor", "Surf", "Recover"],
 		},
-		"Uber All-Out Attacker": {
+		"Uber All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Soul Dew",
@@ -7485,7 +7477,7 @@ var SETDEX_BW = {
 				"Draco Meteor",
 			],
 		},
-		"Uber Calm Mind": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Soul Dew",
@@ -7493,7 +7485,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Calm Mind", "Draco Meteor", "Psyshock", "Roost"],
 		},
-		"Uber Speed Booster": {
+		"Uber Speed Booster (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Soul Dew",
@@ -7501,7 +7493,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Tailwind", "Draco Meteor", "Psyshock", "Thunder"],
 		},
-		"Uber Dual Screens": {
+		"Uber Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Light Clay",
@@ -7509,7 +7501,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 4, sp: 252 },
 			moves: ["Light Screen", "Reflect", "Draco Meteor", "Memento"],
 		},
-		"Doubles Special Attacker": {
+		"Doubles Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Dragon Gem",
@@ -7519,7 +7511,7 @@ var SETDEX_BW = {
 		},
 	},
 	Leafeon: {
-		"RU Swords Dance + Baton Pass": {
+		"RU Swords Dance + Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Leftovers",
@@ -7527,7 +7519,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Baton Pass", "Leaf Blade", "Synthesis"],
 		},
-		"NU Substitute + Swords Dance": {
+		"NU Substitute + Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Leftovers",
@@ -7535,7 +7527,7 @@ var SETDEX_BW = {
 			evs: { hp: 136, at: 120, sp: 252 },
 			moves: ["Swords Dance", "Substitute", "Baton Pass", "Leaf Blade"],
 		},
-		"ZU Swords Dance": {
+		"ZU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Leaf Guard",
 			item: "Lum Berry",
@@ -7543,7 +7535,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Leaf Blade", "Return", "Synthesis"],
 		},
-		"ZU Cleric": {
+		"ZU Cleric (Revisar)": {
 			level: 50,
 			ability: "Leaf Guard",
 			item: "Leftovers",
@@ -7553,7 +7545,7 @@ var SETDEX_BW = {
 		},
 	},
 	Leavanny: {
-		"NU Utility": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Life Orb",
@@ -7561,7 +7553,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Leaf Blade", "X-Scissor", "Synthesis", "Heal Bell"],
 		},
-		"ZU Agility": {
+		"ZU Agility (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Life Orb",
@@ -7571,7 +7563,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ledian: {
-		"NU Love Bug": {
+		"NU Love Bug (Revisar)": {
 			level: 50,
 			ability: "Early Bird",
 			item: "Light Clay",
@@ -7581,7 +7573,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ledyba: {
-		"LC Utility Wall": {
+		"LC Utility Wall (Revisar)": {
 			level: 5,
 			ability: "Early Bird",
 			item: "Eviolite",
@@ -7591,7 +7583,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lickilicky: {
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Own Tempo",
 			item: "Leftovers",
@@ -7599,7 +7591,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Wish", "Protect", "Body Slam", "Dragon Tail"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Own Tempo",
 			item: "Choice Band",
@@ -7607,7 +7599,7 @@ var SETDEX_BW = {
 			evs: { hp: 172, at: 252, sp: 84 },
 			moves: ["Return", "Power Whip", "Fire Punch", "Explosion"],
 		},
-		"NU Support": {
+		"NU Support (Revisar)": {
 			level: 50,
 			ability: "Own Tempo",
 			item: "Leftovers",
@@ -7615,7 +7607,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Wish", "Heal Bell", "Protect", "Body Slam"],
 		},
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Cloud Nine",
 			item: "Leftovers",
@@ -7623,7 +7615,7 @@ var SETDEX_BW = {
 			evs: { hp: 172, at: 84, sd: 128, sp: 124 },
 			moves: ["Swords Dance", "Substitute", "Body Slam", "Power Whip"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Cloud Nine",
 			item: "Choice Band",
@@ -7631,7 +7623,7 @@ var SETDEX_BW = {
 			evs: { hp: 132, at: 252, sp: 124 },
 			moves: ["Return", "Power Whip", "Explosion", "Earthquake"],
 		},
-		"Doubles Trick Room Attacker": {
+		"Doubles Trick Room Attacker (Revisar)": {
 			level: 50,
 			ability: "Cloud Nine",
 			item: "Life Orb",
@@ -7642,7 +7634,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lickitung: {
-		"LC Wish": {
+		"LC Wish (Revisar)": {
 			level: 5,
 			ability: "Own Tempo",
 			item: "Eviolite",
@@ -7650,7 +7642,7 @@ var SETDEX_BW = {
 			evs: { hp: 196, df: 76, sd: 236 },
 			moves: ["Wish", "Protect", "Dragon Tail", "Heal Bell"],
 		},
-		"LC RestTalk + Curse": {
+		"LC RestTalk + Curse (Revisar)": {
 			level: 5,
 			ability: "Cloud Nine",
 			item: "Eviolite",
@@ -7660,7 +7652,7 @@ var SETDEX_BW = {
 		},
 	},
 	Liepard: {
-		"RU Weather Support": {
+		"RU Weather Support (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Damp Rock",
@@ -7668,7 +7660,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Rain Dance", "Encore", "Taunt", "U-turn"],
 		},
-		"RU Nasty Plot": {
+		"RU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Life Orb",
@@ -7676,7 +7668,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Nasty Plot", "Encore", "Dark Pulse", "Hidden Power Fire"],
 		},
-		"NU Pivot": {
+		"NU Pivot (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Dread Plate",
@@ -7684,7 +7676,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Encore", "Sucker Punch", "U-turn", "Pursuit"],
 		},
-		"NU Weather Support": {
+		"NU Weather Support (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Damp Rock",
@@ -7694,7 +7686,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lileep: {
-		"LC Defensive": {
+		"LC Defensive (Revisar)": {
 			level: 5,
 			ability: "Storm Drain",
 			item: "Eviolite",
@@ -7704,7 +7696,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lilligant: {
-		"UU Quiver Dance": {
+		"UU Quiver Dance (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -7719,7 +7711,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lillipup: {
-		"LC Life Orb": {
+		"LC Life Orb (Revisar)": {
 			level: 5,
 			ability: "Vital Spirit",
 			item: "Life Orb",
@@ -7729,7 +7721,7 @@ var SETDEX_BW = {
 		},
 	},
 	Linoone: {
-		"RU Belly Drum Sweeper": {
+		"RU Belly Drum Sweeper (Revisar)": {
 			level: 50,
 			ability: "Pickup",
 			item: "Silk Scarf",
@@ -7737,7 +7729,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Belly Drum", "Extreme Speed", "Shadow Claw", "Seed Bomb"],
 		},
-		"NU Belly Drum": {
+		"NU Belly Drum (Revisar)": {
 			level: 50,
 			ability: "Pickup",
 			item: "Sitrus Berry",
@@ -7747,7 +7739,7 @@ var SETDEX_BW = {
 		},
 	},
 	Litwick: {
-		"LC Trick Room Sweeper": {
+		"LC Trick Room Sweeper (Revisar)": {
 			level: 5,
 			ability: "Flash Fire",
 			item: "Life Orb",
@@ -7763,7 +7755,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lopunny: {
-		"NU Klutz": {
+		"NU Klutz (Revisar)": {
 			level: 50,
 			ability: "Klutz",
 			item: "Choice Scarf",
@@ -7773,7 +7765,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lotad: {
-		"LC Swift Swim Sweeper": {
+		"LC Swift Swim Sweeper (Revisar)": {
 			level: 5,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -7784,7 +7776,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lucario: {
-		"OU Swords Dance": {
+		"OU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -7794,7 +7786,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ludicolo: {
-		"UU Rain Dance Sweeper": {
+		"UU Rain Dance Sweeper (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -7802,7 +7794,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Hydro Pump", "Giga Drain", "Ice Beam", "Rain Dance"],
 		},
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -7810,7 +7802,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Waterfall", "Seed Bomb", "Ice Punch"],
 		},
-		"RU Swift Swim Sweeper": {
+		"RU Swift Swim Sweeper (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -7818,7 +7810,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Rain Dance", "Hydro Pump", "Giga Drain", "Ice Beam"],
 		},
-		"NU Rain Dance": {
+		"NU Rain Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -7826,7 +7818,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Rain Dance", "Hydro Pump", "Giga Drain", "Ice Beam"],
 		},
-		"NU Specially Defensive": {
+		"NU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Rain Dish",
 			item: "Leftovers",
@@ -7834,7 +7826,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sd: 204, sp: 56 },
 			moves: ["Scald", "Giga Drain", "Synthesis", "Leech Seed"],
 		},
-		"Uber Rain Sweeper": {
+		"Uber Rain Sweeper (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -7842,7 +7834,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Hydro Pump", "Grass Knot", "Ice Beam", "Focus Blast"],
 		},
-		"Uber SubSeed": {
+		"Uber SubSeed (Revisar)": {
 			level: 50,
 			ability: "Rain Dish",
 			item: "Leftovers",
@@ -7850,7 +7842,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 40, sd: 216 },
 			moves: ["Leech Seed", "Ice Beam", "Grass Knot", "Protect"],
 		},
-		"Doubles Rain Attacker": {
+		"Doubles Rain Attacker (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -7860,7 +7852,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lugia: {
-		"Uber Great Wall": {
+		"Uber Great Wall (Revisar)": {
 			level: 50,
 			ability: "Multiscale",
 			item: "Leftovers",
@@ -7868,7 +7860,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 176, sd: 80 },
 			moves: ["Roost", "Whirlwind", "Ice Beam", "Toxic"],
 		},
-		"Uber Calm Mind": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multiscale",
 			item: "Leftovers",
@@ -7878,7 +7870,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lumineon: {
-		"NU Utility": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Damp Rock",
@@ -7886,7 +7878,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Rain Dance", "U-turn", "Waterfall", "Toxic"],
 		},
-		"ZU Specially Defensive Pivot": {
+		"ZU Specially Defensive Pivot (Revisar)": {
 			level: 50,
 			ability: "Storm Drain",
 			item: "Chesto Berry",
@@ -7897,7 +7889,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lunatone: {
-		"NU Utility": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -7905,7 +7897,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sd: 252 },
 			moves: ["Stealth Rock", "Moonlight", "Hidden Power Rock", "Toxic"],
 		},
-		"NU Rock Polish": {
+		"NU Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -7913,7 +7905,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Rock Polish", "Psychic", "Hidden Power Rock", "Baton Pass"],
 		},
-		"ZU Calm Mind": {
+		"ZU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -7924,7 +7916,7 @@ var SETDEX_BW = {
 		},
 	},
 	Luvdisc: {
-		"NU Eat Your Heart Out Alomomola": {
+		"NU Eat Your Heart Out Alomomola (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Damp Rock",
@@ -7934,7 +7926,7 @@ var SETDEX_BW = {
 		},
 	},
 	Luxray: {
-		"NU Guts": {
+		"NU Guts (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Flame Orb",
@@ -7942,7 +7934,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Wild Charge", "Superpower", "Facade", "Crunch"],
 		},
-		"NU Wallbreaker": {
+		"NU Wallbreaker (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Life Orb",
@@ -7955,7 +7947,7 @@ var SETDEX_BW = {
 				"Volt Switch",
 			],
 		},
-		"NU Choice": {
+		"NU Choice (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Choice Band",
@@ -7963,7 +7955,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Wild Charge", "Superpower", "Ice Fang", "Volt Switch"],
 		},
-		"ZU Guts Wallbreaker": {
+		"ZU Guts Wallbreaker (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -7973,7 +7965,7 @@ var SETDEX_BW = {
 		},
 	},
 	Machamp: {
-		"UU SubChamp": {
+		"UU SubChamp (Revisar)": {
 			level: 50,
 			ability: "No Guard",
 			item: "Leftovers",
@@ -7981,7 +7973,7 @@ var SETDEX_BW = {
 			evs: { hp: 212, at: 252, sp: 44 },
 			moves: ["Substitute", "Dynamic Punch", "Stone Edge", "Thunder Punch"],
 		},
-		"UU Bulk Up": {
+		"UU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "No Guard",
 			item: "Leftovers",
@@ -7991,7 +7983,7 @@ var SETDEX_BW = {
 		},
 	},
 	Machop: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "No Guard",
 			item: "Choice Scarf",
@@ -8001,7 +7993,7 @@ var SETDEX_BW = {
 		},
 	},
 	Magby: {
-		"LC Belly Drum": {
+		"LC Belly Drum (Revisar)": {
 			level: 5,
 			ability: "Flame Body",
 			item: "Oran Berry",
@@ -8011,7 +8003,7 @@ var SETDEX_BW = {
 		},
 	},
 	Magcargo: {
-		"NU Defensive": {
+		"NU Defensive (Revisar)": {
 			level: 50,
 			ability: "Flame Body",
 			item: "Leftovers",
@@ -8021,7 +8013,7 @@ var SETDEX_BW = {
 		},
 	},
 	Magikarp: {
-		"PU One Speed, One Gear, One Moveset": {
+		"PU One Speed, One Gear, One Moveset (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Choice Scarf",
@@ -8031,7 +8023,7 @@ var SETDEX_BW = {
 		},
 	},
 	Magmar: {
-		"NU Eviolite Attacker": {
+		"NU Eviolite Attacker (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Eviolite",
@@ -8044,7 +8036,7 @@ var SETDEX_BW = {
 				"Will-O-Wisp",
 			],
 		},
-		"ZU Physical All-Out Attacker": {
+		"ZU Physical All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Flame Body",
 			item: "Eviolite",
@@ -8052,7 +8044,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Flare Blitz", "Thunder Punch", "Low Kick", "Mach Punch"],
 		},
-		"ZU SubPunch": {
+		"ZU SubPunch (Revisar)": {
 			level: 50,
 			ability: "Flame Body",
 			item: "Eviolite",
@@ -8060,7 +8052,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Focus Punch", "Fire Punch", "Toxic"],
 		},
-		"ZU SubStatus": {
+		"ZU SubStatus (Revisar)": {
 			level: 50,
 			ability: "Flame Body",
 			item: "Eviolite",
@@ -8076,7 +8068,7 @@ var SETDEX_BW = {
 		},
 	},
 	Magmortar: {
-		"RU Wallbreaker": {
+		"RU Wallbreaker (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Expert Belt",
@@ -8091,7 +8083,7 @@ var SETDEX_BW = {
 		},
 	},
 	Magnemite: {
-		"ZU Magnet Pull": {
+		"ZU Magnet Pull (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Eviolite",
@@ -8105,7 +8097,7 @@ var SETDEX_BW = {
 				"Volt Switch",
 			],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Magnet Pull",
 			item: "Choice Scarf",
@@ -8120,7 +8112,7 @@ var SETDEX_BW = {
 		},
 	},
 	Magneton: {
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Choice Scarf",
@@ -8133,7 +8125,7 @@ var SETDEX_BW = {
 				"Flash Cannon",
 			],
 		},
-		"UU Steel Killer (Substitute)": {
+		"UU Steel Killer (Substitute) (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Eviolite",
@@ -8146,7 +8138,7 @@ var SETDEX_BW = {
 				"Hidden Power Ice",
 			],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Choice Scarf",
@@ -8159,7 +8151,7 @@ var SETDEX_BW = {
 				"Flash Cannon",
 			],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Analytic",
 			item: "Choice Specs",
@@ -8172,7 +8164,7 @@ var SETDEX_BW = {
 				"Hidden Power Grass",
 			],
 		},
-		"RU Choice Specs": {
+		"RU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Choice Specs",
@@ -8185,7 +8177,7 @@ var SETDEX_BW = {
 				"Flash Cannon",
 			],
 		},
-		"RU Eviolite": {
+		"RU Eviolite (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Eviolite",
@@ -8198,7 +8190,7 @@ var SETDEX_BW = {
 				"Flash Cannon",
 			],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Choice Scarf",
@@ -8213,7 +8205,7 @@ var SETDEX_BW = {
 		},
 	},
 	Magnezone: {
-		"OU Sunny Day": {
+		"OU Sunny Day (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Air Balloon",
@@ -8226,7 +8218,7 @@ var SETDEX_BW = {
 				"Magnet Rise",
 			],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Choice Scarf",
@@ -8239,7 +8231,7 @@ var SETDEX_BW = {
 				"Flash Cannon",
 			],
 		},
-		"OU Substitute + Charge Beam": {
+		"OU Substitute + Charge Beam (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Leftovers",
@@ -8252,7 +8244,7 @@ var SETDEX_BW = {
 				"Thunderbolt",
 			],
 		},
-		"Uber SubCharge": {
+		"Uber SubCharge (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Leftovers",
@@ -8260,7 +8252,7 @@ var SETDEX_BW = {
 			evs: { hp: 212, sa: 252, sp: 44 },
 			moves: ["Substitute", "Charge Beam", "Thunder", "Hidden Power Ice"],
 		},
-		"Uber Choice Specs": {
+		"Uber Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Choice Specs",
@@ -8268,7 +8260,7 @@ var SETDEX_BW = {
 			evs: { hp: 208, sa: 252, sp: 48 },
 			moves: ["Thunder", "Hidden Power Fire", "Volt Switch", "Flash Cannon"],
 		},
-		"Uber Dual Screen": {
+		"Uber Dual Screen (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Light Clay",
@@ -8278,7 +8270,7 @@ var SETDEX_BW = {
 		},
 	},
 	Makuhita: {
-		"LC Support": {
+		"LC Support (Revisar)": {
 			level: 5,
 			ability: "Thick Fat",
 			item: "Eviolite",
@@ -8286,7 +8278,7 @@ var SETDEX_BW = {
 			evs: { hp: 180, at: 196, df: 36, sd: 36 },
 			moves: ["Force Palm", "Whirlwind", "Knock Off", "Bullet Punch"],
 		},
-		"LC Trick Room Sweeper": {
+		"LC Trick Room Sweeper (Revisar)": {
 			level: 5,
 			ability: "Guts",
 			item: "Eviolite",
@@ -8297,7 +8289,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mamoswine: {
-		"OU Substitute": {
+		"OU Substitute (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Never-Melt Ice",
@@ -8305,7 +8297,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Earthquake", "Icicle Crash", "Ice Shard"],
 		},
-		"OU Choice Band": {
+		"OU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Choice Band",
@@ -8313,7 +8305,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Earthquake", "Icicle Crash", "Superpower", "Ice Shard"],
 		},
-		"Uber Physical Attacker": {
+		"Uber Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Snow Cloak",
 			item: "Life Orb",
@@ -8322,7 +8314,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Icicle Crash", "Earthquake", "Ice Shard", "Substitute"],
 		},
-		"Doubles Physical Attacker": {
+		"Doubles Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Focus Sash",
@@ -8330,7 +8322,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Earthquake", "Icicle Spear", "Ice Shard", "Protect"],
 		},
-		"Doubles Bulky Attacker": {
+		"Doubles Bulky Attacker (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Ice Gem",
@@ -8338,7 +8330,7 @@ var SETDEX_BW = {
 			evs: { hp: 208, at: 244, df: 56 },
 			moves: ["Earthquake", "Icicle Crash", "Ice Shard", "Protect"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Choice Scarf",
@@ -8348,7 +8340,7 @@ var SETDEX_BW = {
 		},
 	},
 	Manaphy: {
-		"Uber Calm Mind": {
+		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Hydration",
 			item: "Leftovers",
@@ -8356,7 +8348,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sp: 252 },
 			moves: ["Calm Mind", "Rest", "Scald", "Ice Beam"],
 		},
-		"Uber Tail Glow": {
+		"Uber Tail Glow (Revisar)": {
 			level: 50,
 			ability: "Hydration",
 			item: "Leftovers",
@@ -8364,7 +8356,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Tail Glow", "Rest", "Surf", "Ice Beam"],
 		},
-		"Doubles Offensive Tail Glow": {
+		"Doubles Offensive Tail Glow (Revisar)": {
 			level: 50,
 			ability: "Hydration",
 			item: "Wacan Berry",
@@ -8372,7 +8364,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Tail Glow", "Surf", "Ice Beam", "Protect"],
 		},
-		"Doubles Defensive Tail Glow": {
+		"Doubles Defensive Tail Glow (Revisar)": {
 			level: 50,
 			ability: "Hydration",
 			item: "Wacan Berry",
@@ -8382,7 +8374,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mandibuzz: {
-		"UU Specially Defensive": {
+		"UU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Overcoat",
 			item: "Leftovers",
@@ -8390,7 +8382,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sd: 252 },
 			moves: ["Roost", "Toxic", "Whirlwind", "Taunt"],
 		},
-		"RU Specially Defensive": {
+		"RU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Big Pecks",
 			item: "Leftovers",
@@ -8398,7 +8390,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sd: 252 },
 			moves: ["Taunt", "Roost", "Whirlwind", "Foul Play"],
 		},
-		"NU Physically Defensive": {
+		"NU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Big Pecks",
 			item: "Leftovers",
@@ -8408,7 +8400,7 @@ var SETDEX_BW = {
 		},
 	},
 	Manectric: {
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Lightning Rod",
 			item: "Choice Scarf",
@@ -8416,7 +8408,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Volt Switch", "Overheat", "Thunderbolt", "Switcheroo"],
 		},
-		"RU Special Attacker": {
+		"RU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Lightning Rod",
 			item: "Expert Belt",
@@ -8431,7 +8423,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mankey: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Vital Spirit",
 			item: "Choice Scarf",
@@ -8441,7 +8433,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mantine: {
-		"NU MANtine (Rain Dance)": {
+		"NU MANtine (Rain Dance) (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -8449,7 +8441,7 @@ var SETDEX_BW = {
 			evs: { hp: 64, sa: 252, sp: 192 },
 			moves: ["Rain Dance", "Hydro Pump", "Air Slash", "Ice Beam"],
 		},
-		"NU Physically Defensive": {
+		"NU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -8459,7 +8451,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mantyke: {
-		"LC RestTalk": {
+		"LC RestTalk (Revisar)": {
 			level: 5,
 			ability: "Water Absorb",
 			item: "Eviolite",
@@ -8467,7 +8459,7 @@ var SETDEX_BW = {
 			evs: { hp: 156, df: 196, sa: 36, sd: 116 },
 			moves: ["Rest", "Sleep Talk", "Air Slash", "Scald"],
 		},
-		"LC Swift Swim Sweeper": {
+		"LC Swift Swim Sweeper (Revisar)": {
 			level: 5,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -8478,7 +8470,7 @@ var SETDEX_BW = {
 		},
 	},
 	Maractus: {
-		"NU Spikes": {
+		"NU Spikes (Revisar)": {
 			level: 50,
 			ability: "Storm Drain",
 			item: "Focus Sash",
@@ -8486,7 +8478,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 48, sp: 208 },
 			moves: ["Spikes", "Bullet Seed", "Grass Knot", "Sucker Punch"],
 		},
-		"PU Spikes": {
+		"PU Spikes (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -8496,7 +8488,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mareep: {
-		"LC Dual Screens": {
+		"LC Dual Screens (Revisar)": {
 			level: 5,
 			ability: "Static",
 			item: "Light Clay",
@@ -8506,7 +8498,7 @@ var SETDEX_BW = {
 		},
 	},
 	Marowak: {
-		"RU Trick Room Sweeper": {
+		"RU Trick Room Sweeper (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Thick Club",
@@ -8515,7 +8507,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Earthquake", "Double-Edge", "Fire Punch", "Stone Edge"],
 		},
-		"RU Substitute Attacker": {
+		"RU Substitute Attacker (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Thick Club",
@@ -8523,7 +8515,7 @@ var SETDEX_BW = {
 			evs: { hp: 212, at: 252, sp: 44 },
 			moves: ["Substitute", "Earthquake", "Double-Edge", "Fire Punch"],
 		},
-		"NU Offensive": {
+		"NU Offensive (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Thick Club",
@@ -8533,7 +8525,7 @@ var SETDEX_BW = {
 		},
 	},
 	Marshtomp: {
-		"ZU Bulky Stealth Rock": {
+		"ZU Bulky Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Eviolite",
@@ -8543,7 +8535,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mawile: {
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -8551,7 +8543,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Iron Head", "Sucker Punch", "Thunder Punch"],
 		},
-		"NU Baton Pass": {
+		"NU Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -8559,7 +8551,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Iron Defense", "Baton Pass", "Substitute", "Taunt"],
 		},
-		"PU Defensive": {
+		"PU Defensive (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -8567,7 +8559,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 244, sp: 16 },
 			moves: ["Stealth Rock", "Iron Head", "Toxic", "Baton Pass"],
 		},
-		"PU Offensive": {
+		"PU Offensive (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -8577,7 +8569,7 @@ var SETDEX_BW = {
 		},
 	},
 	Medicham: {
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Pure Power",
 			item: "Choice Band",
@@ -8585,7 +8577,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["High Jump Kick", "Psycho Cut", "Ice Punch", "Trick"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Pure Power",
 			item: "Choice Scarf",
@@ -8593,7 +8585,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["High Jump Kick", "Psycho Cut", "Thunder Punch", "Trick"],
 		},
-		"RU Physical Attacker": {
+		"RU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Pure Power",
 			item: "Choice Band",
@@ -8608,7 +8600,7 @@ var SETDEX_BW = {
 		},
 	},
 	Meganium: {
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Leftovers",
@@ -8616,7 +8608,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Aromatherapy", "Dragon Tail", "Giga Drain", "Synthesis"],
 		},
-		"NU Support": {
+		"NU Support (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Leftovers",
@@ -8624,7 +8616,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Aromatherapy", "Synthesis", "Giga Drain", "Dragon Tail"],
 		},
-		"ZU Specially Defensive": {
+		"ZU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Leftovers",
@@ -8632,7 +8624,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Giga Drain", "Aromatherapy", "Dragon Tail", "Synthesis"],
 		},
-		"ZU Swords Dance": {
+		"ZU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Leftovers",
@@ -8642,7 +8634,7 @@ var SETDEX_BW = {
 		},
 	},
 	Meloetta: {
-		"UU Offensive Calm Mind": {
+		"UU Offensive Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Life Orb",
@@ -8650,7 +8642,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Calm Mind", "Psychic", "Shadow Ball", "Focus Blast"],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Choice Specs",
@@ -8658,7 +8650,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Psychic", "Focus Blast", "Shadow Ball", "U-turn"],
 		},
-		"UU Substitute + Calm Mind": {
+		"UU Substitute + Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Leftovers",
@@ -8668,7 +8660,7 @@ var SETDEX_BW = {
 		},
 	},
 	Meowth: {
-		"LC Physical Attacker": {
+		"LC Physical Attacker (Revisar)": {
 			level: 5,
 			ability: "Technician",
 			item: "Normal Gem",
@@ -8679,7 +8671,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mesprit: {
-		"UU Trick Room": {
+		"UU Trick Room (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -8688,7 +8680,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sa: 252 },
 			moves: ["Trick Room", "Psychic", "Thunderbolt", "Healing Wish"],
 		},
-		"UU Support": {
+		"UU Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -8696,7 +8688,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sp: 4 },
 			moves: ["Stealth Rock", "Psychic", "Grass Knot", "U-turn"],
 		},
-		"UU Weather Support": {
+		"UU Weather Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Damp Rock",
@@ -8704,7 +8696,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 252, sp: 4 },
 			moves: ["Rain Dance", "Psychic", "Thunder", "Healing Wish"],
 		},
-		"RU Offensive Stealth Rock": {
+		"RU Offensive Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -8712,7 +8704,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Stealth Rock", "Psychic", "Thunderbolt", "U-turn"],
 		},
-		"RU Calm Mind": {
+		"RU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -8720,7 +8712,7 @@ var SETDEX_BW = {
 			evs: { hp: 32, df: 4, sa: 252, sp: 220 },
 			moves: ["Calm Mind", "Psyshock", "Thunderbolt", "Hidden Power Fire"],
 		},
-		"RU Choice Specs": {
+		"RU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Specs",
@@ -8728,7 +8720,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, sa: 252, sp: 220 },
 			moves: ["Psyshock", "Thunderbolt", "Hidden Power Fire", "U-turn"],
 		},
-		"RU Substitute + Calm Mind": {
+		"RU Substitute + Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -8738,7 +8730,7 @@ var SETDEX_BW = {
 		},
 	},
 	Metagross: {
-		"OU Stealth Rock": {
+		"OU Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Custap Berry",
@@ -8746,7 +8738,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 96, sd: 160 },
 			moves: ["Stealth Rock", "Pursuit", "Earthquake", "Explosion"],
 		},
-		"Doubles Tank": {
+		"Doubles Tank (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Occa Berry",
@@ -8754,7 +8746,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sp: 4 },
 			moves: ["Meteor Mash", "Bullet Punch", "Zen Headbutt", "Protect"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Choice Scarf",
@@ -8764,7 +8756,7 @@ var SETDEX_BW = {
 		},
 	},
 	Metang: {
-		"RU THE MIGHTY METANG": {
+		"RU THE MIGHTY METANG (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Eviolite",
@@ -8772,7 +8764,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Stealth Rock", "Meteor Mash", "Earthquake", "Explosion"],
 		},
-		"NU Offensive Utility": {
+		"NU Offensive Utility (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Eviolite",
@@ -8780,7 +8772,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 176, sd: 80 },
 			moves: ["Stealth Rock", "Meteor Mash", "Toxic", "Bullet Punch"],
 		},
-		"NU Physically Defensive": {
+		"NU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Eviolite",
@@ -8790,7 +8782,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mew: {
-		"OU Defensive": {
+		"OU Defensive (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Leftovers",
@@ -8798,7 +8790,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 148, sp: 108 },
 			moves: ["Will-O-Wisp", "Soft-Boiled", "Taunt", "Night Shade"],
 		},
-		"UU Nasty Plot": {
+		"UU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Life Orb",
@@ -8806,7 +8798,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Nasty Plot", "Psyshock", "Fire Blast", "Giga Drain"],
 		},
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Life Orb",
@@ -8814,7 +8806,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Zen Headbutt", "Drain Punch", "Sucker Punch"],
 		},
-		"UU Specially Defensive": {
+		"UU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Leftovers",
@@ -8822,7 +8814,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 232, sp: 24 },
 			moves: ["Taunt", "Will-O-Wisp", "Soft-Boiled", "Psyshock"],
 		},
-		"Uber Baton Pass": {
+		"Uber Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Leftovers",
@@ -8830,7 +8822,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 20, sd: 168, sp: 68 },
 			moves: ["Rock Polish", "Swords Dance", "Baton Pass", "Substitute"],
 		},
-		"Uber Lead": {
+		"Uber Lead (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Lum Berry",
@@ -8840,7 +8832,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mewtwo: {
-		"Uber Psycho Killer": {
+		"Uber Psycho Killer (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -8848,7 +8840,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Psystrike", "Ice Beam", "Aura Sphere", "Fire Blast"],
 		},
-		"Uber Bulky Booster": {
+		"Uber Bulky Booster (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -8856,7 +8848,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Calm Mind", "Psystrike", "Recover", "Flamethrower"],
 		},
-		"Uber Support (StallTwo)": {
+		"Uber Support (StallTwo) (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -8864,7 +8856,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 72, sp: 184 },
 			moves: ["Taunt", "Recover", "Will-O-Wisp", "Psystrike"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Scarf",
@@ -8874,7 +8866,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mienfoo: {
-		"ZU Offensive Pivot": {
+		"ZU Offensive Pivot (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Eviolite",
@@ -8882,7 +8874,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Fake Out", "High Jump Kick", "U-turn", "Taunt"],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Reckless",
 			item: "Choice Scarf",
@@ -8890,7 +8882,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["High Jump Kick", "U-turn", "Rock Slide", "Knock Off"],
 		},
-		"LC Bulky Defensive": {
+		"LC Bulky Defensive (Revisar)": {
 			level: 5,
 			ability: "Regenerator",
 			item: "Eviolite",
@@ -8898,7 +8890,7 @@ var SETDEX_BW = {
 			evs: { hp: 156, df: 116, sd: 196 },
 			moves: ["Taunt", "High Jump Kick", "U-turn", "Knock Off"],
 		},
-		"LC Fast Defensive": {
+		"LC Fast Defensive (Revisar)": {
 			level: 5,
 			ability: "Regenerator",
 			item: "Eviolite",
@@ -8906,7 +8898,7 @@ var SETDEX_BW = {
 			evs: { hp: 76, at: 76, df: 116, sd: 36, sp: 156 },
 			moves: ["High Jump Kick", "U-turn", "Knock Off", "Stone Edge"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Reckless",
 			item: "Choice Scarf",
@@ -8916,7 +8908,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mienshao: {
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Choice Scarf",
@@ -8924,7 +8916,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 32, sp: 224 },
 			moves: ["High Jump Kick", "U-turn", "Stone Edge", "Hidden Power Ice"],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Reckless",
 			item: "Choice Scarf",
@@ -8932,7 +8924,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["High Jump Kick", "U-turn", "Stone Edge", "Aerial Ace"],
 		},
-		"UU All-Out Attacker": {
+		"UU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Life Orb",
@@ -8940,7 +8932,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["High Jump Kick", "U-turn", "Stone Edge", "Hidden Power Ice"],
 		},
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Reckless",
 			item: "Life Orb",
@@ -8955,7 +8947,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mightyena: {
-		"NU Physical Attacker": {
+		"NU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Black Glasses",
@@ -8963,7 +8955,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Sucker Punch", "Crunch", "Substitute", "Taunt"],
 		},
-		"ZU Stallbreaker": {
+		"ZU Stallbreaker (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -8971,7 +8963,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 172, sp: 84 },
 			moves: ["Taunt", "Super Fang", "Crunch", "Heal Bell"],
 		},
-		"ZU Substitute + 3 Attacks": {
+		"ZU Substitute + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Black Glasses",
@@ -8986,7 +8978,7 @@ var SETDEX_BW = {
 		},
 	},
 	Milotic: {
-		"OU Physically Defensive": {
+		"OU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Marvel Scale",
 			item: "Leftovers",
@@ -8994,7 +8986,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sa: 4 },
 			moves: ["Recover", "Scald", "Ice Beam", "Toxic"],
 		},
-		"UU Physically Defensive": {
+		"UU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Marvel Scale",
 			item: "Leftovers",
@@ -9004,7 +8996,7 @@ var SETDEX_BW = {
 		},
 	},
 	Miltank: {
-		"RU Mootility": {
+		"RU Mootility (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Leftovers",
@@ -9012,7 +9004,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 192, sp: 64 },
 			moves: ["Stealth Rock", "Milk Drink", "Body Slam", "Heal Bell"],
 		},
-		"RU Moofensive": {
+		"RU Moofensive (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Life Orb",
@@ -9020,7 +9012,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Double-Edge", "Earthquake", "Milk Drink", "Heal Bell"],
 		},
-		"NU Mootility": {
+		"NU Mootility (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -9028,7 +9020,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Milk Drink", "Stealth Rock", "Heal Bell", "Body Slam"],
 		},
-		"NU Moodoo": {
+		"NU Moodoo (Revisar)": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Leftovers",
@@ -9038,7 +9030,7 @@ var SETDEX_BW = {
 		},
 	},
 	Minccino: {
-		"LC Skill Link": {
+		"LC Skill Link (Revisar)": {
 			level: 5,
 			ability: "Skill Link",
 			item: "Life Orb",
@@ -9046,7 +9038,7 @@ var SETDEX_BW = {
 			evs: { at: 196, sd: 76, sp: 236 },
 			moves: ["Tail Slap", "Aqua Tail", "U-turn", "Knock Off"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Skill Link",
 			item: "Choice Scarf",
@@ -9056,7 +9048,7 @@ var SETDEX_BW = {
 		},
 	},
 	Minun: {
-		"NU Nasty Plot + Baton Pass": {
+		"NU Nasty Plot + Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Minus",
 			item: "Leftovers",
@@ -9066,7 +9058,7 @@ var SETDEX_BW = {
 		},
 	},
 	Misdreavus: {
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -9074,7 +9066,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Will-O-Wisp", "Pain Split", "Shadow Ball", "Heal Bell"],
 		},
-		"NU Utility Counter": {
+		"NU Utility Counter (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -9082,7 +9074,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 220, sp: 40 },
 			moves: ["Will-O-Wisp", "Shadow Ball", "Pain Split", "Taunt"],
 		},
-		"NU Nasty Plot": {
+		"NU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Eviolite",
@@ -9092,7 +9084,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mismagius: {
-		"UU Nasty Plot": {
+		"UU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -9105,7 +9097,7 @@ var SETDEX_BW = {
 				"Thunderbolt",
 			],
 		},
-		"UU Defensive": {
+		"UU Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -9113,7 +9105,7 @@ var SETDEX_BW = {
 			evs: { hp: 236, df: 176, sp: 96 },
 			moves: ["Will-O-Wisp", "Heal Bell", "Pain Split", "Shadow Ball"],
 		},
-		"UU Substitute + Calm Mind": {
+		"UU Substitute + Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -9128,7 +9120,7 @@ var SETDEX_BW = {
 		},
 	},
 	Moltres: {
-		"OU Defensive": {
+		"OU Defensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -9136,7 +9128,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 164, sp: 96 },
 			moves: ["Substitute", "Roost", "Flamethrower", "Will-O-Wisp"],
 		},
-		"UU Sweeper": {
+		"UU Sweeper (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -9144,7 +9136,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Fire Blast", "Air Slash", "Hidden Power Grass", "Roost"],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Specs",
@@ -9152,7 +9144,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Fire Blast", "Air Slash", "Hidden Power Grass", "U-turn"],
 		},
-		"UU SubRoost Staller": {
+		"UU SubRoost Staller (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -9160,7 +9152,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 36, sp: 224 },
 			moves: ["Substitute", "Roost", "Toxic", "Flamethrower"],
 		},
-		"RU Life Orb": {
+		"RU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -9168,7 +9160,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Fire Blast", "Hurricane", "Hidden Power Grass", "Roost"],
 		},
-		"RU Choice Specs": {
+		"RU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Specs",
@@ -9176,7 +9168,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Fire Blast", "Hurricane", "Hidden Power Grass", "U-turn"],
 		},
-		"RU Agility": {
+		"RU Agility (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -9184,7 +9176,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Agility", "Hurricane", "Flamethrower", "Roost"],
 		},
-		"RU Defensive SubRoost": {
+		"RU Defensive SubRoost (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -9192,7 +9184,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 32, sp: 228 },
 			moves: ["Substitute", "Roost", "Toxic", "Flamethrower"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Scarf",
@@ -9202,7 +9194,7 @@ var SETDEX_BW = {
 		},
 	},
 	Monferno: {
-		"PU All-Out-Attacking": {
+		"PU All-Out-Attacking (Revisar)": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Eviolite",
@@ -9212,7 +9204,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mothim: {
-		"RU Choice Specs": {
+		"RU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Tinted Lens",
 			item: "Choice Specs",
@@ -9220,7 +9212,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Bug Buzz", "Air Slash", "U-turn", "Giga Drain"],
 		},
-		"RU Quiver Dance": {
+		"RU Quiver Dance (Revisar)": {
 			level: 50,
 			ability: "Tinted Lens",
 			item: "Leftovers",
@@ -9228,7 +9220,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Quiver Dance", "Bug Buzz", "Air Slash", "Substitute"],
 		},
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Tinted Lens",
 			item: "Choice Specs",
@@ -9236,7 +9228,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Bug Buzz", "Air Slash", "Sleep Talk", "U-turn"],
 		},
-		"ZU Choice Specs": {
+		"ZU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Tinted Lens",
 			item: "Choice Specs",
@@ -9244,7 +9236,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Bug Buzz", "Shadow Ball", "Psychic", "U-turn"],
 		},
-		"ZU Quiver Dance": {
+		"ZU Quiver Dance (Revisar)": {
 			level: 50,
 			ability: "Tinted Lens",
 			item: "Leftovers",
@@ -9253,8 +9245,8 @@ var SETDEX_BW = {
 			moves: ["Quiver Dance", "Bug Buzz", "Air Slash", "Substitute"],
 		},
 	},
-	"Mr. Mime": {
-		"NU Baton Pass": {
+	"Mr. Mime (Revisar)": {
+		"NU Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Filter",
 			item: "Leftovers",
@@ -9262,7 +9254,7 @@ var SETDEX_BW = {
 			evs: { hp: 144, sa: 112, sp: 252 },
 			moves: ["Baton Pass", "Nasty Plot", "Substitute", "Psychic"],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Filter",
 			item: "Choice Scarf",
@@ -9271,7 +9263,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Psychic", "Thunderbolt", "Focus Blast", "Trick"],
 		},
-		"ZU Nasty Plot": {
+		"ZU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Filter",
 			item: "Life Orb",
@@ -9280,7 +9272,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Nasty Plot", "Psychic", "Focus Blast", "Taunt"],
 		},
-		"ZU Choice Specs": {
+		"ZU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Filter",
 			item: "Choice Specs",
@@ -9289,7 +9281,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Psyshock", "Thunderbolt", "Focus Blast", "Trick"],
 		},
-		"ZU Dual Screen": {
+		"ZU Dual Screen (Revisar)": {
 			level: 50,
 			ability: "Filter",
 			item: "Light Clay",
@@ -9300,7 +9292,7 @@ var SETDEX_BW = {
 		},
 	},
 	Muk: {
-		"RU Specially Defensive": {
+		"RU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Sticky Hold",
 			item: "Black Sludge",
@@ -9308,7 +9300,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sd: 252 },
 			moves: ["Poison Jab", "Fire Punch", "Thunderbolt", "Toxic"],
 		},
-		"NU Touncher": {
+		"NU Touncher (Revisar)": {
 			level: 50,
 			ability: "Poison Touch",
 			item: "Black Sludge",
@@ -9316,7 +9308,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Poison Jab", "Shadow Sneak", "Ice Punch", "Memento"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Poison Touch",
 			item: "Choice Band",
@@ -9324,7 +9316,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Poison Jab", "Shadow Sneak", "Ice Punch", "Explosion"],
 		},
-		"ZU All-Out Attacker": {
+		"ZU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Poison Touch",
 			item: "Black Sludge",
@@ -9332,7 +9324,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Poison Jab", "Fire Punch", "Payback", "Shadow Sneak"],
 		},
-		"ZU Choice Band": {
+		"ZU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Poison Touch",
 			item: "Choice Band",
@@ -9340,7 +9332,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Poison Jab", "Fire Punch", "Payback", "Shadow Sneak"],
 		},
-		"ZU CroMuk": {
+		"ZU CroMuk (Revisar)": {
 			level: 50,
 			ability: "Poison Touch",
 			item: "Black Sludge",
@@ -9348,7 +9340,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, sd: 252 },
 			moves: ["Curse", "Payback", "Rest", "Sleep Talk"],
 		},
-		"ZU SubPunch": {
+		"ZU SubPunch (Revisar)": {
 			level: 50,
 			ability: "Stench",
 			item: "Black Sludge",
@@ -9358,7 +9350,7 @@ var SETDEX_BW = {
 		},
 	},
 	Munchlax: {
-		"NU RestTalk": {
+		"NU RestTalk (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Eviolite",
@@ -9366,7 +9358,7 @@ var SETDEX_BW = {
 			evs: { hp: 136, df: 120, sd: 252 },
 			moves: ["Rest", "Sleep Talk", "Body Slam", "Whirlwind"],
 		},
-		"NU Offensive Tank": {
+		"NU Offensive Tank (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Eviolite",
@@ -9374,7 +9366,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 120, sd: 136 },
 			moves: ["Body Slam", "Earthquake", "Pursuit", "Toxic"],
 		},
-		"ZU CroLax": {
+		"ZU CroLax (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Eviolite",
@@ -9382,7 +9374,7 @@ var SETDEX_BW = {
 			evs: { hp: 136, df: 120, sd: 252 },
 			moves: ["Curse", "Body Slam", "Rest", "Sleep Talk"],
 		},
-		"ZU Mixed Wall": {
+		"ZU Mixed Wall (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Eviolite",
@@ -9390,7 +9382,7 @@ var SETDEX_BW = {
 			evs: { hp: 136, df: 120, sd: 252 },
 			moves: ["Body Slam", "Whirlwind", "Rest", "Sleep Talk"],
 		},
-		"ZU Physical Wall": {
+		"ZU Physical Wall (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Eviolite",
@@ -9398,7 +9390,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Body Slam", "Whirlwind", "Rest", "Sleep Talk"],
 		},
-		"LC Offensive Tank": {
+		"LC Offensive Tank (Revisar)": {
 			level: 5,
 			ability: "Thick Fat",
 			item: "Eviolite",
@@ -9408,7 +9400,7 @@ var SETDEX_BW = {
 		},
 	},
 	Munna: {
-		"LC Calm Mind": {
+		"LC Calm Mind (Revisar)": {
 			level: 5,
 			ability: "Synchronize",
 			item: "Eviolite",
@@ -9423,7 +9415,7 @@ var SETDEX_BW = {
 		},
 	},
 	Murkrow: {
-		"NU Calm Mind": {
+		"NU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Eviolite",
@@ -9433,7 +9425,7 @@ var SETDEX_BW = {
 		},
 	},
 	Musharna: {
-		"RU Calm Mind": {
+		"RU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Leftovers",
@@ -9441,7 +9433,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, df: 252, sp: 16 },
 			moves: ["Calm Mind", "Stored Power", "Moonlight", "Baton Pass"],
 		},
-		"NU Support Pivot": {
+		"NU Support Pivot (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Leftovers",
@@ -9449,7 +9441,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, df: 252, sd: 16 },
 			moves: ["Moonlight", "Toxic", "Baton Pass", "Psychic"],
 		},
-		"NU Calm Mind": {
+		"NU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Leftovers",
@@ -9457,7 +9449,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, df: 252, sd: 16 },
 			moves: ["Calm Mind", "Moonlight", "Psychic", "Heal Bell"],
 		},
-		"NU Offensive Trick Room": {
+		"NU Offensive Trick Room (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Life Orb",
@@ -9466,7 +9458,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sa: 252 },
 			moves: ["Trick Room", "Psychic", "Signal Beam", "Moonlight"],
 		},
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Choice Specs",
@@ -9476,7 +9468,7 @@ var SETDEX_BW = {
 		},
 	},
 	Natu: {
-		"RU Physically Defensive": {
+		"RU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Magic Bounce",
 			item: "Eviolite",
@@ -9484,7 +9476,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sp: 8 },
 			moves: ["Roost", "Reflect", "Thunder Wave", "U-turn"],
 		},
-		"NU Support": {
+		"NU Support (Revisar)": {
 			level: 50,
 			ability: "Magic Bounce",
 			item: "Eviolite",
@@ -9493,7 +9485,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 204, sp: 56 },
 			moves: ["Roost", "Toxic", "Reflect", "Night Shade"],
 		},
-		"PU Magic Bounce Pivot": {
+		"PU Magic Bounce Pivot (Revisar)": {
 			level: 50,
 			ability: "Magic Bounce",
 			item: "Eviolite",
@@ -9501,7 +9493,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sp: 8 },
 			moves: ["Night Shade", "Roost", "U-turn", "Toxic"],
 		},
-		"LC Pivot": {
+		"LC Pivot (Revisar)": {
 			level: 5,
 			ability: "Magic Bounce",
 			item: "Eviolite",
@@ -9509,7 +9501,7 @@ var SETDEX_BW = {
 			evs: { hp: 196, df: 236, sa: 36, sp: 36 },
 			moves: ["Psychic", "Heat Wave", "U-turn", "Roost"],
 		},
-		"LC Calm Mind": {
+		"LC Calm Mind (Revisar)": {
 			level: 5,
 			ability: "Magic Bounce",
 			item: "Eviolite",
@@ -9519,7 +9511,7 @@ var SETDEX_BW = {
 		},
 	},
 	Nidoking: {
-		"UU Special Attacker": {
+		"UU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -9527,7 +9519,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Earth Power", "Fire Blast", "Ice Beam", "Substitute"],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Choice Scarf",
@@ -9537,7 +9529,7 @@ var SETDEX_BW = {
 		},
 	},
 	Nidoqueen: {
-		"UU Offensive": {
+		"UU Offensive (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -9545,7 +9537,7 @@ var SETDEX_BW = {
 			evs: { hp: 100, sa: 252, sp: 156 },
 			moves: ["Earth Power", "Fire Blast", "Ice Beam", "Stealth Rock"],
 		},
-		"UU Defensive": {
+		"UU Defensive (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Black Sludge",
@@ -9554,8 +9546,8 @@ var SETDEX_BW = {
 			moves: ["Stealth Rock", "Earth Power", "Fire Blast", "Dragon Tail"],
 		},
 	},
-	"Nidoran-M": {
-		"LC Mixed Attacker": {
+	"Nidoran-M (Revisar)": {
+		"LC Mixed Attacker (Revisar)": {
 			level: 5,
 			ability: "Hustle",
 			item: "Life Orb",
@@ -9571,7 +9563,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ninetales: {
-		"OU Defensive": {
+		"OU Defensive (Revisar)": {
 			level: 50,
 			ability: "Drought",
 			item: "Leftovers",
@@ -9581,7 +9573,7 @@ var SETDEX_BW = {
 		},
 	},
 	Noctowl: {
-		"NU Specially Defensive": {
+		"NU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Insomnia",
 			item: "Leftovers",
@@ -9591,7 +9583,7 @@ var SETDEX_BW = {
 		},
 	},
 	Nosepass: {
-		"LC Bulky Attacker": {
+		"LC Bulky Attacker (Revisar)": {
 			level: 5,
 			ability: "Magnet Pull",
 			item: "Eviolite",
@@ -9601,7 +9593,7 @@ var SETDEX_BW = {
 		},
 	},
 	Numel: {
-		"LC RestTalk": {
+		"LC RestTalk (Revisar)": {
 			level: 5,
 			ability: "Simple",
 			item: "Eviolite",
@@ -9609,7 +9601,7 @@ var SETDEX_BW = {
 			evs: { hp: 196, df: 116, sd: 156 },
 			moves: ["Rest", "Sleep Talk", "Lava Plume", "Stockpile"],
 		},
-		"LC Flame Charge": {
+		"LC Flame Charge (Revisar)": {
 			level: 5,
 			ability: "Simple",
 			item: "Life Orb",
@@ -9624,7 +9616,7 @@ var SETDEX_BW = {
 		},
 	},
 	Octillery: {
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Sniper",
 			item: "Choice Specs",
@@ -9632,7 +9624,7 @@ var SETDEX_BW = {
 			evs: { hp: 92, sa: 252, sp: 164 },
 			moves: ["Hydro Pump", "Ice Beam", "Energy Ball", "Fire Blast"],
 		},
-		"ZU Special Attacker": {
+		"ZU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Sniper",
 			item: "Expert Belt",
@@ -9641,7 +9633,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Hydro Pump", "Ice Beam", "Energy Ball", "Fire Blast"],
 		},
-		"ZU Physical Attacker": {
+		"ZU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Sniper",
 			item: "Life Orb",
@@ -9651,7 +9643,7 @@ var SETDEX_BW = {
 		},
 	},
 	Oddish: {
-		"LC Sun Special Attacker": {
+		"LC Sun Special Attacker (Revisar)": {
 			level: 5,
 			ability: "Chlorophyll",
 			item: "Heat Rock",
@@ -9662,7 +9654,7 @@ var SETDEX_BW = {
 		},
 	},
 	Omanyte: {
-		"LC Shell Smash": {
+		"LC Shell Smash (Revisar)": {
 			level: 5,
 			ability: "Shell Armor",
 			item: "Eviolite",
@@ -9670,7 +9662,7 @@ var SETDEX_BW = {
 			evs: { hp: 76, sa: 196, sp: 236 },
 			moves: ["Shell Smash", "Surf", "Ice Beam", "Substitute"],
 		},
-		"LC Entry Hazard Setter": {
+		"LC Entry Hazard Setter (Revisar)": {
 			level: 5,
 			ability: "Weak Armor",
 			item: "Eviolite",
@@ -9680,7 +9672,7 @@ var SETDEX_BW = {
 		},
 	},
 	Omastar: {
-		"UU Shell Smash": {
+		"UU Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Shell Armor",
 			item: "Life Orb",
@@ -9688,7 +9680,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Shell Smash", "Hydro Pump", "Ice Beam", "Hidden Power Grass"],
 		},
-		"UU Support": {
+		"UU Support (Revisar)": {
 			level: 50,
 			ability: "Shell Armor",
 			item: "Leftovers",
@@ -9696,7 +9688,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Stealth Rock", "Spikes", "Scald", "Ice Beam"],
 		},
-		"RU Shell Smash": {
+		"RU Shell Smash (Revisar)": {
 			level: 50,
 			ability: "Weak Armor",
 			item: "Lum Berry",
@@ -9704,7 +9696,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Shell Smash", "Surf", "Ice Beam", "Hidden Power Grass"],
 		},
-		"RU Suicide Lead": {
+		"RU Suicide Lead (Revisar)": {
 			level: 50,
 			ability: "Weak Armor",
 			item: "Focus Sash",
@@ -9712,7 +9704,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Spikes", "Scald", "Icy Wind", "Stealth Rock"],
 		},
-		"RU Defensive": {
+		"RU Defensive (Revisar)": {
 			level: 50,
 			ability: "Shell Armor",
 			item: "Leftovers",
@@ -9720,7 +9712,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sa: 4 },
 			moves: ["Spikes", "Stealth Rock", "Scald", "Ice Beam"],
 		},
-		"Uber Choice Specs": {
+		"Uber Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Choice Specs",
@@ -9728,7 +9720,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Hydro Pump", "Ice Beam", "Surf", "Earth Power"],
 		},
-		"Uber Life Orb": {
+		"Uber Life Orb (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -9738,7 +9730,7 @@ var SETDEX_BW = {
 		},
 	},
 	Onix: {
-		"ZU Sun Lead": {
+		"ZU Sun Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Heat Rock",
@@ -9746,7 +9738,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Sunny Day", "Stealth Rock", "Taunt", "Explosion"],
 		},
-		"LC Support": {
+		"LC Support (Revisar)": {
 			level: 5,
 			ability: "Sturdy",
 			item: "Eviolite",
@@ -9754,7 +9746,7 @@ var SETDEX_BW = {
 			evs: { hp: 236, df: 116, sd: 156 },
 			moves: ["Stealth Rock", "Dragon Tail", "Stone Edge", "Earthquake"],
 		},
-		"LC Rock Polish": {
+		"LC Rock Polish (Revisar)": {
 			level: 5,
 			ability: "Sturdy",
 			item: "Life Orb",
@@ -9764,7 +9756,7 @@ var SETDEX_BW = {
 		},
 	},
 	Oshawott: {
-		"LC Swords Dance": {
+		"LC Swords Dance (Revisar)": {
 			level: 5,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -9774,7 +9766,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pachirisu: {
-		"NU Generous Sparky": {
+		"NU Generous Sparky (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Lum Berry",
@@ -9784,7 +9776,7 @@ var SETDEX_BW = {
 		},
 	},
 	Palkia: {
-		"Uber All-Out Attacker": {
+		"Uber All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Lustrous Orb",
@@ -9792,7 +9784,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Spacial Rend", "Surf", "Fire Blast", "Thunder"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Scarf",
@@ -9800,7 +9792,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Surf", "Spacial Rend", "Fire Blast", "Thunder"],
 		},
-		"Uber Choice Specs": {
+		"Uber Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Specs",
@@ -9808,7 +9800,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Hydro Pump", "Spacial Rend", "Draco Meteor", "Thunder"],
 		},
-		"Uber Trick Room": {
+		"Uber Trick Room (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Lustrous Orb",
@@ -9819,7 +9811,7 @@ var SETDEX_BW = {
 		},
 	},
 	Panpour: {
-		"LC Nasty Plot": {
+		"LC Nasty Plot (Revisar)": {
 			level: 5,
 			ability: "Gluttony",
 			item: "Eviolite",
@@ -9829,7 +9821,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pansage: {
-		"LC Special Attacker": {
+		"LC Special Attacker (Revisar)": {
 			level: 5,
 			ability: "Gluttony",
 			item: "Focus Sash",
@@ -9844,7 +9836,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pansear: {
-		"LC Life Orb Sweeper": {
+		"LC Life Orb Sweeper (Revisar)": {
 			level: 5,
 			ability: "Gluttony",
 			item: "Life Orb",
@@ -9854,7 +9846,7 @@ var SETDEX_BW = {
 		},
 	},
 	Parasect: {
-		"NU Utility": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Dry Skin",
 			item: "Leftovers",
@@ -9864,7 +9856,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pawniard: {
-		"ZU Wallbreaker": {
+		"ZU Wallbreaker (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Eviolite",
@@ -9872,7 +9864,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Sucker Punch", "Iron Head", "Pursuit"],
 		},
-		"ZU Stealth Rock": {
+		"ZU Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Eviolite",
@@ -9880,7 +9872,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Stealth Rock", "Sucker Punch", "Iron Head", "Pursuit"],
 		},
-		"LC Eviolite": {
+		"LC Eviolite (Revisar)": {
 			level: 5,
 			ability: "Defiant",
 			item: "Eviolite",
@@ -9888,7 +9880,7 @@ var SETDEX_BW = {
 			evs: { at: 236, df: 36, sd: 36, sp: 196 },
 			moves: ["Stealth Rock", "Iron Head", "Night Slash", "Sucker Punch"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Defiant",
 			item: "Choice Scarf",
@@ -9898,7 +9890,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pelipper: {
-		"NU Specially Defensive": {
+		"NU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Rain Dish",
 			item: "Leftovers",
@@ -9906,7 +9898,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 44, sd: 216 },
 			moves: ["Scald", "Roost", "Toxic", "Hurricane"],
 		},
-		"ZU Defensive Pivot": {
+		"ZU Defensive Pivot (Revisar)": {
 			level: 50,
 			ability: "Keen Eye",
 			item: "Leftovers",
@@ -9914,7 +9906,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sa: 8 },
 			moves: ["Scald", "U-turn", "Toxic", "Roost"],
 		},
-		"ZU Offensive Pivot": {
+		"ZU Offensive Pivot (Revisar)": {
 			level: 50,
 			ability: "Keen Eye",
 			item: "Leftovers",
@@ -9924,7 +9916,7 @@ var SETDEX_BW = {
 		},
 	},
 	Persian: {
-		"NU Scout": {
+		"NU Scout (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Life Orb",
@@ -9932,7 +9924,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Fake Out", "U-turn", "Taunt", "Return"],
 		},
-		"ZU Offensive Pivot": {
+		"ZU Offensive Pivot (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Silk Scarf",
@@ -9940,7 +9932,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Fake Out", "Return", "U-turn", "Taunt"],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Choice Scarf",
@@ -9950,7 +9942,7 @@ var SETDEX_BW = {
 		},
 	},
 	Phione: {
-		"NU Rain Dance": {
+		"NU Rain Dance (Revisar)": {
 			level: 50,
 			ability: "Hydration",
 			item: "Damp Rock",
@@ -9960,7 +9952,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pichu: {
-		"LC Choice Band": {
+		"LC Choice Band (Revisar)": {
 			level: 5,
 			ability: "Lightning Rod",
 			item: "Choice Band",
@@ -9968,7 +9960,7 @@ var SETDEX_BW = {
 			evs: { hp: 116, at: 196, sp: 196 },
 			moves: ["Volt Tackle", "Return", "Thunder Punch", "Iron Tail"],
 		},
-		"LC Utility": {
+		"LC Utility (Revisar)": {
 			level: 5,
 			ability: "Lightning Rod",
 			item: "Life Orb",
@@ -9976,7 +9968,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 196, df: 76, sp: 196 },
 			moves: ["Fake Out", "Volt Tackle", "Encore", "Volt Switch"],
 		},
-		"LC Nasty Plot": {
+		"LC Nasty Plot (Revisar)": {
 			level: 5,
 			ability: "Lightning Rod",
 			item: "Life Orb",
@@ -9986,7 +9978,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pidgeot: {
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Tangled Feet",
 			item: "Choice Band",
@@ -9996,7 +9988,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pidgey: {
-		"LC Choice": {
+		"LC Choice (Revisar)": {
 			level: 5,
 			ability: "Keen Eye",
 			item: "Choice Scarf",
@@ -10006,7 +9998,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pignite: {
-		"ZU Tank": {
+		"ZU Tank (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Eviolite",
@@ -10016,7 +10008,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pikachu: {
-		"NU Substitute": {
+		"NU Substitute (Revisar)": {
 			level: 50,
 			ability: "Lightning Rod",
 			item: "Light Ball",
@@ -10024,7 +10016,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Substitute", "Thunderbolt", "Hidden Power Ice", "Encore"],
 		},
-		"ZU Revenge Killer": {
+		"ZU Revenge Killer (Revisar)": {
 			level: 50,
 			ability: "Static",
 			item: "Light Ball",
@@ -10040,7 +10032,7 @@ var SETDEX_BW = {
 		},
 	},
 	Piloswine: {
-		"RU Tank": {
+		"RU Tank (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Eviolite",
@@ -10048,7 +10040,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Stealth Rock", "Earthquake", "Icicle Crash", "Ice Shard"],
 		},
-		"NU Stealth Rock": {
+		"NU Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Eviolite",
@@ -10058,7 +10050,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pineco: {
-		"NU Custap Lead": {
+		"NU Custap Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -10067,7 +10059,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sp: 252 },
 			moves: ["Stealth Rock", "Spikes", "Rapid Spin", "Endure"],
 		},
-		"NU Suicide Lead (Level 1)": {
+		"NU Suicide Lead (Level 1) (Revisar)": {
 			level: 1,
 			ability: "Sturdy",
 			item: "Berry Juice",
@@ -10075,7 +10067,7 @@ var SETDEX_BW = {
 			evs: { sp: 252 },
 			moves: ["Stealth Rock", "Pain Split", "Spikes", "Toxic Spikes"],
 		},
-		"ZU Suicide Lead": {
+		"ZU Suicide Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -10083,7 +10075,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sp: 4 },
 			moves: ["Stealth Rock", "Spikes", "Rapid Spin", "Explosion"],
 		},
-		"LC Support": {
+		"LC Support (Revisar)": {
 			level: 5,
 			ability: "Sturdy",
 			item: "Eviolite",
@@ -10093,7 +10085,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pinsir: {
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Life Orb",
@@ -10101,7 +10093,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "X-Scissor", "Earthquake", "Quick Attack"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Choice Scarf",
@@ -10109,7 +10101,7 @@ var SETDEX_BW = {
 			evs: { hp: 16, at: 252, sp: 240 },
 			moves: ["X-Scissor", "Earthquake", "Close Combat", "Stone Edge"],
 		},
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Life Orb",
@@ -10117,7 +10109,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "X-Scissor", "Earthquake", "Quick Attack"],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Choice Scarf",
@@ -10127,7 +10119,7 @@ var SETDEX_BW = {
 		},
 	},
 	Piplup: {
-		"LC Support": {
+		"LC Support (Revisar)": {
 			level: 5,
 			ability: "Torrent",
 			item: "Eviolite",
@@ -10137,7 +10129,7 @@ var SETDEX_BW = {
 		},
 	},
 	Plusle: {
-		"NU Offensive Nasty Plot": {
+		"NU Offensive Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Plus",
 			item: "Life Orb",
@@ -10147,7 +10139,7 @@ var SETDEX_BW = {
 		},
 	},
 	Politoed: {
-		"OU Defensive": {
+		"OU Defensive (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Leftovers",
@@ -10155,7 +10147,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Scald", "Protect", "Refresh", "Encore"],
 		},
-		"Doubles Support": {
+		"Doubles Support (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Leftovers",
@@ -10164,7 +10156,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 200, sd: 56 },
 			moves: ["Scald", "Protect", "Icy Wind", "Helping Hand"],
 		},
-		"Doubles Offensive": {
+		"Doubles Offensive (Revisar)": {
 			level: 50,
 			ability: "Drizzle",
 			item: "Choice Specs",
@@ -10174,7 +10166,7 @@ var SETDEX_BW = {
 		},
 	},
 	Poliwrath: {
-		"UU RestTalk": {
+		"UU RestTalk (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -10182,7 +10174,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, df: 252 },
 			moves: ["Rest", "Sleep Talk", "Circle Throw", "Waterfall"],
 		},
-		"UU SubPunch": {
+		"UU SubPunch (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -10190,7 +10182,7 @@ var SETDEX_BW = {
 			evs: { hp: 132, at: 252, sp: 124 },
 			moves: ["Substitute", "Focus Punch", "Waterfall", "Encore"],
 		},
-		"RU Physically Defensive": {
+		"RU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -10198,7 +10190,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, df: 252 },
 			moves: ["Protect", "Toxic", "Scald", "Circle Throw"],
 		},
-		"RU SubPunch": {
+		"RU SubPunch (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -10208,7 +10200,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ponyta: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Flame Body",
 			item: "Choice Scarf",
@@ -10216,7 +10208,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 236, sp: 196 },
 			moves: ["Flare Blitz", "Wild Charge", "Return", "Flame Charge"],
 		},
-		"LC Eviolite": {
+		"LC Eviolite (Revisar)": {
 			level: 5,
 			ability: "Flame Body",
 			item: "Eviolite",
@@ -10226,7 +10218,7 @@ var SETDEX_BW = {
 		},
 	},
 	Poochyena: {
-		"LC Boosting Sweeper": {
+		"LC Boosting Sweeper (Revisar)": {
 			level: 5,
 			ability: "Quick Feet",
 			item: "Toxic Orb",
@@ -10236,7 +10228,7 @@ var SETDEX_BW = {
 		},
 	},
 	Porygon: {
-		"LC Defensive": {
+		"LC Defensive (Revisar)": {
 			level: 5,
 			ability: "Trace",
 			item: "Eviolite",
@@ -10245,8 +10237,8 @@ var SETDEX_BW = {
 			moves: ["Psychic", "Thunder Wave", "Thunderbolt", "Recover"],
 		},
 	},
-	"Porygon-Z": {
-		"UU Agility": {
+	"Porygon-Z (Revisar)": {
+		"UU Agility (Revisar)": {
 			level: 50,
 			ability: "Download",
 			item: "Life Orb",
@@ -10259,7 +10251,7 @@ var SETDEX_BW = {
 				"Hidden Power Fighting",
 			],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Adaptability",
 			item: "Choice Scarf",
@@ -10267,7 +10259,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Tri Attack", "Dark Pulse", "Hidden Power Fighting", "Trick"],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Adaptability",
 			item: "Choice Specs",
@@ -10275,7 +10267,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Tri Attack", "Dark Pulse", "Hidden Power Fighting", "Trick"],
 		},
-		"UU Nasty Plot": {
+		"UU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Adaptability",
 			item: "Life Orb",
@@ -10290,7 +10282,7 @@ var SETDEX_BW = {
 		},
 	},
 	Porygon2: {
-		"UU Duck Tank": {
+		"UU Duck Tank (Revisar)": {
 			level: 50,
 			ability: "Download",
 			item: "Eviolite",
@@ -10298,7 +10290,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sa: 252 },
 			moves: ["Tri Attack", "Ice Beam", "Discharge", "Recover"],
 		},
-		"UU Defensive Duck": {
+		"UU Defensive Duck (Revisar)": {
 			level: 50,
 			ability: "Trace",
 			item: "Eviolite",
@@ -10306,7 +10298,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 176, sd: 80 },
 			moves: ["Ice Beam", "Discharge", "Toxic", "Recover"],
 		},
-		"UU Trick Room": {
+		"UU Trick Room (Revisar)": {
 			level: 50,
 			ability: "Download",
 			item: "Eviolite",
@@ -10317,7 +10309,7 @@ var SETDEX_BW = {
 		},
 	},
 	Primeape: {
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Choice Scarf",
@@ -10325,7 +10317,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["U-turn", "Close Combat", "Stone Edge", "Ice Punch"],
 		},
-		"RU Life Orb": {
+		"RU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Life Orb",
@@ -10333,7 +10325,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Close Combat", "Stone Edge", "Encore", "U-turn"],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Choice Scarf",
@@ -10341,7 +10333,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Close Combat", "U-turn", "Ice Punch", "Stone Edge"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Choice Band",
@@ -10349,7 +10341,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Close Combat", "U-turn", "Ice Punch", "Stone Edge"],
 		},
-		"NU Encore": {
+		"NU Encore (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Fist Plate",
@@ -10359,7 +10351,7 @@ var SETDEX_BW = {
 		},
 	},
 	Probopass: {
-		"NU Defensive": {
+		"NU Defensive (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -10367,7 +10359,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 56, sd: 200 },
 			moves: ["Stealth Rock", "Power Gem", "Toxic", "Volt Switch"],
 		},
-		"NU Trapper": {
+		"NU Trapper (Revisar)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Air Balloon",
@@ -10377,7 +10369,7 @@ var SETDEX_BW = {
 		},
 	},
 	Psyduck: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Cloud Nine",
 			item: "Choice Scarf",
@@ -10387,7 +10379,7 @@ var SETDEX_BW = {
 		},
 	},
 	Purugly: {
-		"NU Pivot": {
+		"NU Pivot (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Silk Scarf",
@@ -10395,7 +10387,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["U-turn", "Return", "Fake Out", "Sucker Punch"],
 		},
-		"PU Pivot Attacker": {
+		"PU Pivot Attacker (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Silk Scarf",
@@ -10405,7 +10397,7 @@ var SETDEX_BW = {
 		},
 	},
 	Quagsire: {
-		"UU Curse": {
+		"UU Curse (Revisar)": {
 			level: 50,
 			ability: "Unaware",
 			item: "Leftovers",
@@ -10413,7 +10405,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Curse", "Recover", "Earthquake", "Waterfall"],
 		},
-		"UU Physically Defensive": {
+		"UU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Unaware",
 			item: "Leftovers",
@@ -10421,7 +10413,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Recover", "Scald", "Toxic", "Earthquake"],
 		},
-		"RU Physically Defensive": {
+		"RU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Unaware",
 			item: "Leftovers",
@@ -10431,7 +10423,7 @@ var SETDEX_BW = {
 		},
 	},
 	Qwilfish: {
-		"UU Utility": {
+		"UU Utility (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Black Sludge",
@@ -10439,7 +10431,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 204, sp: 52 },
 			moves: ["Spikes", "Pain Split", "Waterfall", "Haze"],
 		},
-		"UU Fast Spikes Lead": {
+		"UU Fast Spikes Lead (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Focus Sash",
@@ -10447,7 +10439,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, sp: 252 },
 			moves: ["Spikes", "Taunt", "Destiny Bond", "Waterfall"],
 		},
-		"RU Utility": {
+		"RU Utility (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Black Sludge",
@@ -10455,7 +10447,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 240, sp: 16 },
 			moves: ["Spikes", "Pain Split", "Waterfall", "Thunder Wave"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -10463,7 +10455,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Spikes", "Taunt", "Destiny Bond", "Waterfall"],
 		},
-		"Uber Swords Dance": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -10473,7 +10465,7 @@ var SETDEX_BW = {
 		},
 	},
 	Raichu: {
-		"NU Encore + Nasty Plot": {
+		"NU Encore + Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Lightning Rod",
 			item: "Life Orb",
@@ -10481,7 +10473,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Encore", "Nasty Plot", "Thunderbolt", "Grass Knot"],
 		},
-		"ZU Nasty Plot": {
+		"ZU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Lightning Rod",
 			item: "Life Orb",
@@ -10497,7 +10489,7 @@ var SETDEX_BW = {
 		},
 	},
 	Raikou: {
-		"UU Substitute + Calm Mind": {
+		"UU Substitute + Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -10505,7 +10497,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Substitute", "Calm Mind", "Thunderbolt", "Hidden Power Ice"],
 		},
-		"UU Life Orb": {
+		"UU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -10518,7 +10510,7 @@ var SETDEX_BW = {
 				"Calm Mind",
 			],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Specs",
@@ -10531,7 +10523,7 @@ var SETDEX_BW = {
 				"Extrasensory",
 			],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Scarf",
@@ -10544,7 +10536,7 @@ var SETDEX_BW = {
 				"Aura Sphere",
 			],
 		},
-		"Doubles Offensive Support": {
+		"Doubles Offensive Support (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Shuca Berry",
@@ -10554,7 +10546,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ralts: {
-		"LC Destiny Room": {
+		"LC Destiny Room (Revisar)": {
 			level: 5,
 			ability: "Trace",
 			item: "Focus Sash",
@@ -10565,7 +10557,7 @@ var SETDEX_BW = {
 		},
 	},
 	Rampardos: {
-		"RU Mixed": {
+		"RU Mixed (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -10573,7 +10565,7 @@ var SETDEX_BW = {
 			evs: { at: 16, sa: 252, sp: 240 },
 			moves: ["Head Smash", "Thunderbolt", "Focus Blast", "Ice Beam"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Choice Band",
@@ -10581,7 +10573,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Head Smash", "Superpower", "Fire Punch", "Thunder Punch"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Choice Band",
@@ -10591,7 +10583,7 @@ var SETDEX_BW = {
 		},
 	},
 	Rapidash: {
-		"NU Physical Attacker": {
+		"NU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Life Orb",
@@ -10601,7 +10593,7 @@ var SETDEX_BW = {
 		},
 	},
 	Raticate: {
-		"NU Guts": {
+		"NU Guts (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Flame Orb",
@@ -10609,7 +10601,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Facade", "Sucker Punch", "U-turn", "Pursuit"],
 		},
-		"ZU Guts Attacker": {
+		"ZU Guts Attacker (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -10617,7 +10609,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Facade", "Sucker Punch", "U-turn"],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Hustle",
 			item: "Choice Scarf",
@@ -10627,7 +10619,7 @@ var SETDEX_BW = {
 		},
 	},
 	Rattata: {
-		"LC Guts": {
+		"LC Guts (Revisar)": {
 			level: 5,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -10635,7 +10627,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 228, sp: 180 },
 			moves: ["Facade", "Sucker Punch", "Flame Wheel", "Protect"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Hustle",
 			item: "Choice Scarf",
@@ -10645,7 +10637,7 @@ var SETDEX_BW = {
 		},
 	},
 	Rayquaza: {
-		"Uber Dragon Dance": {
+		"Uber Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Air Lock",
 			item: "Life Orb",
@@ -10653,7 +10645,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Dragon Dance", "Outrage", "Earthquake", "Overheat"],
 		},
-		"Uber Mixed Attacker": {
+		"Uber Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Air Lock",
 			item: "Life Orb",
@@ -10661,7 +10653,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Draco Meteor", "Fire Blast", "Extreme Speed", "Outrage"],
 		},
-		"Uber Mixed Dancer": {
+		"Uber Mixed Dancer (Revisar)": {
 			level: 50,
 			ability: "Air Lock",
 			item: "Life Orb",
@@ -10669,7 +10661,7 @@ var SETDEX_BW = {
 			evs: { at: 40, sa: 252, sp: 216 },
 			moves: ["Dragon Dance", "Draco Meteor", "Outrage", "Fire Blast"],
 		},
-		"Uber Swords Dance": {
+		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Air Lock",
 			item: "Life Orb",
@@ -10677,7 +10669,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Extreme Speed", "Dragon Claw", "V-create"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Air Lock",
 			item: "Choice Scarf",
@@ -10685,7 +10677,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Outrage", "V-create", "Draco Meteor", "Earthquake"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Air Lock",
 			item: "Choice Band",
@@ -10695,7 +10687,7 @@ var SETDEX_BW = {
 		},
 	},
 	Regice: {
-		"NU Offensive Tank": {
+		"NU Offensive Tank (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Leftovers",
@@ -10703,7 +10695,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sa: 252, sp: 8 },
 			moves: ["Rest", "Sleep Talk", "Ice Beam", "Thunderbolt"],
 		},
-		"NU Rock Polish": {
+		"NU Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Life Orb",
@@ -10713,7 +10705,7 @@ var SETDEX_BW = {
 		},
 	},
 	Regigigas: {
-		"NU One-Hit Wonder": {
+		"NU One-Hit Wonder (Revisar)": {
 			level: 50,
 			ability: "Slow Start",
 			item: "Leftovers",
@@ -10723,7 +10715,7 @@ var SETDEX_BW = {
 		},
 	},
 	Regirock: {
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Leftovers",
@@ -10731,7 +10723,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, sd: 252 },
 			moves: ["Stealth Rock", "Rock Slide", "Thunder Wave", "Protect"],
 		},
-		"RU Sunny Day": {
+		"RU Sunny Day (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Heat Rock",
@@ -10739,7 +10731,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, sd: 252 },
 			moves: ["Sunny Day", "Stealth Rock", "Rock Slide", "Fire Punch"],
 		},
-		"NU Tank": {
+		"NU Tank (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Leftovers",
@@ -10749,7 +10741,7 @@ var SETDEX_BW = {
 		},
 	},
 	Registeel: {
-		"UU Utility": {
+		"UU Utility (Revisar)": {
 			level: 50,
 			ability: "Clear Body",
 			item: "Leftovers",
@@ -10759,7 +10751,7 @@ var SETDEX_BW = {
 		},
 	},
 	Relicanth: {
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Choice Band",
@@ -10767,7 +10759,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Head Smash", "Waterfall", "Earthquake", "Zen Headbutt"],
 		},
-		"RU Rock Polish": {
+		"RU Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Life Orb",
@@ -10775,7 +10767,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Rock Polish", "Head Smash", "Waterfall", "Earthquake"],
 		},
-		"RU Swift Swim Sweeper": {
+		"RU Swift Swim Sweeper (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -10783,7 +10775,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Head Smash", "Waterfall", "Earthquake", "Rain Dance"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Choice Band",
@@ -10791,7 +10783,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Head Smash", "Waterfall", "Earthquake", "Double-Edge"],
 		},
-		"NU Support": {
+		"NU Support (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Leftovers",
@@ -10801,7 +10793,7 @@ var SETDEX_BW = {
 		},
 	},
 	Remoraid: {
-		"LC Special Choice Scarf": {
+		"LC Special Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Sniper",
 			item: "Choice Scarf",
@@ -10809,7 +10801,7 @@ var SETDEX_BW = {
 			evs: { sa: 236, sp: 236 },
 			moves: ["Water Spout", "Surf", "Fire Blast", "Hidden Power Ground"],
 		},
-		"LC Physical Choice": {
+		"LC Physical Choice (Revisar)": {
 			level: 5,
 			ability: "Hustle",
 			item: "Choice Scarf",
@@ -10817,7 +10809,7 @@ var SETDEX_BW = {
 			evs: { at: 236, sp: 236 },
 			moves: ["Waterfall", "Seed Bomb", "Return", "Water Spout"],
 		},
-		"LC Mixed Choice Scarf": {
+		"LC Mixed Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Hustle",
 			item: "Choice Scarf",
@@ -10827,7 +10819,7 @@ var SETDEX_BW = {
 		},
 	},
 	Reshiram: {
-		"Uber Choice Specs": {
+		"Uber Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Turboblaze",
 			item: "Choice Specs",
@@ -10835,7 +10827,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Draco Meteor", "Blue Flare", "Dragon Pulse", "Focus Blast"],
 		},
-		"Uber Offensive": {
+		"Uber Offensive (Revisar)": {
 			level: 50,
 			ability: "Turboblaze",
 			item: "Life Orb",
@@ -10843,7 +10835,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Blue Flare", "Draco Meteor", "Tailwind", "Outrage"],
 		},
-		"Uber Flame Charge": {
+		"Uber Flame Charge (Revisar)": {
 			level: 50,
 			ability: "Turboblaze",
 			item: "Life Orb",
@@ -10851,7 +10843,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Flame Charge", "Blue Flare", "Dragon Pulse", "Draco Meteor"],
 		},
-		"Uber SubRoost": {
+		"Uber SubRoost (Revisar)": {
 			level: 50,
 			ability: "Turboblaze",
 			item: "Leftovers",
@@ -10859,7 +10851,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Substitute", "Roost", "Blue Flare", "Dragon Pulse"],
 		},
-		"Uber Sunny Day": {
+		"Uber Sunny Day (Revisar)": {
 			level: 50,
 			ability: "Turboblaze",
 			item: "Life Orb",
@@ -10867,7 +10859,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Sunny Day", "Blue Flare", "Draco Meteor", "Focus Blast"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Turboblaze",
 			item: "Choice Scarf",
@@ -10877,7 +10869,7 @@ var SETDEX_BW = {
 		},
 	},
 	Reuniclus: {
-		"OU Calm Mind": {
+		"OU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Leftovers",
@@ -10885,7 +10877,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sa: 4 },
 			moves: ["Calm Mind", "Psychic", "Focus Blast", "Recover"],
 		},
-		"OU 3 Attacks": {
+		"OU 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -10893,7 +10885,7 @@ var SETDEX_BW = {
 			evs: { hp: 208, sa: 200, sd: 100 },
 			moves: ["Psychic", "Focus Blast", "Hidden Power Ice", "Recover"],
 		},
-		"OU Trick Room": {
+		"OU Trick Room (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -10902,7 +10894,7 @@ var SETDEX_BW = {
 			evs: { hp: 192, df: 64, sa: 252 },
 			moves: ["Trick Room", "Psychic", "Focus Blast", "Hidden Power Ice"],
 		},
-		"Doubles Trick Room Attacker": {
+		"Doubles Trick Room Attacker (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -10913,7 +10905,7 @@ var SETDEX_BW = {
 		},
 	},
 	Rhydon: {
-		"RU Tank": {
+		"RU Tank (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Eviolite",
@@ -10921,7 +10913,7 @@ var SETDEX_BW = {
 			evs: { hp: 88, at: 252, sd: 84, sp: 84 },
 			moves: ["Stealth Rock", "Earthquake", "Rock Blast", "Megahorn"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Choice Band",
@@ -10929,7 +10921,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 252, sp: 220 },
 			moves: ["Earthquake", "Stone Edge", "Megahorn", "Double-Edge"],
 		},
-		"RU Rock Polish": {
+		"RU Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Life Orb",
@@ -10939,7 +10931,7 @@ var SETDEX_BW = {
 		},
 	},
 	Rhyhorn: {
-		"LC Rock Polish": {
+		"LC Rock Polish (Revisar)": {
 			level: 5,
 			ability: "Rock Head",
 			item: "Life Orb",
@@ -10947,7 +10939,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 236, sp: 236 },
 			moves: ["Rock Polish", "Earthquake", "Stone Edge", "Swords Dance"],
 		},
-		"LC All-Out Attacker": {
+		"LC All-Out Attacker (Revisar)": {
 			level: 5,
 			ability: "Rock Head",
 			item: "Life Orb",
@@ -10957,7 +10949,7 @@ var SETDEX_BW = {
 		},
 	},
 	Rhyperior: {
-		"UU Tank": {
+		"UU Tank (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "Leftovers",
@@ -10965,7 +10957,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 16, sd: 244 },
 			moves: ["Stealth Rock", "Earthquake", "Rock Blast", "Dragon Tail"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "Choice Band",
@@ -10973,7 +10965,7 @@ var SETDEX_BW = {
 			evs: { hp: 96, at: 252, sp: 160 },
 			moves: ["Stone Edge", "Earthquake", "Megahorn", "Ice Punch"],
 		},
-		"UU Rock Polish": {
+		"UU Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Solid Rock",
 			item: "Life Orb",
@@ -10981,7 +10973,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Rock Polish", "Earthquake", "Stone Edge", "Megahorn"],
 		},
-		"Doubles Trick Room Attacker": {
+		"Doubles Trick Room Attacker (Revisar)": {
 			level: 50,
 			ability: "Lightning Rod",
 			item: "Ground Gem",
@@ -10992,7 +10984,7 @@ var SETDEX_BW = {
 		},
 	},
 	Riolu: {
-		"LC Copycat": {
+		"LC Copycat (Revisar)": {
 			level: 5,
 			ability: "Prankster",
 			item: "Eviolite",
@@ -11002,7 +10994,7 @@ var SETDEX_BW = {
 		},
 	},
 	Roggenrola: {
-		"LC Autotomize Sweeper": {
+		"LC Autotomize Sweeper (Revisar)": {
 			level: 5,
 			ability: "Sand Force",
 			item: "Oran Berry",
@@ -11010,7 +11002,7 @@ var SETDEX_BW = {
 			evs: { at: 236, sp: 236 },
 			moves: ["Autotomize", "Stone Edge", "Earthquake", "Explosion"],
 		},
-		"LC Trick Room Sweeper": {
+		"LC Trick Room Sweeper (Revisar)": {
 			level: 5,
 			ability: "Sand Force",
 			item: "Life Orb",
@@ -11019,7 +11011,7 @@ var SETDEX_BW = {
 			evs: { hp: 236, at: 236 },
 			moves: ["Stone Edge", "Earthquake", "Explosion", "Return"],
 		},
-		"LC Substitute": {
+		"LC Substitute (Revisar)": {
 			level: 5,
 			ability: "Sand Force",
 			item: "Life Orb",
@@ -11027,7 +11019,7 @@ var SETDEX_BW = {
 			evs: { hp: 236, at: 236 },
 			moves: ["Substitute", "Stone Edge", "Earthquake", "Explosion"],
 		},
-		"LC Lead": {
+		"LC Lead (Revisar)": {
 			level: 5,
 			ability: "Sturdy",
 			item: "Oran Berry",
@@ -11037,7 +11029,7 @@ var SETDEX_BW = {
 		},
 	},
 	Roselia: {
-		"RU Utility": {
+		"RU Utility (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Eviolite",
@@ -11045,7 +11037,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Spikes", "Giga Drain", "Sludge Bomb", "Synthesis"],
 		},
-		"NU Spikes": {
+		"NU Spikes (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Eviolite",
@@ -11053,7 +11045,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sd: 252 },
 			moves: ["Spikes", "Rest", "Giga Drain", "Sludge Bomb"],
 		},
-		"NU Offensive Pivot": {
+		"NU Offensive Pivot (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Eviolite",
@@ -11063,7 +11055,7 @@ var SETDEX_BW = {
 		},
 	},
 	Roserade: {
-		"UU Offensive": {
+		"UU Offensive (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Life Orb",
@@ -11071,7 +11063,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Leaf Storm", "Sludge Bomb", "Sleep Powder", "Synthesis"],
 		},
-		"UU Spikes": {
+		"UU Spikes (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Black Sludge",
@@ -11081,7 +11073,7 @@ var SETDEX_BW = {
 		},
 	},
 	Rotom: {
-		"UU Choice": {
+		"UU Choice (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11094,7 +11086,7 @@ var SETDEX_BW = {
 				"Trick",
 			],
 		},
-		"UU Physically Defensive": {
+		"UU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -11102,7 +11094,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Will-O-Wisp", "Pain Split", "Thunderbolt", "Shadow Ball"],
 		},
-		"UU Dual Screens": {
+		"UU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Light Clay",
@@ -11110,7 +11102,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Light Screen", "Reflect", "Volt Switch", "Will-O-Wisp"],
 		},
-		"RU Substitute + Pain Split": {
+		"RU Substitute + Pain Split (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -11118,7 +11110,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Thunderbolt", "Shadow Ball", "Substitute", "Pain Split"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11126,7 +11118,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Volt Switch", "Shadow Ball", "Thunderbolt", "Trick"],
 		},
-		"RU Bulky": {
+		"RU Bulky (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -11135,8 +11127,8 @@ var SETDEX_BW = {
 			moves: ["Thunderbolt", "Shadow Ball", "Will-O-Wisp", "Pain Split"],
 		},
 	},
-	"Rotom-Fan": {
-		"RU Support": {
+	"Rotom-Fan (Revisar)": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -11144,7 +11136,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 120, sp: 136 },
 			moves: ["Will-O-Wisp", "Volt Switch", "Air Slash", "Pain Split"],
 		},
-		"RU Choice": {
+		"RU Choice (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11152,7 +11144,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Volt Switch", "Air Slash", "Hidden Power Grass", "Trick"],
 		},
-		"RU Substitute + Charge Beam": {
+		"RU Substitute + Charge Beam (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -11165,7 +11157,7 @@ var SETDEX_BW = {
 				"Hidden Power Ice",
 			],
 		},
-		"RU SubSplit": {
+		"RU SubSplit (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -11173,7 +11165,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Pain Split", "Thunderbolt", "Hidden Power Ice"],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11181,7 +11173,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Thunderbolt", "Air Slash", "Volt Switch", "Trick"],
 		},
-		"NU Expert Belt": {
+		"NU Expert Belt (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Expert Belt",
@@ -11194,7 +11186,7 @@ var SETDEX_BW = {
 				"Thunderbolt",
 			],
 		},
-		"NU Defensive": {
+		"NU Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -11203,8 +11195,8 @@ var SETDEX_BW = {
 			moves: ["Pain Split", "Discharge", "Air Slash", "Will-O-Wisp"],
 		},
 	},
-	"Rotom-Frost": {
-		"RU SubSplit": {
+	"Rotom-Frost (Revisar)": {
+		"RU SubSplit (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -11212,7 +11204,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Substitute", "Blizzard", "Thunderbolt", "Pain Split"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11220,7 +11212,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Volt Switch", "Blizzard", "Thunderbolt", "Trick"],
 		},
-		"RU All-Out Attacker": {
+		"RU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Expert Belt",
@@ -11228,7 +11220,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Volt Switch", "Blizzard", "Hidden Power Fire", "Thunderbolt"],
 		},
-		"NU SubSplit": {
+		"NU SubSplit (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Life Orb",
@@ -11236,7 +11228,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Pain Split", "Thunderbolt", "Hidden Power Ice"],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11244,7 +11236,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Volt Switch", "Thunderbolt", "Blizzard", "Trick"],
 		},
-		"NU ChestoRest": {
+		"NU ChestoRest (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Chesto Berry",
@@ -11253,8 +11245,8 @@ var SETDEX_BW = {
 			moves: ["Rest", "Will-O-Wisp", "Thunderbolt", "Blizzard"],
 		},
 	},
-	"Rotom-Heat": {
-		"UU Choice Specs": {
+	"Rotom-Heat (Revisar)": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Specs",
@@ -11262,7 +11254,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Overheat", "Volt Switch", "Hidden Power Grass", "Trick"],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11270,7 +11262,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Overheat", "Volt Switch", "Hidden Power Grass", "Trick"],
 		},
-		"UU Non-Choice Attacker": {
+		"UU Non-Choice Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -11278,7 +11270,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Overheat", "Volt Switch", "Will-O-Wisp", "Pain Split"],
 		},
-		"Doubles Special Attacker": {
+		"Doubles Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Fire Gem",
@@ -11287,8 +11279,8 @@ var SETDEX_BW = {
 			moves: ["Overheat", "Thunderbolt", "Hidden Power Ice", "Protect"],
 		},
 	},
-	"Rotom-Mow": {
-		"UU Choice Scarf": {
+	"Rotom-Mow (Revisar)": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11296,7 +11288,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Leaf Storm", "Volt Switch", "Thunderbolt", "Trick"],
 		},
-		"UU Defensive": {
+		"UU Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -11304,7 +11296,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sp: 4 },
 			moves: ["Leaf Storm", "Volt Switch", "Pain Split", "Will-O-Wisp"],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Specs",
@@ -11312,7 +11304,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Leaf Storm", "Volt Switch", "Thunderbolt", "Trick"],
 		},
-		"UU Non-Choice Attacker": {
+		"UU Non-Choice Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Expert Belt",
@@ -11320,7 +11312,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Leaf Storm", "Volt Switch", "Will-O-Wisp", "Pain Split"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11328,7 +11320,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Volt Switch", "Leaf Storm", "Thunderbolt", "Trick"],
 		},
-		"RU Choice Specs": {
+		"RU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Specs",
@@ -11336,7 +11328,7 @@ var SETDEX_BW = {
 			evs: { hp: 48, sa: 252, sp: 208 },
 			moves: ["Volt Switch", "Leaf Storm", "Thunderbolt", "Trick"],
 		},
-		"RU Utility": {
+		"RU Utility (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -11345,8 +11337,8 @@ var SETDEX_BW = {
 			moves: ["Will-O-Wisp", "Volt Switch", "Leaf Storm", "Pain Split"],
 		},
 	},
-	"Rotom-Wash": {
-		"OU Specially Defensive": {
+	"Rotom-Wash (Revisar)": {
+		"OU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -11354,7 +11346,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 20, sd: 240 },
 			moves: ["Volt Switch", "Hydro Pump", "Will-O-Wisp", "Pain Split"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11362,7 +11354,7 @@ var SETDEX_BW = {
 			evs: { hp: 32, sa: 252, sp: 224 },
 			moves: ["Volt Switch", "Hydro Pump", "Trick", "Hidden Power Ice"],
 		},
-		"Doubles Bulky Attacker": {
+		"Doubles Bulky Attacker (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Sitrus Berry",
@@ -11370,7 +11362,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, sa: 252, sd: 16 },
 			moves: ["Hydro Pump", "Thunderbolt", "Thunder Wave", "Protect"],
 		},
-		"Doubles Choice Specs": {
+		"Doubles Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Specs",
@@ -11378,7 +11370,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, sa: 252, sd: 16 },
 			moves: ["Hydro Pump", "Thunderbolt", "Thunder", "Hidden Power Grass"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -11393,7 +11385,7 @@ var SETDEX_BW = {
 		},
 	},
 	Rufflet: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Keen Eye",
 			item: "Choice Scarf",
@@ -11401,7 +11393,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 36, sp: 196 },
 			moves: ["Pluck", "Return", "U-turn", "Superpower"],
 		},
-		"LC Bulk Up": {
+		"LC Bulk Up (Revisar)": {
 			level: 5,
 			ability: "Keen Eye",
 			item: "Eviolite",
@@ -11411,7 +11403,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sableye: {
-		"UU Prankster": {
+		"UU Prankster (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Leftovers",
@@ -11419,7 +11411,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 120, sd: 136 },
 			moves: ["Recover", "Will-O-Wisp", "Taunt", "Foul Play"],
 		},
-		"Uber Prankster": {
+		"Uber Prankster (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Leftovers",
@@ -11429,7 +11421,7 @@ var SETDEX_BW = {
 		},
 	},
 	Salamence: {
-		"OU Dragon Dance": {
+		"OU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Lum Berry",
@@ -11437,7 +11429,7 @@ var SETDEX_BW = {
 			evs: { hp: 72, at: 252, sp: 184 },
 			moves: ["Dragon Dance", "Outrage", "Earthquake", "Dragon Claw"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Choice Scarf",
@@ -11445,7 +11437,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 72, sp: 184 },
 			moves: ["Outrage", "Earthquake", "Hidden Power Ice", "Dragon Claw"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Choice Scarf",
@@ -11453,7 +11445,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Outrage", "Dragon Claw", "Earthquake", "Fire Blast"],
 		},
-		"Uber Dragon Dance": {
+		"Uber Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Life Orb",
@@ -11461,7 +11453,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Dragon Dance", "Outrage", "Earthquake", "Fire Blast"],
 		},
-		"Doubles Special Attacker": {
+		"Doubles Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Dragon Gem",
@@ -11474,7 +11466,7 @@ var SETDEX_BW = {
 				"Tailwind",
 			],
 		},
-		"Doubles Mixed Attacker": {
+		"Doubles Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Life Orb",
@@ -11482,7 +11474,7 @@ var SETDEX_BW = {
 			evs: { at: 72, sa: 184, sp: 252 },
 			moves: ["Draco Meteor", "Earthquake", "Dragon Claw", "Protect"],
 		},
-		"Doubles Choice": {
+		"Doubles Choice (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Choice Scarf",
@@ -11497,7 +11489,7 @@ var SETDEX_BW = {
 		},
 	},
 	Samurott: {
-		"RU Mixed Attacker": {
+		"RU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -11505,7 +11497,7 @@ var SETDEX_BW = {
 			evs: { at: 84, sa: 180, sp: 244 },
 			moves: ["Hydro Pump", "Grass Knot", "Ice Beam", "Megahorn"],
 		},
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -11513,7 +11505,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Waterfall", "Megahorn", "Aqua Jet"],
 		},
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Lum Berry",
@@ -11521,7 +11513,7 @@ var SETDEX_BW = {
 			evs: { hp: 200, at: 252, sp: 56 },
 			moves: ["Swords Dance", "Razor Shell", "Aqua Jet", "Megahorn"],
 		},
-		"NU All-out Attacker": {
+		"NU All-out Attacker (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -11531,7 +11523,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sandile: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Moxie",
 			item: "Choice Scarf",
@@ -11539,7 +11531,7 @@ var SETDEX_BW = {
 			evs: { at: 180, df: 76, sp: 236 },
 			moves: ["Earthquake", "Crunch", "Fire Fang", "Stone Edge"],
 		},
-		"LC Hone Claws": {
+		"LC Hone Claws (Revisar)": {
 			level: 5,
 			ability: "Moxie",
 			item: "Life Orb",
@@ -11549,7 +11541,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sandshrew: {
-		"ZU Hazard Utility": {
+		"ZU Hazard Utility (Revisar)": {
 			level: 50,
 			ability: "Sand Rush",
 			item: "Eviolite",
@@ -11559,7 +11551,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sandslash: {
-		"RU Rapid Spin": {
+		"RU Rapid Spin (Revisar)": {
 			level: 50,
 			ability: "Sand Rush",
 			item: "Lum Berry",
@@ -11569,7 +11561,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sawk: {
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Choice Band",
@@ -11577,7 +11569,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Close Combat", "Earthquake", "Ice Punch", "Stone Edge"],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Choice Scarf",
@@ -11587,7 +11579,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sawsbuck: {
-		"RU Substitute + Baton Pass": {
+		"RU Substitute + Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Leftovers",
@@ -11595,7 +11587,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Baton Pass", "Return", "Horn Leech"],
 		},
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Life Orb",
@@ -11603,7 +11595,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Return", "Horn Leech", "Nature Power"],
 		},
-		"RU All-Out Attacker": {
+		"RU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Choice Band",
@@ -11611,7 +11603,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Return", "Horn Leech", "Nature Power", "Megahorn"],
 		},
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Life Orb",
@@ -11619,7 +11611,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Double-Edge", "Horn Leech", "Nature Power"],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Sap Sipper",
 			item: "Choice Scarf",
@@ -11629,7 +11621,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sceptile: {
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Life Orb",
@@ -11637,7 +11629,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Leaf Blade", "Earthquake", "Rock Slide"],
 		},
-		"UU Special Attacker": {
+		"UU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Choice Specs",
@@ -11645,7 +11637,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Leaf Storm", "Focus Blast", "Hidden Power Ice", "Giga Drain"],
 		},
-		"UU SubSeed": {
+		"UU SubSeed (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Leftovers",
@@ -11653,7 +11645,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Leech Seed", "Giga Drain", "Hidden Power Fire"],
 		},
-		"RU Substitute + 3 Attacks": {
+		"RU Substitute + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Life Orb",
@@ -11666,7 +11658,7 @@ var SETDEX_BW = {
 				"Hidden Power Rock",
 			],
 		},
-		"RU All-Out Attacker": {
+		"RU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Life Orb",
@@ -11679,7 +11671,7 @@ var SETDEX_BW = {
 				"Giga Drain",
 			],
 		},
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Unburden",
 			item: "Flying Gem",
@@ -11687,7 +11679,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Leaf Blade", "Drain Punch", "Acrobatics"],
 		},
-		"RU SubSeed": {
+		"RU SubSeed (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Leftovers",
@@ -11697,7 +11689,7 @@ var SETDEX_BW = {
 		},
 	},
 	Scizor: {
-		"OU Offensive Swords Dance": {
+		"OU Offensive Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Life Orb",
@@ -11705,7 +11697,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Bullet Punch", "Pursuit", "Superpower", "Swords Dance"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Choice Scarf",
@@ -11713,7 +11705,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["U-turn", "Pursuit", "Superpower", "Bullet Punch"],
 		},
-		"Doubles All-Out Attacker": {
+		"Doubles All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Steel Gem",
@@ -11721,7 +11713,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Bullet Punch", "Feint", "Bug Bite", "Protect"],
 		},
-		"Doubles Swords Dance": {
+		"Doubles Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Steel Gem",
@@ -11731,7 +11723,7 @@ var SETDEX_BW = {
 		},
 	},
 	Scolipede: {
-		"UU Spikes + 3 Attacks": {
+		"UU Spikes + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Focus Sash",
@@ -11739,7 +11731,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Spikes", "Megahorn", "Earthquake", "Rock Slide"],
 		},
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Life Orb",
@@ -11747,7 +11739,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Megahorn", "Earthquake", "Aqua Tail"],
 		},
-		"RU Spikes": {
+		"RU Spikes (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Life Orb",
@@ -11755,7 +11747,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Spikes", "Megahorn", "Earthquake", "Rock Slide"],
 		},
-		"RU Swords Dance + 3 Attacks": {
+		"RU Swords Dance + 3 Attacks (Revisar)": {
 			level: 50,
 			ability: "Quick Feet",
 			item: "Life Orb",
@@ -11763,7 +11755,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Megahorn", "Earthquake", "Rock Slide"],
 		},
-		"RU Substitute + Swords Dance": {
+		"RU Substitute + Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Swarm",
 			item: "Salac Berry",
@@ -11773,7 +11765,7 @@ var SETDEX_BW = {
 		},
 	},
 	Scrafty: {
-		"UU Dragon Dance": {
+		"UU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Moxie",
 			item: "Lum Berry",
@@ -11781,7 +11773,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Dragon Dance", "High Jump Kick", "Crunch", "Ice Punch"],
 		},
-		"UU Bulk Up": {
+		"UU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Shed Skin",
 			item: "Leftovers",
@@ -11789,7 +11781,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, sd: 252 },
 			moves: ["Bulk Up", "Drain Punch", "Crunch", "Rest"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Choice Band",
@@ -11797,7 +11789,7 @@ var SETDEX_BW = {
 			evs: { hp: 232, at: 252, sd: 4, sp: 20 },
 			moves: ["High Jump Kick", "Crunch", "Ice Punch", "Drain Punch"],
 		},
-		"Doubles Offensive Support": {
+		"Doubles Offensive Support (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Chople Berry",
@@ -11807,7 +11799,7 @@ var SETDEX_BW = {
 		},
 	},
 	Scraggy: {
-		"RU Dragon Dance": {
+		"RU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Shed Skin",
 			item: "Eviolite",
@@ -11815,7 +11807,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Dragon Dance", "High Jump Kick", "Crunch", "Drain Punch"],
 		},
-		"RU Bulk Up": {
+		"RU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Shed Skin",
 			item: "Eviolite",
@@ -11823,7 +11815,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 236, sp: 20 },
 			moves: ["Bulk Up", "Drain Punch", "Crunch", "Rest"],
 		},
-		"NU Bulk Up": {
+		"NU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Shed Skin",
 			item: "Eviolite",
@@ -11831,7 +11823,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 8, sd: 252 },
 			moves: ["Bulk Up", "Drain Punch", "Crunch", "Rest"],
 		},
-		"NU Dragon Dance": {
+		"NU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Shed Skin",
 			item: "Eviolite",
@@ -11839,7 +11831,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Dragon Dance", "High Jump Kick", "Crunch", "Drain Punch"],
 		},
-		"PU Bulk Up": {
+		"PU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Shed Skin",
 			item: "Eviolite",
@@ -11849,7 +11841,7 @@ var SETDEX_BW = {
 		},
 	},
 	Scyther: {
-		"UU Bulky Swords Dance": {
+		"UU Bulky Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Eviolite",
@@ -11857,7 +11849,7 @@ var SETDEX_BW = {
 			evs: { hp: 216, at: 40, sp: 252 },
 			moves: ["Swords Dance", "Roost", "Aerial Ace", "Brick Break"],
 		},
-		"UU Swords Dance Sweeper": {
+		"UU Swords Dance Sweeper (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Life Orb",
@@ -11865,7 +11857,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Aerial Ace", "Brick Break", "Bug Bite"],
 		},
-		"UU Choice Attacker": {
+		"UU Choice Attacker (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Choice Band",
@@ -11873,7 +11865,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["U-turn", "Aerial Ace", "Brick Break", "Quick Attack"],
 		},
-		"RU Offensive Swords Dance": {
+		"RU Offensive Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Life Orb",
@@ -11881,7 +11873,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Aerial Ace", "Bug Bite", "Brick Break"],
 		},
-		"RU Choice": {
+		"RU Choice (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Choice Band",
@@ -11889,7 +11881,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["U-turn", "Aerial Ace", "Bug Bite", "Brick Break"],
 		},
-		"RU Bulky Swords Dance": {
+		"RU Bulky Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Technician",
 			item: "Eviolite",
@@ -11899,7 +11891,7 @@ var SETDEX_BW = {
 		},
 	},
 	Seadra: {
-		"NU SubDisable": {
+		"NU SubDisable (Revisar)": {
 			level: 50,
 			ability: "Poison Point",
 			item: "Eviolite",
@@ -11909,7 +11901,7 @@ var SETDEX_BW = {
 		},
 	},
 	Seaking: {
-		"NU Life Orb": {
+		"NU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Lightning Rod",
 			item: "Life Orb",
@@ -11917,7 +11909,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 92, sp: 164 },
 			moves: ["Waterfall", "Megahorn", "Return", "Ice Beam"],
 		},
-		"ZU Offensive Rain Dance": {
+		"ZU Offensive Rain Dance (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -11927,7 +11919,7 @@ var SETDEX_BW = {
 		},
 	},
 	Seedot: {
-		"LC Growth": {
+		"LC Growth (Revisar)": {
 			level: 5,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -11938,7 +11930,7 @@ var SETDEX_BW = {
 		},
 	},
 	Seel: {
-		"LC Priority Attacker": {
+		"LC Priority Attacker (Revisar)": {
 			level: 5,
 			ability: "Ice Body",
 			item: "Life Orb",
@@ -11948,7 +11940,7 @@ var SETDEX_BW = {
 		},
 	},
 	Seismitoad: {
-		"OU Utility": {
+		"OU Utility (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -11956,7 +11948,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 232, sp: 28 },
 			moves: ["Scald", "Refresh", "Protect", "Stealth Rock"],
 		},
-		"RU Physically Defensive": {
+		"RU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -11964,7 +11956,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 192, sp: 64 },
 			moves: ["Stealth Rock", "Scald", "Earth Power", "Toxic"],
 		},
-		"RU Swift Swim Sweeper": {
+		"RU Swift Swim Sweeper (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -11972,7 +11964,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Hydro Pump", "Earth Power", "Sludge Wave", "Rain Dance"],
 		},
-		"RU Substitute": {
+		"RU Substitute (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -11980,7 +11972,7 @@ var SETDEX_BW = {
 			evs: { hp: 44, sa: 252, sp: 212 },
 			moves: ["Substitute", "Earth Power", "Surf", "Sludge Bomb"],
 		},
-		"NU Utility": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -11988,7 +11980,7 @@ var SETDEX_BW = {
 			evs: { hp: 200, df: 252, sd: 56 },
 			moves: ["Stealth Rock", "Scald", "Earth Power", "Toxic"],
 		},
-		"NU Offensive Stealth Rock": {
+		"NU Offensive Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
@@ -11996,7 +11988,7 @@ var SETDEX_BW = {
 			evs: { hp: 232, sa: 252, sp: 24 },
 			moves: ["Stealth Rock", "Hydro Pump", "Earth Power", "Toxic"],
 		},
-		"NU Swift Swim": {
+		"NU Swift Swim (Revisar)": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -12006,7 +11998,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sentret: {
-		"LC Choice Specs": {
+		"LC Choice Specs (Revisar)": {
 			level: 5,
 			ability: "Frisk",
 			item: "Choice Specs",
@@ -12016,7 +12008,7 @@ var SETDEX_BW = {
 		},
 	},
 	Serperior: {
-		"NU Calm Mind": {
+		"NU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Life Orb",
@@ -12024,7 +12016,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Calm Mind", "Taunt", "Giga Drain", "Hidden Power Rock"],
 		},
-		"NU Dual Screens": {
+		"NU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Light Clay",
@@ -12034,7 +12026,7 @@ var SETDEX_BW = {
 		},
 	},
 	Seviper: {
-		"NU Mixed Attacker": {
+		"NU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Shed Skin",
 			item: "Life Orb",
@@ -12042,7 +12034,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Sludge Bomb", "Flamethrower", "Giga Drain", "Sucker Punch"],
 		},
-		"ZU Stallbreaker": {
+		"ZU Stallbreaker (Revisar)": {
 			level: 50,
 			ability: "Shed Skin",
 			item: "Life Orb",
@@ -12052,7 +12044,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sewaddle: {
-		"LC Chlorophyll": {
+		"LC Chlorophyll (Revisar)": {
 			level: 5,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -12062,7 +12054,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sharpedo: {
-		"UU Physical Attacker": {
+		"UU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Speed Boost",
 			item: "Life Orb",
@@ -12070,7 +12062,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Protect", "Waterfall", "Crunch", "Earthquake"],
 		},
-		"UU Special Attacker": {
+		"UU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Speed Boost",
 			item: "Life Orb",
@@ -12080,7 +12072,7 @@ var SETDEX_BW = {
 		},
 	},
 	Shaymin: {
-		"UU Life Orb": {
+		"UU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Life Orb",
@@ -12088,7 +12080,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Seed Flare", "Earth Power", "Psychic", "Synthesis"],
 		},
-		"UU Leech Seed": {
+		"UU Leech Seed (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Leftovers",
@@ -12097,8 +12089,8 @@ var SETDEX_BW = {
 			moves: ["Leech Seed", "Seed Flare", "Psychic", "Substitute"],
 		},
 	},
-	"Shaymin-Sky": {
-		"Uber Substitute + Leech Seed": {
+	"Shaymin-Sky (Revisar)": {
+		"Uber Substitute + Leech Seed (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Leftovers",
@@ -12106,7 +12098,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Leech Seed", "Seed Flare", "Air Slash"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Choice Scarf",
@@ -12114,7 +12106,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Seed Flare", "Air Slash", "Earth Power", "Hidden Power Ice"],
 		},
-		"Uber Special Sweeper": {
+		"Uber Special Sweeper (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Life Orb",
@@ -12123,7 +12115,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Seed Flare", "Air Slash", "Earth Power", "Hidden Power Fire"],
 		},
-		"Uber Choice Specs": {
+		"Uber Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Choice Specs",
@@ -12131,7 +12123,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Seed Flare", "Air Slash", "Earth Power", "Hidden Power Ice"],
 		},
-		"Doubles Offensive": {
+		"Doubles Offensive (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Life Orb",
@@ -12141,7 +12133,7 @@ var SETDEX_BW = {
 		},
 	},
 	Shedinja: {
-		"NU Pivot": {
+		"NU Pivot (Revisar)": {
 			level: 50,
 			ability: "Wonder Guard",
 			item: "Focus Sash",
@@ -12150,7 +12142,7 @@ var SETDEX_BW = {
 			evs: { at: 252 },
 			moves: ["Baton Pass", "Will-O-Wisp", "Protect", "Shadow Sneak"],
 		},
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Wonder Guard",
 			item: "Focus Sash",
@@ -12161,7 +12153,7 @@ var SETDEX_BW = {
 		},
 	},
 	Shelgon: {
-		"NU Bulky Dragon Dance": {
+		"NU Bulky Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Overcoat",
 			item: "Eviolite",
@@ -12169,7 +12161,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 20, df: 236 },
 			moves: ["Dragon Dance", "Outrage", "Rest", "Sleep Talk"],
 		},
-		"NU Physically Defensive": {
+		"NU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Eviolite",
@@ -12177,7 +12169,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 236, sd: 20 },
 			moves: ["Wish", "Protect", "Toxic", "Dragon Claw"],
 		},
-		"ZU Cleric": {
+		"ZU Cleric (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Eviolite",
@@ -12185,7 +12177,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 8, df: 252 },
 			moves: ["Wish", "Protect", "Dragon Claw", "Roar"],
 		},
-		"ZU Bulky Dragon Dance": {
+		"ZU Bulky Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Overcoat",
 			item: "Eviolite",
@@ -12193,7 +12185,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 8, df: 252 },
 			moves: ["Dragon Dance", "Outrage", "Rest", "Sleep Talk"],
 		},
-		"ZU Offensive Dragon Dance": {
+		"ZU Offensive Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Overcoat",
 			item: "Eviolite",
@@ -12203,7 +12195,7 @@ var SETDEX_BW = {
 		},
 	},
 	Shellder: {
-		"LC Life Orb": {
+		"LC Life Orb (Revisar)": {
 			level: 5,
 			ability: "Skill Link",
 			item: "Life Orb",
@@ -12211,7 +12203,7 @@ var SETDEX_BW = {
 			evs: { at: 236, sd: 76, sp: 196 },
 			moves: ["Shell Smash", "Icicle Spear", "Rock Blast", "Protect"],
 		},
-		"LC Eviolite": {
+		"LC Eviolite (Revisar)": {
 			level: 5,
 			ability: "Skill Link",
 			item: "Eviolite",
@@ -12221,7 +12213,7 @@ var SETDEX_BW = {
 		},
 	},
 	Shelmet: {
-		"ZU Spikes": {
+		"ZU Spikes (Revisar)": {
 			level: 50,
 			ability: "Shell Armor",
 			item: "Eviolite",
@@ -12230,7 +12222,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Spikes", "Bug Buzz", "Toxic", "Recover"],
 		},
-		"LC Support": {
+		"LC Support (Revisar)": {
 			level: 5,
 			ability: "Shell Armor",
 			item: "Eviolite",
@@ -12240,7 +12232,7 @@ var SETDEX_BW = {
 		},
 	},
 	Shieldon: {
-		"LC Support": {
+		"LC Support (Revisar)": {
 			level: 5,
 			ability: "Sturdy",
 			item: "Oran Berry",
@@ -12251,7 +12243,7 @@ var SETDEX_BW = {
 		},
 	},
 	Shiftry: {
-		"RU Swords Dance": {
+		"RU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Early Bird",
 			item: "Life Orb",
@@ -12259,7 +12251,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Sucker Punch", "Seed Bomb", "Nature Power"],
 		},
-		"RU Mixed Attacker": {
+		"RU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Early Bird",
 			item: "Life Orb",
@@ -12272,7 +12264,7 @@ var SETDEX_BW = {
 				"Focus Blast",
 			],
 		},
-		"NU Mixed Attacker": {
+		"NU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Early Bird",
 			item: "Life Orb",
@@ -12280,7 +12272,7 @@ var SETDEX_BW = {
 			evs: { at: 88, sa: 244, sp: 176 },
 			moves: ["Leaf Storm", "Sucker Punch", "Dark Pulse", "Nature Power"],
 		},
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Early Bird",
 			item: "Life Orb",
@@ -12288,7 +12280,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Sucker Punch", "Seed Bomb", "Nature Power"],
 		},
-		"PU Choice Specs": {
+		"PU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Choice Specs",
@@ -12296,7 +12288,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Leaf Storm", "Dark Pulse", "Focus Blast", "Energy Ball"],
 		},
-		"PU Swords Dance": {
+		"PU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -12304,7 +12296,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Seed Bomb", "Nature Power", "Sucker Punch"],
 		},
-		"Uber Special Sweeper": {
+		"Uber Special Sweeper (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -12314,7 +12306,7 @@ var SETDEX_BW = {
 		},
 	},
 	Shinx: {
-		"LC Guts": {
+		"LC Guts (Revisar)": {
 			level: 5,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -12324,7 +12316,7 @@ var SETDEX_BW = {
 		},
 	},
 	Shuckle: {
-		"NU Wall": {
+		"NU Wall (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -12334,7 +12326,7 @@ var SETDEX_BW = {
 		},
 	},
 	Shuppet: {
-		"LC Trick Room Lead": {
+		"LC Trick Room Lead (Revisar)": {
 			level: 5,
 			ability: "Frisk",
 			item: "Focus Sash",
@@ -12345,7 +12337,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sigilyph: {
-		"UU Bulky Sweeper": {
+		"UU Bulky Sweeper (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Flame Orb",
@@ -12353,7 +12345,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sp: 4 },
 			moves: ["Cosmic Power", "Psycho Shift", "Stored Power", "Roost"],
 		},
-		"UU Offensive": {
+		"UU Offensive (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -12361,7 +12353,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Psyshock", "Air Slash", "Heat Wave", "Roost"],
 		},
-		"RU Offensive": {
+		"RU Offensive (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -12369,7 +12361,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Psychic", "Heat Wave", "Air Slash", "Roost"],
 		},
-		"RU Cosmic Power": {
+		"RU Cosmic Power (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Flame Orb",
@@ -12377,7 +12369,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 16, sp: 240 },
 			moves: ["Cosmic Power", "Roost", "Psycho Shift", "Stored Power"],
 		},
-		"RU Offensive Calm Mind": {
+		"RU Offensive Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -12387,7 +12379,7 @@ var SETDEX_BW = {
 		},
 	},
 	Simipour: {
-		"RU Nasty Plot": {
+		"RU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Gluttony",
 			item: "Life Orb",
@@ -12395,7 +12387,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Nasty Plot", "Hydro Pump", "Ice Beam", "Hidden Power Grass"],
 		},
-		"RU Choice Specs": {
+		"RU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Choice Specs",
@@ -12403,7 +12395,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Hydro Pump", "Ice Beam", "Hidden Power Grass", "Focus Blast"],
 		},
-		"NU Nasty Plot": {
+		"NU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Gluttony",
 			item: "Life Orb",
@@ -12411,7 +12403,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Nasty Plot", "Hydro Pump", "Ice Beam", "Hidden Power Grass"],
 		},
-		"NU AcroPour": {
+		"NU AcroPour (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Flying Gem",
@@ -12419,7 +12411,7 @@ var SETDEX_BW = {
 			evs: { at: 156, sa: 100, sp: 252 },
 			moves: ["Hydro Pump", "Substitute", "Acrobatics", "Endeavor"],
 		},
-		"NU SubSalac": {
+		"NU SubSalac (Revisar)": {
 			level: 50,
 			ability: "Gluttony",
 			item: "Salac Berry",
@@ -12427,7 +12419,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Substitute", "Nasty Plot", "Hydro Pump", "Ice Beam"],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Choice Scarf",
@@ -12437,7 +12429,7 @@ var SETDEX_BW = {
 		},
 	},
 	Simisage: {
-		"NU Mixed Attacker": {
+		"NU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Life Orb",
@@ -12445,7 +12437,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Substitute", "Giga Drain", "Superpower", "Hidden Power Rock"],
 		},
-		"NU Physical Attacker": {
+		"NU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Flying Gem",
@@ -12453,7 +12445,7 @@ var SETDEX_BW = {
 			evs: { hp: 8, at: 248, sp: 252 },
 			moves: ["Substitute", "Seed Bomb", "Acrobatics", "Low Kick"],
 		},
-		"NU Nasty Plot": {
+		"NU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Gluttony",
 			item: "Life Orb",
@@ -12468,7 +12460,7 @@ var SETDEX_BW = {
 		},
 	},
 	Simisear: {
-		"NU Substitute + Nasty Plot": {
+		"NU Substitute + Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Gluttony",
 			item: "Salac Berry",
@@ -12476,7 +12468,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Nasty Plot", "Substitute", "Fire Blast", "Focus Blast"],
 		},
-		"NU All-Out Attacker": {
+		"NU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Life Orb",
@@ -12484,7 +12476,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Fire Blast", "Grass Knot", "Superpower", "Hidden Power Rock"],
 		},
-		"ZU Nasty Plot": {
+		"ZU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Gluttony",
 			item: "Salac Berry",
@@ -12498,7 +12490,7 @@ var SETDEX_BW = {
 				"Substitute",
 			],
 		},
-		"ZU All-Out Attacker": {
+		"ZU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Life Orb",
@@ -12512,7 +12504,7 @@ var SETDEX_BW = {
 				"Focus Blast",
 			],
 		},
-		"ZU Work Up": {
+		"ZU Work Up (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Expert Belt",
@@ -12520,7 +12512,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Work Up", "Fire Blast", "Low Kick", "Shadow Claw"],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Choice Scarf",
@@ -12534,7 +12526,7 @@ var SETDEX_BW = {
 				"Hidden Power Grass",
 			],
 		},
-		"ZU Choice Specs": {
+		"ZU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Choice Specs",
@@ -12550,7 +12542,7 @@ var SETDEX_BW = {
 		},
 	},
 	Skarmory: {
-		"OU Defensive": {
+		"OU Defensive (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -12558,7 +12550,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Roost", "Spikes", "Whirlwind", "Brave Bird"],
 		},
-		"OU Lead": {
+		"OU Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -12566,7 +12558,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Spikes", "Stealth Rock", "Brave Bird", "Taunt"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -12574,7 +12566,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Spikes", "Roost", "Whirlwind", "Toxic"],
 		},
-		"Uber Custap Lead": {
+		"Uber Custap Lead (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -12584,7 +12576,7 @@ var SETDEX_BW = {
 		},
 	},
 	Skitty: {
-		"LC Anti-Lead": {
+		"LC Anti-Lead (Revisar)": {
 			level: 5,
 			ability: "Cute Charm",
 			item: "Life Orb",
@@ -12592,7 +12584,7 @@ var SETDEX_BW = {
 			evs: { at: 236, sd: 76, sp: 196 },
 			moves: ["Fake Out", "Return", "Sucker Punch", "Zen Headbutt"],
 		},
-		"LC Normalize": {
+		"LC Normalize (Revisar)": {
 			level: 5,
 			ability: "Normalize",
 			item: "Oran Berry",
@@ -12602,7 +12594,7 @@ var SETDEX_BW = {
 		},
 	},
 	Skorupi: {
-		"LC RestTalk": {
+		"LC RestTalk (Revisar)": {
 			level: 5,
 			ability: "Battle Armor",
 			item: "Eviolite",
@@ -12610,7 +12602,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 36, df: 196, sd: 236 },
 			moves: ["Rest", "Sleep Talk", "Acupressure", "X-Scissor"],
 		},
-		"LC Toxic Spiker": {
+		"LC Toxic Spiker (Revisar)": {
 			level: 5,
 			ability: "Sniper",
 			item: "Eviolite",
@@ -12620,7 +12612,7 @@ var SETDEX_BW = {
 		},
 	},
 	Skuntank: {
-		"RU Trapper": {
+		"RU Trapper (Revisar)": {
 			level: 50,
 			ability: "Aftermath",
 			item: "Life Orb",
@@ -12628,7 +12620,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Pursuit", "Taunt", "Sucker Punch", "Crunch"],
 		},
-		"RU Wallbreaker": {
+		"RU Wallbreaker (Revisar)": {
 			level: 50,
 			ability: "Aftermath",
 			item: "Life Orb",
@@ -12636,7 +12628,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 104, sp: 152 },
 			moves: ["Sucker Punch", "Taunt", "Poison Jab", "Fire Blast"],
 		},
-		"NU Offensive Support": {
+		"NU Offensive Support (Revisar)": {
 			level: 50,
 			ability: "Aftermath",
 			item: "Black Sludge",
@@ -12646,7 +12638,7 @@ var SETDEX_BW = {
 		},
 	},
 	Slaking: {
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Truant",
 			item: "Choice Band",
@@ -12654,7 +12646,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Return", "Earthquake", "Night Slash", "Pursuit"],
 		},
-		"ZU Choice Band": {
+		"ZU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Truant",
 			item: "Choice Band",
@@ -12662,7 +12654,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Return", "Earthquake", "Night Slash", "Pursuit"],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Truant",
 			item: "Choice Scarf",
@@ -12672,7 +12664,7 @@ var SETDEX_BW = {
 		},
 	},
 	Slowbro: {
-		"OU Defensive": {
+		"OU Defensive (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -12680,7 +12672,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Scald", "Ice Beam", "Slack Off", "Thunder Wave"],
 		},
-		"UU Calm Mind": {
+		"UU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -12688,7 +12680,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 244, sa: 16 },
 			moves: ["Calm Mind", "Scald", "Psyshock", "Slack Off"],
 		},
-		"UU Physical Tank": {
+		"UU Physical Tank (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -12696,7 +12688,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 244, sa: 16 },
 			moves: ["Scald", "Psyshock", "Slack Off", "Thunder Wave"],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Choice Specs",
@@ -12706,7 +12698,7 @@ var SETDEX_BW = {
 		},
 	},
 	Slowking: {
-		"OU Special Wall": {
+		"OU Special Wall (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -12714,7 +12706,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 76, sd: 180 },
 			moves: ["Slack Off", "Scald", "Dragon Tail", "Fire Blast"],
 		},
-		"UU Physically Defensive": {
+		"UU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -12722,7 +12714,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 12, df: 248 },
 			moves: ["Scald", "Dragon Tail", "Slack Off", "Thunder Wave"],
 		},
-		"UU Utility Counter": {
+		"UU Utility Counter (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -12730,7 +12722,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 12, df: 72, sd: 176 },
 			moves: ["Scald", "Dragon Tail", "Slack Off", "Thunder Wave"],
 		},
-		"RU Defensive": {
+		"RU Defensive (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -12738,7 +12730,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 144, sd: 116 },
 			moves: ["Scald", "Slack Off", "Psyshock", "Thunder Wave"],
 		},
-		"RU Choice Specs": {
+		"RU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Choice Specs",
@@ -12746,7 +12738,7 @@ var SETDEX_BW = {
 			evs: { hp: 212, sa: 252, sp: 44 },
 			moves: ["Surf", "Psyshock", "Fire Blast", "Trick"],
 		},
-		"RU Trick Room": {
+		"RU Trick Room (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -12755,7 +12747,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sa: 252, sd: 8 },
 			moves: ["Trick Room", "Surf", "Fire Blast", "Nasty Plot"],
 		},
-		"RU Calm Mind": {
+		"RU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -12765,7 +12757,7 @@ var SETDEX_BW = {
 		},
 	},
 	Slowpoke: {
-		"LC Physically Defensive": {
+		"LC Physically Defensive (Revisar)": {
 			level: 5,
 			ability: "Regenerator",
 			item: "Eviolite",
@@ -12773,7 +12765,7 @@ var SETDEX_BW = {
 			evs: { hp: 196, df: 156, sa: 36, sd: 116 },
 			moves: ["Scald", "Psychic", "Slack Off", "Toxic"],
 		},
-		"LC Trick Room Support": {
+		"LC Trick Room Support (Revisar)": {
 			level: 5,
 			ability: "Regenerator",
 			item: "Eviolite",
@@ -12784,7 +12776,7 @@ var SETDEX_BW = {
 		},
 	},
 	Slugma: {
-		"LC Stockpile": {
+		"LC Stockpile (Revisar)": {
 			level: 5,
 			ability: "Flame Body",
 			item: "Eviolite",
@@ -12792,7 +12784,7 @@ var SETDEX_BW = {
 			evs: { hp: 196, df: 116, sd: 196 },
 			moves: ["Stockpile", "Recover", "Flamethrower", "Will-O-Wisp"],
 		},
-		"LC Dual Screen Memento": {
+		"LC Dual Screen Memento (Revisar)": {
 			level: 5,
 			ability: "Flame Body",
 			item: "Eviolite",
@@ -12802,7 +12794,7 @@ var SETDEX_BW = {
 		},
 	},
 	Smeargle: {
-		"UU Spikes": {
+		"UU Spikes (Revisar)": {
 			level: 50,
 			ability: "Own Tempo",
 			item: "Focus Sash",
@@ -12810,7 +12802,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, df: 252, sp: 252 },
 			moves: ["Spikes", "Spore", "Magic Coat", "Stealth Rock"],
 		},
-		"Uber SmashPass": {
+		"Uber SmashPass (Revisar)": {
 			level: 50,
 			ability: "Own Tempo",
 			item: "Focus Sash",
@@ -12818,7 +12810,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, df: 252, sp: 252 },
 			moves: ["Shell Smash", "Baton Pass", "Spore", "Magic Coat"],
 		},
-		"Uber Lv. 1 FEAR": {
+		"Uber Lv. 1 FEAR (Revisar)": {
 			level: 1,
 			ability: "Own Tempo",
 			item: "Focus Sash",
@@ -12829,7 +12821,7 @@ var SETDEX_BW = {
 		},
 	},
 	Smoochum: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Forewarn",
 			item: "Choice Scarf",
@@ -12839,7 +12831,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sneasel: {
-		"NU Offensive": {
+		"NU Offensive (Revisar)": {
 			level: 50,
 			ability: "Inner Focus",
 			item: "Eviolite",
@@ -12849,7 +12841,7 @@ var SETDEX_BW = {
 		},
 	},
 	Snivy: {
-		"LC Dual Screens": {
+		"LC Dual Screens (Revisar)": {
 			level: 5,
 			ability: "Overgrow",
 			item: "Light Clay",
@@ -12859,7 +12851,7 @@ var SETDEX_BW = {
 		},
 	},
 	Snorlax: {
-		"UU Offensive": {
+		"UU Offensive (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Choice Band",
@@ -12867,7 +12859,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 52, sd: 200, sp: 4 },
 			moves: ["Return", "Pursuit", "Earthquake", "Crunch"],
 		},
-		"UU Offensive CurseLax": {
+		"UU Offensive CurseLax (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -12875,7 +12867,7 @@ var SETDEX_BW = {
 			evs: { hp: 80, at: 176, df: 96, sd: 156 },
 			moves: ["Curse", "Return", "Crunch", "Earthquake"],
 		},
-		"UU Classic CurseLax": {
+		"UU Classic CurseLax (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -12883,7 +12875,7 @@ var SETDEX_BW = {
 			evs: { hp: 144, df: 188, sd: 176 },
 			moves: ["Curse", "Body Slam", "Earthquake", "Rest"],
 		},
-		"UU RestTalk": {
+		"UU RestTalk (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -12893,7 +12885,7 @@ var SETDEX_BW = {
 		},
 	},
 	Snorunt: {
-		"LC Spiker": {
+		"LC Spiker (Revisar)": {
 			level: 5,
 			ability: "Ice Body",
 			item: "Oran Berry",
@@ -12901,7 +12893,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 36, df: 36, sa: 196, sp: 196 },
 			moves: ["Spikes", "Ice Beam", "Hidden Power Ground", "Ice Shard"],
 		},
-		"LC Disable": {
+		"LC Disable (Revisar)": {
 			level: 5,
 			ability: "Ice Body",
 			item: "Oran Berry",
@@ -12911,7 +12903,7 @@ var SETDEX_BW = {
 		},
 	},
 	Snover: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Snow Warning",
 			item: "Choice Scarf",
@@ -12919,7 +12911,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, df: 36, sa: 184, sd: 36, sp: 200 },
 			moves: ["Blizzard", "Giga Drain", "Ice Shard", "Hidden Power Fire"],
 		},
-		"LC Eviolite": {
+		"LC Eviolite (Revisar)": {
 			level: 5,
 			ability: "Snow Warning",
 			item: "Eviolite",
@@ -12929,7 +12921,7 @@ var SETDEX_BW = {
 		},
 	},
 	Snubbull: {
-		"LC Sweeper": {
+		"LC Sweeper (Revisar)": {
 			level: 5,
 			ability: "Intimidate",
 			item: "Eviolite",
@@ -12939,7 +12931,7 @@ var SETDEX_BW = {
 		},
 	},
 	Solosis: {
-		"LC Trick Room": {
+		"LC Trick Room (Revisar)": {
 			level: 5,
 			ability: "Magic Guard",
 			item: "Life Orb",
@@ -12950,7 +12942,7 @@ var SETDEX_BW = {
 		},
 	},
 	Solrock: {
-		"NU Dual Screens": {
+		"NU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Light Clay",
@@ -12958,7 +12950,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, sp: 252 },
 			moves: ["Stealth Rock", "Reflect", "Light Screen", "Explosion"],
 		},
-		"NU Defensive": {
+		"NU Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -12966,7 +12958,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Stealth Rock", "Will-O-Wisp", "Morning Sun", "Rock Slide"],
 		},
-		"ZU Fast Wall": {
+		"ZU Fast Wall (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Rocky Helmet",
@@ -12974,7 +12966,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 80, sp: 176 },
 			moves: ["Stealth Rock", "Will-O-Wisp", "Earthquake", "Morning Sun"],
 		},
-		"ZU Physical Wall": {
+		"ZU Physical Wall (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Rocky Helmet",
@@ -12982,7 +12974,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 240, sp: 16 },
 			moves: ["Stealth Rock", "Stone Edge", "Earthquake", "Morning Sun"],
 		},
-		"ZU Rock Polish": {
+		"ZU Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Flying Gem",
@@ -12992,7 +12984,7 @@ var SETDEX_BW = {
 		},
 	},
 	Spearow: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Sniper",
 			item: "Choice Scarf",
@@ -13002,7 +12994,7 @@ var SETDEX_BW = {
 		},
 	},
 	Spheal: {
-		"LC Stall": {
+		"LC Stall (Revisar)": {
 			level: 5,
 			ability: "Ice Body",
 			item: "Leftovers",
@@ -13012,7 +13004,7 @@ var SETDEX_BW = {
 		},
 	},
 	Spinarak: {
-		"LC Boosting Sweeper": {
+		"LC Boosting Sweeper (Revisar)": {
 			level: 5,
 			ability: "Swarm",
 			item: "Life Orb",
@@ -13023,7 +13015,7 @@ var SETDEX_BW = {
 		},
 	},
 	Spinda: {
-		"NU Attacker?": {
+		"NU Attacker? (Revisar)": {
 			level: 50,
 			ability: "Contrary",
 			item: "Life Orb",
@@ -13034,7 +13026,7 @@ var SETDEX_BW = {
 		},
 	},
 	Spiritomb: {
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Band",
@@ -13042,7 +13034,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["Shadow Sneak", "Pursuit", "Sucker Punch", "Trick"],
 		},
-		"UU Defensive": {
+		"UU Defensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -13050,7 +13042,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 116, sd: 140 },
 			moves: ["Dark Pulse", "Will-O-Wisp", "Pursuit", "Pain Split"],
 		},
-		"UU Calm Mind": {
+		"UU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -13058,7 +13050,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Calm Mind", "Dark Pulse", "Rest", "Sleep Talk"],
 		},
-		"RU All-Out Attacker": {
+		"RU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Band",
@@ -13066,7 +13058,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 252, sd: 8 },
 			moves: ["Shadow Sneak", "Sucker Punch", "Pursuit", "Trick"],
 		},
-		"RU Calm Mind": {
+		"RU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -13074,7 +13066,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Calm Mind", "Dark Pulse", "Rest", "Sleep Talk"],
 		},
-		"RU Defensive": {
+		"RU Defensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -13084,7 +13076,7 @@ var SETDEX_BW = {
 		},
 	},
 	Spoink: {
-		"LC Dual Screens": {
+		"LC Dual Screens (Revisar)": {
 			level: 5,
 			ability: "Thick Fat",
 			item: "Light Clay",
@@ -13092,7 +13084,7 @@ var SETDEX_BW = {
 			evs: { hp: 196, df: 76, sd: 36, sp: 196 },
 			moves: ["Reflect", "Light Screen", "Psychic", "Thunder Wave"],
 		},
-		"LC Calm Mind": {
+		"LC Calm Mind (Revisar)": {
 			level: 5,
 			ability: "Thick Fat",
 			item: "Eviolite",
@@ -13105,7 +13097,7 @@ var SETDEX_BW = {
 				"Hidden Power Fighting",
 			],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Thick Fat",
 			item: "Choice Scarf",
@@ -13115,7 +13107,7 @@ var SETDEX_BW = {
 		},
 	},
 	Squirtle: {
-		"LC Priority User": {
+		"LC Priority User (Revisar)": {
 			level: 5,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -13124,7 +13116,7 @@ var SETDEX_BW = {
 			evs: { at: 212, sd: 4, sp: 252 },
 			moves: ["Fake Out", "Aqua Jet", "Waterfall", "Brick Break"],
 		},
-		"LC Utility": {
+		"LC Utility (Revisar)": {
 			level: 5,
 			ability: "Torrent",
 			item: "Eviolite",
@@ -13132,7 +13124,7 @@ var SETDEX_BW = {
 			evs: { hp: 244, df: 156, sd: 84, sp: 20 },
 			moves: ["Surf", "Rapid Spin", "Toxic", "Hidden Power Fire"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Torrent",
 			item: "Choice Scarf",
@@ -13142,7 +13134,7 @@ var SETDEX_BW = {
 		},
 	},
 	Stantler: {
-		"NU All-Out Attacker": {
+		"NU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Life Orb",
@@ -13152,7 +13144,7 @@ var SETDEX_BW = {
 		},
 	},
 	Staraptor: {
-		"OU Choice Band": {
+		"OU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Reckless",
 			item: "Choice Band",
@@ -13162,7 +13154,7 @@ var SETDEX_BW = {
 		},
 	},
 	Starly: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Keen Eye",
 			item: "Choice Scarf",
@@ -13172,7 +13164,7 @@ var SETDEX_BW = {
 		},
 	},
 	Starmie: {
-		"OU Rapid Spin": {
+		"OU Rapid Spin (Revisar)": {
 			level: 50,
 			ability: "Analytic",
 			item: "Air Balloon",
@@ -13180,7 +13172,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Rapid Spin", "Hydro Pump", "Ice Beam", "Thunderbolt"],
 		},
-		"OU Wallbreaker": {
+		"OU Wallbreaker (Revisar)": {
 			level: 50,
 			ability: "Analytic",
 			item: "Choice Specs",
@@ -13190,7 +13182,7 @@ var SETDEX_BW = {
 		},
 	},
 	Staryu: {
-		"ZU Physically Defensive": {
+		"ZU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Natural Cure",
 			item: "Eviolite",
@@ -13198,7 +13190,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 200, sp: 56 },
 			moves: ["Rapid Spin", "Toxic", "Scald", "Recover"],
 		},
-		"LC Defensive": {
+		"LC Defensive (Revisar)": {
 			level: 5,
 			ability: "Natural Cure",
 			item: "Eviolite",
@@ -13208,7 +13200,7 @@ var SETDEX_BW = {
 		},
 	},
 	Steelix: {
-		"RU Defensive": {
+		"RU Defensive (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -13217,7 +13209,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 220, sd: 36 },
 			moves: ["Stealth Rock", "Earthquake", "Gyro Ball", "Roar"],
 		},
-		"RU Custap Berry": {
+		"RU Custap Berry (Revisar)": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -13225,7 +13217,7 @@ var SETDEX_BW = {
 			evs: { hp: 212, at: 252, sp: 44 },
 			moves: ["Stealth Rock", "Earthquake", "Heavy Slam", "Explosion"],
 		},
-		"RU Sheer Force": {
+		"RU Sheer Force (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -13235,7 +13227,7 @@ var SETDEX_BW = {
 		},
 	},
 	Stoutland: {
-		"NU Bulky Attacker": {
+		"NU Bulky Attacker (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -13245,7 +13237,7 @@ var SETDEX_BW = {
 		},
 	},
 	Stunfisk: {
-		"NU Physically Defensive": {
+		"NU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Static",
 			item: "Leftovers",
@@ -13253,7 +13245,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Stealth Rock", "Discharge", "Earth Power", "Toxic"],
 		},
-		"PU Utility": {
+		"PU Utility (Revisar)": {
 			level: 50,
 			ability: "Static",
 			item: "Leftovers",
@@ -13263,7 +13255,7 @@ var SETDEX_BW = {
 		},
 	},
 	Stunky: {
-		"LC Trapper": {
+		"LC Trapper (Revisar)": {
 			level: 5,
 			ability: "Aftermath",
 			item: "Eviolite",
@@ -13273,7 +13265,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sudowoodo: {
-		"NU Support": {
+		"NU Support (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Leftovers",
@@ -13281,7 +13273,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, df: 252 },
 			moves: ["Stealth Rock", "Stone Edge", "Wood Hammer", "Toxic"],
 		},
-		"NU Physical Attacker": {
+		"NU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Life Orb",
@@ -13289,7 +13281,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Stone Edge", "Wood Hammer", "Earthquake", "Sucker Punch"],
 		},
-		"ZU Offensive Stealth Rock": {
+		"ZU Offensive Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Rock Head",
 			item: "Rocky Helmet",
@@ -13299,7 +13291,7 @@ var SETDEX_BW = {
 		},
 	},
 	Suicune: {
-		"UU Offensive": {
+		"UU Offensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -13312,7 +13304,7 @@ var SETDEX_BW = {
 				"Hidden Power Electric",
 			],
 		},
-		"UU CroCune": {
+		"UU CroCune (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -13320,7 +13312,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Calm Mind", "Rest", "Sleep Talk", "Scald"],
 		},
-		"UU RestTalk": {
+		"UU RestTalk (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -13328,7 +13320,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Rest", "Sleep Talk", "Scald", "Roar"],
 		},
-		"Doubles Bulky Support": {
+		"Doubles Bulky Support (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Sitrus Berry",
@@ -13336,7 +13328,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 140, sp: 116 },
 			moves: ["Scald", "Snarl", "Icy Wind", "Protect"],
 		},
-		"Doubles Offensive Tailwind": {
+		"Doubles Offensive Tailwind (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Wacan Berry",
@@ -13346,7 +13338,7 @@ var SETDEX_BW = {
 		},
 	},
 	Sunflora: {
-		"NU Suicide Sun": {
+		"NU Suicide Sun (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Focus Sash",
@@ -13357,7 +13349,7 @@ var SETDEX_BW = {
 		},
 	},
 	Surskit: {
-		"LC Special Sweeper": {
+		"LC Special Sweeper (Revisar)": {
 			level: 5,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -13373,7 +13365,7 @@ var SETDEX_BW = {
 		},
 	},
 	Swablu: {
-		"LC Weather Guard": {
+		"LC Weather Guard (Revisar)": {
 			level: 5,
 			ability: "Cloud Nine",
 			item: "Eviolite",
@@ -13383,7 +13375,7 @@ var SETDEX_BW = {
 		},
 	},
 	Swalot: {
-		"NU Utility": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Liquid Ooze",
 			item: "Black Sludge",
@@ -13393,7 +13385,7 @@ var SETDEX_BW = {
 		},
 	},
 	Swampert: {
-		"UU Defensive Tank": {
+		"UU Defensive Tank (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Leftovers",
@@ -13401,7 +13393,7 @@ var SETDEX_BW = {
 			evs: { hp: 240, at: 16, df: 252 },
 			moves: ["Stealth Rock", "Scald", "Earthquake", "Toxic"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Choice Band",
@@ -13409,7 +13401,7 @@ var SETDEX_BW = {
 			evs: { hp: 208, at: 252, sd: 4, sp: 44 },
 			moves: ["Earthquake", "Waterfall", "Ice Punch", "Superpower"],
 		},
-		"UU Offensive Tank": {
+		"UU Offensive Tank (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Leftovers",
@@ -13419,7 +13411,7 @@ var SETDEX_BW = {
 		},
 	},
 	Swanna: {
-		"NU Offensive": {
+		"NU Offensive (Revisar)": {
 			level: 50,
 			ability: "Hydration",
 			item: "Life Orb",
@@ -13427,7 +13419,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Surf", "Hurricane", "Rain Dance", "Rest"],
 		},
-		"PU SubRoost": {
+		"PU SubRoost (Revisar)": {
 			level: 50,
 			ability: "Hydration",
 			item: "Life Orb",
@@ -13435,7 +13427,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Roost", "Scald", "Hurricane"],
 		},
-		"PU Choice Scarf": {
+		"PU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Hydration",
 			item: "Choice Scarf",
@@ -13445,7 +13437,7 @@ var SETDEX_BW = {
 		},
 	},
 	Swellow: {
-		"UU Guts": {
+		"UU Guts (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -13453,7 +13445,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Facade", "Brave Bird", "U-turn", "Quick Attack"],
 		},
-		"RU Guts": {
+		"RU Guts (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -13461,7 +13453,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Facade", "Brave Bird", "U-turn", "Quick Attack"],
 		},
-		"NU Guts": {
+		"NU Guts (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -13471,7 +13463,7 @@ var SETDEX_BW = {
 		},
 	},
 	Swinub: {
-		"LC Physical Sweeper": {
+		"LC Physical Sweeper (Revisar)": {
 			level: 5,
 			ability: "Snow Cloak",
 			item: "Life Orb",
@@ -13481,7 +13473,7 @@ var SETDEX_BW = {
 		},
 	},
 	Swoobat: {
-		"NU SubSalac": {
+		"NU SubSalac (Revisar)": {
 			level: 50,
 			ability: "Simple",
 			item: "Salac Berry",
@@ -13489,7 +13481,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Substitute", "Calm Mind", "Stored Power", "Heat Wave"],
 		},
-		"PU Choiced Disruptor": {
+		"PU Choiced Disruptor (Revisar)": {
 			level: 50,
 			ability: "Unaware",
 			item: "Choice Specs",
@@ -13499,7 +13491,7 @@ var SETDEX_BW = {
 		},
 	},
 	Taillow: {
-		"LC Guts Sweeper": {
+		"LC Guts Sweeper (Revisar)": {
 			level: 5,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -13507,7 +13499,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 236, sp: 236 },
 			moves: ["Facade", "Brave Bird", "Quick Attack", "U-turn"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Guts",
 			item: "Choice Scarf",
@@ -13517,7 +13509,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tangela: {
-		"NU Tank": {
+		"NU Tank (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Eviolite",
@@ -13530,7 +13522,7 @@ var SETDEX_BW = {
 				"Hidden Power Rock",
 			],
 		},
-		"NU Offensive": {
+		"NU Offensive (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Eviolite",
@@ -13545,7 +13537,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tangrowth: {
-		"OU Defensive": {
+		"OU Defensive (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -13553,7 +13545,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Giga Drain", "Knock Off", "Hidden Power Ice", "Toxic"],
 		},
-		"UU Tank": {
+		"UU Tank (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Leftovers",
@@ -13561,7 +13553,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Power Whip", "Earthquake", "Sleep Powder", "Leech Seed"],
 		},
-		"UU Sweeper": {
+		"UU Sweeper (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -13571,7 +13563,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tauros: {
-		"UU Life Orb": {
+		"UU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Life Orb",
@@ -13579,7 +13571,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Double-Edge", "Earthquake", "Rock Slide", "Zen Headbutt"],
 		},
-		"RU All-Out Attacker": {
+		"RU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -13587,7 +13579,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Rock Climb", "Earthquake", "Fire Blast", "Zen Headbutt"],
 		},
-		"NU Life Orb": {
+		"NU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -13595,7 +13587,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Rock Climb", "Earthquake", "Zen Headbutt", "Substitute"],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Choice Scarf",
@@ -13603,7 +13595,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Double-Edge", "Earthquake", "Stone Edge", "Pursuit"],
 		},
-		"NU Substitute + Endeavor": {
+		"NU Substitute + Endeavor (Revisar)": {
 			level: 50,
 			ability: "Sheer Force",
 			item: "Life Orb",
@@ -13613,7 +13605,7 @@ var SETDEX_BW = {
 		},
 	},
 	Teddiursa: {
-		"LC Quick Feet": {
+		"LC Quick Feet (Revisar)": {
 			level: 5,
 			ability: "Quick Feet",
 			item: "Toxic Orb",
@@ -13623,7 +13615,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tentacool: {
-		"NU Utility": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Liquid Ooze",
 			item: "Eviolite",
@@ -13631,7 +13623,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 80, sd: 176 },
 			moves: ["Rapid Spin", "Toxic Spikes", "Scald", "Toxic"],
 		},
-		"PU Utility": {
+		"PU Utility (Revisar)": {
 			level: 50,
 			ability: "Liquid Ooze",
 			item: "Eviolite",
@@ -13639,7 +13631,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sd: 252 },
 			moves: ["Rapid Spin", "Toxic Spikes", "Scald", "Toxic"],
 		},
-		"LC Defensive": {
+		"LC Defensive (Revisar)": {
 			level: 5,
 			ability: "Liquid Ooze",
 			item: "Eviolite",
@@ -13649,7 +13641,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tentacruel: {
-		"OU Utility": {
+		"OU Utility (Revisar)": {
 			level: 50,
 			ability: "Rain Dish",
 			item: "Black Sludge",
@@ -13657,7 +13649,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 72, sp: 184 },
 			moves: ["Scald", "Rapid Spin", "Toxic", "Protect"],
 		},
-		"Uber Support": {
+		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Rain Dish",
 			item: "Black Sludge",
@@ -13667,7 +13659,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tepig: {
-		"LC Flame Charge": {
+		"LC Flame Charge (Revisar)": {
 			level: 5,
 			ability: "Blaze",
 			item: "Life Orb",
@@ -13677,7 +13669,7 @@ var SETDEX_BW = {
 		},
 	},
 	Terrakion: {
-		"OU Choice Band": {
+		"OU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Band",
@@ -13685,7 +13677,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Close Combat", "Stone Edge", "X-Scissor", "Sacred Sword"],
 		},
-		"OU All-Out Attacker": {
+		"OU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -13698,7 +13690,7 @@ var SETDEX_BW = {
 				"Earthquake",
 			],
 		},
-		"OU Stealth Rock": {
+		"OU Stealth Rock (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Focus Sash",
@@ -13706,7 +13698,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Stealth Rock", "Taunt", "Stone Edge", "Close Combat"],
 		},
-		"OU Substitute + Swords Dance": {
+		"OU Substitute + Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -13714,7 +13706,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Substitute", "Swords Dance", "Close Combat", "Stone Edge"],
 		},
-		"OU Double Dancer": {
+		"OU Double Dancer (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Air Balloon",
@@ -13722,7 +13714,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Rock Polish", "Swords Dance", "Close Combat", "Stone Edge"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Scarf",
@@ -13730,7 +13722,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Close Combat", "Stone Edge", "X-Scissor", "Rock Slide"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Scarf",
@@ -13738,7 +13730,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Close Combat", "Stone Edge", "Toxic", "Rock Slide"],
 		},
-		"Uber Lead": {
+		"Uber Lead (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Fist Plate",
@@ -13746,7 +13738,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Close Combat", "Stone Edge", "Stealth Rock", "Taunt"],
 		},
-		"Uber Double Dance": {
+		"Uber Double Dance (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -13754,7 +13746,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Close Combat", "Stone Edge", "Swords Dance", "Rock Polish"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Band",
@@ -13762,7 +13754,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Close Combat", "Stone Edge", "Quick Attack", "Rock Slide"],
 		},
-		"Doubles Sub + 2 Attacks": {
+		"Doubles Sub + 2 Attacks (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Fighting Gem",
@@ -13770,7 +13762,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Substitute", "Close Combat", "Rock Slide", "Protect"],
 		},
-		"Doubles Physical Attacker": {
+		"Doubles Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Focus Sash",
@@ -13778,7 +13770,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Close Combat", "Rock Slide", "Taunt", "Protect"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Choice Scarf",
@@ -13788,7 +13780,7 @@ var SETDEX_BW = {
 		},
 	},
 	Throh: {
-		"NU Bulky Phazer": {
+		"NU Bulky Phazer (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Leftovers",
@@ -13796,7 +13788,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 4, sd: 252 },
 			moves: ["Circle Throw", "Bulk Up", "Rest", "Sleep Talk"],
 		},
-		"NU Substitute + Bulk Up": {
+		"NU Substitute + Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Leftovers",
@@ -13806,7 +13798,7 @@ var SETDEX_BW = {
 		},
 	},
 	Thundurus: {
-		"Uber Prankster": {
+		"Uber Prankster (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Life Orb",
@@ -13814,7 +13806,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Thunder Wave", "Thunder", "Hidden Power Ice", "Taunt"],
 		},
-		"Uber Nasty Plot": {
+		"Uber Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Life Orb",
@@ -13822,7 +13814,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Nasty Plot", "Thunder", "Hidden Power Ice", "Focus Blast"],
 		},
-		"Doubles Offensive Support": {
+		"Doubles Offensive Support (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Electric Gem",
@@ -13830,7 +13822,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Thunder Wave", "Thunderbolt", "Hidden Power Ice", "Protect"],
 		},
-		"Doubles Bulky Support": {
+		"Doubles Bulky Support (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Sitrus Berry",
@@ -13839,8 +13831,8 @@ var SETDEX_BW = {
 			moves: ["Thunder Wave", "Taunt", "Thunderbolt", "Hidden Power Ice"],
 		},
 	},
-	"Thundurus-Therian": {
-		"OU SubsThundy": {
+	"Thundurus-Therian (Revisar)": {
+		"OU SubsThundy (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Leftovers",
@@ -13848,7 +13840,7 @@ var SETDEX_BW = {
 			evs: { hp: 104, df: 144, sa: 48, sd: 4, sp: 208 },
 			moves: ["Substitute", "Thunder", "Hidden Power Ice", "Focus Blast"],
 		},
-		"OU AgilThundy": {
+		"OU AgilThundy (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Leftovers",
@@ -13856,7 +13848,7 @@ var SETDEX_BW = {
 			evs: { hp: 24, sa: 228, sd: 104, sp: 152 },
 			moves: ["Agility", "Thunder", "Hidden Power Ice", "Focus Blast"],
 		},
-		"OU Offensive": {
+		"OU Offensive (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Leftovers",
@@ -13866,7 +13858,7 @@ var SETDEX_BW = {
 		},
 	},
 	Timburr: {
-		"LC Bulk Up": {
+		"LC Bulk Up (Revisar)": {
 			level: 5,
 			ability: "Guts",
 			item: "Eviolite",
@@ -13876,7 +13868,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tirtouga: {
-		"LC Shell Smash": {
+		"LC Shell Smash (Revisar)": {
 			level: 5,
 			ability: "Solid Rock",
 			item: "Eviolite",
@@ -13884,7 +13876,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 212, df: 12, sd: 76, sp: 180 },
 			moves: ["Shell Smash", "Waterfall", "Stone Edge", "Aqua Jet"],
 		},
-		"LC Stealth Rock": {
+		"LC Stealth Rock (Revisar)": {
 			level: 5,
 			ability: "Solid Rock",
 			item: "Eviolite",
@@ -13894,7 +13886,7 @@ var SETDEX_BW = {
 		},
 	},
 	Togekiss: {
-		"UU Physically Defensive": {
+		"UU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Leftovers",
@@ -13902,7 +13894,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 216, sp: 44 },
 			moves: ["Air Slash", "Roost", "Heal Bell", "Nasty Plot"],
 		},
-		"UU Specially Defensive": {
+		"UU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Leftovers",
@@ -13910,7 +13902,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sd: 216, sp: 44 },
 			moves: ["Air Slash", "Roost", "Heal Bell", "Nasty Plot"],
 		},
-		"Doubles Tailwind Support": {
+		"Doubles Tailwind Support (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Sitrus Berry",
@@ -13918,7 +13910,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sd: 168, sp: 92 },
 			moves: ["Tailwind", "Air Slash", "Follow Me", "Protect"],
 		},
-		"Doubles Bulky Paralyzer": {
+		"Doubles Bulky Paralyzer (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Sitrus Berry",
@@ -13926,7 +13918,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 124, sd: 136 },
 			moves: ["Thunder Wave", "Air Slash", "Follow Me", "Protect"],
 		},
-		"Doubles Offensive Tailwind": {
+		"Doubles Offensive Tailwind (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Sitrus Berry",
@@ -13936,7 +13928,7 @@ var SETDEX_BW = {
 		},
 	},
 	Togetic: {
-		"NU Baton Pass": {
+		"NU Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
 			item: "Eviolite",
@@ -13946,7 +13938,7 @@ var SETDEX_BW = {
 		},
 	},
 	Torkoal: {
-		"NU Tank": {
+		"NU Tank (Revisar)": {
 			level: 50,
 			ability: "Shell Armor",
 			item: "Leftovers",
@@ -13954,7 +13946,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Rapid Spin", "Lava Plume", "Stealth Rock", "Yawn"],
 		},
-		"NU Smashkoal": {
+		"NU Smashkoal (Revisar)": {
 			level: 50,
 			ability: "Shell Armor",
 			item: "White Herb",
@@ -13964,7 +13956,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tornadus: {
-		"OU Offensive": {
+		"OU Offensive (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Leftovers",
@@ -13972,7 +13964,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Hurricane", "Focus Blast", "U-turn", "Protect"],
 		},
-		"OU Substitute + Protect": {
+		"OU Substitute + Protect (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Leftovers",
@@ -13980,7 +13972,7 @@ var SETDEX_BW = {
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Substitute", "Protect", "Hurricane", "Focus Blast"],
 		},
-		"UU Mixed Attacker": {
+		"UU Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Life Orb",
@@ -13988,7 +13980,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Rain Dance", "Hurricane", "Grass Knot", "Superpower"],
 		},
-		"UU Bulk Up": {
+		"UU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Flying Gem",
@@ -13996,7 +13988,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Bulk Up", "Acrobatics", "Superpower", "Taunt"],
 		},
-		"UU Rain Dance": {
+		"UU Rain Dance (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Damp Rock",
@@ -14004,7 +13996,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Rain Dance", "Hurricane", "Taunt", "Superpower"],
 		},
-		"Doubles Defiant Attacker": {
+		"Doubles Defiant Attacker (Revisar)": {
 			level: 50,
 			ability: "Defiant",
 			item: "Flying Gem",
@@ -14012,7 +14004,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Acrobatics", "Superpower", "Taunt", "Protect"],
 		},
-		"Doubles Tailwind Support": {
+		"Doubles Tailwind Support (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Flying Gem",
@@ -14021,8 +14013,8 @@ var SETDEX_BW = {
 			moves: ["Acrobatics", "Superpower", "Tailwind", "Protect"],
 		},
 	},
-	"Tornadus-Therian": {
-		"Uber Life Orb Attacker": {
+	"Tornadus-Therian (Revisar)": {
+		"Uber Life Orb Attacker (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Life Orb",
@@ -14030,7 +14022,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Hurricane", "Focus Blast", "Grass Knot", "Taunt"],
 		},
-		"Uber Choice Specs": {
+		"Uber Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
 			item: "Choice Specs",
@@ -14040,7 +14032,7 @@ var SETDEX_BW = {
 		},
 	},
 	Torterra: {
-		"RU Specially Defensive": {
+		"RU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Leftovers",
@@ -14048,7 +14040,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 40, sd: 216 },
 			moves: ["Stealth Rock", "Wood Hammer", "Earthquake", "Synthesis"],
 		},
-		"RU Rock Polish": {
+		"RU Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Leftovers",
@@ -14056,7 +14048,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Rock Polish", "Wood Hammer", "Earthquake", "Stone Edge"],
 		},
-		"RU Tank": {
+		"RU Tank (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Leftovers",
@@ -14064,7 +14056,7 @@ var SETDEX_BW = {
 			evs: { hp: 164, at: 252, sp: 92 },
 			moves: ["Stealth Rock", "Wood Hammer", "Stone Edge", "Synthesis"],
 		},
-		"RU Choice Band": {
+		"RU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Choice Band",
@@ -14072,7 +14064,7 @@ var SETDEX_BW = {
 			evs: { hp: 44, at: 252, sp: 212 },
 			moves: ["Wood Hammer", "Earthquake", "Stone Edge", "Bullet Seed"],
 		},
-		"NU Choice Band": {
+		"NU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Choice Band",
@@ -14080,7 +14072,7 @@ var SETDEX_BW = {
 			evs: { hp: 88, at: 252, sp: 168 },
 			moves: ["Wood Hammer", "Earthquake", "Stone Edge", "Bullet Seed"],
 		},
-		"NU Tank": {
+		"NU Tank (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Leftovers",
@@ -14088,7 +14080,7 @@ var SETDEX_BW = {
 			evs: { hp: 180, at: 252, sp: 76 },
 			moves: ["Stealth Rock", "Wood Hammer", "Earthquake", "Synthesis"],
 		},
-		"NU Rock Polish": {
+		"NU Rock Polish (Revisar)": {
 			level: 50,
 			ability: "Overgrow",
 			item: "Life Orb",
@@ -14096,7 +14088,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Rock Polish", "Wood Hammer", "Earthquake", "Stone Edge"],
 		},
-		"PU Tank": {
+		"PU Tank (Revisar)": {
 			level: 50,
 			ability: "Shell Armor",
 			item: "Leftovers",
@@ -14104,7 +14096,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sd: 52, sp: 208 },
 			moves: ["Earthquake", "Stone Edge", "Rock Polish", "Synthesis"],
 		},
-		"PU Double Dance": {
+		"PU Double Dance (Revisar)": {
 			level: 50,
 			ability: "Shell Armor",
 			item: "Leftovers",
@@ -14112,7 +14104,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Rock Polish", "Swords Dance", "Wood Hammer", "Earthquake"],
 		},
-		"PU Choice Band": {
+		"PU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Shell Armor",
 			item: "Choice Band",
@@ -14120,7 +14112,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Wood Hammer", "Earthquake", "Stone Edge", "Superpower"],
 		},
-		"PU Defensive Support": {
+		"PU Defensive Support (Revisar)": {
 			level: 50,
 			ability: "Shell Armor",
 			item: "Leftovers",
@@ -14130,7 +14122,7 @@ var SETDEX_BW = {
 		},
 	},
 	Totodile: {
-		"LC Dragon Dance": {
+		"LC Dragon Dance (Revisar)": {
 			level: 5,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -14138,7 +14130,7 @@ var SETDEX_BW = {
 			evs: { at: 236, df: 4, sp: 252 },
 			moves: ["Dragon Dance", "Waterfall", "Ice Punch", "Crunch"],
 		},
-		"LC Swords Dance": {
+		"LC Swords Dance (Revisar)": {
 			level: 5,
 			ability: "Torrent",
 			item: "Life Orb",
@@ -14148,7 +14140,7 @@ var SETDEX_BW = {
 		},
 	},
 	Toxicroak: {
-		"OU Swords Dance": {
+		"OU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Dry Skin",
 			item: "Life Orb",
@@ -14156,7 +14148,7 @@ var SETDEX_BW = {
 			evs: { hp: 28, at: 252, sp: 228 },
 			moves: ["Swords Dance", "Drain Punch", "Sucker Punch", "Ice Punch"],
 		},
-		"Doubles Offensive": {
+		"Doubles Offensive (Revisar)": {
 			level: 50,
 			ability: "Dry Skin",
 			item: "Life Orb",
@@ -14166,7 +14158,7 @@ var SETDEX_BW = {
 		},
 	},
 	Trapinch: {
-		"LC Trapper": {
+		"LC Trapper (Revisar)": {
 			level: 5,
 			ability: "Arena Trap",
 			item: "Eviolite",
@@ -14176,7 +14168,7 @@ var SETDEX_BW = {
 		},
 	},
 	Treecko: {
-		"LC Attacking Lead": {
+		"LC Attacking Lead (Revisar)": {
 			level: 5,
 			ability: "Overgrow",
 			item: "Eviolite",
@@ -14189,7 +14181,7 @@ var SETDEX_BW = {
 				"Quick Attack",
 			],
 		},
-		"LC Swords Dance": {
+		"LC Swords Dance (Revisar)": {
 			level: 5,
 			ability: "Overgrow",
 			item: "Life Orb",
@@ -14200,7 +14192,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tropius: {
-		"NU SubSeed": {
+		"NU SubSeed (Revisar)": {
 			level: 50,
 			ability: "Harvest",
 			item: "Sitrus Berry",
@@ -14210,7 +14202,7 @@ var SETDEX_BW = {
 		},
 	},
 	Trubbish: {
-		"LC Support": {
+		"LC Support (Revisar)": {
 			level: 5,
 			ability: "Aftermath",
 			item: "Eviolite",
@@ -14220,7 +14212,7 @@ var SETDEX_BW = {
 		},
 	},
 	Turtwig: {
-		"LC Dual Screens": {
+		"LC Dual Screens (Revisar)": {
 			level: 5,
 			ability: "Overgrow",
 			item: "Light Clay",
@@ -14230,7 +14222,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tympole: {
-		"LC Swift Swim Sweeper": {
+		"LC Swift Swim Sweeper (Revisar)": {
 			level: 5,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -14245,7 +14237,7 @@ var SETDEX_BW = {
 		},
 	},
 	Typhlosion: {
-		"RU Choice Specs": {
+		"RU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Choice Specs",
@@ -14253,7 +14245,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Eruption", "Fire Blast", "Focus Blast", "Hidden Power Grass"],
 		},
-		"RU Choice Scarf": {
+		"RU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Choice Scarf",
@@ -14261,7 +14253,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Eruption", "Fire Blast", "Focus Blast", "Hidden Power Rock"],
 		},
-		"RU Sunny Day": {
+		"RU Sunny Day (Revisar)": {
 			level: 50,
 			ability: "Blaze",
 			item: "Life Orb",
@@ -14271,7 +14263,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tyranitar: {
-		"OU Bulky Pursuit Trapper": {
+		"OU Bulky Pursuit Trapper (Revisar)": {
 			level: 50,
 			ability: "Sand Stream",
 			item: "Chople Berry",
@@ -14279,7 +14271,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, at: 88, sd: 172 },
 			moves: ["Crunch", "Pursuit", "Thunder Wave", "Superpower"],
 		},
-		"OU Choice Scarf": {
+		"OU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Sand Stream",
 			item: "Choice Scarf",
@@ -14287,7 +14279,7 @@ var SETDEX_BW = {
 			evs: { at: 208, sd: 48, sp: 252 },
 			moves: ["Pursuit", "Crunch", "Ice Beam", "Superpower"],
 		},
-		"Uber Tank": {
+		"Uber Tank (Revisar)": {
 			level: 50,
 			ability: "Sand Stream",
 			item: "Leftovers",
@@ -14295,7 +14287,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 76, sd: 180 },
 			moves: ["Crunch", "Pursuit", "Low Kick", "Fire Blast"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Sand Stream",
 			item: "Choice Band",
@@ -14303,7 +14295,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 64, sd: 192 },
 			moves: ["Crunch", "Pursuit", "Stone Edge", "Low Kick"],
 		},
-		"Doubles Standard": {
+		"Doubles Standard (Revisar)": {
 			level: 50,
 			ability: "Sand Stream",
 			item: "Chople Berry",
@@ -14312,7 +14304,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 220, df: 36 },
 			moves: ["Rock Slide", "Crunch", "Low Kick", "Protect"],
 		},
-		"Doubles Choice Scarf": {
+		"Doubles Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Sand Stream",
 			item: "Choice Scarf",
@@ -14320,7 +14312,7 @@ var SETDEX_BW = {
 			evs: { hp: 76, at: 182, sp: 252 },
 			moves: ["Rock Slide", "Crunch", "Superpower", "Fire Blast"],
 		},
-		"Doubles Focus Sash": {
+		"Doubles Focus Sash (Revisar)": {
 			level: 50,
 			ability: "Sand Stream",
 			item: "Focus Sash",
@@ -14330,7 +14322,7 @@ var SETDEX_BW = {
 		},
 	},
 	Tyrogue: {
-		"LC Priority Attacker": {
+		"LC Priority Attacker (Revisar)": {
 			level: 5,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -14340,7 +14332,7 @@ var SETDEX_BW = {
 		},
 	},
 	Umbreon: {
-		"UU Wish Support": {
+		"UU Wish Support (Revisar)": {
 			level: 50,
 			ability: "Synchronize",
 			item: "Leftovers",
@@ -14350,7 +14342,7 @@ var SETDEX_BW = {
 		},
 	},
 	Unfezant: {
-		"NU Tailwind Support": {
+		"NU Tailwind Support (Revisar)": {
 			level: 50,
 			ability: "Super Luck",
 			item: "Focus Sash",
@@ -14360,7 +14352,7 @@ var SETDEX_BW = {
 		},
 	},
 	Unown: {
-		"PU The Most Almighty Unown": {
+		"PU The Most Almighty Unown (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Specs",
@@ -14368,7 +14360,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Hidden Power Ice"],
 		},
-		"PU The Swift Death": {
+		"PU The Swift Death (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -14378,7 +14370,7 @@ var SETDEX_BW = {
 		},
 	},
 	Ursaring: {
-		"RU Quick Feet": {
+		"RU Quick Feet (Revisar)": {
 			level: 50,
 			ability: "Quick Feet",
 			item: "Toxic Orb",
@@ -14386,7 +14378,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Protect", "Facade", "Close Combat", "Crunch"],
 		},
-		"RU Village Crusher (Guts)": {
+		"RU Village Crusher (Guts) (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Flame Orb",
@@ -14394,7 +14386,7 @@ var SETDEX_BW = {
 			evs: { hp: 156, at: 252, sp: 100 },
 			moves: ["Swords Dance", "Facade", "Earthquake", "Crunch"],
 		},
-		"NU Quick Feet": {
+		"NU Quick Feet (Revisar)": {
 			level: 50,
 			ability: "Quick Feet",
 			item: "Toxic Orb",
@@ -14402,7 +14394,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Facade", "Earthquake", "Crunch", "Swords Dance"],
 		},
-		"NU Guts": {
+		"NU Guts (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Toxic Orb",
@@ -14410,7 +14402,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Facade", "Earthquake", "Crunch", "Protect"],
 		},
-		"NU SubSD": {
+		"NU SubSD (Revisar)": {
 			level: 50,
 			ability: "Guts",
 			item: "Leftovers",
@@ -14420,7 +14412,7 @@ var SETDEX_BW = {
 		},
 	},
 	Uxie: {
-		"UU Dual Screens": {
+		"UU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Light Clay",
@@ -14428,7 +14420,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Light Screen", "Reflect", "Memento", "Yawn"],
 		},
-		"UU Support": {
+		"UU Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -14436,7 +14428,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Stealth Rock", "U-turn", "Thunder Wave", "Psychic"],
 		},
-		"UU Substitute + Calm Mind": {
+		"UU Substitute + Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -14444,7 +14436,7 @@ var SETDEX_BW = {
 			evs: { hp: 96, sa: 188, sp: 224 },
 			moves: ["Calm Mind", "Substitute", "Psychic", "Thunderbolt"],
 		},
-		"UU Field Supporter": {
+		"UU Field Supporter (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Damp Rock",
@@ -14452,7 +14444,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Rain Dance", "U-turn", "Stealth Rock", "Psychic"],
 		},
-		"RU Standard Support": {
+		"RU Standard Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -14460,7 +14452,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 152, sp: 104 },
 			moves: ["Stealth Rock", "Psychic", "Thunder Wave", "U-turn"],
 		},
-		"RU Substitute + Calm Mind": {
+		"RU Substitute + Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -14468,7 +14460,7 @@ var SETDEX_BW = {
 			evs: { hp: 96, sa: 188, sp: 224 },
 			moves: ["Substitute", "Calm Mind", "Psychic", "Thunderbolt"],
 		},
-		"RU Dual Screens": {
+		"RU Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Light Clay",
@@ -14476,7 +14468,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Reflect", "Light Screen", "U-turn", "Stealth Rock"],
 		},
-		"RU TrickScarf": {
+		"RU TrickScarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -14484,7 +14476,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["U-turn", "Stealth Rock", "Zen Headbutt", "Trick"],
 		},
-		"RU Weather Support": {
+		"RU Weather Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Heat Rock",
@@ -14494,7 +14486,7 @@ var SETDEX_BW = {
 		},
 	},
 	Vanillite: {
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Ice Body",
 			item: "Choice Scarf",
@@ -14509,7 +14501,7 @@ var SETDEX_BW = {
 		},
 	},
 	Vanilluxe: {
-		"NU Autotomize": {
+		"NU Autotomize (Revisar)": {
 			level: 50,
 			ability: "Ice Body",
 			item: "Life Orb",
@@ -14523,7 +14515,7 @@ var SETDEX_BW = {
 				"Flash Cannon",
 			],
 		},
-		"ZU Choice Scarf": {
+		"ZU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Ice Body",
 			item: "Choice Scarf",
@@ -14537,7 +14529,7 @@ var SETDEX_BW = {
 				"Hidden Power Electric",
 			],
 		},
-		"ZU Autotomize": {
+		"ZU Autotomize (Revisar)": {
 			level: 50,
 			ability: "Ice Body",
 			item: "Life Orb",
@@ -14551,7 +14543,7 @@ var SETDEX_BW = {
 				"Hidden Power Electric",
 			],
 		},
-		"ZU Choice Specs": {
+		"ZU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Ice Body",
 			item: "Choice Specs",
@@ -14567,7 +14559,7 @@ var SETDEX_BW = {
 		},
 	},
 	Vaporeon: {
-		"OU Offensive": {
+		"OU Offensive (Revisar)": {
 			level: 50,
 			ability: "Hydration",
 			item: "Life Orb",
@@ -14577,7 +14569,7 @@ var SETDEX_BW = {
 		},
 	},
 	Venipede: {
-		"ZU Hazard Setter": {
+		"ZU Hazard Setter (Revisar)": {
 			level: 50,
 			ability: "Poison Point",
 			item: "Focus Sash",
@@ -14588,7 +14580,7 @@ var SETDEX_BW = {
 		},
 	},
 	Venonat: {
-		"LC Substitute + Disable": {
+		"LC Substitute + Disable (Revisar)": {
 			level: 5,
 			ability: "Tinted Lens",
 			item: "Eviolite",
@@ -14598,7 +14590,7 @@ var SETDEX_BW = {
 		},
 	},
 	Venusaur: {
-		"OU Sun 'Sweeper'": {
+		"OU Sun 'Sweeper' (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -14609,7 +14601,7 @@ var SETDEX_BW = {
 		},
 	},
 	Vespiquen: {
-		"NU Wall": {
+		"NU Wall (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -14619,7 +14611,7 @@ var SETDEX_BW = {
 		},
 	},
 	Victini: {
-		"OU Choice Band": {
+		"OU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Victory Star",
 			item: "Choice Band",
@@ -14627,7 +14619,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["V-create", "Bolt Strike", "Brick Break", "U-turn"],
 		},
-		"UU Choice Band": {
+		"UU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Victory Star",
 			item: "Choice Band",
@@ -14635,7 +14627,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["V-create", "Bolt Strike", "U-turn", "Trick"],
 		},
-		"UU All-out Attacker": {
+		"UU All-out Attacker (Revisar)": {
 			level: 50,
 			ability: "Victory Star",
 			item: "Expert Belt",
@@ -14643,7 +14635,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["V-create", "Grass Knot", "U-turn", "Psychic"],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Victory Star",
 			item: "Choice Scarf",
@@ -14651,7 +14643,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["V-create", "Bolt Strike", "U-turn", "Trick"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Victory Star",
 			item: "Choice Scarf",
@@ -14659,7 +14651,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["V-create", "Bolt Strike", "U-turn", "Hidden Power Ice"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Victory Star",
 			item: "Choice Band",
@@ -14667,7 +14659,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["V-create", "Bolt Strike", "U-turn", "Brick Break"],
 		},
-		"Uber Trick Room": {
+		"Uber Trick Room (Revisar)": {
 			level: 50,
 			ability: "Victory Star",
 			item: "Life Orb",
@@ -14678,7 +14670,7 @@ var SETDEX_BW = {
 		},
 	},
 	Victreebel: {
-		"UU Mixed Sun Sweeper": {
+		"UU Mixed Sun Sweeper (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -14686,7 +14678,7 @@ var SETDEX_BW = {
 			evs: { at: 172, sa: 140, sp: 196 },
 			moves: ["Growth", "Leaf Blade", "Weather Ball", "Sludge Bomb"],
 		},
-		"RU Mixed Growth": {
+		"RU Mixed Growth (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -14694,7 +14686,7 @@ var SETDEX_BW = {
 			evs: { at: 200, sa: 56, sp: 252 },
 			moves: ["Leaf Blade", "Weather Ball", "Sludge Bomb", "Growth"],
 		},
-		"NU Sun Sweeper": {
+		"NU Sun Sweeper (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -14702,7 +14694,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Solar Beam", "Weather Ball", "Sludge Bomb", "Growth"],
 		},
-		"NU All-Out Attacker": {
+		"NU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Life Orb",
@@ -14712,7 +14704,7 @@ var SETDEX_BW = {
 		},
 	},
 	Vigoroth: {
-		"NU Stallbreaker": {
+		"NU Stallbreaker (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Eviolite",
@@ -14720,7 +14712,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 224, sp: 32 },
 			moves: ["Taunt", "Toxic", "Slack Off", "Return"],
 		},
-		"NU Bulk Up": {
+		"NU Bulk Up (Revisar)": {
 			level: 50,
 			ability: "Vital Spirit",
 			item: "Eviolite",
@@ -14730,7 +14722,7 @@ var SETDEX_BW = {
 		},
 	},
 	Vileplume: {
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Effect Spore",
 			item: "Black Sludge",
@@ -14738,7 +14730,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Aromatherapy", "Giga Drain", "Sludge Bomb", "Moonlight"],
 		},
-		"NU Physically Defensive": {
+		"NU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Effect Spore",
 			item: "Black Sludge",
@@ -14746,7 +14738,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 216, sd: 44 },
 			moves: ["Moonlight", "Aromatherapy", "Giga Drain", "Sludge Bomb"],
 		},
-		"NU Offensive": {
+		"NU Offensive (Revisar)": {
 			level: 50,
 			ability: "Effect Spore",
 			item: "Life Orb",
@@ -14756,7 +14748,7 @@ var SETDEX_BW = {
 		},
 	},
 	Virizion: {
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -14764,7 +14756,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Leaf Blade", "Close Combat", "Stone Edge"],
 		},
-		"UU Calm Mind": {
+		"UU Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Justified",
 			item: "Life Orb",
@@ -14774,7 +14766,7 @@ var SETDEX_BW = {
 		},
 	},
 	Volbeat: {
-		"UU Weather Support": {
+		"UU Weather Support (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Damp Rock",
@@ -14782,7 +14774,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sp: 4 },
 			moves: ["Rain Dance", "Thunder Wave", "Encore", "U-turn"],
 		},
-		"RU Rain Dance": {
+		"RU Rain Dance (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Damp Rock",
@@ -14791,7 +14783,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Rain Dance", "U-turn", "Encore", "Thunder Wave"],
 		},
-		"RU Baton Pass": {
+		"RU Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Leftovers",
@@ -14799,7 +14791,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Baton Pass", "Tail Glow", "Encore", "Substitute"],
 		},
-		"NU Weather Supporter": {
+		"NU Weather Supporter (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Damp Rock",
@@ -14807,7 +14799,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Rain Dance", "U-turn", "Encore", "Thunder Wave"],
 		},
-		"NU Baton Pass": {
+		"NU Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Leftovers",
@@ -14817,7 +14809,7 @@ var SETDEX_BW = {
 		},
 	},
 	Volcarona: {
-		"OU Quiver Dance": {
+		"OU Quiver Dance (Revisar)": {
 			level: 50,
 			ability: "Flame Body",
 			item: "Insect Plate",
@@ -14825,7 +14817,7 @@ var SETDEX_BW = {
 			evs: { hp: 72, sa: 252, sp: 184 },
 			moves: ["Quiver Dance", "Fire Blast", "Bug Buzz", "Psychic"],
 		},
-		"Doubles Rage Powder": {
+		"Doubles Rage Powder (Revisar)": {
 			level: 50,
 			ability: "Flame Body",
 			item: "Sitrus Berry",
@@ -14833,7 +14825,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 184, sa: 16, sd: 40, sp: 16 },
 			moves: ["Overheat", "Bug Buzz", "Rage Powder", "Protect"],
 		},
-		"Doubles Quiver Dance": {
+		"Doubles Quiver Dance (Revisar)": {
 			level: 50,
 			ability: "Flame Body",
 			item: "Life Orb",
@@ -14843,7 +14835,7 @@ var SETDEX_BW = {
 		},
 	},
 	Voltorb: {
-		"LC Offensive Orb": {
+		"LC Offensive Orb (Revisar)": {
 			level: 5,
 			ability: "Soundproof",
 			item: "Life Orb",
@@ -14851,7 +14843,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 36, sa: 236, sp: 200 },
 			moves: ["Thunderbolt", "Hidden Power Ice", "Substitute", "Explosion"],
 		},
-		"LC Substitute + Charge Beam": {
+		"LC Substitute + Charge Beam (Revisar)": {
 			level: 5,
 			ability: "Soundproof",
 			item: "Oran Berry",
@@ -14864,7 +14856,7 @@ var SETDEX_BW = {
 				"Substitute",
 			],
 		},
-		"LC Rain Dance Lead": {
+		"LC Rain Dance Lead (Revisar)": {
 			level: 5,
 			ability: "Soundproof",
 			item: "Damp Rock",
@@ -14874,7 +14866,7 @@ var SETDEX_BW = {
 		},
 	},
 	Vullaby: {
-		"ZU Physically Defensive": {
+		"ZU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Big Pecks",
 			item: "Eviolite",
@@ -14883,7 +14875,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 252, sd: 8 },
 			moves: ["Taunt", "Foul Play", "Hidden Power Fighting", "Roost"],
 		},
-		"LC Nasty Plot": {
+		"LC Nasty Plot (Revisar)": {
 			level: 5,
 			ability: "Weak Armor",
 			item: "Eviolite",
@@ -14891,7 +14883,7 @@ var SETDEX_BW = {
 			evs: { hp: 116, sa: 156, sd: 76, sp: 116 },
 			moves: ["Nasty Plot", "Air Slash", "Dark Pulse", "Heat Wave"],
 		},
-		"LC Physical Pivot": {
+		"LC Physical Pivot (Revisar)": {
 			level: 5,
 			ability: "Weak Armor",
 			item: "Eviolite",
@@ -14901,7 +14893,7 @@ var SETDEX_BW = {
 		},
 	},
 	Wailmer: {
-		"LC Tank": {
+		"LC Tank (Revisar)": {
 			level: 5,
 			ability: "Pressure",
 			item: "Eviolite",
@@ -14909,7 +14901,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, df: 236, sd: 236 },
 			moves: ["Rest", "Sleep Talk", "Roar", "Scald"],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Water Veil",
 			item: "Choice Scarf",
@@ -14919,7 +14911,7 @@ var SETDEX_BW = {
 		},
 	},
 	Wailord: {
-		"NU Choice Specs": {
+		"NU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Specs",
@@ -14929,7 +14921,7 @@ var SETDEX_BW = {
 		},
 	},
 	Walrein: {
-		"NU Specially Defensive": {
+		"NU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -14937,7 +14929,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sd: 252 },
 			moves: ["Toxic", "Ice Beam", "Roar", "Surf"],
 		},
-		"ZU SubTox": {
+		"ZU SubTox (Revisar)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Leftovers",
@@ -14948,7 +14940,7 @@ var SETDEX_BW = {
 		},
 	},
 	Wartortle: {
-		"NU Rapid Spin": {
+		"NU Rapid Spin (Revisar)": {
 			level: 50,
 			ability: "Torrent",
 			item: "Eviolite",
@@ -14958,7 +14950,7 @@ var SETDEX_BW = {
 		},
 	},
 	Watchog: {
-		"NU The Namib Special": {
+		"NU The Namib Special (Revisar)": {
 			level: 50,
 			ability: "Analytic",
 			item: "Life Orb",
@@ -14968,7 +14960,7 @@ var SETDEX_BW = {
 		},
 	},
 	Weavile: {
-		"OU Trapper": {
+		"OU Trapper (Revisar)": {
 			level: 50,
 			ability: "Pickpocket",
 			item: "Dread Plate",
@@ -14976,7 +14968,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Pursuit", "Beat Up", "Ice Shard", "Low Kick"],
 		},
-		"UU Swords Dance": {
+		"UU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -14984,7 +14976,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Ice Shard", "Night Slash", "Low Kick"],
 		},
-		"UU Physical Attacker": {
+		"UU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Band",
@@ -14994,7 +14986,7 @@ var SETDEX_BW = {
 		},
 	},
 	Weepinbell: {
-		"ZU Sun Sweeper": {
+		"ZU Sun Sweeper (Revisar)": {
 			level: 50,
 			ability: "Chlorophyll",
 			item: "Eviolite",
@@ -15005,7 +14997,7 @@ var SETDEX_BW = {
 		},
 	},
 	Weezing: {
-		"UU Utility": {
+		"UU Utility (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Black Sludge",
@@ -15013,7 +15005,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Flamethrower", "Thunderbolt", "Pain Split", "Will-O-Wisp"],
 		},
-		"RU Physical Wall": {
+		"RU Physical Wall (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Black Sludge",
@@ -15021,7 +15013,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Will-O-Wisp", "Pain Split", "Fire Blast", "Thunderbolt"],
 		},
-		"RU Specially Defensive": {
+		"RU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Black Sludge",
@@ -15029,7 +15021,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Will-O-Wisp", "Pain Split", "Flamethrower", "Thunderbolt"],
 		},
-		"NU Physically Defensive": {
+		"NU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
 			item: "Black Sludge",
@@ -15039,7 +15031,7 @@ var SETDEX_BW = {
 		},
 	},
 	Whimsicott: {
-		"UU Prankster": {
+		"UU Prankster (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Leftovers",
@@ -15047,7 +15039,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Encore", "Leech Seed", "Substitute", "Taunt"],
 		},
-		"RU Support": {
+		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Leftovers",
@@ -15055,7 +15047,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Stun Spore", "U-turn", "Encore", "Taunt"],
 		},
-		"RU Sunny Day Support": {
+		"RU Sunny Day Support (Revisar)": {
 			level: 50,
 			ability: "Prankster",
 			item: "Heat Rock",
@@ -15065,7 +15057,7 @@ var SETDEX_BW = {
 		},
 	},
 	Whiscash: {
-		"NU Dragon Dance": {
+		"NU Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Hydration",
 			item: "Leftovers",
@@ -15073,7 +15065,7 @@ var SETDEX_BW = {
 			evs: { hp: 172, at: 80, df: 32, sp: 224 },
 			moves: ["Dragon Dance", "Substitute", "Earthquake", "Waterfall"],
 		},
-		"ZU Bulky Substitute + Dragon Dance": {
+		"ZU Bulky Substitute + Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Anticipation",
 			item: "Leftovers",
@@ -15081,7 +15073,7 @@ var SETDEX_BW = {
 			evs: { hp: 172, at: 252, sp: 84 },
 			moves: ["Substitute", "Dragon Dance", "Waterfall", "Earthquake"],
 		},
-		"ZU Fast Substitute + Dragon Dance": {
+		"ZU Fast Substitute + Dragon Dance (Revisar)": {
 			level: 50,
 			ability: "Anticipation",
 			item: "Leftovers",
@@ -15091,7 +15083,7 @@ var SETDEX_BW = {
 		},
 	},
 	Whismur: {
-		"LC Trick Room Attacker": {
+		"LC Trick Room Attacker (Revisar)": {
 			level: 5,
 			ability: "Soundproof",
 			item: "Life Orb",
@@ -15102,7 +15094,7 @@ var SETDEX_BW = {
 		},
 	},
 	Wigglytuff: {
-		"NU Support": {
+		"NU Support (Revisar)": {
 			level: 50,
 			ability: "Frisk",
 			item: "Leftovers",
@@ -15112,7 +15104,7 @@ var SETDEX_BW = {
 		},
 	},
 	Wingull: {
-		"LC Life Orb": {
+		"LC Life Orb (Revisar)": {
 			level: 5,
 			ability: "Rain Dish",
 			item: "Life Orb",
@@ -15122,7 +15114,7 @@ var SETDEX_BW = {
 		},
 	},
 	Wobbuffet: {
-		"OU Death Fodder": {
+		"OU Death Fodder (Revisar)": {
 			level: 50,
 			ability: "Telepathy",
 			item: "Leftovers",
@@ -15130,7 +15122,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, df: 252, sd: 252 },
 			moves: ["Counter", "Mirror Coat", "Encore", "Safeguard"],
 		},
-		"Uber Oh, no! It's Wobbuffet! (Standard)": {
+		"Uber Oh, no! It's Wobbuffet! (Standard) (Revisar)": {
 			level: 50,
 			ability: "Shadow Tag",
 			item: "Leftovers",
@@ -15140,7 +15132,7 @@ var SETDEX_BW = {
 		},
 	},
 	Woobat: {
-		"LC Calm Mind": {
+		"LC Calm Mind (Revisar)": {
 			level: 5,
 			ability: "Simple",
 			item: "Eviolite",
@@ -15150,7 +15142,7 @@ var SETDEX_BW = {
 		},
 	},
 	Wooper: {
-		"LC Tank": {
+		"LC Tank (Revisar)": {
 			level: 5,
 			ability: "Unaware",
 			item: "Eviolite",
@@ -15160,7 +15152,7 @@ var SETDEX_BW = {
 		},
 	},
 	Wormadam: {
-		"NU Wall": {
+		"NU Wall (Revisar)": {
 			level: 50,
 			ability: "Anticipation",
 			item: "Leftovers",
@@ -15169,8 +15161,8 @@ var SETDEX_BW = {
 			moves: ["Toxic", "Protect", "Giga Drain", "Signal Beam"],
 		},
 	},
-	"Wormadam-Sandy": {
-		"NU Utility": {
+	"Wormadam-Sandy (Revisar)": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Anticipation",
 			item: "Leftovers",
@@ -15179,8 +15171,8 @@ var SETDEX_BW = {
 			moves: ["Stealth Rock", "Toxic", "Protect", "Earthquake"],
 		},
 	},
-	"Wormadam-Trash": {
-		"NU Utility": {
+	"Wormadam-Trash (Revisar)": {
+		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Anticipation",
 			item: "Leftovers",
@@ -15189,7 +15181,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Stealth Rock", "Toxic", "Protect", "Gyro Ball"],
 		},
-		"ZU Physical Wall": {
+		"ZU Physical Wall (Revisar)": {
 			level: 50,
 			ability: "Anticipation",
 			item: "Leftovers",
@@ -15200,7 +15192,7 @@ var SETDEX_BW = {
 		},
 	},
 	Wynaut: {
-		"LC Why Not?": {
+		"LC Why Not? (Revisar)": {
 			level: 5,
 			ability: "Shadow Tag",
 			item: "Oran Berry",
@@ -15211,7 +15203,7 @@ var SETDEX_BW = {
 		},
 	},
 	Xatu: {
-		"OU Utility": {
+		"OU Utility (Revisar)": {
 			level: 50,
 			ability: "Magic Bounce",
 			item: "Rocky Helmet",
@@ -15219,7 +15211,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 184, sp: 72 },
 			moves: ["Roost", "Night Shade", "Reflect", "U-turn"],
 		},
-		"UU Support": {
+		"UU Support (Revisar)": {
 			level: 50,
 			ability: "Magic Bounce",
 			item: "Leftovers",
@@ -15227,7 +15219,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sd: 240, sp: 16 },
 			moves: ["Thunder Wave", "Roost", "U-turn", "Psychic"],
 		},
-		"UU Special Attacker": {
+		"UU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Magic Bounce",
 			item: "Life Orb",
@@ -15235,7 +15227,7 @@ var SETDEX_BW = {
 			evs: { hp: 32, sa: 252, sd: 8, sp: 216 },
 			moves: ["Psyshock", "Grass Knot", "Heat Wave", "Roost"],
 		},
-		"Uber Dual Screens": {
+		"Uber Dual Screens (Revisar)": {
 			level: 50,
 			ability: "Magic Bounce",
 			item: "Light Clay",
@@ -15245,7 +15237,7 @@ var SETDEX_BW = {
 		},
 	},
 	Yamask: {
-		"LC Trick Room": {
+		"LC Trick Room (Revisar)": {
 			level: 5,
 			ability: "Mummy",
 			item: "Oran Berry",
@@ -15259,7 +15251,7 @@ var SETDEX_BW = {
 				"Nasty Plot",
 			],
 		},
-		"LC Calm Mind": {
+		"LC Calm Mind (Revisar)": {
 			level: 5,
 			ability: "Mummy",
 			item: "Oran Berry",
@@ -15269,7 +15261,7 @@ var SETDEX_BW = {
 		},
 	},
 	Yanmega: {
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Tinted Lens",
 			item: "Choice Specs",
@@ -15277,7 +15269,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Bug Buzz", "Air Slash", "Psychic", "U-turn"],
 		},
-		"UU Life Orb": {
+		"UU Life Orb (Revisar)": {
 			level: 50,
 			ability: "Speed Boost",
 			item: "Life Orb",
@@ -15287,7 +15279,7 @@ var SETDEX_BW = {
 		},
 	},
 	Zangoose: {
-		"RU Toxic Boost": {
+		"RU Toxic Boost (Revisar)": {
 			level: 50,
 			ability: "Toxic Boost",
 			item: "Toxic Orb",
@@ -15295,7 +15287,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Facade", "Close Combat", "Night Slash", "Quick Attack"],
 		},
-		"NU All-Out Attacker": {
+		"NU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Toxic Boost",
 			item: "Toxic Orb",
@@ -15303,7 +15295,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Facade", "Close Combat", "Night Slash", "Quick Attack"],
 		},
-		"NU Swords Dance": {
+		"NU Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Toxic Boost",
 			item: "Toxic Orb",
@@ -15313,7 +15305,7 @@ var SETDEX_BW = {
 		},
 	},
 	Zapdos: {
-		"OU Physically Defensive": {
+		"OU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -15322,7 +15314,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 100, sa: 4, sd: 44, sp: 112 },
 			moves: ["Volt Switch", "Roost", "Hidden Power Ice", "Heat Wave"],
 		},
-		"UU Offensive": {
+		"UU Offensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -15330,7 +15322,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Thunderbolt", "Heat Wave", "Hidden Power Grass", "Roost"],
 		},
-		"UU SubRoost": {
+		"UU SubRoost (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -15338,7 +15330,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 84, sp: 176 },
 			moves: ["Substitute", "Roost", "Thunderbolt", "Hidden Power Ice"],
 		},
-		"UU Physically Defensive": {
+		"UU Physically Defensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -15346,7 +15338,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 236, sp: 24 },
 			moves: ["Discharge", "Roost", "Hidden Power Grass", "Heat Wave"],
 		},
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Specs",
@@ -15360,7 +15352,7 @@ var SETDEX_BW = {
 				"Volt Switch",
 			],
 		},
-		"UU Specially Defensive": {
+		"UU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Leftovers",
@@ -15368,7 +15360,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sd: 236, sp: 24 },
 			moves: ["Discharge", "Roost", "Heat Wave", "Hidden Power Grass"],
 		},
-		"UU Agility": {
+		"UU Agility (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Life Orb",
@@ -15376,7 +15368,7 @@ var SETDEX_BW = {
 			evs: { hp: 180, sa: 252, sp: 76 },
 			moves: ["Thunderbolt", "Hidden Power Ice", "Agility", "Roost"],
 		},
-		"Doubles Offensive Tailwind": {
+		"Doubles Offensive Tailwind (Revisar)": {
 			level: 50,
 			ability: "Pressure",
 			item: "Sitrus Berry",
@@ -15386,7 +15378,7 @@ var SETDEX_BW = {
 		},
 	},
 	Zebstrika: {
-		"NU Special Attacker": {
+		"NU Special Attacker (Revisar)": {
 			level: 50,
 			ability: "Lightning Rod",
 			item: "Life Orb",
@@ -15399,7 +15391,7 @@ var SETDEX_BW = {
 				"Hidden Power Grass",
 			],
 		},
-		"NU Choice Scarf": {
+		"NU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Lightning Rod",
 			item: "Choice Scarf",
@@ -15412,7 +15404,7 @@ var SETDEX_BW = {
 				"Hidden Power Grass",
 			],
 		},
-		"PU Ol’ Reliable (Volt Switch Pivot)": {
+		"PU Ol’ Reliable (Volt Switch Pivot) (Revisar)": {
 			level: 50,
 			ability: "Lightning Rod",
 			item: "Life Orb",
@@ -15422,7 +15414,7 @@ var SETDEX_BW = {
 		},
 	},
 	Zekrom: {
-		"Uber Mixed Attacker": {
+		"Uber Mixed Attacker (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Life Orb",
@@ -15430,7 +15422,7 @@ var SETDEX_BW = {
 			evs: { hp: 104, at: 148, sa: 252, sp: 4 },
 			moves: ["Bolt Strike", "Draco Meteor", "Dragon Claw", "Focus Blast"],
 		},
-		"Uber Choice Band": {
+		"Uber Choice Band (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Choice Band",
@@ -15438,7 +15430,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sp: 4 },
 			moves: ["Bolt Strike", "Dragon Claw", "Outrage", "Fusion Bolt"],
 		},
-		"Uber Choice Scarf": {
+		"Uber Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Choice Scarf",
@@ -15446,7 +15438,7 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Bolt Strike", "Outrage", "Dragon Claw", "Volt Switch"],
 		},
-		"Uber Substitute + Hone Claws": {
+		"Uber Substitute + Hone Claws (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Leftovers",
@@ -15454,7 +15446,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, at: 252, sp: 4 },
 			moves: ["Substitute", "Hone Claws", "Bolt Strike", "Outrage"],
 		},
-		"Uber Tailwind": {
+		"Uber Tailwind (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
 			item: "Life Orb",
@@ -15464,7 +15456,7 @@ var SETDEX_BW = {
 		},
 	},
 	Zigzagoon: {
-		"LC Belly Drum": {
+		"LC Belly Drum (Revisar)": {
 			level: 5,
 			ability: "Pickup",
 			item: "Oran Berry",
@@ -15474,7 +15466,7 @@ var SETDEX_BW = {
 		},
 	},
 	Zoroark: {
-		"UU Choice Specs": {
+		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Illusion",
 			item: "Choice Specs",
@@ -15482,7 +15474,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Dark Pulse", "Flamethrower", "Focus Blast", "Trick"],
 		},
-		"UU All-Out Attacker": {
+		"UU All-Out Attacker (Revisar)": {
 			level: 50,
 			ability: "Illusion",
 			item: "Life Orb",
@@ -15490,7 +15482,7 @@ var SETDEX_BW = {
 			evs: { at: 4, sa: 252, sp: 252 },
 			moves: ["Dark Pulse", "Focus Blast", "Flamethrower", "Sucker Punch"],
 		},
-		"UU Nasty Plot": {
+		"UU Nasty Plot (Revisar)": {
 			level: 50,
 			ability: "Illusion",
 			item: "Life Orb",
@@ -15498,7 +15490,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Nasty Plot", "Dark Pulse", "Focus Blast", "Flamethrower"],
 		},
-		"UU Choice Scarf": {
+		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Illusion",
 			item: "Choice Scarf",
@@ -15508,7 +15500,7 @@ var SETDEX_BW = {
 		},
 	},
 	Zorua: {
-		"LC Mixed Attacker": {
+		"LC Mixed Attacker (Revisar)": {
 			level: 5,
 			ability: "Illusion",
 			item: "Life Orb",
@@ -15522,7 +15514,7 @@ var SETDEX_BW = {
 				"Extrasensory",
 			],
 		},
-		"LC Choice Scarf": {
+		"LC Choice Scarf (Revisar)": {
 			level: 5,
 			ability: "Illusion",
 			item: "Choice Scarf",
@@ -15530,7 +15522,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, sa: 200, sp: 240 },
 			moves: ["Dark Pulse", "Hidden Power Fighting", "U-turn", "Pursuit"],
 		},
-		"LC Nasty Plot": {
+		"LC Nasty Plot (Revisar)": {
 			level: 5,
 			ability: "Illusion",
 			item: "Life Orb",
@@ -15546,7 +15538,7 @@ var SETDEX_BW = {
 		},
 	},
 	Zubat: {
-		"LC Choice Bat": {
+		"LC Choice Bat (Revisar)": {
 			level: 5,
 			ability: "Inner Focus",
 			item: "Choice Scarf",
@@ -15554,7 +15546,7 @@ var SETDEX_BW = {
 			evs: { hp: 36, at: 236, sp: 236 },
 			moves: ["Brave Bird", "Steel Wing", "Bite", "Pursuit"],
 		},
-		"LC Stallbreaker": {
+		"LC Stallbreaker (Revisar)": {
 			level: 5,
 			ability: "Inner Focus",
 			item: "Eviolite",
@@ -15564,7 +15556,7 @@ var SETDEX_BW = {
 		},
 	},
 	Zweilous: {
-		"NU Specially Defensive": {
+		"NU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Hustle",
 			item: "Eviolite",
@@ -15572,7 +15564,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, sd: 200, sp: 60 },
 			moves: ["Rest", "Sleep Talk", "Roar", "Dragon Tail"],
 		},
-		"NU Offensive Tank": {
+		"NU Offensive Tank (Revisar)": {
 			level: 50,
 			ability: "Hustle",
 			item: "Eviolite",
@@ -19498,9 +19490,9 @@ var translatedMoves = [
     }
 ];
 Object.values(SETDEX_BW).forEach((pokemon) => {
-	console.log("Pokemon", pokemon);
+	// console.log("Pokemon", pokemon);
     Object.values(pokemon).forEach((pokeSet) => {
-		console.log(pokeSet);
+		// console.log(pokeSet);
 		let acc = []
 		pokeSet.moves.forEach(move => {
 			let found = translatedMoves.find((tMove) => tMove.lang.en == move);
@@ -19513,4 +19505,5 @@ Object.values(SETDEX_BW).forEach((pokemon) => {
 		pokeSet.moves = acc;
 	})
 });
+
 //console.log(SETDEX_BW);
