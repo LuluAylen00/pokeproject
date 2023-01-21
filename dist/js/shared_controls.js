@@ -574,7 +574,7 @@ $(".set-selector").change(function () {
 			}
 		} else {
 			pokeObj.find(".teraType").val(pokemon.types[0]);
-			pokeObj.find(".level").val(100);
+			pokeObj.find(".level").val(50);
 			pokeObj.find(".hp .evs").val(0);
 			pokeObj.find(".hp .ivs").val(31);
 			pokeObj.find(".hp .dvs").val(15);
@@ -1151,6 +1151,48 @@ $('#tier-form input').on('change', function() {
 	loadDefaultLists();
 });
 
+function wasReview(setName){
+	let revisados = $('input[name=review]:checked', '#review-form').val();
+	if (revisados && !setName.includes("(Revisar)")) {
+		return true;
+	} else if (!revisados) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function getByTier(tier, setName) {
+	switch (tier) {
+		case "All":
+			return true
+		case "OU":
+			if (setName.includes("OU") || setName.includes("UU") || setName.includes("NU") || setName.includes("RU") || setName.includes("ZU")) {
+				return true;	
+			} else {
+				return false;
+			}
+		case "UU":
+			if (setName.includes("UU") || setName.includes("NU") || setName.includes("RU") || setName.includes("ZU")) {
+				return true;	
+			} else {
+				return false;
+			}
+		case "NU":
+			if (setName.includes("NU") || setName.includes("RU") || setName.includes("ZU")) {
+				return true;	
+			} else {
+				return false;
+			}
+		default:
+			if (setName.includes(tier)) {
+				return true;	
+			} else {
+				return false;
+			}
+		}
+}
+
 function getSetOptions(sets) {
 	var setsHolder = sets;
 	if (setsHolder === undefined) {
@@ -1159,12 +1201,12 @@ function getSetOptions(sets) {
 	var pokeNames = Object.keys(setsHolder);
 	pokeNames.sort();
 	var setOptions = [];
+	let acc = [];
+	let selected = $('input[name=tier2]:checked', '#tier-form').val();
+	let status = ""
 	for (var i = 0; i < pokeNames.length; i++) {
 		var pokeName = pokeNames[i];
-		setOptions.push({
-			pokemon: pokeName,
-			text: pokeName
-		});
+		
 		if ($("#randoms").prop("checked")) {
 			if (pokeName in randdex) {
 				setOptions.push({
@@ -1175,13 +1217,23 @@ function getSetOptions(sets) {
 				});
 			}
 		} else {
+			
 			if (pokeName in setdex) {
 				var setNames = Object.keys(setdex[pokeName]);
+				//console.log(pokeName, setNames);
+				setNames = setNames.filter(set => wasReview(set) && getByTier(selected,set));
 				for (var j = 0; j < setNames.length; j++) {
 					var setName = setNames[j];
-					let selected = $('input[name=tier2]:checked', '#tier-form').val();
-					switch (selected) {
-						case "All":
+					if((wasReview(setName))) {
+						if  (getByTier(selected, setName)) {
+							if (status != pokeName) {
+									
+								status = pokeName;
+								setOptions.push({
+									pokemon: pokeName,
+									text: pokeName
+								})
+							}
 							setOptions.push({
 								pokemon: pokeName,
 								set: setName,
@@ -1190,66 +1242,37 @@ function getSetOptions(sets) {
 								isCustom: setdex[pokeName][setName].isCustomSet,
 								nickname: setdex[pokeName][setName].nickname || ""
 							});
-							break;
-						case "OU":
-							if (setName.includes("OU") || setName.includes("UU") || setName.includes("NU") || setName.includes("RU") || setName.includes("ZU")) {
+							if (setName == setNames[setNames.length - 1]) {
 								setOptions.push({
 									pokemon: pokeName,
-									set: setName,
-									text: pokeName + " (" + setName + ")",
-									id: pokeName + " (" + setName + ")",
-									isCustom: setdex[pokeName][setName].isCustomSet,
-									nickname: setdex[pokeName][setName].nickname || ""
+									set: "Blank Set",
+									text: pokeName + " (Blank Set)",
+									id: pokeName + " (Blank Set)"
 								});
 							}
-							break;
-						case "UU":
-							if (setName.includes("UU") || setName.includes("NU") || setName.includes("RU") || setName.includes("ZU")) {
-								setOptions.push({
-									pokemon: pokeName,
-									set: setName,
-									text: pokeName + " (" + setName + ")",
-									id: pokeName + " (" + setName + ")",
-									isCustom: setdex[pokeName][setName].isCustomSet,
-									nickname: setdex[pokeName][setName].nickname || ""
-								});
-							}
-							break;
-						case "NU":
-							if (setName.includes("NU") || setName.includes("RU") || setName.includes("ZU")) {
-								setOptions.push({
-									pokemon: pokeName,
-									set: setName,
-									text: pokeName + " (" + setName + ")",
-									id: pokeName + " (" + setName + ")",
-									isCustom: setdex[pokeName][setName].isCustomSet,
-									nickname: setdex[pokeName][setName].nickname || ""
-								});
-							}
-							break;
-						default:
-							if (setName.includes(selected)) {
-								setOptions.push({
-									pokemon: pokeName,
-									set: setName,
-									text: pokeName + " (" + setName + ")",
-									id: pokeName + " (" + setName + ")",
-									isCustom: setdex[pokeName][setName].isCustomSet,
-									nickname: setdex[pokeName][setName].nickname || ""
-								});
-							}
-							break;
+						}
 					}
 				}
+
+				let props = {
+					pokemon: pokeName,
+					text: pokeName
+				};
+				let blank = {
+					pokemon: pokeName,
+					set: "Blank Set",
+					text: pokeName + " (Blank Set)",
+					id: pokeName + " (Blank Set)"
+				}
+				if (status != pokeName) {
+					status = pokeName;
+					acc.push(props)
+					acc.push(blank)
+				}
 			}
-			setOptions.push({
-				pokemon: pokeName,
-				set: "Blank Set",
-				text: pokeName + " (Blank Set)",
-				id: pokeName + " (Blank Set)"
-			});
 		}
 	}
+	setOptions = [...setOptions, ...acc];
 	return setOptions;
 }
 

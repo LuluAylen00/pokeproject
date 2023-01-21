@@ -33,13 +33,13 @@ var SETDEX_BW = {
 			evs: { hp: 64, at: 124, df: 68, sa: 252 },
 			moves: ["Wood Hammer", "Blizzard", "Ice Shard", "Protect"],
 		},
-		"Doubles Choice Scarf (Revisar)": {
+		"NU Scarf": {
 			level: 50,
 			ability: "Snow Warning",
 			item: "Choice Scarf",
 			nature: "Timid",
-			evs: { df: 28, sa: 228, sp: 252 },
-			moves: ["Blizzard", "Hidden Power Fire", "Giga Drain", "Ice Shard"],
+			evs: { hp: 4, sa: 252, sp: 252 },
+			moves: ["Blizzard", "Hidden Power Fire", "Lluevehojas", "Tierra Viva"],
 		},
 	},
 	Abra: {
@@ -1319,21 +1319,21 @@ var SETDEX_BW = {
 		},
 	},
 	Blaziken: {
-		"Uber Swords Dance (Revisar)": {
+		"NU Especial": {
 			level: 50,
-			ability: "Speed Boost",
+			ability: "Blaze",
 			item: "Life Orb",
+			nature: "Timid",
+			evs: { hp: 4, at: 252, sp: 252 },
+			moves: ["Sofoco", "Onda Vacío", "Esfera Aural", "Poder Oculto Planta"],
+		},
+		"NU Scarf": {
+			level: 50,
+			ability: "Blaze",
+			item: "Choice Scarf",
 			nature: "Jolly",
 			evs: { hp: 4, at: 252, sp: 252 },
-			moves: ["Swords Dance", "Low Kick", "Protect", "Flare Blitz"],
-		},
-		"Doubles Physical Attacker (Revisar)": {
-			level: 50,
-			ability: "Speed Boost",
-			item: "Life Orb",
-			nature: "Adamant",
-			evs: { hp: 4, at: 252, sp: 252 },
-			moves: ["Flare Blitz", "Superpower", "Stone Edge", "Protect"],
+			moves: ["Envite Ígneo", "Close Combat", "Brave Bird", "Ida y Vuelta"],
 		},
 	},
 	Blissey: {
@@ -2127,21 +2127,21 @@ var SETDEX_BW = {
 		},
 	},
 	Clefable: {
-		"UU Support (Revisar)": {
+		"NU Ignorante + Masa Cosmica": {
 			level: 50,
-			ability: "Magic Guard",
+			ability: "Unaware",
 			item: "Leftovers",
-			nature: "Calm",
-			evs: { hp: 252, df: 4, sd: 252 },
-			moves: ["Wish", "Seismic Toss", "Knock Off", "Encore"],
+			nature: "Bold",
+			evs: { hp: 252, df: 252, sa: 4 },
+			moves: ["Amortiguador", "Masa Cósmica", "Poderreserva", "Tóxico"],
 		},
-		"UU Life Orb (Revisar)": {
+		"NU Ignorante Bulky": {
 			level: 50,
-			ability: "Magic Guard",
-			item: "Life Orb",
-			nature: "Brave",
-			evs: { at: 252, df: 4, sa: 252 },
-			moves: ["Double-Edge", "Fire Blast", "Grass Knot", "Soft-Boiled"],
+			ability: "Unaware",
+			item: "Leftovers",
+			nature: "Quiet",
+			evs: { sa: 252, df: 4, hp: 252 },
+			moves: ["Lanzallamas", "Vozarrón", "Rayo Carga", "Soft-Boiled"],
 		},
 		"RU Support (Revisar)": {
 			level: 50,
@@ -3118,13 +3118,13 @@ var SETDEX_BW = {
 		},
 	},
 	Dragonite: {
-		"OU 3 Attacks Dragon Dance (Revisar)": {
+		"OU Danza Dragon + 3 Ataques": {
 			level: 50,
 			ability: "Multiscale",
-			item: "Lum Berry",
+			item: "Leftovers",
 			nature: "Adamant",
 			evs: { at: 252, sd: 4, sp: 252 },
-			moves: ["Dragon Dance", "Outrage", "Earthquake", "Extreme Speed"],
+			moves: ["Danza Dragón", "Garra Dragón", "Puño Fuego", "Extreme Speed"],
 		},
 		"OU Substitute + Dragon Dance (Revisar)": {
 			level: 50,

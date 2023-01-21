@@ -126,6 +126,10 @@
         <div class="small-text"><span id="damageValues">(If you see this message for more than a few seconds, try enabling JavaScript.)</span>
         </div>
     </div>
+    <form id="review-form">
+        <input type="checkbox" name="review" id="review-button" class="review visually-hidden" value="UU">
+        <label for="review-button" class="btn btn-mid">Revisados</label>
+    </form>
     <form id="tier-form">
         <input type="radio" name="tier2" id="tier-2-All" class="tier visually-hidden" value="All" checked>
         <label for="tier-2-All" class="btn btn-left">Todos</label>
@@ -170,7 +174,7 @@
                 </div>
                 <div>
                     <label for="levelL1">Nivel</label>
-                    <input class="level calc-trigger" id="levelL1" value="100" />
+                    <input class="level calc-trigger" id="levelL1" value="50" />
                 </div>
                 <div class="hide">
                     <label for="weightL1">Peso (kg)</label>
@@ -1049,7 +1053,7 @@
                 </div>
                 <div>
                     <label for="levelR1">Nivel</label>
-                    <input class="level calc-trigger" id="levelR1" value="100" />
+                    <input class="level calc-trigger" id="levelR1" value="50" />
                 </div>
                 <div class="hide">
                     <label for="weightR1">Peso (kg)</label>

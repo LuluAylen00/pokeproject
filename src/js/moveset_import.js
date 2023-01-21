@@ -112,7 +112,7 @@ function getStats(currentPoke, rows, offset) {
 	var currentAbility;
 	var currentTeraType;
 	var currentNature;
-	currentPoke.level = 100;
+	currentPoke.level = 50;
 	for (var x = offset; x < offset + 9; x++) {
 		var currentRow = rows[x] ? rows[x].split(/[/:]/) : '';
 		var evs = {};

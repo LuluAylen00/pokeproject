@@ -180,7 +180,7 @@ function toForme(pokemon: string) {
 
 function toCalc(set: ps.DeepPartial<ps.PokemonSet>): PokemonSet {
   return {
-    level: set.level || 100,
+    level: set.level || 50,
     ability: set.ability, // TODO fixed?
     item: set.item,
     nature: set.nature,

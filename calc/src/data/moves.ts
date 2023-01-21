@@ -484,7 +484,7 @@ const ADV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Nature Power': {bp: 0, category: 'Status', type: 'Normal'},
   'Needle Arm': {bp: 60, type: 'Grass', makesContact: true},
   'Odor Sleuth': {bp: 0, category: 'Status', type: 'Normal'},
-  Overheat: {bp: 140, type: 'Fire', self: {boosts: {spa: -2}}, makesContact: true},
+  Overheat: {bp: 130, type: 'Fire', self: {boosts: {spa: -2}}, makesContact: true},
   Revenge: {bp: 60, type: 'Fighting', makesContact: true},
   'Rock Blast': {bp: 25, type: 'Rock', multihit: [2, 5]},
   'Role Play': {bp: 0, category: 'Status', type: 'Psychic'},
@@ -532,7 +532,7 @@ const ADV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   Howl: {bp: 0, category: 'Status', type: 'Normal'},
   'Luster Purge': {bp: 70, type: 'Psychic'},
   'Mist Ball': {bp: 70, type: 'Psychic'},
-  'Psycho Boost': {bp: 140, type: 'Psychic', self: {boosts: {spa: -2}}},
+  'Psycho Boost': {bp: 130, type: 'Psychic', self: {boosts: {spa: -2}}},
   Refresh: {bp: 0, category: 'Status', type: 'Normal'},
   'Signal Beam': {bp: 75, type: 'Bug'},
   'Silver Wind': {bp: 60, type: 'Bug'},
@@ -614,7 +614,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   Magnitude: {category: 'Physical'},
   'Mega Drain': {category: 'Special'},
   'Mirror Coat': {category: 'Special'},
-  Outrage: {bp: 120, category: 'Physical'},
+  Outrage: {bp: 90, category: 'Physical'},
   'Petal Dance': {bp: 90, category: 'Special'},
   'Pin Missile': {category: 'Physical'},
   Psywave: {category: 'Special'},
@@ -956,7 +956,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Air Slash': {bp: 75, type: 'Flying', category: 'Special'},
   'Aura Sphere': {bp: 90, type: 'Fighting', category: 'Special'},
   'Bug Buzz': {bp: 90, type: 'Bug', isSound: true, category: 'Special'},
-  'Draco Meteor': {bp: 140, type: 'Dragon', self: {boosts: {spa: -2}}, category: 'Special'},
+  'Draco Meteor': {bp: 130, type: 'Dragon', self: {boosts: {spa: -2}}, category: 'Special'},
   'Dragon Pulse': {bp: 90, type: 'Dragon', category: 'Special'},
   'Dragon Rush': {
     bp: 100,
@@ -972,7 +972,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     makesContact: true,
     category: 'Physical',
   },
-  'Leaf Storm': {bp: 140, type: 'Grass', self: {boosts: {spa: -2}}, category: 'Special'},
+  'Leaf Storm': {bp: 130, type: 'Grass', self: {boosts: {spa: -2}}, category: 'Special'},
   'Power Gem': {bp: 70, type: 'Rock', category: 'Special'},
   'Psycho Shift': {bp: 0, type: 'Psychic'},
   'Shadow Force': {
@@ -3329,10 +3329,115 @@ var translatedMoves = [
         }
     },
     {
-        "move": "hidden-power",
+        "move": "hidden-power-bug",
         "lang": {
-            "en": "Hidden Power",
-            "es": "Poder Oculto"
+            "en": "Hidden Power Bug",
+            "es": "Poder Oculto Bicho"
+        }
+    },
+    {
+        "move": "hidden-power-dragon",
+        "lang": {
+            "en": "Hidden Power Dragon",
+            "es": "Poder Oculto Dragón"
+        }
+    },
+    {
+        "move": "hidden-power-electric",
+        "lang": {
+            "en": "Hidden Power Electric",
+            "es": "Poder Oculto Eléctrico"
+        }
+    },
+    {
+        "move": "hidden-power-fighting",
+        "lang": {
+            "en": "Hidden Power Fighting",
+            "es": "Poder Oculto Lucha"
+        }
+    },
+    {
+        "move": "hidden-power-fire",
+        "lang": {
+            "en": "Hidden Power Fire",
+            "es": "Poder Oculto Fuego"
+        }
+    },
+    {
+        "move": "hidden-power-ghost",
+        "lang": {
+            "en": "Hidden Power Ghost",
+            "es": "Poder Oculto Fantasma"
+        }
+    },
+    {
+        "move": "hidden-power-dark",
+        "lang": {
+            "en": "Hidden Power Dark",
+            "es": "Poder Oculto Siniestro"
+        }
+    },
+    {
+        "move": "hidden-power-flying",
+        "lang": {
+            "en": "Hidden Power Flying",
+            "es": "Poder Oculto Volador"
+        }
+    },
+    {
+        "move": "hidden-power-grass",
+        "lang": {
+            "en": "Hidden Power Grass",
+            "es": "Poder Oculto Planta"
+        }
+    },
+    {
+        "move": "hidden-power-ground",
+        "lang": {
+            "en": "Hidden Power Ground",
+            "es": "Poder Oculto Tierra"
+        }
+    },
+    {
+        "move": "hidden-power-ice",
+        "lang": {
+            "en": "Hidden Power Ice",
+            "es": "Poder Oculto Hielo"
+        }
+    },
+    {
+        "move": "hidden-power-poison",
+        "lang": {
+            "en": "Hidden Power Poison",
+            "es": "Poder Oculto Veneno"
+        }
+    },
+    {
+        "move": "hidden-power-psychic",
+        "lang": {
+            "en": "Hidden Power Psychic",
+            "es": "Poder Oculto Psíquico"
+        }
+    },
+    {
+        "move": "hidden-power-rock",
+        "lang": {
+            "en": "Hidden Power Rock",
+            "es": "Poder Oculto Roca"
+        }
+    },
+    {
+        "move": "hidden-power-steel",
+        "lang": {
+            "en": "Hidden Power Steel",
+            "es": "Poder Oculto Acero"
+        }
+    },
+    {
+        "move": "hidden-power-water",
+        "lang": {
+            "en": "Hidden Power Water",
+            "es": "Poder Oculto Agua"
         }
     },
     {

@@ -263,7 +263,7 @@ $(".tiers label").mouseup(function () {
 		$("#singles-format").prop("checked", true);
 	}
 	if ((startsWith(oldID, "VGC") || oldID === "LC") && (!startsWith(newID, "VGC") && newID !== "LC")) {
-		setLevel("100");
+		setLevel("50");
 	}
 });
 

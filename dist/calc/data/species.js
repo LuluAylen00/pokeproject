@@ -181,7 +181,7 @@ var RBY = {
     Ditto: { types: ['Normal'], bs: { hp: 48, at: 48, df: 48, sp: 48, sl: 48 }, weightkg: 4 },
     Dodrio: {
         types: ['Normal', 'Flying'],
-        bs: { hp: 60, at: 110, df: 70, sp: 100, sl: 60 },
+        bs: { hp: 60, at: 110, df: 70, sp: 110, sl: 60 },
         weightkg: 85.2
     },
     Doduo: {
@@ -215,7 +215,7 @@ var RBY = {
     },
     Dugtrio: {
         types: ['Ground'],
-        bs: { hp: 35, at: 80, df: 50, sp: 120, sl: 70 },
+        bs: { hp: 35, at: 100, df: 50, sp: 120, sl: 70 },
         weightkg: 33.3
     },
     Eevee: {
