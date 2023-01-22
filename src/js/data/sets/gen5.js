@@ -235,13 +235,21 @@ var SETDEX_BW = {
 		},
 	},
 	Alakazam: {
-		"OU Attacker (Revisar)": {
+		"NU Paz Mental + 3 Ataques": {
 			level: 50,
-			ability: "Magic Guard",
+			ability: "Synchronize",
 			item: "Focus Sash",
 			nature: "Timid",
-			evs: { sa: 252, sd: 4, sp: 252 },
-			moves: ["Psychic", "Hidden Power Ice", "Focus Blast", "Encore"],
+			evs: { sa: 252, hp: 4, sp: 252 },
+			moves: ["Psychic", "Calm Mind", "Focus Blast", "Shadow Ball"],
+		},
+		"NU Gafas + Truco": {
+			level: 50,
+			ability: "Synchronize",
+			item: "Choice Specs",
+			nature: "Modest",
+			evs: { sa: 252, hp: 4, sp: 252 },
+			moves: ["Psychic", "Taunt", "Focus Blast", "Trick"],
 		},
 	},
 	Alomomola: {
@@ -1039,7 +1047,7 @@ var SETDEX_BW = {
 		},
 	},
 	Azumarill: {
-		"UU Choice Band (Revisar)": {
+		"NU Choice + Prioridad": {
 			level: 50,
 			ability: "Huge Power",
 			item: "Choice Band",
@@ -1047,6 +1055,14 @@ var SETDEX_BW = {
 			evs: { hp: 168, at: 252, sd: 4, sp: 84 },
 			moves: ["Aqua Jet", "Waterfall", "Double-Edge", "Ice Punch"],
 		},
+		"NU Tambor": {
+			level: 50,
+			ability: "Huge Power",
+			item: "Choice Band",
+			nature: "Adamant",
+			evs: { hp: 168, at: 252, sd: 4, sp: 84 },
+			moves: ["Aqua Jet", "Tambor", "Puño Hielo", "Fuerza Bruta"],
+		}
 	},
 	Azurill: {
 		"LC Trick Room Sweeper (Revisar)": {
@@ -3695,9 +3711,9 @@ var SETDEX_BW = {
 		},
 	},
 	Electrode: {
-		"NU Special Attacker (Revisar)": {
+		"NU Atacante Esp": {
 			level: 50,
-			ability: "Aftermath",
+			ability: "Static",
 			item: "Life Orb",
 			nature: "Timid",
 			evs: { hp: 84, sa: 252, sp: 172 },
@@ -3706,6 +3722,19 @@ var SETDEX_BW = {
 				"Volt Switch",
 				"Hidden Power Grass",
 				"Signal Beam",
+			],
+		},
+		"NU Pantallas": {
+			level: 50,
+			ability: "Static",
+			item: "Light Clay",
+			nature: "Timid",
+			evs: { hp: 252, df: 170, sa: 10, sd: 78 },
+			moves: [
+				"Barrier",
+				"Light Screen",
+				"Voltswitch",
+				"Toxic",
 			],
 		},
 	},
@@ -5245,7 +5274,7 @@ var SETDEX_BW = {
 		},
 	},
 	Golem: {
-		"NU Utility (Revisar)": {
+		"NU Utilidad + Prioridad": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -5253,7 +5282,7 @@ var SETDEX_BW = {
 			evs: { hp: 200, at: 252, sp: 56 },
 			moves: ["Stealth Rock", "Rock Blast", "Earthquake", "Sucker Punch"],
 		},
-		"NU Custap Lead (Revisar)": {
+		"NU Rocas + Baya Chiri": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
@@ -5927,13 +5956,21 @@ var SETDEX_BW = {
 		},
 	},
 	Hitmonchan: {
-		"RU Life Orb (Revisar)": {
+		"NU Vidasfera + Cobertura": {
 			level: 50,
 			ability: "Iron Fist",
 			item: "Life Orb",
 			nature: "Adamant",
 			evs: { hp: 4, at: 252, sp: 252 },
-			moves: ["Drain Punch", "Mach Punch", "Thunder Punch", "Ice Punch"],
+			moves: ["Drain Punch", "Mach Punch", "Thunder Punch", "Fire Punch"],
+		},
+		"NU Giro rápido + Prioridad": {
+			level: 50,
+			ability: "Iron Fist",
+			item: "Life Orb",
+			nature: "Adamant",
+			evs: { hp: 4, at: 252, sp: 252 },
+			moves: ["Rapid Spin", "Mach Punch", "Roca Afilada", "Close Combat"],
 		},
 	},
 	Hitmonlee: {
@@ -7286,7 +7323,7 @@ var SETDEX_BW = {
 		},
 	},
 	Lanturn: {
-		"UU Special Tank (Revisar)": {
+		"NU Wall Mixto": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Leftovers",
@@ -7294,7 +7331,7 @@ var SETDEX_BW = {
 			evs: { hp: 204, df: 96, sd: 208 },
 			moves: ["Scald", "Volt Switch", "Heal Bell", "Thunder Wave"],
 		},
-		"UU Rain Dance (Revisar)": {
+		"NU Danza Lluvia": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Damp Rock",
@@ -7302,23 +7339,15 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 104, sp: 152 },
 			moves: ["Rain Dance", "Volt Switch", "Thunder", "Hydro Pump"],
 		},
-		"UU Choice Specs (Revisar)": {
-			level: 50,
-			ability: "Volt Absorb",
-			item: "Choice Specs",
-			nature: "Modest",
-			evs: { sa: 252, sd: 104, sp: 152 },
-			moves: ["Hydro Pump", "Volt Switch", "Ice Beam", "Thunderbolt"],
-		},
-		"RU Pivot (Revisar)": {
+		"NU Wall Físico": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Leftovers",
-			nature: "Calm",
-			evs: { hp: 204, df: 96, sd: 208 },
-			moves: ["Scald", "Volt Switch", "Thunder Wave", "Protect"],
+			nature: "Bold",
+			evs: { hp: 252, df: 252, sd: 4 },
+			moves: ["Scald", "Volt Switch", "Heal Bell", "Toxic"],
 		},
-		"RU Special Attacker (Revisar)": {
+		"RU Atacante Especial": {
 			level: 50,
 			ability: "Volt Absorb",
 			item: "Choice Specs",
@@ -8112,7 +8141,7 @@ var SETDEX_BW = {
 		},
 	},
 	Magneton: {
-		"OU Choice Scarf (Revisar)": {
+		"NU Scarf": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Choice Scarf",
@@ -8125,7 +8154,7 @@ var SETDEX_BW = {
 				"Flash Cannon",
 			],
 		},
-		"UU Steel Killer (Substitute) (Revisar)": {
+		"NU Asesino de semillas (PO Fuego + Sustituto)": {
 			level: 50,
 			ability: "Magnet Pull",
 			item: "Eviolite",
@@ -8135,23 +8164,10 @@ var SETDEX_BW = {
 				"Substitute",
 				"Magnet Rise",
 				"Thunderbolt",
-				"Hidden Power Ice",
+				"Hidden Power Fire",
 			],
 		},
-		"UU Choice Scarf (Revisar)": {
-			level: 50,
-			ability: "Magnet Pull",
-			item: "Choice Scarf",
-			nature: "Modest",
-			evs: { hp: 4, sa: 252, sp: 252 },
-			moves: [
-				"Thunderbolt",
-				"Hidden Power Ice",
-				"Volt Switch",
-				"Flash Cannon",
-			],
-		},
-		"UU Choice Specs (Revisar)": {
+		"NU Gafas": {
 			level: 50,
 			ability: "Analytic",
 			item: "Choice Specs",
@@ -8163,46 +8179,7 @@ var SETDEX_BW = {
 				"Flash Cannon",
 				"Hidden Power Grass",
 			],
-		},
-		"RU Choice Specs (Revisar)": {
-			level: 50,
-			ability: "Magnet Pull",
-			item: "Choice Specs",
-			nature: "Timid",
-			evs: { hp: 4, sa: 252, sp: 252 },
-			moves: [
-				"Thunderbolt",
-				"Volt Switch",
-				"Hidden Power Fire",
-				"Flash Cannon",
-			],
-		},
-		"RU Eviolite (Revisar)": {
-			level: 50,
-			ability: "Magnet Pull",
-			item: "Eviolite",
-			nature: "Modest",
-			evs: { hp: 200, sa: 208, sp: 100 },
-			moves: [
-				"Thunderbolt",
-				"Volt Switch",
-				"Hidden Power Fire",
-				"Flash Cannon",
-			],
-		},
-		"RU Choice Scarf (Revisar)": {
-			level: 50,
-			ability: "Magnet Pull",
-			item: "Choice Scarf",
-			nature: "Timid",
-			evs: { hp: 4, sa: 252, sp: 252 },
-			moves: [
-				"Thunderbolt",
-				"Volt Switch",
-				"Hidden Power Fire",
-				"Flash Cannon",
-			],
-		},
+		}
 	},
 	Magnezone: {
 		"OU Sunny Day (Revisar)": {
@@ -10397,7 +10374,7 @@ var SETDEX_BW = {
 		},
 	},
 	Quagsire: {
-		"UU Curse (Revisar)": {
+		"NU Ignorante + Maldición": {
 			level: 50,
 			ability: "Unaware",
 			item: "Leftovers",
@@ -10405,25 +10382,17 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Curse", "Recover", "Earthquake", "Waterfall"],
 		},
-		"UU Physically Defensive (Revisar)": {
+		"NU Wall Físico": {
 			level: 50,
 			ability: "Unaware",
 			item: "Leftovers",
 			nature: "Relaxed",
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Recover", "Scald", "Toxic", "Earthquake"],
-		},
-		"RU Physically Defensive (Revisar)": {
-			level: 50,
-			ability: "Unaware",
-			item: "Leftovers",
-			nature: "Relaxed",
-			evs: { hp: 248, df: 252, sd: 8 },
-			moves: ["Recover", "Scald", "Earthquake", "Toxic"],
-		},
+		}
 	},
 	Qwilfish: {
-		"UU Utility (Revisar)": {
+		"NU Wall Físico + Utilidad + Intimidación": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Black Sludge",
@@ -10431,7 +10400,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 204, sp: 52 },
 			moves: ["Spikes", "Pain Split", "Waterfall", "Haze"],
 		},
-		"UU Fast Spikes Lead (Revisar)": {
+		"RU Opener > Mismodestino": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Focus Sash",
@@ -12698,58 +12667,34 @@ var SETDEX_BW = {
 		},
 	},
 	Slowking: {
-		"OU Special Wall (Revisar)": {
+		"NU Wall Especial": {
 			level: 50,
-			ability: "Regenerator",
+			ability: "Oblivious",
 			item: "Leftovers",
 			nature: "Calm",
 			evs: { hp: 252, df: 76, sd: 180 },
-			moves: ["Slack Off", "Scald", "Dragon Tail", "Fire Blast"],
+			moves: ["Relajo", "Scald", "Psicocarga", "Fire Blast"],
 		},
-		"UU Physically Defensive (Revisar)": {
+		"NU Wall Físico": {
 			level: 50,
-			ability: "Regenerator",
+			ability: "Oblivious",
 			item: "Leftovers",
-			nature: "Relaxed",
-			evs: { hp: 248, at: 12, df: 248 },
-			moves: ["Scald", "Dragon Tail", "Slack Off", "Thunder Wave"],
+			nature: "Bold",
+			evs: { hp: 248, sa: 12, df: 248 },
+			moves: ["Scald", "Psicocarga", "Relajo", "Toxic"],
 		},
-		"UU Utility Counter (Revisar)": {
+		"RU Trick Room + Maquinación": {
 			level: 50,
-			ability: "Regenerator",
-			item: "Leftovers",
-			nature: "Sassy",
-			evs: { hp: 248, at: 12, df: 72, sd: 176 },
-			moves: ["Scald", "Dragon Tail", "Slack Off", "Thunder Wave"],
-		},
-		"RU Defensive (Revisar)": {
-			level: 50,
-			ability: "Regenerator",
-			item: "Leftovers",
-			nature: "Calm",
-			evs: { hp: 248, df: 144, sd: 116 },
-			moves: ["Scald", "Slack Off", "Psyshock", "Thunder Wave"],
-		},
-		"RU Choice Specs (Revisar)": {
-			level: 50,
-			ability: "Regenerator",
-			item: "Choice Specs",
-			nature: "Modest",
-			evs: { hp: 212, sa: 252, sp: 44 },
-			moves: ["Surf", "Psyshock", "Fire Blast", "Trick"],
-		},
-		"RU Trick Room (Revisar)": {
-			level: 50,
-			ability: "Regenerator",
+			ability: "Oblivious",
 			item: "Leftovers",
 			nature: "Quiet",
 			ivs: { sp: 0 },
 			evs: { hp: 248, sa: 252, sd: 8 },
 			moves: ["Trick Room", "Surf", "Fire Blast", "Nasty Plot"],
 		},
-		"RU Calm Mind (Revisar)": {
+		"RU Paz Mental": {
 			level: 50,
-			ability: "Regenerator",
+			ability: "Oblivious",
 			item: "Leftovers",
 			nature: "Bold",
 			evs: { hp: 248, df: 216, sp: 44 },
@@ -13200,7 +13145,7 @@ var SETDEX_BW = {
 		},
 	},
 	Steelix: {
-		"RU Defensive (Revisar)": {
+		"NU Wall Físico": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -13209,22 +13154,14 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 220, sd: 36 },
 			moves: ["Stealth Rock", "Earthquake", "Gyro Ball", "Roar"],
 		},
-		"RU Custap Berry (Revisar)": {
+		"RU Bulky + Baya Chiri": {
 			level: 50,
 			ability: "Sturdy",
 			item: "Custap Berry",
 			nature: "Adamant",
 			evs: { hp: 212, at: 252, sp: 44 },
 			moves: ["Stealth Rock", "Earthquake", "Heavy Slam", "Explosion"],
-		},
-		"RU Sheer Force (Revisar)": {
-			level: 50,
-			ability: "Sheer Force",
-			item: "Life Orb",
-			nature: "Adamant",
-			evs: { hp: 212, at: 252, sp: 44 },
-			moves: ["Stealth Rock", "Earthquake", "Iron Tail", "Crunch"],
-		},
+		}
 	},
 	Stoutland: {
 		"NU Bulky Attacker (Revisar)": {
@@ -14237,29 +14174,29 @@ var SETDEX_BW = {
 		},
 	},
 	Typhlosion: {
-		"RU Choice Specs (Revisar)": {
+		"NU Gafas": {
 			level: 50,
 			ability: "Blaze",
 			item: "Choice Specs",
 			nature: "Timid",
 			evs: { sa: 252, sd: 4, sp: 252 },
-			moves: ["Eruption", "Fire Blast", "Focus Blast", "Hidden Power Grass"],
+			moves: ["Eruption", "Lanzallamas", "Focus Blast", "Hidden Power Grass"],
 		},
-		"RU Choice Scarf (Revisar)": {
+		"NU Scarf": {
 			level: 50,
 			ability: "Blaze",
 			item: "Choice Scarf",
-			nature: "Timid",
+			nature: "Modest",
 			evs: { sa: 252, sd: 4, sp: 252 },
-			moves: ["Eruption", "Fire Blast", "Focus Blast", "Hidden Power Rock"],
+			moves: ["Eruption", "Fire Blast", "Focus Blast", "Paranormal"],
 		},
-		"RU Sunny Day (Revisar)": {
+		"NU Día Soleado": {
 			level: 50,
 			ability: "Blaze",
 			item: "Life Orb",
 			nature: "Timid",
 			evs: { sa: 252, sd: 4, sp: 252 },
-			moves: ["Sunny Day", "Fire Blast", "Solar Beam", "Hidden Power Rock"],
+			moves: ["Sunny Day", "Lanzallamas", "Solar Beam", "Paranormal"],
 		},
 	},
 	Tyranitar: {
