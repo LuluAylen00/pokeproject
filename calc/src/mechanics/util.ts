@@ -155,7 +155,7 @@ export function getMoveEffectiveness(
   } else if (move.named('Flying Press')) {
     return (
       gen.types.get('lucha' as ID)!.effectiveness[type]! *
-      gen.types.get('flying' as ID)!.effectiveness[type]!
+      gen.types.get('volador' as ID)!.effectiveness[type]!
     );
   } else {
     return gen.types.get(toID(move.type))!.effectiveness[type]!;

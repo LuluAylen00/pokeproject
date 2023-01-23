@@ -185,7 +185,7 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
     }
     else if (move.named('Flying Press')) {
         return (gen.types.get('lucha').effectiveness[type] *
-            gen.types.get('flying').effectiveness[type]);
+            gen.types.get('volador').effectiveness[type]);
     }
     else {
         return gen.types.get((0, util_1.toID)(move.type)).effectiveness[type];
