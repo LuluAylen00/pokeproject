@@ -52,7 +52,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: [
 				"Psychic",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Shadow Ball",
 				"Thunder Wave",
 			],
@@ -63,7 +63,7 @@ var SETDEX_BW = {
 			item: "Focus Sash",
 			nature: "Timid",
 			evs: { sa: 240, sp: 200 },
-			moves: ["Psychic", "Shadow Ball", "Hidden Power Fighting", "Protect"],
+			moves: ["Psychic", "Shadow Ball", "Poder Oculto Lucha", "Protect"],
 		},
 		"LC Life Orb (Revisar)": {
 			level: 5,
@@ -74,7 +74,7 @@ var SETDEX_BW = {
 			moves: [
 				"Psychic",
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Substitute",
 			],
 		},
@@ -1232,7 +1232,7 @@ var SETDEX_BW = {
 			item: "Choice Specs",
 			nature: "Modest",
 			evs: { hp: 160, sa: 252, sp: 96 },
-			moves: ["Psychic", "Signal Beam", "Hidden Power Fighting", "Trick"],
+			moves: ["Psychic", "Signal Beam", "Poder Oculto Lucha", "Trick"],
 		},
 		"PU Defensive Setup (Revisar)": {
 			level: 50,
@@ -2044,7 +2044,7 @@ var SETDEX_BW = {
 			nature: "Bold",
 			ivs: { at: 3, df: 30, sa: 30, sd: 30, sp: 30 },
 			evs: { hp: 252, df: 252, sd: 4 },
-			moves: ["Psychic", "Hidden Power Fighting", "Recover", "Healing Wish"],
+			moves: ["Psychic", "Poder Oculto Lucha", "Recover", "Healing Wish"],
 		},
 		"ZU Calm Mind (Revisar)": {
 			level: 50,
@@ -2053,7 +2053,7 @@ var SETDEX_BW = {
 			nature: "Bold",
 			ivs: { df: 30, sa: 30, sd: 30, sp: 30, at: 0 },
 			evs: { hp: 252, df: 252, sd: 4 },
-			moves: ["Calm Mind", "Psychic", "Hidden Power Fighting", "Recover"],
+			moves: ["Calm Mind", "Psychic", "Poder Oculto Lucha", "Recover"],
 		},
 	},
 	Chinchou: {
@@ -2310,7 +2310,7 @@ var SETDEX_BW = {
 			evs: { hp: 248, df: 8, sa: 252 },
 			moves: [
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Nasty Plot",
 				"Trick Room",
 			],
@@ -2529,7 +2529,7 @@ var SETDEX_BW = {
 			moves: [
 				"Moonlight",
 				"Psychic",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Thunder Wave",
 			],
 		},
@@ -2551,7 +2551,7 @@ var SETDEX_BW = {
 				"Calm Mind",
 				"Substitute",
 				"Psyshock",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 			],
 		},
 		"Uber Dual Screens + Lunar Dance (Revisar)": {
@@ -3756,7 +3756,7 @@ var SETDEX_BW = {
 			item: "Eviolite",
 			nature: "Modest",
 			evs: { hp: 76, sa: 240, sp: 120 },
-			moves: ["Psychic", "Thunderbolt", "Hidden Power Fighting", "Recover"],
+			moves: ["Psychic", "Thunderbolt", "Poder Oculto Lucha", "Recover"],
 		},
 	},
 	Emboar: {
@@ -4868,7 +4868,7 @@ var SETDEX_BW = {
 				"Shadow Ball",
 				"Sludge Bomb",
 				"Thunderbolt",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 			],
 		},
 		"LC Black Sludge (Revisar)": {
@@ -4880,7 +4880,7 @@ var SETDEX_BW = {
 			moves: [
 				"Trick",
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Will-O-Wisp",
 			],
 		},
@@ -4892,7 +4892,7 @@ var SETDEX_BW = {
 			evs: { hp: 116, df: 40, sa: 120, sp: 200 },
 			moves: [
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Will-O-Wisp",
 				"Pain Split",
 			],
@@ -5040,7 +5040,7 @@ var SETDEX_BW = {
 			item: "Life Orb",
 			nature: "Naive",
 			evs: { at: 16, sa: 240, sp: 252 },
-			moves: ["Psyshock", "Crunch", "Sucker Punch", "Hidden Power Fighting"],
+			moves: ["Psyshock", "Crunch", "Sucker Punch", "Poder Oculto Lucha"],
 		},
 	},
 	Giratina: {
@@ -5141,7 +5141,7 @@ var SETDEX_BW = {
 				"Ice Beam",
 				"Blizzard",
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 			],
 		},
 		"ZU Choice Scarf (Revisar)": {
@@ -5155,7 +5155,7 @@ var SETDEX_BW = {
 				"Ice Beam",
 				"Hyper Voice",
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 			],
 		},
 	},
@@ -5504,7 +5504,7 @@ var SETDEX_BW = {
 			nature: "Calm",
 			ivs: { at: 3, df: 30, sa: 30, sd: 30, sp: 30 },
 			evs: { hp: 252, sd: 4, sp: 252 },
-			moves: ["Calm Mind", "Psychic", "Taunt", "Hidden Power Fighting"],
+			moves: ["Calm Mind", "Psychic", "Taunt", "Poder Oculto Lucha"],
 		},
 		"ZU Offensive Calm Mind (Revisar)": {
 			level: 50,
@@ -5513,7 +5513,7 @@ var SETDEX_BW = {
 			nature: "Timid",
 			ivs: { at: 3, df: 30, sa: 30, sd: 30, sp: 30 },
 			evs: { sa: 252, sd: 4, sp: 252 },
-			moves: ["Calm Mind", "Psychic", "Hidden Power Fighting", "Taunt"],
+			moves: ["Calm Mind", "Psychic", "Poder Oculto Lucha", "Taunt"],
 		},
 		"ZU Specially Defensive (Revisar)": {
 			level: 50,
@@ -8135,7 +8135,7 @@ var SETDEX_BW = {
 			moves: [
 				"Thunderbolt",
 				"Flash Cannon",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Volt Switch",
 			],
 		},
@@ -8971,7 +8971,7 @@ var SETDEX_BW = {
 				"Substitute",
 				"Crunch",
 				"Sucker Punch",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 			],
 		},
 	},
@@ -9083,7 +9083,7 @@ var SETDEX_BW = {
 			moves: [
 				"Nasty Plot",
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Thunderbolt",
 			],
 		},
@@ -9105,7 +9105,7 @@ var SETDEX_BW = {
 				"Substitute",
 				"Calm Mind",
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 			],
 		},
 	},
@@ -9399,7 +9399,7 @@ var SETDEX_BW = {
 			moves: [
 				"Calm Mind",
 				"Stored Power",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Moonlight",
 			],
 		},
@@ -10230,7 +10230,7 @@ var SETDEX_BW = {
 				"Agility",
 				"Tri Attack",
 				"Dark Pulse",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 			],
 		},
 		"UU Choice Scarf (Revisar)": {
@@ -10239,7 +10239,7 @@ var SETDEX_BW = {
 			item: "Choice Scarf",
 			nature: "Timid",
 			evs: { hp: 4, sa: 252, sp: 252 },
-			moves: ["Tri Attack", "Dark Pulse", "Hidden Power Fighting", "Trick"],
+			moves: ["Tri Attack", "Dark Pulse", "Poder Oculto Lucha", "Trick"],
 		},
 		"UU Choice Specs (Revisar)": {
 			level: 50,
@@ -10247,7 +10247,7 @@ var SETDEX_BW = {
 			item: "Choice Specs",
 			nature: "Modest",
 			evs: { hp: 4, sa: 252, sp: 252 },
-			moves: ["Tri Attack", "Dark Pulse", "Hidden Power Fighting", "Trick"],
+			moves: ["Tri Attack", "Dark Pulse", "Poder Oculto Lucha", "Trick"],
 		},
 		"UU Nasty Plot (Revisar)": {
 			level: 50,
@@ -10259,7 +10259,7 @@ var SETDEX_BW = {
 				"Nasty Plot",
 				"Tri Attack",
 				"Dark Pulse",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 			],
 		},
 	},
@@ -11056,7 +11056,7 @@ var SETDEX_BW = {
 			moves: [
 				"Volt Switch",
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Trick",
 			],
 		},
@@ -12888,7 +12888,7 @@ var SETDEX_BW = {
 			nature: "Quiet",
 			ivs: { df: 30, sa: 30, sd: 30, sp: 2 },
 			evs: { hp: 236, sa: 240 },
-			moves: ["Trick Room", "Psychic", "Hidden Power Fighting", "Thunder"],
+			moves: ["Trick Room", "Psychic", "Poder Oculto Lucha", "Thunder"],
 		},
 	},
 	Solrock: {
@@ -13044,7 +13044,7 @@ var SETDEX_BW = {
 				"Calm Mind",
 				"Psychic",
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 			],
 		},
 		"LC Choice Scarf (Revisar)": {
@@ -13053,7 +13053,7 @@ var SETDEX_BW = {
 			item: "Choice Scarf",
 			nature: "Modest",
 			evs: { hp: 36, sa: 200, sd: 40, sp: 200 },
-			moves: ["Psychic", "Shadow Ball", "Hidden Power Fighting", "Trick"],
+			moves: ["Psychic", "Shadow Ball", "Poder Oculto Lucha", "Trick"],
 		},
 	},
 	Squirtle: {
@@ -14815,7 +14815,7 @@ var SETDEX_BW = {
 			nature: "Impish",
 			ivs: { at: 3, df: 30, sa: 30, sd: 30, sp: 30 },
 			evs: { hp: 248, df: 252, sd: 8 },
-			moves: ["Taunt", "Foul Play", "Hidden Power Fighting", "Roost"],
+			moves: ["Taunt", "Foul Play", "Poder Oculto Lucha", "Roost"],
 		},
 		"LC Nasty Plot (Revisar)": {
 			level: 5,
@@ -15189,7 +15189,7 @@ var SETDEX_BW = {
 			moves: [
 				"Trick Room",
 				"Shadow Ball",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Nasty Plot",
 			],
 		},
@@ -15199,7 +15199,7 @@ var SETDEX_BW = {
 			item: "Oran Berry",
 			nature: "Bold",
 			evs: { hp: 212, df: 80, sd: 160, sp: 40 },
-			moves: ["Calm Mind", "Hex", "Hidden Power Fighting", "Will-O-Wisp"],
+			moves: ["Calm Mind", "Hex", "Poder Oculto Lucha", "Will-O-Wisp"],
 		},
 	},
 	Yanmega: {
@@ -15452,7 +15452,7 @@ var SETDEX_BW = {
 			moves: [
 				"Dark Pulse",
 				"Sucker Punch",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Extrasensory",
 			],
 		},
@@ -15462,7 +15462,7 @@ var SETDEX_BW = {
 			item: "Choice Scarf",
 			nature: "Naive",
 			evs: { hp: 36, sa: 200, sp: 240 },
-			moves: ["Dark Pulse", "Hidden Power Fighting", "U-turn", "Pursuit"],
+			moves: ["Dark Pulse", "Poder Oculto Lucha", "U-turn", "Pursuit"],
 		},
 		"LC Nasty Plot (Revisar)": {
 			level: 5,
@@ -15474,7 +15474,7 @@ var SETDEX_BW = {
 			moves: [
 				"Nasty Plot",
 				"Dark Pulse",
-				"Hidden Power Fighting",
+				"Poder Oculto Lucha",
 				"Extrasensory",
 			],
 		},

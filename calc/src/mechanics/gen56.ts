@@ -97,10 +97,10 @@ export function calculateBWXY(
 
   if (move.named('Weather Ball')) {
     move.type =
-      field.hasWeather('Sun', 'Harsh Sunshine') ? 'Fire'
-      : field.hasWeather('Rain', 'Heavy Rain') ? 'Water'
-      : field.hasWeather('Sand') ? 'Rock'
-      : field.hasWeather('Hail') ? 'Ice'
+      field.hasWeather('Sun', 'Harsh Sunshine') ? 'Fuego'
+      : field.hasWeather('Rain', 'Heavy Rain') ? 'Agua'
+      : field.hasWeather('Sand') ? 'Roca'
+      : field.hasWeather('Hail') ? 'Hielo'
       : 'Normal';
     desc.weather = field.weather;
     desc.moveType = move.type;
@@ -117,12 +117,12 @@ export function calculateBWXY(
     desc.moveType = move.type;
   } else if (move.named('Nature Power')) {
     if (gen.num === 5) {
-      move.type = 'Ground';
+      move.type = 'Tierra';
     } else {
       move.type =
-        field.hasTerrain('Electric') ? 'Electric'
-        : field.hasTerrain('Grassy') ? 'Grass'
-        : field.hasTerrain('Misty') ? 'Fairy'
+        field.hasTerrain('Eléctrico') ? 'Eléctrico'
+        : field.hasTerrain('Grassy') ? 'Planta'
+        : field.hasTerrain('Misty') ? 'Hada'
         : 'Normal';
     }
   }
@@ -137,11 +137,11 @@ export function calculateBWXY(
   if (!move.isZ && !noTypeChange) {
     const normal = move.hasType('Normal');
     if ((isAerilate = attacker.hasAbility('Aerilate') && normal)) {
-      move.type = 'Flying';
+      move.type = 'Volador';
     } else if ((isPixilate = attacker.hasAbility('Pixilate') && normal)) {
-      move.type = 'Fairy';
+      move.type = 'Hada';
     } else if ((isRefrigerate = attacker.hasAbility('Refrigerate') && normal)) {
-      move.type = 'Ice';
+      move.type = 'Hielo';
     } else if ((isNormalize = attacker.hasAbility('Normalize'))) {
       move.type = 'Normal';
     }
@@ -150,7 +150,7 @@ export function calculateBWXY(
     }
   }
 
-  if (attacker.hasAbility('Gale Wings') && move.hasType('Flying')) {
+  if (attacker.hasAbility('Gale Wings') && move.hasType('Volador')) {
     move.priority = 1;
     desc.attackerAbility = attacker.ability;
   }
@@ -180,7 +180,7 @@ export function calculateBWXY(
 
   if (typeEffectiveness === 0 && move.named('Thousand Arrows')) {
     typeEffectiveness = 1;
-  } else if (typeEffectiveness === 0 && move.hasType('Ground') &&
+  } else if (typeEffectiveness === 0 && move.hasType('Tierra') &&
     defender.hasItem('Iron Ball') && !defender.hasAbility('Klutz')) {
     typeEffectiveness = 1;
   } else if (typeEffectiveness === 0 && defender.hasItem('Ring Target')) {
@@ -197,7 +197,7 @@ export function calculateBWXY(
   }
 
   if ((move.named('Sky Drop') &&
-        (defender.hasType('Flying') || defender.weightkg >= 200 || field.isGravity)) ||
+        (defender.hasType('Volador') || defender.weightkg >= 200 || field.isGravity)) ||
       (move.named('Synchronoise') && !defender.hasType(attacker.types[0]) &&
         (!attacker.types[1] || !defender.hasType(attacker.types[1]))) ||
       (move.named('Dream Eater') && !defender.hasStatus('slp'))
@@ -206,26 +206,26 @@ export function calculateBWXY(
   }
 
   if (
-    (field.hasWeather('Harsh Sunshine') && move.hasType('Water')) ||
-    (field.hasWeather('Heavy Rain') && move.hasType('Fire'))
+    (field.hasWeather('Harsh Sunshine') && move.hasType('Agua')) ||
+    (field.hasWeather('Heavy Rain') && move.hasType('Fuego'))
   ) {
     desc.weather = field.weather;
     return result;
   }
 
-  if (field.hasWeather('Strong Winds') && defender.hasType('Flying') &&
-      gen.types.get(toID(move.type))!.effectiveness['Flying']! > 1) {
+  if (field.hasWeather('Strong Winds') && defender.hasType('Volador') &&
+      gen.types.get(toID(move.type))!.effectiveness['Volador']! > 1) {
     typeEffectiveness /= 2;
     desc.weather = field.weather;
   }
 
   if ((defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
-      (move.hasType('Grass') && defender.hasAbility('Sap Sipper')) ||
-      (move.hasType('Fire') && defender.hasAbility('Flash Fire')) ||
-      (move.hasType('Water') && defender.hasAbility('Dry Skin', 'Storm Drain', 'Water Absorb')) ||
-      (move.hasType('Electric') &&
+      (move.hasType('Planta') && defender.hasAbility('Sap Sipper')) ||
+      (move.hasType('Fuego') && defender.hasAbility('Flash Fire')) ||
+      (move.hasType('Agua') && defender.hasAbility('Dry Skin', 'Storm Drain', 'Water Absorb')) ||
+      (move.hasType('Eléctrico') &&
         defender.hasAbility('Lightning Rod', 'Motor Drive', 'Volt Absorb')) ||
-      (move.hasType('Ground') &&
+      (move.hasType('Tierra') &&
         !field.isGravity && !move.named('Thousand Arrows') &&
         !defender.hasItem('Iron Ball') && defender.hasAbility('Levitate')) ||
       (move.flags.bullet && defender.hasAbility('Bulletproof')) ||
@@ -235,13 +235,13 @@ export function calculateBWXY(
     return result;
   }
 
-  if (move.hasType('Ground') && !move.named('Thousand Arrows') &&
+  if (move.hasType('Tierra') && !move.named('Thousand Arrows') &&
       !field.isGravity && defender.hasItem('Air Balloon')) {
     desc.defenderItem = defender.item;
     return result;
   }
 
-  if (move.priority > 0 && field.hasTerrain('Psychic') && isGrounded(defender, field)) {
+  if (move.priority > 0 && field.hasTerrain('Psíquico') && isGrounded(defender, field)) {
     desc.terrain = field.terrain;
     return result;
   }
@@ -370,7 +370,7 @@ export function calculateBWXY(
       move.category = 'Special';
       move.secondaries = true;
       switch (field.terrain) {
-      case 'Electric':
+      case 'Eléctrico':
         basePower = 90;
         desc.moveName = 'Thunderbolt';
         break;
@@ -424,7 +424,7 @@ export function calculateBWXY(
   } else if (
     attacker.hasAbility('Sand Force') &&
     field.hasWeather('Sand') &&
-    move.hasType('Rock', 'Ground', 'Steel')
+    move.hasType('Roca', 'Tierra', 'Acero')
   ) {
     bpMods.push(5325);
     desc.attackerAbility = attacker.ability;
@@ -437,10 +437,10 @@ export function calculateBWXY(
     desc.attackerAbility = attacker.ability;
   }
 
-  if (defender.hasAbility('Heatproof') && move.hasType('Fire')) {
+  if (defender.hasAbility('Heatproof') && move.hasType('Fuego')) {
     bpMods.push(2048);
     desc.defenderAbility = defender.ability;
-  } else if (defender.hasAbility('Dry Skin') && move.hasType('Fire')) {
+  } else if (defender.hasAbility('Dry Skin') && move.hasType('Fuego')) {
     bpMods.push(5120);
     desc.defenderAbility = defender.ability;
   }
@@ -473,13 +473,13 @@ export function calculateBWXY(
   } else if (
     (attacker.hasItem('Adamant Orb') &&
      attacker.named('Dialga') &&
-     move.hasType('Steel', 'Dragon')) ||
+     move.hasType('Acero', 'Dragón')) ||
     (attacker.hasItem('Lustrous Orb') &&
      attacker.named('Palkia') &&
-     move.hasType('Water', 'Dragon')) ||
+     move.hasType('Agua', 'Dragón')) ||
     (attacker.hasItem('Griseous Orb') &&
      attacker.named('Giratina-Origin') &&
-     move.hasType('Ghost', 'Dragon'))
+     move.hasType('Fantasma', 'Dragón'))
   ) {
     bpMods.push(4915);
     desc.attackerItem = attacker.item;
@@ -526,8 +526,8 @@ export function calculateBWXY(
   const isDefenderAura = defender.hasAbility(aura);
   const isUserAuraBreak = attacker.hasAbility('Aura Break') || defender.hasAbility('Aura Break');
   const isFieldAuraBreak = field.isAuraBreak;
-  const isFieldFairyAura = field.isFairyAura && move.type === 'Fairy';
-  const isFieldDarkAura = field.isDarkAura && move.type === 'Dark';
+  const isFieldFairyAura = field.isFairyAura && move.type === 'Hada';
+  const isFieldDarkAura = field.isDarkAura && move.type === 'Siniestro';
   const auraActive = isAttackerAura || isDefenderAura || isFieldFairyAura || isFieldDarkAura;
   const auraBreak = isFieldAuraBreak || isUserAuraBreak;
   if (auraActive) {
@@ -545,15 +545,15 @@ export function calculateBWXY(
   // It's not actually clear if the terrain modifiers are base damage mods like weather or are
   // base power mods like in Gen 7+, but the research doesn't exist for this yet so we match PS here
   if (isGrounded(attacker, field)) {
-    if ((field.hasTerrain('Electric') && move.hasType('Electric')) ||
-        (field.hasTerrain('Grassy') && move.hasType('Grass'))
+    if ((field.hasTerrain('Eléctrico') && move.hasType('Eléctrico')) ||
+        (field.hasTerrain('Grassy') && move.hasType('Planta'))
     ) {
       bpMods.push(6144);
       desc.terrain = field.terrain;
     }
   }
   if (isGrounded(defender, field)) {
-    if ((field.hasTerrain('Misty') && move.hasType('Dragon')) ||
+    if ((field.hasTerrain('Misty') && move.hasType('Dragón')) ||
         (field.hasTerrain('Grassy') && move.named('Bulldoze', 'Earthquake'))
     ) {
       bpMods.push(2048);
@@ -592,22 +592,22 @@ export function calculateBWXY(
   }
 
   const atMods = [];
-  if (defender.hasAbility('Thick Fat') && move.hasType('Fire', 'Ice')) {
+  if (defender.hasAbility('Thick Fat') && move.hasType('Fuego', 'Hielo')) {
     atMods.push(2048);
     desc.defenderAbility = defender.ability;
   }
 
   if ((attacker.hasAbility('Guts') && attacker.status && move.category === 'Physical') ||
       (attacker.curHP() <= attacker.maxHP() / 3 &&
-        ((attacker.hasAbility('Overgrow') && move.hasType('Grass')) ||
-         (attacker.hasAbility('Blaze') && move.hasType('Fire')) ||
-         (attacker.hasAbility('Torrent') && move.hasType('Water')) ||
-         (attacker.hasAbility('Swarm') && move.hasType('Bug')))) ||
+        ((attacker.hasAbility('Overgrow') && move.hasType('Planta')) ||
+         (attacker.hasAbility('Blaze') && move.hasType('Fuego')) ||
+         (attacker.hasAbility('Torrent') && move.hasType('Agua')) ||
+         (attacker.hasAbility('Swarm') && move.hasType('Bicho')))) ||
       (move.category === 'Special' && attacker.abilityOn && attacker.hasAbility('Plus', 'Minus'))
   ) {
     atMods.push(6144);
     desc.attackerAbility = attacker.ability;
-  } else if (attacker.hasAbility('Flash Fire') && attacker.abilityOn && move.hasType('Fire')) {
+  } else if (attacker.hasAbility('Flash Fire') && attacker.abilityOn && move.hasType('Fuego')) {
     atMods.push(6144);
     desc.attackerAbility = 'Flash Fire';
   } else if (
@@ -683,7 +683,7 @@ export function calculateBWXY(
   }
 
   // unlike all other defense modifiers, Sandstorm SpD boost gets applied directly
-  if (field.hasWeather('Sand') && defender.hasType('Rock') && !hitsPhysical) {
+  if (field.hasWeather('Sand') && defender.hasType('Roca') && !hitsPhysical) {
     defense = pokeRound((defense * 3) / 2);
     desc.weather = field.weather;
   }
@@ -751,13 +751,13 @@ export function calculateBWXY(
     baseDamage = pokeRound(OF32(baseDamage * 2048) / 4096);
   }
 
-  if ((field.hasWeather('Sun', 'Harsh Sunshine') && move.hasType('Fire')) ||
-      (field.hasWeather('Rain', 'Heavy Rain') && move.hasType('Water'))) {
+  if ((field.hasWeather('Sun', 'Harsh Sunshine') && move.hasType('Fuego')) ||
+      (field.hasWeather('Rain', 'Heavy Rain') && move.hasType('Agua'))) {
     baseDamage = pokeRound(OF32(baseDamage * 6144) / 4096);
     desc.weather = field.weather;
   } else if (
-    (field.hasWeather('Sun') && move.hasType('Water')) ||
-    (field.hasWeather('Rain') && move.hasType('Fire'))
+    (field.hasWeather('Sun') && move.hasType('Agua')) ||
+    (field.hasWeather('Rain') && move.hasType('Fuego'))
   ) {
     baseDamage = pokeRound(OF32(baseDamage * 2048) / 4096);
     desc.weather = field.weather;
@@ -801,7 +801,7 @@ export function calculateBWXY(
   }
 
   if (defender.hasAbility('Multiscale') && defender.curHP() === defender.maxHP() &&
-      !field.defenderSide.isSR && (!field.defenderSide.spikes || defender.hasType('Flying')) &&
+      !field.defenderSide.isSR && (!field.defenderSide.spikes || defender.hasType('Volador')) &&
       !attacker.hasAbility('Parental Bond (Child)')) {
     finalMods.push(2048);
     desc.defenderAbility = defender.ability;

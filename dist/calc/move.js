@@ -2,7 +2,7 @@
 exports.__esModule = true;
 
 var util_1 = require("./util");
-var SPECIAL = ['Fire', 'Water', 'Planta', 'Electric', 'Ice', 'Psychic', 'Dark', 'Dragon'];
+var SPECIAL = ['Fuego', 'Agua', 'Planta', 'Eléctrico', 'Hielo', 'Psíquico', 'Siniestro', 'Dragón'];
 var Move = (function () {
     function Move(gen, name, options) {
         if (options === void 0) { options = {}; }
@@ -146,7 +146,7 @@ function getZMoveName(moveName, moveType, item) {
     }
     if (moveName === 'Play Rough' && item === 'Mimikium Z')
         return 'Let\'s Snuggle Forever';
-    if (moveName === 'Psychic' && item === 'Mewnium Z')
+    if (moveName === 'Psíquico' && item === 'Mewnium Z')
         return 'Genesis Supernova';
     if (moveName === 'Sparkling Aria' && item === 'Primarium Z')
         return 'Oceanic Operetta';
@@ -173,31 +173,31 @@ function getZMoveName(moveName, moveType, item) {
 }
 exports.getZMoveName = getZMoveName;
 var ZMOVES_TYPING = {
-    Bug: 'Savage Spin-Out',
-    Dark: 'Black Hole Eclipse',
-    Dragon: 'Devastating Drake',
-    Electric: 'Gigavolt Havoc',
-    Fairy: 'Twinkle Tackle',
-    Fighting: 'All-Out Pummeling',
-    Fire: 'Inferno Overdrive',
-    Flying: 'Supersonic Skystrike',
-    Ghost: 'Never-Ending Nightmare',
+    Bicho: 'Savage Spin-Out',
+    Siniestro: 'Black Hole Eclipse',
+    'Dragón': 'Devastating Drake',
+    'Eléctrico': 'Gigavolt Havoc',
+    Hada: 'Twinkle Tackle',
+    Lucha: 'All-Out Pummeling',
+    Fuego: 'Inferno Overdrive',
+    Volador: 'Supersonic Skystrike',
+    Fantasma: 'Never-Ending Nightmare',
     Planta: 'Bloom Doom',
-    Ground: 'Tectonic Rage',
-    Ice: 'Subzero Slammer',
+    Tierra: 'Tectonic Rage',
+    Hielo: 'Subzero Slammer',
     Normal: 'Breakneck Blitz',
-    Poison: 'Acid Downpour',
-    Psychic: 'Shattered Psyche',
-    Rock: 'Continental Crush',
-    Steel: 'Corkscrew Crash',
-    Water: 'Hydro Vortex'
+    Veneno: 'Acid Downpour',
+    'Psíquico': 'Shattered Psyche',
+    Roca: 'Continental Crush',
+    Acero: 'Corkscrew Crash',
+    Agua: 'Hydro Vortex'
 };
 function getMaxMoveName(moveType, pokemonSpecies, isStatus, pokemonAbility) {
     if (isStatus)
         return 'Max Guard';
     if (pokemonAbility === 'Normalize')
         return 'Max Strike';
-    if (moveType === 'Fire') {
+    if (moveType === 'Fuego') {
         if (pokemonSpecies === 'Charizard-Gmax')
             return 'G-Max Wildfire';
         if (pokemonSpecies === 'Centiskorch-Gmax')
@@ -221,19 +221,19 @@ function getMaxMoveName(moveType, pokemonSpecies, isStatus, pokemonAbility) {
         if (pokemonAbility === 'Galvanize')
             return 'Max Lightning';
     }
-    if (moveType === 'Fairy') {
+    if (moveType === 'Hada') {
         if (pokemonSpecies === 'Alcremie-Gmax')
             return 'G-Max Finale';
         if (pokemonSpecies === 'Hatterene-Gmax')
             return 'G-Max Smite';
     }
-    if (moveType === 'Steel') {
+    if (moveType === 'Acero') {
         if (pokemonSpecies === 'Copperajah-Gmax')
             return 'G-Max Steelsurge';
         if (pokemonSpecies === 'Melmetal-Gmax')
             return 'G-Max Meltdown';
     }
-    if (moveType === 'Electric') {
+    if (moveType === 'Eléctrico') {
         if (pokemonSpecies === 'Pikachu-Gmax')
             return 'G-Max Volt Crash';
         if ((pokemonSpecies === null || pokemonSpecies === void 0 ? void 0 : pokemonSpecies.startsWith('Toxtricity')) &&
@@ -250,7 +250,7 @@ function getMaxMoveName(moveType, pokemonSpecies, isStatus, pokemonAbility) {
         if (pokemonSpecies === 'Venusaur-Gmax')
             return 'G-Max Vine Lash';
     }
-    if (moveType === 'Water') {
+    if (moveType === 'Agua') {
         if (pokemonSpecies === 'Blastoise-Gmax')
             return 'G-Max Cannonade';
         if (pokemonSpecies === 'Drednaw-Gmax')
@@ -262,53 +262,53 @@ function getMaxMoveName(moveType, pokemonSpecies, isStatus, pokemonAbility) {
         if (pokemonSpecies === 'Urshifu-Rapid-Strike-Gmax')
             return 'G-Max Rapid Flow';
     }
-    if (moveType === 'Dark') {
+    if (moveType === 'Siniestro') {
         if (pokemonSpecies === 'Grimmsnarl-Gmax')
             return 'G-Max Snooze';
         if (pokemonSpecies === 'Urshifu-Gmax')
             return 'G-Max One Blow';
     }
-    if (moveType === 'Poison' && pokemonSpecies === 'Garbodor-Gmax')
+    if (moveType === 'Veneno' && pokemonSpecies === 'Garbodor-Gmax')
         return 'G-Max Malodor';
-    if (moveType === 'Fighting' && pokemonSpecies === 'Machamp-Gmax')
+    if (moveType === 'Lucha' && pokemonSpecies === 'Machamp-Gmax')
         return 'G-Max Chi Strike';
-    if (moveType === 'Ghost' && pokemonSpecies === 'Gengar-Gmax')
+    if (moveType === 'Fantasma' && pokemonSpecies === 'Gengar-Gmax')
         return 'G-Max Terror';
-    if (moveType === 'Ice' && pokemonSpecies === 'Lapras-Gmax')
+    if (moveType === 'Hielo' && pokemonSpecies === 'Lapras-Gmax')
         return 'G-Max Resonance';
-    if (moveType === 'Flying' && pokemonSpecies === 'Corviknight-Gmax')
+    if (moveType === 'Volador' && pokemonSpecies === 'Corviknight-Gmax')
         return 'G-Max Wind Rage';
-    if (moveType === 'Dragon' && pokemonSpecies === 'Duraludon-Gmax')
+    if (moveType === 'Dragón' && pokemonSpecies === 'Duraludon-Gmax')
         return 'G-Max Depletion';
-    if (moveType === 'Psychic' && pokemonSpecies === 'Orbeetle-Gmax')
+    if (moveType === 'Psíquico' && pokemonSpecies === 'Orbeetle-Gmax')
         return 'G-Max Gravitas';
-    if (moveType === 'Rock' && pokemonSpecies === 'Coalossal-Gmax')
+    if (moveType === 'Roca' && pokemonSpecies === 'Coalossal-Gmax')
         return 'G-Max Volcalith';
-    if (moveType === 'Ground' && pokemonSpecies === 'Sandaconda-Gmax')
+    if (moveType === 'Tierra' && pokemonSpecies === 'Sandaconda-Gmax')
         return 'G-Max Sandblast';
-    if (moveType === 'Dark' && pokemonSpecies === 'Grimmsnarl-Gmax')
+    if (moveType === 'Siniestro' && pokemonSpecies === 'Grimmsnarl-Gmax')
         return 'G-Max Snooze';
     return 'Max ' + MAXMOVES_TYPING[moveType];
 }
 exports.getMaxMoveName = getMaxMoveName;
 var MAXMOVES_TYPING = {
-    Bug: 'Flutterby',
-    Dark: 'Darkness',
-    Dragon: 'Wyrmwind',
-    Electric: 'Lightning',
-    Fairy: 'Starfall',
-    Fighting: 'Knuckle',
-    Fire: 'Flare',
-    Flying: 'Airstream',
-    Ghost: 'Phantasm',
+    Bicho: 'Flutterby',
+    Siniestro: 'Darkness',
+    'Dragón': 'Wyrmwind',
+    'Eléctrico': 'Lightning',
+    Hada: 'Starfall',
+    Lucha: 'Knuckle',
+    Fuego: 'Flare',
+    Volador: 'Airstream',
+    Fantasma: 'Phantasm',
     Planta: 'Overgrowth',
-    Ground: 'Quake',
-    Ice: 'Hailstorm',
+    Tierra: 'Quake',
+    Hielo: 'Hailstorm',
     Normal: 'Strike',
-    Poison: 'Ooze',
-    Psychic: 'Mindstorm',
-    Rock: 'Rockfall',
-    Steel: 'Steelspike',
-    Water: 'Geyser'
+    Veneno: 'Ooze',
+    'Psíquico': 'Mindstorm',
+    Roca: 'Rockfall',
+    Acero: 'Steelspike',
+    Agua: 'Geyser'
 };
 //# sourceMappingURL=move.js.map

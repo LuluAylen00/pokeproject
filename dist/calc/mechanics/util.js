@@ -50,7 +50,7 @@ var EV_ITEMS = [
 ];
 function isGrounded(pokemon, field) {
     return (field.isGravity || pokemon.hasItem('Iron Ball') ||
-        (!pokemon.hasType('Flying') &&
+        (!pokemon.hasType('Volador') &&
             !pokemon.hasAbility('Levitate') &&
             !pokemon.hasItem('Air Balloon')));
 }
@@ -140,7 +140,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
         (pokemon.hasAbility('Sand Rush') && weather === 'Sand') ||
         (pokemon.hasAbility('Swift Swim') && weather.includes('Rain')) ||
         (pokemon.hasAbility('Slush Rush') && ['Hail', 'Snow'].includes(weather)) ||
-        (pokemon.hasAbility('Surge Surfer') && terrain === 'Electric')) {
+        (pokemon.hasAbility('Surge Surfer') && terrain === 'Eléctrico')) {
         speedMods.push(8192);
     }
     else if (pokemon.hasAbility('Quick Feet') && pokemon.status) {
@@ -153,7 +153,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
         ((pokemon.hasAbility('Protosynthesis') &&
             (weather.includes('Sun') || pokemon.hasItem('Booster Energy'))) ||
             (pokemon.hasAbility('Quark Drive') &&
-                (terrain === 'Electric' || pokemon.hasItem('Booster Energy'))))) {
+                (terrain === 'Eléctrico' || pokemon.hasItem('Booster Energy'))))) {
         speedMods.push(6144);
     }
     if (pokemon.hasItem('Choice Scarf')) {
@@ -174,13 +174,13 @@ function getFinalSpeed(gen, pokemon, field, side) {
 }
 exports.getFinalSpeed = getFinalSpeed;
 function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRingTarget) {
-    if ((isRingTarget || isGhostRevealed) && type === 'Ghost' && move.hasType('Normal', 'Fighting')) {
+    if ((isRingTarget || isGhostRevealed) && type === 'Fantasma' && move.hasType('Normal', 'Lucha')) {
         return 1;
     }
-    else if ((isRingTarget || isGravity) && type === 'Flying' && move.hasType('Ground')) {
+    else if ((isRingTarget || isGravity) && type === 'Volador' && move.hasType('Tierra')) {
         return 1;
     }
-    else if (move.named('Freeze-Dry') && type === 'Water') {
+    else if (move.named('Freeze-Dry') && type === 'Agua') {
         return 2;
     }
     else if (move.named('Flying Press')) {
@@ -203,15 +203,15 @@ function checkForecast(pokemon, weather) {
         switch (weather) {
             case 'Sun':
             case 'Harsh Sunshine':
-                pokemon.types = ['Fire'];
+                pokemon.types = ['Fuego'];
                 break;
             case 'Rain':
             case 'Heavy Rain':
-                pokemon.types = ['Water'];
+                pokemon.types = ['Agua'];
                 break;
             case 'Hail':
             case 'Snow':
-                pokemon.types = ['Ice'];
+                pokemon.types = ['Hielo'];
                 break;
             default:
                 pokemon.types = ['Normal'];
@@ -295,7 +295,7 @@ function checkSeedBoost(pokemon, field) {
     if (field.terrain && pokemon.item.includes('Seed')) {
         var terrainSeed = pokemon.item.substring(0, pokemon.item.indexOf(' '));
         if (field.hasTerrain(terrainSeed)) {
-            if (terrainSeed === 'Grassy' || terrainSeed === 'Electric') {
+            if (terrainSeed === 'Grassy' || terrainSeed === 'Eléctrico') {
                 pokemon.boosts.def = pokemon.hasAbility('Contrary')
                     ? Math.max(-6, pokemon.boosts.def - 1)
                     : Math.min(6, pokemon.boosts.def + 1);

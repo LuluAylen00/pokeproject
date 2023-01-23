@@ -133,21 +133,21 @@ describe('calc', () => {
       test(`Weather Ball should change type depending on the weather (gen ${gen})`, () => {
         const weathers = [
           {
-            weather: 'Sun', type: 'Fire', damage: {
+            weather: 'Sun', type: 'Fuego', damage: {
               adv: {range: [346, 408], desc: '(149.7 - 176.6%) -- guaranteed OHKO'},
               dpp: {range: [170, 204], desc: '(73.5 - 88.3%) -- guaranteed 2HKO'},
               modern: {range: [344, 408], desc: '(148.9 - 176.6%) -- guaranteed OHKO'},
             },
           },
           {
-            weather: 'Rain', type: 'Water', damage: {
+            weather: 'Rain', type: 'Agua', damage: {
               adv: {range: [86, 102], desc: '(37.2 - 44.1%) -- guaranteed 3HKO'},
               dpp: {range: [42, 51], desc: '(18.1 - 22%) -- possible 5HKO'},
               modern: {range: [86, 102], desc: '(37.2 - 44.1%) -- guaranteed 3HKO'},
             },
           },
           {
-            weather: 'Sand', type: 'Rock', damage: {
+            weather: 'Sand', type: 'Roca', damage: {
               adv: {
                 range: [96, 114],
                 desc: '(41.5 - 49.3%) -- 20.7% chance to 2HKO after sandstorm damage',
@@ -163,7 +163,7 @@ describe('calc', () => {
             },
           },
           {
-            weather: 'Hail', type: 'Ice', damage: {
+            weather: 'Hail', type: 'Hielo', damage: {
               adv: {
                 range: [234, 276],
                 desc: '(101.2 - 119.4%) -- guaranteed OHKO',
@@ -182,7 +182,7 @@ describe('calc', () => {
 
         for (const {weather, type, damage} of weathers) {
           const dmg = gen === 3 ? damage.adv : gen === 4 ? damage.dpp : damage.modern;
-          const [atk, def] = gen === 3 && type === 'Rock' ? ['Atk', 'Def'] : ['SpA', 'SpD'];
+          const [atk, def] = gen === 3 && type === 'Roca' ? ['Atk', 'Def'] : ['SpA', 'SpD'];
 
           const result = calculate(
             Pokemon('Castform'),
@@ -245,7 +245,7 @@ describe('calc', () => {
 
     inGens(7, 9, ({gen, calculate, Pokemon, Move, Field}) => {
       test(`Psychic Terrain (gen ${gen})`, () => {
-        const field = Field({terrain: 'Psychic'});
+        const field = Field({terrain: 'Psíquico'});
         const Mewtwo = Pokemon('Mewtwo', {
           nature: 'Timid',
           evs: {spa: 252},
@@ -813,7 +813,7 @@ describe('calc', () => {
         const knockoff = Move('Knock Off');
         const result = calculate(sawk, silvally, knockoff);
         expect(result.desc()).toBe(
-          '252 Atk Mold Breaker Sawk Knock Off vs. 0 HP / 0 Def Silvally-Dark: 36-43 (10.8 - 12.9%) -- possible 8HKO'
+          '252 Atk Mold Breaker Sawk Knock Off vs. 0 HP / 0 Def Silvally-Siniestro: 36-43 (10.8 - 12.9%) -- possible 8HKO'
         );
       });
 
