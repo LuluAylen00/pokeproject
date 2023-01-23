@@ -6008,7 +6008,7 @@ var SETDEX_BW = {
 		},
 	},
 	Hitmontop: {
-		"UU Rapid Spin (Revisar)": {
+		"NU Giro Rápido + Defensivo Físico": {
 			level: 50,
 			ability: "Intimidate",
 			item: "Leftovers",
@@ -6114,7 +6114,7 @@ var SETDEX_BW = {
 		},
 	},
 	Houndoom: {
-		"UU Mixed Attacker (Revisar)": {
+		"RU Atacante Mixto": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Life Orb",
@@ -6122,7 +6122,7 @@ var SETDEX_BW = {
 			evs: { at: 252, sa: 4, sp: 252 },
 			moves: ["Pursuit", "Sucker Punch", "Fire Blast", "Crunch"],
 		},
-		"UU Nasty Plot (Revisar)": {
+		"NU Maquinación": {
 			level: 50,
 			ability: "Flash Fire",
 			item: "Life Orb",
@@ -6132,7 +6132,20 @@ var SETDEX_BW = {
 				"Nasty Plot",
 				"Fire Blast",
 				"Dark Pulse",
-				"Hidden Power Fighting",
+				"Hidden Power Grass",
+			],
+		},
+		"NU Maquinación": {
+			level: 50,
+			ability: "Flash Fire",
+			item: "Life Orb",
+			nature: "Timid",
+			evs: { sa: 252, sd: 4, sp: 252 },
+			moves: [
+				"Nasty Plot",
+				"Fire Blast",
+				"Dark Pulse",
+				"Hidden Power Grass",
 			],
 		},
 	},
@@ -8410,7 +8423,7 @@ var SETDEX_BW = {
 		},
 	},
 	Mantine: {
-		"NU MANtine (Rain Dance) (Revisar)": {
+		"ZU Atacante + Danza Lluvia": {
 			level: 50,
 			ability: "Swift Swim",
 			item: "Life Orb",
@@ -8418,14 +8431,22 @@ var SETDEX_BW = {
 			evs: { hp: 64, sa: 252, sp: 192 },
 			moves: ["Rain Dance", "Hydro Pump", "Air Slash", "Ice Beam"],
 		},
-		"NU Physically Defensive (Revisar)": {
+		"NU Wall Físico": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
 			nature: "Bold",
 			evs: { hp: 248, df: 252, sd: 8 },
-			moves: ["Rest", "Sleep Talk", "Scald", "Air Slash"],
+			moves: ["Respiro", "Toxic", "Scald", "Niebla"],
 		},
+		"NU Wall Especial": {
+			level: 50,
+			ability: "Water Absorb",
+			item: "Leftovers",
+			nature: "Bold",
+			evs: { hp: 248, sd: 248, df: 8 },
+			moves: ["Respiro", "Manto Espejo", "Scald", "Toxic"],
+		}
 	},
 	Mantyke: {
 		"LC RestTalk (Revisar)": {
@@ -8973,31 +8994,23 @@ var SETDEX_BW = {
 		},
 	},
 	Miltank: {
-		"RU Mootility (Revisar)": {
+		"NU Utilidad (Rocas + Campana Cura)": {
 			level: 50,
-			ability: "Sap Sipper",
+			ability: "Thick Fat",
 			item: "Leftovers",
 			nature: "Careful",
 			evs: { hp: 252, sd: 192, sp: 64 },
 			moves: ["Stealth Rock", "Milk Drink", "Body Slam", "Heal Bell"],
 		},
-		"RU Moofensive (Revisar)": {
+		"RU Ofensiva": {
 			level: 50,
-			ability: "Sap Sipper",
+			ability: "Scrappy",
 			item: "Life Orb",
 			nature: "Jolly",
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Double-Edge", "Earthquake", "Milk Drink", "Heal Bell"],
 		},
-		"NU Mootility (Revisar)": {
-			level: 50,
-			ability: "Thick Fat",
-			item: "Leftovers",
-			nature: "Careful",
-			evs: { hp: 252, df: 4, sd: 252 },
-			moves: ["Milk Drink", "Stealth Rock", "Heal Bell", "Body Slam"],
-		},
-		"NU Moodoo (Revisar)": {
+		"NU Bulky > Maldición": {
 			level: 50,
 			ability: "Scrappy",
 			item: "Leftovers",
@@ -10009,22 +10022,14 @@ var SETDEX_BW = {
 		},
 	},
 	Piloswine: {
-		"RU Tank (Revisar)": {
+		"NU Bulky (Rocas + 3 Ataques)": {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Eviolite",
 			nature: "Adamant",
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Stealth Rock", "Earthquake", "Icicle Crash", "Ice Shard"],
-		},
-		"NU Stealth Rock (Revisar)": {
-			level: 50,
-			ability: "Thick Fat",
-			item: "Eviolite",
-			nature: "Adamant",
-			evs: { hp: 240, at: 252, sp: 16 },
-			moves: ["Stealth Rock", "Earthquake", "Icicle Spear", "Ice Shard"],
-		},
+		}
 	},
 	Pineco: {
 		"NU Custap Lead (Revisar)": {
@@ -14180,7 +14185,7 @@ var SETDEX_BW = {
 			item: "Choice Specs",
 			nature: "Timid",
 			evs: { sa: 252, sd: 4, sp: 252 },
-			moves: ["Eruption", "Lanzallamas", "Focus Blast", "Hidden Power Grass"],
+			moves: ["Eruption", "Lanzallamas", "Focus Blast", "Poder Oculto Planta"],
 		},
 		"NU Scarf": {
 			level: 50,

@@ -133,7 +133,7 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
     if (move.named('Present')) {
         var lookup = {
             Normal: 0, Fighting: 1, Flying: 2, Poison: 3, Ground: 4, Rock: 5, Bug: 7,
-            Ghost: 8, Steel: 9, '???': 19, Fire: 20, Water: 21, Grass: 22, Electric: 23,
+            Ghost: 8, Steel: 9, '???': 19, Fire: 20, Water: 21, Planta: 22, Electric: 23,
             Psychic: 24, Ice: 25, Dragon: 26, Dark: 27
         };
         at = 10;

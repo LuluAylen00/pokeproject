@@ -240,7 +240,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     else if ((attacker.curHP() <= attacker.maxHP() / 3 &&
-        ((attacker.hasAbility('Overgrow') && move.hasType('Grass')) ||
+        ((attacker.hasAbility('Overgrow') && move.hasType('Planta')) ||
             (attacker.hasAbility('Blaze') && move.hasType('Fire')) ||
             (attacker.hasAbility('Torrent') && move.hasType('Water')) ||
             (attacker.hasAbility('Swarm') && move.hasType('Bug')))) ||

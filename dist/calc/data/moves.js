@@ -43,7 +43,7 @@ exports.__esModule = true;
 var util_1 = require("../util");
 var RBY = {
     '(No Move)': { bp: 0, category: 'Status', type: 'Normal' },
-    Absorb: { bp: 20, type: 'Grass', drain: [1, 2] },
+    Absorb: { bp: 20, type: 'Planta', drain: [1, 2] },
     Acid: { bp: 40, type: 'Poison' },
     Amnesia: { bp: 0, category: 'Status', type: 'Psychic' },
     'Aurora Beam': { bp: 65, type: 'Ice' },
@@ -89,7 +89,7 @@ var RBY = {
     'Hyper Beam': { bp: 150, type: 'Normal' },
     'Jump Kick': { bp: 70, type: 'Fighting', hasCrashDamage: true },
     'Karate Chop': { bp: 50, type: 'Normal' },
-    'Leech Seed': { bp: 0, category: 'Status', type: 'Grass' },
+    'Leech Seed': { bp: 0, category: 'Status', type: 'Planta' },
     'Light Screen': { bp: 0, category: 'Status', type: 'Psychic' },
     Metronome: { bp: 0, category: 'Status', type: 'Normal' },
     Mimic: { bp: 0, category: 'Status', type: 'Normal' },
@@ -97,13 +97,13 @@ var RBY = {
     'Mirror Move': { bp: 0, category: 'Status', type: 'Flying' },
     Mist: { bp: 0, category: 'Status', type: 'Ice' },
     'Night Shade': { bp: 1, type: 'Ghost' },
-    'Petal Dance': { bp: 70, type: 'Grass' },
+    'Petal Dance': { bp: 70, type: 'Planta' },
     'Pin Missile': { bp: 14, type: 'Bug', multihit: [2, 5] },
     'Poison Sting': { bp: 15, type: 'Poison' },
     Psychic: { bp: 90, type: 'Psychic' },
     Psywave: { bp: 1, type: 'Psychic' },
     Rage: { bp: 20, type: 'Normal' },
-    'Razor Leaf': { bp: 55, type: 'Grass' },
+    'Razor Leaf': { bp: 55, type: 'Planta' },
     'Razor Wind': { bp: 80, type: 'Normal' },
     Recover: { bp: 0, category: 'Status', type: 'Normal' },
     Reflect: { bp: 0, category: 'Status', type: 'Psychic' },
@@ -118,12 +118,12 @@ var RBY = {
     Slash: { bp: 70, type: 'Normal' },
     Sludge: { bp: 65, type: 'Poison' },
     'Soft-Boiled': { bp: 0, category: 'Status', type: 'Normal' },
-    'Solar Beam': { bp: 120, type: 'Grass' },
+    'Solar Beam': { bp: 120, type: 'Planta' },
     'Sonic Boom': { bp: 1, type: 'Normal' },
     'Spike Cannon': { bp: 20, type: 'Normal', multihit: [2, 5] },
     Stomp: { bp: 65, type: 'Normal' },
     Struggle: { bp: 50, type: 'Normal', recoil: [1, 2] },
-    'Stun Spore': { bp: 0, category: 'Status', type: 'Grass' },
+    'Stun Spore': { bp: 0, category: 'Status', type: 'Planta' },
     Submission: { bp: 80, type: 'Fighting', recoil: [1, 4] },
     Substitute: { bp: 0, category: 'Status', type: 'Normal' },
     'Super Fang': { bp: 1, type: 'Normal' },
@@ -151,8 +151,8 @@ var RBY = {
     Flash: { bp: 0, category: 'Status', type: 'Normal' },
     Hypnosis: { bp: 0, category: 'Status', type: 'Psychic' },
     'Leech Life': { bp: 20, type: 'Bug', drain: [1, 2] },
-    'Mega Drain': { bp: 40, type: 'Grass', drain: [1, 2] },
-    'Vine Whip': { bp: 35, type: 'Grass' },
+    'Mega Drain': { bp: 40, type: 'Planta', drain: [1, 2] },
+    'Vine Whip': { bp: 35, type: 'Planta' },
     Waterfall: { bp: 80, type: 'Water' },
     Tackle: { bp: 35, type: 'Normal' },
     'Acid Armor': { bp: 0, category: 'Status', type: 'Poison' },
@@ -164,9 +164,9 @@ var RBY = {
     Lick: { bp: 20, type: 'Ghost' },
     Screech: { bp: 0, category: 'Status', type: 'Normal' },
     Sing: { bp: 0, category: 'Status', type: 'Normal' },
-    'Sleep Powder': { bp: 0, category: 'Status', type: 'Grass' },
+    'Sleep Powder': { bp: 0, category: 'Status', type: 'Planta' },
     Smog: { bp: 20, type: 'Poison' },
-    Spore: { bp: 0, category: 'Status', type: 'Grass' },
+    Spore: { bp: 0, category: 'Status', type: 'Planta' },
     Supersonic: { bp: 0, category: 'Status', type: 'Normal' },
     'Swords Dance': { bp: 0, category: 'Status', type: 'Normal' },
     Thunderbolt: { bp: 95, type: 'Electric' },
@@ -269,7 +269,7 @@ var GSC_PATCH = {
     'Sunny Day': { bp: 0, category: 'Status', type: 'Fire' },
     Swagger: { bp: 0, category: 'Status', type: 'Normal' },
     'Sweet Scent': { bp: 0, category: 'Status', type: 'Normal' },
-    Synthesis: { bp: 0, category: 'Status', type: 'Grass' },
+    Synthesis: { bp: 0, category: 'Status', type: 'Planta' },
     Thief: { bp: 40, type: 'Dark' },
     'Triple Kick': { bp: 10, type: 'Fighting', multihit: [1, 3] },
     Twister: { bp: 40, type: 'Dragon' },
@@ -277,7 +277,7 @@ var GSC_PATCH = {
     'Bone Rush': { bp: 25, type: 'Ground', multihit: [2, 5] },
     Crunch: { bp: 80, type: 'Dark' },
     'Feint Attack': { bp: 60, type: 'Dark' },
-    'Giga Drain': { bp: 60, type: 'Grass', drain: [1, 2] },
+    'Giga Drain': { bp: 60, type: 'Planta', drain: [1, 2] },
     'Hidden Power': { bp: 0, type: 'Normal' },
     'Mean Look': { bp: 0, category: 'Status', type: 'Normal' },
     'Rapid Spin': { bp: 20, type: 'Normal' },
@@ -285,7 +285,7 @@ var GSC_PATCH = {
     'Spider Web': { bp: 0, category: 'Status', type: 'Bug' },
     Whirlpool: { bp: 15, type: 'Water' },
     'Zap Cannon': { bp: 100, type: 'Electric' },
-    'Cotton Spore': { bp: 0, category: 'Status', type: 'Grass' },
+    'Cotton Spore': { bp: 0, category: 'Status', type: 'Planta' },
     'Extreme Speed': { bp: 80, type: 'Normal', priority: 1 },
     'Fury Cutter': { bp: 10, type: 'Bug' },
     Magnitude: { bp: 0, type: 'Ground' },
@@ -300,7 +300,7 @@ var GSC_PATCH = {
     'Hidden Power Fire': { bp: 60, type: 'Fire' },
     'Hidden Power Flying': { bp: 60, type: 'Flying' },
     'Hidden Power Ghost': { bp: 60, type: 'Ghost' },
-    'Hidden Power Grass': { bp: 60, type: 'Grass' },
+    'Hidden Power Grass': { bp: 60, type: 'Planta' },
     'Hidden Power Ground': { bp: 60, type: 'Ground' },
     'Hidden Power Ice': { bp: 60, type: 'Ice' },
     'Hidden Power Poison': { bp: 60, type: 'Poison' },
@@ -461,7 +461,7 @@ var ADV_PATCH = {
     Astonish: { bp: 30, type: 'Ghost', makesContact: true },
     Block: { bp: 0, category: 'Status', type: 'Normal' },
     Bounce: { bp: 85, type: 'Flying', makesContact: true },
-    'Bullet Seed': { bp: 10, type: 'Grass', multihit: [2, 5] },
+    'Bullet Seed': { bp: 10, type: 'Planta', multihit: [2, 5] },
     Camouflage: { bp: 0, category: 'Status', type: 'Normal' },
     Charge: { bp: 0, category: 'Status', type: 'Electric' },
     Covet: { bp: 40, type: 'Normal' },
@@ -472,13 +472,13 @@ var ADV_PATCH = {
     'Follow Me': { bp: 0, category: 'Status', type: 'Normal', priority: 3 },
     Hail: { bp: 0, category: 'Status', type: 'Ice' },
     'Icicle Spear': { bp: 10, type: 'Ice', multihit: [2, 5] },
-    Ingrain: { bp: 0, category: 'Status', type: 'Grass' },
+    Ingrain: { bp: 0, category: 'Status', type: 'Planta' },
     'Knock Off': { bp: 20, type: 'Dark', makesContact: true },
-    'Leaf Blade': { bp: 70, type: 'Grass', makesContact: true },
+    'Leaf Blade': { bp: 70, type: 'Planta', makesContact: true },
     'Magic Coat': { bp: 0, category: 'Status', type: 'Psychic', priority: 4 },
     Memento: { bp: 0, category: 'Status', type: 'Dark' },
     'Nature Power': { bp: 0, category: 'Status', type: 'Normal' },
-    'Needle Arm': { bp: 60, type: 'Grass', makesContact: true },
+    'Needle Arm': { bp: 60, type: 'Planta', makesContact: true },
     'Odor Sleuth': { bp: 0, category: 'Status', type: 'Normal' },
     Overheat: { bp: 130, type: 'Fire', self: { boosts: { spa: -2 } }, makesContact: true },
     Revenge: { bp: 60, type: 'Fighting', makesContact: true },
@@ -497,7 +497,7 @@ var ADV_PATCH = {
     Uproar: { bp: 50, type: 'Normal', isSound: true },
     'Volt Tackle': { bp: 120, type: 'Electric', recoil: [1, 3], makesContact: true },
     'Weather Ball': { bp: 50, type: 'Normal' },
-    Aromatherapy: { bp: 0, category: 'Status', type: 'Grass' },
+    Aromatherapy: { bp: 0, category: 'Status', type: 'Planta' },
     'Brick Break': { bp: 75, type: 'Fighting', makesContact: true },
     Endeavor: { bp: 0, type: 'Normal', makesContact: true },
     'Focus Punch': { bp: 150, type: 'Fighting', makesContact: true },
@@ -514,7 +514,7 @@ var ADV_PATCH = {
     Wish: { bp: 0, category: 'Status', type: 'Normal' },
     'Air Cutter': { bp: 55, type: 'Flying', target: 'allAdjacentFoes' },
     Facade: { bp: 70, type: 'Normal', makesContact: true },
-    'Grass Whistle': { bp: 0, category: 'Status', type: 'Grass', isSound: true },
+    'Grass Whistle': { bp: 0, category: 'Status', type: 'Planta', isSound: true },
     'Heat Wave': { bp: 100, type: 'Fire', target: 'allAdjacentFoes' },
     'Hyper Voice': { bp: 90, type: 'Normal', isSound: true, target: 'allAdjacentFoes' },
     'Metal Sound': { bp: 0, category: 'Status', type: 'Steel', isSound: true },
@@ -545,12 +545,12 @@ var ADV_PATCH = {
     'Fake Tears': { bp: 0, category: 'Status', type: 'Dark' },
     'Feather Dance': { bp: 0, category: 'Status', type: 'Flying' },
     Flatter: { bp: 0, category: 'Status', type: 'Dark' },
-    'Frenzy Plant': { bp: 150, type: 'Grass' },
+    'Frenzy Plant': { bp: 150, type: 'Planta' },
     Grudge: { bp: 0, category: 'Status', type: 'Ghost' },
     'Helping Hand': { bp: 0, category: 'Status', type: 'Normal', priority: 5 },
     'Hydro Cannon': { bp: 150, type: 'Water' },
     'Iron Defense': { bp: 0, category: 'Status', type: 'Steel' },
-    'Magical Leaf': { bp: 60, type: 'Grass' },
+    'Magical Leaf': { bp: 60, type: 'Planta' },
     'Mud Shot': { bp: 55, type: 'Ground' },
     'Poison Tail': { bp: 50, type: 'Poison', makesContact: true },
     'Shadow Punch': { bp: 60, type: 'Ghost', makesContact: true },
@@ -935,12 +935,12 @@ var DPP_PATCH = {
     },
     'Wood Hammer': {
         bp: 120,
-        type: 'Grass',
+        type: 'Planta',
         recoil: [1, 3],
         makesContact: true,
         category: 'Physical'
     },
-    'Worry Seed': { bp: 0, type: 'Grass' },
+    'Worry Seed': { bp: 0, type: 'Planta' },
     'Wring Out': {
         bp: 0,
         type: 'Normal',
@@ -958,7 +958,7 @@ var DPP_PATCH = {
         makesContact: true,
         category: 'Physical'
     },
-    'Energy Ball': { bp: 80, type: 'Grass', category: 'Special' },
+    'Energy Ball': { bp: 80, type: 'Planta', category: 'Special' },
     'Gunk Shot': { bp: 120, type: 'Poison', category: 'Physical' },
     'Gyro Ball': {
         bp: 0,
@@ -966,7 +966,7 @@ var DPP_PATCH = {
         makesContact: true,
         category: 'Physical'
     },
-    'Leaf Storm': { bp: 130, type: 'Grass', self: { boosts: { spa: -2 } }, category: 'Special' },
+    'Leaf Storm': { bp: 130, type: 'Planta', self: { boosts: { spa: -2 } }, category: 'Special' },
     'Power Gem': { bp: 70, type: 'Rock', category: 'Special' },
     'Psycho Shift': { bp: 0, type: 'Psychic' },
     'Shadow Force': {
@@ -981,7 +981,7 @@ var DPP_PATCH = {
     Captivate: { bp: 0, type: 'Normal', target: 'allAdjacentFoes' },
     'Grass Knot': {
         bp: 0,
-        type: 'Grass',
+        type: 'Planta',
         makesContact: true,
         category: 'Special'
     },
@@ -1004,7 +1004,7 @@ var DPP_PATCH = {
         makesContact: true,
         category: 'Physical'
     },
-    'Seed Flare': { bp: 120, type: 'Grass', category: 'Special' },
+    'Seed Flare': { bp: 120, type: 'Planta', category: 'Special' },
     'Spacial Rend': { bp: 100, type: 'Dragon', category: 'Special' },
     'Trump Card': {
         bp: 0,
@@ -1115,14 +1115,14 @@ var DPP_PATCH = {
     'Power Swap': { bp: 0, type: 'Psychic' },
     'Power Whip': {
         bp: 120,
-        type: 'Grass',
+        type: 'Planta',
         makesContact: true,
         category: 'Physical'
     },
     'Psycho Cut': { bp: 70, type: 'Psychic', category: 'Physical' },
     'Rock Polish': { bp: 0, type: 'Rock' },
     'Rock Wrecker': { bp: 150, type: 'Rock', category: 'Physical' },
-    'Seed Bomb': { bp: 80, type: 'Grass', category: 'Physical' },
+    'Seed Bomb': { bp: 80, type: 'Planta', category: 'Physical' },
     'Shadow Claw': {
         bp: 70,
         type: 'Ghost',
@@ -1313,7 +1313,7 @@ var BW_PATCH = {
     },
     'Fire Pledge': { bp: 50, type: 'Fire', category: 'Special' },
     'Frost Breath': { bp: 40, type: 'Ice', willCrit: true, category: 'Special' },
-    'Grass Pledge': { bp: 50, type: 'Grass', category: 'Special' },
+    'Grass Pledge': { bp: 50, type: 'Planta', category: 'Special' },
     'Heal Pulse': { bp: 0, type: 'Psychic' },
     'Heat Crash': {
         bp: 0,
@@ -1324,7 +1324,7 @@ var BW_PATCH = {
     Hex: { bp: 50, type: 'Ghost', category: 'Special' },
     'Horn Leech': {
         bp: 75,
-        type: 'Grass',
+        type: 'Planta',
         drain: [1, 2],
         makesContact: true,
         category: 'Physical'
@@ -1502,7 +1502,7 @@ var BW_PATCH = {
     },
     'Clear Smog': { bp: 50, type: 'Poison', category: 'Special' },
     Coil: { bp: 0, type: 'Poison' },
-    'Cotton Guard': { bp: 0, type: 'Grass' },
+    'Cotton Guard': { bp: 0, type: 'Planta' },
     'Dragon Tail': {
         bp: 60,
         type: 'Dragon',
@@ -1587,7 +1587,7 @@ var BW_PATCH = {
     },
     'Leaf Tornado': {
         bp: 65,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Special',
         secondaries: true
     },
@@ -5845,7 +5845,7 @@ var XY_PATCH = {
         category: 'Physical'
     },
     Powder: { bp: 0, type: 'Bug', priority: 1 },
-    'Spiky Shield': { bp: 0, type: 'Grass', priority: 4 },
+    'Spiky Shield': { bp: 0, type: 'Planta', priority: 4 },
     'Thousand Arrows': { bp: 90, type: 'Ground', target: 'allAdjacentFoes', category: 'Physical' },
     'Thousand Waves': { bp: 90, type: 'Ground', target: 'allAdjacentFoes', category: 'Physical' },
     'Water Shuriken': {
@@ -5863,7 +5863,7 @@ var XY_PATCH = {
     },
     'Electric Terrain': { bp: 0, type: 'Electric' },
     Geomancy: { bp: 0, type: 'Fairy' },
-    'Grassy Terrain': { bp: 0, type: 'Grass' },
+    'Grassy Terrain': { bp: 0, type: 'Planta' },
     'Ion Deluge': { bp: 0, type: 'Electric', priority: 1 },
     'Land\'s Wrath': { bp: 90, type: 'Ground', target: 'allAdjacentFoes', category: 'Physical' },
     'Light of Ruin': { bp: 140, type: 'Fairy', recoil: [1, 2], category: 'Special' },
@@ -5926,7 +5926,7 @@ var XY_PATCH = {
     'Fairy Lock': { bp: 0, type: 'Fairy' },
     'Fairy Wind': { bp: 40, type: 'Fairy', category: 'Special' },
     'Flower Shield': { bp: 0, type: 'Fairy' },
-    'Forest\'s Curse': { bp: 0, type: 'Grass' },
+    'Forest\'s Curse': { bp: 0, type: 'Planta' },
     'Freeze-Dry': {
         bp: 70,
         type: 'Ice',
@@ -5960,7 +5960,7 @@ var XY_PATCH = {
     },
     'Petal Blizzard': {
         bp: 90,
-        type: 'Grass',
+        type: 'Planta',
         target: 'allAdjacent',
         category: 'Physical'
     },
@@ -6414,7 +6414,7 @@ var SM_PATCH = {
         zp: 180
     },
     'Black Hole Eclipse': { bp: 1, type: 'Dark', category: 'Physical', isZ: true },
-    'Bloom Doom': { bp: 1, type: 'Grass', category: 'Physical', isZ: true },
+    'Bloom Doom': { bp: 1, type: 'Planta', category: 'Physical', isZ: true },
     'Bouncy Bubble': {
         bp: 90,
         type: 'Water',
@@ -6552,7 +6552,7 @@ var SM_PATCH = {
         isZ: true
     },
     'Revelation Dance': { bp: 90, type: 'Normal', category: 'Special', zp: 175 },
-    'Sappy Seed': { bp: 90, type: 'Grass', category: 'Physical', zp: 175 },
+    'Sappy Seed': { bp: 90, type: 'Planta', category: 'Physical', zp: 175 },
     'Savage Spin-Out': { bp: 1, type: 'Bug', category: 'Physical', isZ: true },
     'Searing Sunraze Smash': {
         bp: 200,
@@ -6581,7 +6581,7 @@ var SM_PATCH = {
     },
     'Solar Blade': {
         bp: 125,
-        type: 'Grass',
+        type: 'Planta',
         makesContact: true,
         category: 'Physical',
         zp: 190
@@ -6700,7 +6700,7 @@ var SM_PATCH = {
         zp: 175
     },
     'Laser Focus': { bp: 0, type: 'Normal' },
-    Leafage: { bp: 40, type: 'Grass', category: 'Physical', zp: 100 },
+    Leafage: { bp: 40, type: 'Planta', category: 'Physical', zp: 100 },
     Liquidation: {
         bp: 85,
         type: 'Water',
@@ -6810,7 +6810,7 @@ var SM_PATCH = {
         category: 'Physical',
         zp: 140
     },
-    'Strength Sap': { bp: 0, type: 'Grass' },
+    'Strength Sap': { bp: 0, type: 'Planta' },
     'Sunsteel Strike': {
         bp: 100,
         type: 'Steel',
@@ -6821,7 +6821,7 @@ var SM_PATCH = {
     'Tearful Look': { bp: 0, type: 'Normal' },
     'Trop Kick': {
         bp: 70,
-        type: 'Grass',
+        type: 'Planta',
         makesContact: true,
         category: 'Physical',
         secondaries: true,
@@ -6847,7 +6847,7 @@ var SM = (0, util_1.extend)(true, {}, XY, SM_PATCH);
 var SS_PATCH = {
     'Apple Acid': {
         bp: 80,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Special',
         secondaries: true,
         zp: 160,
@@ -6904,7 +6904,7 @@ var SS_PATCH = {
     },
     'Branch Poke': {
         bp: 40,
-        type: 'Grass',
+        type: 'Planta',
         makesContact: true,
         category: 'Physical',
         zp: 100,
@@ -6961,7 +6961,7 @@ var SS_PATCH = {
     },
     'Drum Beating': {
         bp: 80,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Physical',
         secondaries: true,
         zp: 160,
@@ -7100,7 +7100,7 @@ var SS_PATCH = {
     },
     'G-Max Drum Solo': {
         bp: 160,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -7233,14 +7233,14 @@ var SS_PATCH = {
     },
     'G-Max Sweetness': {
         bp: 10,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Physical',
         isMax: true,
         maxPower: 1
     },
     'G-Max Tartness': {
         bp: 10,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -7254,7 +7254,7 @@ var SS_PATCH = {
     },
     'G-Max Vine Lash': {
         bp: 10,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -7289,7 +7289,7 @@ var SS_PATCH = {
     },
     'Grassy Glide': {
         bp: 70,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Physical',
         makesContact: true,
         zp: 140,
@@ -7297,7 +7297,7 @@ var SS_PATCH = {
     },
     'Grav Apple': {
         bp: 80,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Physical',
         secondaries: true,
         zp: 160,
@@ -7314,7 +7314,7 @@ var SS_PATCH = {
     },
     'Jungle Healing': {
         bp: 0,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Status'
     },
     'Lash Out': {
@@ -7400,7 +7400,7 @@ var SS_PATCH = {
     },
     'Max Overgrowth': {
         bp: 10,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -7529,7 +7529,7 @@ var SS_PATCH = {
     },
     'Snap Trap': {
         bp: 35,
-        type: 'Grass',
+        type: 'Planta',
         makesContact: true,
         category: 'Physical',
         zp: 100,
@@ -8302,7 +8302,7 @@ var SV_PATCH = {
     },
     'Chloroblast': {
         bp: 150,
-        type: 'Grass',
+        type: 'Planta',
         mindBlownRecoil: true,
         category: 'Special',
         zp: 200,
@@ -8377,7 +8377,7 @@ var SV_PATCH = {
     },
     'Flower Trick': {
         bp: 70,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Physical',
         willCrit: true,
         zp: 140,
@@ -8640,7 +8640,7 @@ var SV_PATCH = {
     },
     'Spicy Extract': {
         bp: 0,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Status'
     },
     'Spin Out': {
@@ -8699,7 +8699,7 @@ var SV_PATCH = {
     },
     Trailblaze: {
         bp: 50,
-        type: 'Grass',
+        type: 'Planta',
         category: 'Physical',
         zp: 100,
         maxPower: 100,

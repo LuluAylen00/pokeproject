@@ -55,7 +55,7 @@ var util_1 = require("../util");
 var RBY = {
     '???': {
         Normal: 1,
-        Grass: 1,
+        Planta: 1,
         Fire: 1,
         Water: 1,
         Electric: 1,
@@ -73,7 +73,7 @@ var RBY = {
     Normal: {
         '???': 1,
         Normal: 1,
-        Grass: 1,
+        Planta: 1,
         Fire: 1,
         Water: 1,
         Electric: 1,
@@ -88,10 +88,10 @@ var RBY = {
         Ghost: 0,
         Dragon: 1
     },
-    Grass: {
+    Planta: {
         '???': 1,
         Normal: 1,
-        Grass: 0.5,
+        Planta: 0.5,
         Fire: 0.5,
         Water: 2,
         Electric: 1,
@@ -109,7 +109,7 @@ var RBY = {
     Fire: {
         '???': 1,
         Normal: 1,
-        Grass: 2,
+        Planta: 2,
         Fire: 0.5,
         Water: 0.5,
         Electric: 1,
@@ -127,7 +127,7 @@ var RBY = {
     Water: {
         '???': 1,
         Normal: 1,
-        Grass: 0.5,
+        Planta: 0.5,
         Fire: 2,
         Water: 0.5,
         Electric: 1,
@@ -145,7 +145,7 @@ var RBY = {
     Electric: {
         '???': 1,
         Normal: 1,
-        Grass: 0.5,
+        Planta: 0.5,
         Fire: 1,
         Water: 2,
         Electric: 0.5,
@@ -163,7 +163,7 @@ var RBY = {
     Ice: {
         '???': 1,
         Normal: 1,
-        Grass: 2,
+        Planta: 2,
         Fire: 1,
         Water: 0.5,
         Electric: 1,
@@ -181,7 +181,7 @@ var RBY = {
     Flying: {
         '???': 1,
         Normal: 1,
-        Grass: 2,
+        Planta: 2,
         Fire: 1,
         Water: 1,
         Electric: 0.5,
@@ -199,7 +199,7 @@ var RBY = {
     Bug: {
         '???': 1,
         Normal: 1,
-        Grass: 2,
+        Planta: 2,
         Fire: 0.5,
         Water: 1,
         Electric: 1,
@@ -217,7 +217,7 @@ var RBY = {
     Poison: {
         '???': 1,
         Normal: 1,
-        Grass: 2,
+        Planta: 2,
         Fire: 1,
         Water: 1,
         Electric: 1,
@@ -235,7 +235,7 @@ var RBY = {
     Ground: {
         '???': 1,
         Normal: 1,
-        Grass: 0.5,
+        Planta: 0.5,
         Fire: 2,
         Water: 1,
         Electric: 2,
@@ -253,7 +253,7 @@ var RBY = {
     Rock: {
         '???': 1,
         Normal: 1,
-        Grass: 1,
+        Planta: 1,
         Fire: 2,
         Water: 1,
         Electric: 1,
@@ -271,7 +271,7 @@ var RBY = {
     Fighting: {
         '???': 1,
         Normal: 2,
-        Grass: 1,
+        Planta: 1,
         Fire: 1,
         Water: 1,
         Electric: 1,
@@ -289,7 +289,7 @@ var RBY = {
     Psychic: {
         '???': 1,
         Normal: 1,
-        Grass: 1,
+        Planta: 1,
         Fire: 1,
         Water: 1,
         Electric: 1,
@@ -307,7 +307,7 @@ var RBY = {
     Ghost: {
         '???': 1,
         Normal: 0,
-        Grass: 1,
+        Planta: 1,
         Fire: 1,
         Water: 1,
         Electric: 1,
@@ -325,7 +325,7 @@ var RBY = {
     Dragon: {
         '???': 1,
         Normal: 1,
-        Grass: 1,
+        Planta: 1,
         Fire: 1,
         Water: 1,
         Electric: 1,
@@ -344,7 +344,7 @@ var RBY = {
 var GSC = (0, util_1.extend)(true, {}, RBY, {
     '???': { Dark: 1, Steel: 1 },
     Normal: { Dark: 1, Steel: 0.5 },
-    Grass: { Dark: 1, Steel: 0.5 },
+    Planta: { Dark: 1, Steel: 0.5 },
     Fire: { Dark: 1, Steel: 2 },
     Water: { Dark: 1, Steel: 1 },
     Electric: { Dark: 1, Steel: 1 },
@@ -361,7 +361,7 @@ var GSC = (0, util_1.extend)(true, {}, RBY, {
     Dark: {
         '???': 1,
         Normal: 1,
-        Grass: 1,
+        Planta: 1,
         Fire: 1,
         Water: 1,
         Electric: 1,
@@ -381,7 +381,7 @@ var GSC = (0, util_1.extend)(true, {}, RBY, {
     Steel: {
         '???': 1,
         Normal: 1,
-        Grass: 1,
+        Planta: 1,
         Fire: 0.5,
         Water: 0.5,
         Electric: 0.5,
@@ -405,7 +405,7 @@ var BW = GSC;
 var XY = (0, util_1.extend)(true, {}, GSC, {
     '???': { Fairy: 1 },
     Normal: { Fairy: 1 },
-    Grass: { Fairy: 1 },
+    Planta: { Fairy: 1 },
     Fire: { Fairy: 1 },
     Water: { Fairy: 1 },
     Electric: { Fairy: 1 },
@@ -424,7 +424,7 @@ var XY = (0, util_1.extend)(true, {}, GSC, {
     Fairy: {
         '???': 1,
         Normal: 1,
-        Grass: 1,
+        Planta: 1,
         Fire: 0.5,
         Water: 1,
         Electric: 1,

@@ -75,7 +75,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         else {
             move.type =
                 field.hasTerrain('Electric') ? 'Electric'
-                    : field.hasTerrain('Grassy') ? 'Grass'
+                    : field.hasTerrain('Grassy') ? 'Planta'
                         : field.hasTerrain('Misty') ? 'Fairy'
                             : 'Normal';
         }
@@ -160,7 +160,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.weather = field.weather;
     }
     if ((defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
-        (move.hasType('Grass') && defender.hasAbility('Sap Sipper')) ||
+        (move.hasType('Planta') && defender.hasAbility('Sap Sipper')) ||
         (move.hasType('Fire') && defender.hasAbility('Flash Fire')) ||
         (move.hasType('Water') && defender.hasAbility('Dry Skin', 'Storm Drain', 'Water Absorb')) ||
         (move.hasType('Electric') &&
@@ -464,7 +464,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     if ((0, util_2.isGrounded)(attacker, field)) {
         if ((field.hasTerrain('Electric') && move.hasType('Electric')) ||
-            (field.hasTerrain('Grassy') && move.hasType('Grass'))) {
+            (field.hasTerrain('Grassy') && move.hasType('Planta'))) {
             bpMods.push(6144);
             desc.terrain = field.terrain;
         }
@@ -507,7 +507,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     if ((attacker.hasAbility('Guts') && attacker.status && move.category === 'Physical') ||
         (attacker.curHP() <= attacker.maxHP() / 3 &&
-            ((attacker.hasAbility('Overgrow') && move.hasType('Grass')) ||
+            ((attacker.hasAbility('Overgrow') && move.hasType('Planta')) ||
                 (attacker.hasAbility('Blaze') && move.hasType('Fire')) ||
                 (attacker.hasAbility('Torrent') && move.hasType('Water')) ||
                 (attacker.hasAbility('Swarm') && move.hasType('Bug')))) ||

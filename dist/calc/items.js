@@ -37,7 +37,7 @@ function getItemBoostType(item) {
         case 'Meadow Plate':
         case 'Rose Incense':
         case 'Miracle Seed':
-            return 'Grass';
+            return 'Planta';
         case 'Mind Plate':
         case 'Odd Incense':
         case 'Twisted Spoon':
@@ -85,7 +85,7 @@ function getBerryResistType(berry) {
         case 'Wacan Berry':
             return 'Electric';
         case 'Rindo Berry':
-            return 'Grass';
+            return 'Planta';
         case 'Yache Berry':
             return 'Ice';
         case 'Chople Berry':

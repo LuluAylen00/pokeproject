@@ -2,7 +2,7 @@
 exports.__esModule = true;
 
 var util_1 = require("./util");
-var SPECIAL = ['Fire', 'Water', 'Grass', 'Electric', 'Ice', 'Psychic', 'Dark', 'Dragon'];
+var SPECIAL = ['Fire', 'Water', 'Planta', 'Electric', 'Ice', 'Psychic', 'Dark', 'Dragon'];
 var Move = (function () {
     function Move(gen, name, options) {
         if (options === void 0) { options = {}; }
@@ -182,7 +182,7 @@ var ZMOVES_TYPING = {
     Fire: 'Inferno Overdrive',
     Flying: 'Supersonic Skystrike',
     Ghost: 'Never-Ending Nightmare',
-    Grass: 'Bloom Doom',
+    Planta: 'Bloom Doom',
     Ground: 'Tectonic Rage',
     Ice: 'Subzero Slammer',
     Normal: 'Breakneck Blitz',
@@ -240,7 +240,7 @@ function getMaxMoveName(moveType, pokemonSpecies, isStatus, pokemonAbility) {
             (pokemonSpecies === null || pokemonSpecies === void 0 ? void 0 : pokemonSpecies.endsWith('Gmax')))
             return 'G-Max Stun Shock';
     }
-    if (moveType === 'Grass') {
+    if (moveType === 'Planta') {
         if (pokemonSpecies === 'Appletun-Gmax')
             return 'G-Max Sweetness';
         if (pokemonSpecies === 'Flapple-Gmax')
@@ -301,7 +301,7 @@ var MAXMOVES_TYPING = {
     Fire: 'Flare',
     Flying: 'Airstream',
     Ghost: 'Phantasm',
-    Grass: 'Overgrowth',
+    Planta: 'Overgrowth',
     Ground: 'Quake',
     Ice: 'Hailstorm',
     Normal: 'Strike',

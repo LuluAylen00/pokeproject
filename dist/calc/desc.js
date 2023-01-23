@@ -480,7 +480,7 @@ function getEndOfTurn(gen, attacker, defender, move, field) {
         damage -= Math.floor(defender.maxHP() / 8);
         texts.push('Sea of Fire damage');
     }
-    if (!defender.hasAbility('Magic Guard') && !defender.hasType('Grass') &&
+    if (!defender.hasAbility('Magic Guard') && !defender.hasType('Planta') &&
         (field.defenderSide.vinelash || move.named('G-Max Vine Lash'))) {
         damage -= Math.floor(defender.maxHP() / 6);
         texts.push('Vine Lash damage');
