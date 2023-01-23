@@ -78,7 +78,7 @@ export function calculateBWXY(
 
   const result = new Result(gen, attacker, defender, move, field, 0, desc);
 
-  if (move.category === 'Status' && !move.named('Nature Power')) {
+  if (move.category === 'Status' && !move.named('Adaptación')) {
     return result;
   }
 
@@ -95,7 +95,7 @@ export function calculateBWXY(
   const isCritical =
     move.isCrit && !defender.hasAbility('Battle Armor', 'Shell Armor') && move.timesUsed === 1;
 
-  if (move.named('Weather Ball')) {
+  if (move.named('Meteorobola')) {
     move.type =
       field.hasWeather('Sun', 'Harsh Sunshine') ? 'Fuego'
       : field.hasWeather('Rain', 'Heavy Rain') ? 'Agua'
@@ -104,18 +104,18 @@ export function calculateBWXY(
       : 'Normal';
     desc.weather = field.weather;
     desc.moveType = move.type;
-  } else if (move.named('Judgment') && attacker.item && attacker.item.includes('Plate')) {
+  } else if (move.named('Sentencia') && attacker.item && attacker.item.includes('Plate')) {
     move.type = getItemBoostType(attacker.item)!;
-  } else if (move.named('Techno Blast') && attacker.item && attacker.item.includes('Drive')) {
+  } else if (move.named('Tecno Shock') && attacker.item && attacker.item.includes('Drive')) {
     move.type = getTechnoBlast(attacker.item)!;
-  } else if (move.named('Natural Gift') && attacker.item && attacker.item.includes('Berry')) {
+  } else if (move.named('Adaptación') && attacker.item && attacker.item.includes('Berry')) {
     const gift = getNaturalGift(gen, attacker.item)!;
     move.type = gift.t;
     move.bp = gift.p;
     desc.attackerItem = attacker.item;
     desc.moveBP = move.bp;
     desc.moveType = move.type;
-  } else if (move.named('Nature Power')) {
+  } else if (move.named('Adaptación')) {
     if (gen.num === 5) {
       move.type = 'Tierra';
     } else {
@@ -132,7 +132,7 @@ export function calculateBWXY(
   let isRefrigerate = false;
   let isNormalize = false;
   const noTypeChange =
-    move.named('Judgment', 'Nature Power', 'Techo Blast', 'Natural Gift', 'Weather Ball');
+    move.named('Sentencia', 'Adaptación', 'Tecno Shock', 'Don Natural', 'Meteorobola');
 
   if (!move.isZ && !noTypeChange) {
     const normal = move.hasType('Normal');
@@ -196,11 +196,11 @@ export function calculateBWXY(
     return result;
   }
 
-  if ((move.named('Sky Drop') &&
+  if ((move.named('Caída Libre') &&
         (defender.hasType('Volador') || defender.weightkg >= 200 || field.isGravity)) ||
-      (move.named('Synchronoise') && !defender.hasType(attacker.types[0]) &&
+      (move.named('Sincrorruido') && !defender.hasType(attacker.types[0]) &&
         (!attacker.types[1] || !defender.hasType(attacker.types[1]))) ||
-      (move.named('Dream Eater') && !defender.hasStatus('slp'))
+      (move.named('Come Sueños') && !defender.hasStatus('slp'))
   ) {
     return result;
   }
@@ -259,7 +259,7 @@ export function calculateBWXY(
     return result;
   }
 
-  if (move.named('Final Gambit')) {
+  if (move.named('Sacrificio')) {
     result.damage = attacker.curHP();
     return result;
   }
@@ -488,15 +488,15 @@ export function calculateBWXY(
     desc.attackerItem = attacker.item;
   }
 
-  if ((move.named('Facade') && attacker.hasStatus('brn', 'par', 'psn', 'tox')) ||
-      (move.named('Brine') && defender.curHP() <= defender.maxHP() / 2) ||
-      (move.named('Venoshock') && defender.hasStatus('psn', 'tox'))) {
+  if ((move.named('Imagen') && attacker.hasStatus('brn', 'par', 'psn', 'tox')) ||
+      (move.named('Salmuera') && defender.curHP() <= defender.maxHP() / 2) ||
+      (move.named('Cargatóxica') && defender.hasStatus('psn', 'tox'))) {
     bpMods.push(8192);
     desc.moveBP = basePower * 2;
-  } else if (gen.num > 5 && move.named('Knock Off') && !resistedKnockOffDamage) {
+  } else if (gen.num > 5 && move.named('Desarme') && !resistedKnockOffDamage) {
     bpMods.push(6144);
     desc.moveBP = basePower * 1.5;
-  } else if (move.named('Solar Beam') && field.hasWeather('Rain', 'Heavy Rain', 'Sand', 'Hail')) {
+  } else if (move.named('Rayo Solar') && field.hasWeather('Rain', 'Heavy Rain', 'Sand', 'Hail')) {
     bpMods.push(2048);
     desc.moveBP = basePower / 2;
     desc.weather = field.weather;
@@ -567,10 +567,10 @@ export function calculateBWXY(
   // #region (Special) Attack
 
   let attack: number;
-  const attackSource = move.named('Foul Play') ? defender : attacker;
+  const attackSource = move.named('Juego Sucio') ? defender : attacker;
   const attackStat = move.category === 'Special' ? 'spa' : 'atk';
   desc.attackEVs =
-    move.named('Foul Play')
+    move.named('Juego Sucio')
       ? getEVDescriptionText(gen, defender, attackStat, defender.nature)
       : getEVDescriptionText(gen, attacker, attackStat, attacker.nature);
 
@@ -787,7 +787,7 @@ export function calculateBWXY(
     attacker.hasStatus('brn') &&
     move.category === 'Physical' &&
     !attacker.hasAbility('Guts') &&
-    !(move.named('Facade') && gen.num === 6);
+    !(move.named('Imagen') && gen.num === 6);
   desc.isBurned = applyBurn;
 
   const finalMods = [];
@@ -921,7 +921,7 @@ export function calculateBWXY(
   }
 
   desc.attackBoost =
-    move.named('Foul Play') ? defender.boosts[attackStat] : attacker.boosts[attackStat];
+    move.named('Juego Sucio') ? defender.boosts[attackStat] : attacker.boosts[attackStat];
 
   result.damage = childDamage ? [damage, childDamage] : damage;
 

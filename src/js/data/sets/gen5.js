@@ -1058,10 +1058,10 @@ var SETDEX_BW = {
 		"NU Tambor": {
 			level: 50,
 			ability: "Huge Power",
-			item: "Choice Band",
+			item: "Sitrus Berry",
 			nature: "Adamant",
 			evs: { hp: 168, at: 252, sd: 4, sp: 84 },
-			moves: ["Aqua Jet", "Tambor", "Puño Hielo", "Fuerza Bruta"],
+			moves: ["Aqua Jet", "Tambor", "Retroceso", "Fuerza Bruta"],
 		}
 	},
 	Azurill: {
@@ -3517,7 +3517,7 @@ var SETDEX_BW = {
 			nature: "Calm",
 			evs: { hp: 196, df: 196, sd: 116 },
 			moves: ["Will-O-Wisp", "Substitute", "Pain Split", "Icy Wind"],
-		},
+		}
 	},
 	Dustox: {
 		"NU I'll bring the flame to the moth myself (Revisar)": {
