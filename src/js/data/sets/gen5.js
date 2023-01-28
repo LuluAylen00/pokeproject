@@ -17026,7 +17026,7 @@ var translatedMoves = [
         "move": "return",
         "lang": {
             "en": "Return",
-            "es": "Retribución"
+            "es": "Retroceso"
         }
     },
     {
@@ -18608,7 +18608,7 @@ var translatedMoves = [
         "move": "iron-head",
         "lang": {
             "en": "Iron Head",
-            "es": "Cabeza de Hierro"
+            "es": "Cabezahierro"
         }
     },
     {

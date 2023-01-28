@@ -1,5 +1,4 @@
 dist/
-node_modules/
 eslint-cache/
 coverage/
 .eslintcache
