@@ -41,7 +41,7 @@
     "test": "subpkg run test && npm run build && eslint --cache src --ext js",
     "otherTest": "subpkg run build && node build view && node src/app.js",
     "postinstall": "subpkg install",
-    "start": "node src/app.js"
+    "start": "subpkg run compile && node src/app.js"
   },
   "subPackages": [
     "calc"
