@@ -1242,7 +1242,20 @@ function getSetOptions(sets) {
 	var setOptions = [];
 	let acc = [];
 	let selected = $('input[name=tier2]:checked', '#tier-form').val();
-	let status = ""
+	let status = "";
+
+	function filterPokemon(pokeName) {
+		let bannedPokes = ["Arceus","Azelf","Articuno","Zapdos","Moltres","Entei","Raikou","Suicune","Lugia","Kyogre","Groudon","Rayquaza","Mew","Mewtwo","Dialga","Palkia","Celebi","Deoxys","Giratina","Cobalion","Cresselia","Genesect","Zekrom","Reshiram","Thundurus","Tornadus","Landorus","Vizirion","Cobalion","Terrakion","Keldeo","Regice","Regigigas","Regirock","Registeel","Heatran","Latias","Latios","Uxie","Mespirit","Jirachi","Phyone","Manaphy","Darkrai","Victini","Meloetta","Shaymin-Sky"]
+		for (let i = 0; i < bannedPokes.length; i++) {
+			const pokeBanned = bannedPokes[i];
+			if (pokeName.includes(pokeBanned)) {
+				return false;
+			}
+		}
+		return true
+	}
+	pokeNames = pokeNames.filter(filterPokemon);
+
 	for (var i = 0; i < pokeNames.length; i++) {
 		var pokeName = pokeNames[i];
 		

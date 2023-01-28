@@ -548,7 +548,7 @@ var SETDEX_BW = {
 			moves: ["Trick", "Extreme Speed", "Swords Dance", "Earthquake"],
 		},
 	},
-	"Arceus-Bug (Revisar)": {
+	"Arceus-Bug": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -566,7 +566,7 @@ var SETDEX_BW = {
 			moves: ["Swords Dance", "X-Scissor", "Stone Edge", "Earthquake"],
 		},
 	},
-	"Arceus-Dark (Revisar)": {
+	"Arceus-Dark": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -584,7 +584,7 @@ var SETDEX_BW = {
 			moves: ["Recover", "Payback", "Flamethrower", "Will-O-Wisp"],
 		},
 	},
-	"Arceus-Dragon (Revisar)": {
+	"Arceus-Dragon": {
 		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -602,7 +602,7 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Judgment", "Fire Blast", "Recover"],
 		},
 	},
-	"Arceus-Electric (Revisar)": {
+	"Arceus-Electric": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -612,7 +612,7 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Thunderbolt", "Ice Beam", "Recover"],
 		},
 	},
-	"Arceus-Fighting (Revisar)": {
+	"Arceus-Fighting": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -630,7 +630,7 @@ var SETDEX_BW = {
 			moves: ["Toxic", "Judgment", "Ice Beam", "Recover"],
 		},
 	},
-	"Arceus-Fire (Revisar)": {
+	"Arceus-Fire": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -640,7 +640,7 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Flamethrower", "Thunder", "Recover"],
 		},
 	},
-	"Arceus-Flying (Revisar)": {
+	"Arceus-Flying": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -650,7 +650,7 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Judgment", "Recover", "Substitute"],
 		},
 	},
-	"Arceus-Ghost (Revisar)": {
+	"Arceus-Ghost": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -684,7 +684,7 @@ var SETDEX_BW = {
 			moves: ["Shadow Force", "Swords Dance", "Brick Break", "Shadow Claw"],
 		},
 	},
-	"Arceus-Grass (Revisar)": {
+	"Arceus-Grass": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -702,7 +702,7 @@ var SETDEX_BW = {
 			moves: ["Recover", "Grass Knot", "Ice Beam", "Thunder Wave"],
 		},
 	},
-	"Arceus-Ground (Revisar)": {
+	"Arceus-Ground": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -728,7 +728,7 @@ var SETDEX_BW = {
 			moves: ["Recover", "Will-O-Wisp", "Earthquake", "Stone Edge"],
 		},
 	},
-	"Arceus-Ice (Revisar)": {
+	"Arceus-Ice": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -738,7 +738,7 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Judgment", "Thunder", "Fire Blast"],
 		},
 	},
-	"Arceus-Poison (Revisar)": {
+	"Arceus-Poison": {
 		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -756,7 +756,7 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Sludge Bomb", "Focus Blast", "Recover"],
 		},
 	},
-	"Arceus-Psychic (Revisar)": {
+	"Arceus-Psychic": {
 		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -774,7 +774,7 @@ var SETDEX_BW = {
 			moves: ["Calm Mind", "Psyshock", "Recover", "Focus Blast"],
 		},
 	},
-	"Arceus-Rock (Revisar)": {
+	"Arceus-Rock": {
 		"Uber Mono-Attacker (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -800,7 +800,7 @@ var SETDEX_BW = {
 			moves: ["Swords Dance", "Stone Edge", "Earthquake", "Recover"],
 		},
 	},
-	"Arceus-Steel (Revisar)": {
+	"Arceus-Steel": {
 		"Uber Calm Mind (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -826,7 +826,7 @@ var SETDEX_BW = {
 			moves: ["Iron Head", "Swords Dance", "Earthquake", "Recover"],
 		},
 	},
-	"Arceus-Water (Revisar)": {
+	"Arceus-Water": {
 		"Uber Swords Dance (Revisar)": {
 			level: 50,
 			ability: "Multitype",
@@ -2789,7 +2789,7 @@ var SETDEX_BW = {
 			moves: ["Flare Blitz", "U-turn", "Rock Slide", "Superpower"],
 		},
 	},
-	"Darmanitan-Zen (Revisar)": {
+	"Darmanitan-Zen": {
 		"UU Physical Attacker (Revisar)": {
 			level: 50,
 			ability: "Zen Mode",
@@ -2875,7 +2875,7 @@ var SETDEX_BW = {
 			moves: ["Light Screen", "Reflect", "Psycho Boost", "Low Kick"],
 		},
 	},
-	"Deoxys-Attack (Revisar)": {
+	"Deoxys-Attack": {
 		"Uber Focus Sash Attacker (Revisar)": {
 			level: 50,
 			ability: "Pressure",
@@ -2909,7 +2909,7 @@ var SETDEX_BW = {
 			moves: ["Psycho Boost", "Dark Pulse", "Superpower", "Protect"],
 		},
 	},
-	"Deoxys-Defense (Revisar)": {
+	"Deoxys-Defense": {
 		"Uber Agility + Taunt (Revisar)": {
 			level: 50,
 			ability: "Pressure",
@@ -2927,7 +2927,7 @@ var SETDEX_BW = {
 			moves: ["Spikes", "Recover", "Magic Coat", "Taunt"],
 		},
 	},
-	"Deoxys-Speed (Revisar)": {
+	"Deoxys-Speed": {
 		"Uber Hazard Lead (Revisar)": {
 			level: 50,
 			ability: "Pressure",
@@ -4160,7 +4160,7 @@ var SETDEX_BW = {
 			moves: ["Return", "Low Kick", "Crunch", "Earthquake"],
 		},
 	},
-	"Farfetch’d (Revisar)": {
+	"Farfetch’d": {
 		"NU Swords Dance 'Sweeper' (Revisar)": {
 			level: 50,
 			ability: "Defiant",
@@ -5077,7 +5077,7 @@ var SETDEX_BW = {
 			moves: ["Rest", "Sleep Talk", "Calm Mind", "Dragon Pulse"],
 		},
 	},
-	"Giratina-Origin (Revisar)": {
+	"Giratina-Origin": {
 		"Uber Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
@@ -6033,7 +6033,7 @@ var SETDEX_BW = {
 			moves: ["Fake Out", "Close Combat", "Feint", "Wide Guard"],
 		},
 	},
-	"Ho-Oh (Revisar)": {
+	"Ho-Oh": {
 		"Uber Tank (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
@@ -6659,7 +6659,7 @@ var SETDEX_BW = {
 			moves: ["Hydro Pump", "Secret Sword", "Protect", "Icy Wind"],
 		},
 	},
-	"Keldeo-Resolute (Revisar)": {
+	"Keldeo-Resolute": {
 		"OU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Justified",
@@ -7058,7 +7058,7 @@ var SETDEX_BW = {
 			moves: ["Draco Meteor", "Blizzard", "Earth Power", "Protect"],
 		},
 	},
-	"Kyurem-Black (Revisar)": {
+	"Kyurem-Black": {
 		"OU Choice Band (Revisar)": {
 			level: 50,
 			ability: "Teravolt",
@@ -7108,7 +7108,7 @@ var SETDEX_BW = {
 			moves: ["Dragon Claw", "Ice Beam", "Fusion Bolt", "Rock Slide"],
 		},
 	},
-	"Kyurem-White (Revisar)": {
+	"Kyurem-White": {
 		"Uber Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Turboblaze",
@@ -7245,7 +7245,7 @@ var SETDEX_BW = {
 			moves: ["Earthquake", "Rock Slide", "Substitute", "Protect"],
 		},
 	},
-	"Landorus-Therian (Revisar)": {
+	"Landorus-Therian": {
 		"OU Defensive (Revisar)": {
 			level: 50,
 			ability: "Intimidate",
@@ -9235,7 +9235,7 @@ var SETDEX_BW = {
 			moves: ["Quiver Dance", "Bug Buzz", "Air Slash", "Substitute"],
 		},
 	},
-	"Mr. Mime (Revisar)": {
+	"Mr. Mime": {
 		"NU Baton Pass (Revisar)": {
 			level: 50,
 			ability: "Filter",
@@ -9536,7 +9536,7 @@ var SETDEX_BW = {
 			moves: ["Stealth Rock", "Earth Power", "Fire Blast", "Dragon Tail"],
 		},
 	},
-	"Nidoran-M (Revisar)": {
+	"Nidoran-M": {
 		"LC Mixed Attacker (Revisar)": {
 			level: 5,
 			ability: "Hustle",
@@ -10219,7 +10219,7 @@ var SETDEX_BW = {
 			moves: ["Psychic", "Thunder Wave", "Thunderbolt", "Recover"],
 		},
 	},
-	"Porygon-Z (Revisar)": {
+	"Porygon-Z": {
 		"UU Agility (Revisar)": {
 			level: 50,
 			ability: "Download",
@@ -11101,7 +11101,7 @@ var SETDEX_BW = {
 			moves: ["Thunderbolt", "Shadow Ball", "Will-O-Wisp", "Pain Split"],
 		},
 	},
-	"Rotom-Fan (Revisar)": {
+	"Rotom-Fan": {
 		"RU Support (Revisar)": {
 			level: 50,
 			ability: "Levitate",
@@ -11169,7 +11169,7 @@ var SETDEX_BW = {
 			moves: ["Pain Split", "Discharge", "Air Slash", "Will-O-Wisp"],
 		},
 	},
-	"Rotom-Frost (Revisar)": {
+	"Rotom-Frost": {
 		"RU SubSplit (Revisar)": {
 			level: 50,
 			ability: "Levitate",
@@ -11219,7 +11219,7 @@ var SETDEX_BW = {
 			moves: ["Rest", "Will-O-Wisp", "Thunderbolt", "Blizzard"],
 		},
 	},
-	"Rotom-Heat (Revisar)": {
+	"Rotom-Heat": {
 		"UU Choice Specs (Revisar)": {
 			level: 50,
 			ability: "Levitate",
@@ -11253,7 +11253,7 @@ var SETDEX_BW = {
 			moves: ["Overheat", "Thunderbolt", "Hidden Power Ice", "Protect"],
 		},
 	},
-	"Rotom-Mow (Revisar)": {
+	"Rotom-Mow": {
 		"UU Choice Scarf (Revisar)": {
 			level: 50,
 			ability: "Levitate",
@@ -11311,7 +11311,7 @@ var SETDEX_BW = {
 			moves: ["Will-O-Wisp", "Volt Switch", "Leaf Storm", "Pain Split"],
 		},
 	},
-	"Rotom-Wash (Revisar)": {
+	"Rotom-Wash": {
 		"OU Specially Defensive (Revisar)": {
 			level: 50,
 			ability: "Levitate",
@@ -12063,7 +12063,7 @@ var SETDEX_BW = {
 			moves: ["Leech Seed", "Seed Flare", "Psychic", "Substitute"],
 		},
 	},
-	"Shaymin-Sky (Revisar)": {
+	"Shaymin-Sky": {
 		"Uber Substitute + Leech Seed (Revisar)": {
 			level: 50,
 			ability: "Serene Grace",
@@ -13773,7 +13773,7 @@ var SETDEX_BW = {
 			moves: ["Thunder Wave", "Taunt", "Thunderbolt", "Hidden Power Ice"],
 		},
 	},
-	"Thundurus-Therian (Revisar)": {
+	"Thundurus-Therian": {
 		"OU SubsThundy (Revisar)": {
 			level: 50,
 			ability: "Volt Absorb",
@@ -13955,7 +13955,7 @@ var SETDEX_BW = {
 			moves: ["Acrobatics", "Superpower", "Tailwind", "Protect"],
 		},
 	},
-	"Tornadus-Therian (Revisar)": {
+	"Tornadus-Therian": {
 		"Uber Life Orb Attacker (Revisar)": {
 			level: 50,
 			ability: "Regenerator",
@@ -14519,6 +14519,16 @@ var SETDEX_BW = {
 			ivs: { at: 0 },
 			evs: { hp: 252, df: 4, sp: 252 },
 			moves: ["Spikes", "Toxic Spikes", "Endeavor", "Protect"],
+		},
+	},
+	Venomoth: {
+		"UU Danza aleteo + Giga + Somnífero": {
+			level: 50,
+			ability: "Tinted Lens",
+			item: "Black Sludge",
+			nature: "Timid",
+			evs: { hp: 4, sa: 252, sp: 252 },
+			moves: ["Quiver Dance", "Gigadrenado", "Somnífero", "Zumbido"],
 		},
 	},
 	Venonat: {
@@ -15103,7 +15113,7 @@ var SETDEX_BW = {
 			moves: ["Toxic", "Protect", "Giga Drain", "Signal Beam"],
 		},
 	},
-	"Wormadam-Sandy (Revisar)": {
+	"Wormadam-Sandy": {
 		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Anticipation",
@@ -15113,7 +15123,7 @@ var SETDEX_BW = {
 			moves: ["Stealth Rock", "Toxic", "Protect", "Earthquake"],
 		},
 	},
-	"Wormadam-Trash (Revisar)": {
+	"Wormadam-Trash": {
 		"NU Utility (Revisar)": {
 			level: 50,
 			ability: "Anticipation",
