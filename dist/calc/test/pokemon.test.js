@@ -5,7 +5,7 @@ describe('Pokemon', function () {
     test('defaults', function () {
         var p = new index_1.Pokemon(7, 'Gengar');
         expect(p.name).toBe('Gengar');
-        expect(p.types).toEqual(['Fantasma', 'Veneno']);
+        expect(p.types).toEqual(['Ghost', 'Poison']);
         expect(p.weightkg).toBe(40.5);
         expect(p.level).toBe(100);
         expect(p.gender).toBe('M');
@@ -39,7 +39,7 @@ describe('Pokemon', function () {
             moves: ['Surf', 'Rest', 'Curse', 'Sleep Talk']
         });
         expect(p.name).toBe('Suicune');
-        expect(p.types).toEqual(['Agua']);
+        expect(p.types).toEqual(['Water']);
         expect(p.weightkg).toBe(187.0);
         expect(p.level).toBe(50);
         expect(p.gender).toBe('N');
@@ -81,17 +81,17 @@ describe('Pokemon', function () {
         expect(index_1.Pokemon.getForme(7, 'Groudon', 'Red Orb', 'Earthquake')).toBe('Groudon-Primal');
         expect(index_1.Pokemon.getForme(7, 'Kyogre', 'Choice Specs', 'Surf')).toBe('Kyogre');
         expect(index_1.Pokemon.getForme(7, 'Kyogre', 'Blue Orb', 'Surf')).toBe('Kyogre-Primal');
-        expect(index_1.Pokemon.getForme(7, 'Meloetta', 'Leftovers', 'Psíquico')).toBe('Meloetta');
+        expect(index_1.Pokemon.getForme(7, 'Meloetta', 'Leftovers', 'Psychic')).toBe('Meloetta');
         expect(index_1.Pokemon.getForme(7, 'Meloetta', 'Leftovers', 'Relic Song')).toBe('Meloetta-Pirouette');
         expect(index_1.Pokemon.getForme(7, 'Rayquaza', undefined, 'Earthquake')).toBe('Rayquaza');
         expect(index_1.Pokemon.getForme(7, 'Rayquaza', undefined, 'Dragon Ascent')).toBe('Rayquaza-Mega');
     });
     test('hasType', function () {
         var p = new index_1.Pokemon(7, 'Gengar');
-        expect(p.hasType('Fantasma')).toBe(true);
-        expect(p.hasType('Veneno')).toBe(true);
-        expect(p.hasType('Fuego')).toBe(false);
-        expect(p.hasType('Hielo')).toBe(false);
+        expect(p.hasType('Ghost')).toBe(true);
+        expect(p.hasType('Poison')).toBe(true);
+        expect(p.hasType('Fire')).toBe(false);
+        expect(p.hasType('Ice')).toBe(false);
     });
     test('Gigantamx weights', function () {
         expect(new index_1.Pokemon(8, 'Venusaur-Gmax').weightkg).toBe(100);

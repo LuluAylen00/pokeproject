@@ -139,9 +139,9 @@ export function calculateRBYGSC(
   // for the Attacker's Level and Defender's Defense.
   if (move.named('Present')) {
     const lookup: {[id: string]: number} = {
-      Normal: 0, Lucha: 1, Volador: 2, Veneno: 3, Tierra: 4, Roca: 5, Bicho: 7,
-      Fantasma: 8, Acero: 9, '???': 19, Fuego: 20, Agua: 21, Planta: 22, 'Eléctrico': 23,
-      'Psíquico': 24, Hielo: 25, 'Dragón': 26, Siniestro: 27,
+      Normal: 0, Fighting: 1, Flying: 2, Poison: 3, Ground: 4, Rock: 5, Bug: 7,
+      Ghost: 8, Steel: 9, '???': 19, Fire: 20, Water: 21, Grass: 22, 'Electric': 23,
+      'Psychic': 24, Ice: 25, 'Dragon': 26, Dark: 27,
     };
 
     at = 10;
@@ -182,13 +182,13 @@ export function calculateRBYGSC(
 
   baseDamage = Math.min(997, baseDamage) + 2;
 
-  if ((field.hasWeather('Sun') && move.hasType('Fuego')) ||
-      (field.hasWeather('Rain') && move.hasType('Agua'))) {
+  if ((field.hasWeather('Sun') && move.hasType('Fire')) ||
+      (field.hasWeather('Rain') && move.hasType('Water'))) {
     baseDamage = Math.floor(baseDamage * 1.5);
     desc.weather = field.weather;
   } else if (
-    (field.hasWeather('Sun') && move.hasType('Agua')) ||
-    (field.hasWeather('Rain') && (move.hasType('Fuego') || move.named('Solar Beam')))
+    (field.hasWeather('Sun') && move.hasType('Water')) ||
+    (field.hasWeather('Rain') && (move.hasType('Fire') || move.named('Solar Beam')))
   ) {
     baseDamage = Math.floor(baseDamage / 2);
     desc.weather = field.weather;

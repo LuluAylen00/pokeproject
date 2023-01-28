@@ -68,61 +68,61 @@ exports.__esModule = true;
 var util_1 = require("../util");
 var RBY = {
     Abra: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 25, at: 20, df: 15, sp: 90, sl: 105 },
         weightkg: 19.5,
         nfe: true
     },
     Aerodactyl: {
-        types: ['Roca', 'Volador'],
+        types: ['Rock', 'Flying'],
         bs: { hp: 80, at: 105, df: 65, sp: 130, sl: 60 },
         weightkg: 59
     },
     Alakazam: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 55, at: 50, df: 45, sp: 120, sl: 135 },
         weightkg: 48
     },
-    Arbok: { types: ['Veneno'], bs: { hp: 60, at: 85, df: 69, sp: 80, sl: 65 }, weightkg: 65 },
+    Arbok: { types: ['Poison'], bs: { hp: 60, at: 85, df: 69, sp: 80, sl: 65 }, weightkg: 65 },
     Arcanine: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 90, at: 110, df: 80, sp: 95, sl: 80 },
         weightkg: 155
     },
     Articuno: {
-        types: ['Hielo', 'Volador'],
+        types: ['Ice', 'Flying'],
         bs: { hp: 90, at: 85, df: 100, sp: 85, sl: 125 },
         weightkg: 55.4
     },
     Beedrill: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 65, at: 80, df: 40, sp: 75, sl: 45 },
         weightkg: 29.5
     },
     Bellsprout: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 50, at: 75, df: 35, sp: 40, sl: 70 },
         weightkg: 4,
         nfe: true
     },
     Blastoise: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 79, at: 83, df: 100, sp: 78, sl: 85 },
         weightkg: 85.5
     },
     Bulbasaur: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 45, at: 49, df: 49, sp: 45, sl: 65 },
         weightkg: 6.9,
         nfe: true
     },
     Butterfree: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 60, at: 45, df: 50, sp: 70, sl: 80 },
         weightkg: 32
     },
     Caterpie: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 45, at: 30, df: 35, sp: 45, sl: 20 },
         weightkg: 2.9,
         nfe: true
@@ -133,18 +133,18 @@ var RBY = {
         weightkg: 34.6
     },
     Charizard: {
-        types: ['Fuego', 'Volador'],
+        types: ['Fire', 'Flying'],
         bs: { hp: 78, at: 84, df: 78, sp: 100, sl: 85 },
         weightkg: 90.5
     },
     Charmander: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 39, at: 52, df: 43, sp: 65, sl: 50 },
         weightkg: 8.5,
         nfe: true
     },
     Charmeleon: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 58, at: 64, df: 58, sp: 80, sl: 65 },
         weightkg: 19,
         nfe: true
@@ -157,64 +157,64 @@ var RBY = {
         nfe: true
     },
     Cloyster: {
-        types: ['Agua', 'Hielo'],
+        types: ['Water', 'Ice'],
         bs: { hp: 50, at: 95, df: 180, sp: 70, sl: 85 },
         weightkg: 132.5
     },
     Cubone: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 50, at: 50, df: 95, sp: 35, sl: 40 },
         weightkg: 6.5,
         nfe: true
     },
     Dewgong: {
-        types: ['Agua', 'Hielo'],
+        types: ['Water', 'Ice'],
         bs: { hp: 90, at: 70, df: 80, sp: 70, sl: 95 },
         weightkg: 120
     },
     Diglett: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 10, at: 55, df: 25, sp: 95, sl: 45 },
         weightkg: 0.8,
         nfe: true
     },
     Ditto: { types: ['Normal'], bs: { hp: 48, at: 48, df: 48, sp: 48, sl: 48 }, weightkg: 4 },
     Dodrio: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 60, at: 110, df: 70, sp: 110, sl: 60 },
         weightkg: 85.2
     },
     Doduo: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 35, at: 85, df: 45, sp: 75, sl: 35 },
         weightkg: 39.2,
         nfe: true
     },
     Dragonair: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 61, at: 84, df: 65, sp: 70, sl: 70 },
         weightkg: 16.5,
         nfe: true
     },
     Dragonite: {
-        types: ['Dragón', 'Volador'],
+        types: ['Dragon', 'Flying'],
         bs: { hp: 91, at: 134, df: 95, sp: 80, sl: 100 },
         weightkg: 210
     },
     Dratini: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 41, at: 64, df: 45, sp: 50, sl: 50 },
         weightkg: 3.3,
         nfe: true
     },
     Drowzee: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 60, at: 48, df: 45, sp: 42, sl: 90 },
         weightkg: 32.4,
         nfe: true
     },
     Dugtrio: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 35, at: 100, df: 50, sp: 120, sl: 70 },
         weightkg: 33.3
     },
@@ -225,135 +225,135 @@ var RBY = {
         nfe: true
     },
     Ekans: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 35, at: 60, df: 44, sp: 55, sl: 40 },
         weightkg: 6.9,
         nfe: true
     },
     Electabuzz: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 65, at: 83, df: 57, sp: 105, sl: 85 },
         weightkg: 30
     },
     Electrode: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 60, at: 50, df: 70, sp: 140, sl: 80 },
         weightkg: 66.6
     },
     Exeggcute: {
-        types: ['Planta', 'Psíquico'],
+        types: ['Grass', 'Psychic'],
         bs: { hp: 60, at: 40, df: 80, sp: 40, sl: 60 },
         weightkg: 2.5,
         nfe: true
     },
     Exeggutor: {
-        types: ['Planta', 'Psíquico'],
+        types: ['Grass', 'Psychic'],
         bs: { hp: 95, at: 95, df: 85, sp: 55, sl: 125 },
         weightkg: 120
     },
     'Farfetch\u2019d': {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 52, at: 65, df: 55, sp: 60, sl: 58 },
         weightkg: 15
     },
     Fearow: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 65, at: 90, df: 65, sp: 100, sl: 61 },
         weightkg: 38
     },
-    Flareon: { types: ['Fuego'], bs: { hp: 65, at: 130, df: 60, sp: 65, sl: 110 }, weightkg: 25 },
+    Flareon: { types: ['Fire'], bs: { hp: 65, at: 130, df: 60, sp: 65, sl: 110 }, weightkg: 25 },
     Gastly: {
-        types: ['Fantasma', 'Veneno'],
+        types: ['Ghost', 'Poison'],
         bs: { hp: 30, at: 35, df: 30, sp: 80, sl: 100 },
         weightkg: 0.1,
         nfe: true
     },
     Gengar: {
-        types: ['Fantasma', 'Veneno'],
+        types: ['Ghost', 'Poison'],
         bs: { hp: 60, at: 65, df: 60, sp: 110, sl: 130 },
         weightkg: 40.5
     },
     Geodude: {
-        types: ['Roca', 'Tierra'],
+        types: ['Rock', 'Ground'],
         bs: { hp: 40, at: 80, df: 100, sp: 20, sl: 30 },
         weightkg: 20,
         nfe: true
     },
     Gloom: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 60, at: 65, df: 70, sp: 40, sl: 85 },
         weightkg: 8.6,
         nfe: true
     },
     Golbat: {
-        types: ['Veneno', 'Volador'],
+        types: ['Poison', 'Flying'],
         bs: { hp: 75, at: 80, df: 70, sp: 90, sl: 75 },
         weightkg: 55
     },
     Goldeen: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 45, at: 67, df: 60, sp: 63, sl: 50 },
         weightkg: 15,
         nfe: true
     },
-    Golduck: { types: ['Agua'], bs: { hp: 80, at: 82, df: 78, sp: 85, sl: 80 }, weightkg: 76.6 },
+    Golduck: { types: ['Water'], bs: { hp: 80, at: 82, df: 78, sp: 85, sl: 80 }, weightkg: 76.6 },
     Golem: {
-        types: ['Roca', 'Tierra'],
+        types: ['Rock', 'Ground'],
         bs: { hp: 80, at: 110, df: 130, sp: 45, sl: 55 },
         weightkg: 300
     },
     Graveler: {
-        types: ['Roca', 'Tierra'],
+        types: ['Rock', 'Ground'],
         bs: { hp: 55, at: 95, df: 115, sp: 35, sl: 45 },
         weightkg: 105,
         nfe: true
     },
     Grimer: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 80, at: 80, df: 50, sp: 25, sl: 40 },
         weightkg: 30,
         nfe: true
     },
     Growlithe: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 55, at: 70, df: 45, sp: 60, sl: 50 },
         weightkg: 19,
         nfe: true
     },
     Gyarados: {
-        types: ['Agua', 'Volador'],
+        types: ['Water', 'Flying'],
         bs: { hp: 95, at: 125, df: 79, sp: 81, sl: 100 },
         weightkg: 235
     },
     Haunter: {
-        types: ['Fantasma', 'Veneno'],
+        types: ['Ghost', 'Poison'],
         bs: { hp: 45, at: 50, df: 45, sp: 95, sl: 115 },
         weightkg: 0.1,
         nfe: true
     },
     Hitmonchan: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 50, at: 105, df: 79, sp: 76, sl: 35 },
         weightkg: 50.2
     },
     Hitmonlee: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 50, at: 120, df: 53, sp: 87, sl: 35 },
         weightkg: 49.8
     },
     Horsea: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 30, at: 40, df: 70, sp: 60, sl: 70 },
         weightkg: 8,
         nfe: true
     },
     Hypno: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 85, at: 73, df: 70, sp: 67, sl: 115 },
         weightkg: 75.6
     },
     Ivysaur: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 60, at: 62, df: 63, sp: 60, sl: 80 },
         weightkg: 13,
         nfe: true
@@ -365,34 +365,34 @@ var RBY = {
         nfe: true
     },
     Jolteon: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 65, at: 65, df: 60, sp: 130, sl: 110 },
         weightkg: 24.5
     },
     Jynx: {
-        types: ['Hielo', 'Psíquico'],
+        types: ['Ice', 'Psychic'],
         bs: { hp: 65, at: 50, df: 35, sp: 95, sl: 95 },
         weightkg: 40.6
     },
     Kabuto: {
-        types: ['Roca', 'Agua'],
+        types: ['Rock', 'Water'],
         bs: { hp: 30, at: 80, df: 90, sp: 55, sl: 45 },
         weightkg: 11.5,
         nfe: true
     },
     Kabutops: {
-        types: ['Roca', 'Agua'],
+        types: ['Rock', 'Water'],
         bs: { hp: 60, at: 115, df: 105, sp: 80, sl: 70 },
         weightkg: 40.5
     },
     Kadabra: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 40, at: 35, df: 30, sp: 105, sl: 120 },
         weightkg: 56.5,
         nfe: true
     },
     Kakuna: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 45, at: 25, df: 50, sp: 35, sl: 25 },
         weightkg: 10,
         nfe: true
@@ -402,21 +402,21 @@ var RBY = {
         bs: { hp: 105, at: 95, df: 80, sp: 90, sl: 40 },
         weightkg: 80
     },
-    Kingler: { types: ['Agua'], bs: { hp: 55, at: 130, df: 115, sp: 75, sl: 50 }, weightkg: 60 },
+    Kingler: { types: ['Water'], bs: { hp: 55, at: 130, df: 115, sp: 75, sl: 50 }, weightkg: 60 },
     Koffing: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 40, at: 65, df: 95, sp: 35, sl: 60 },
         weightkg: 1,
         nfe: true
     },
     Krabby: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 30, at: 105, df: 90, sp: 50, sl: 25 },
         weightkg: 6.5,
         nfe: true
     },
     Lapras: {
-        types: ['Agua', 'Hielo'],
+        types: ['Water', 'Ice'],
         bs: { hp: 130, at: 85, df: 80, sp: 60, sl: 95 },
         weightkg: 220
     },
@@ -426,51 +426,51 @@ var RBY = {
         weightkg: 65.5
     },
     Machamp: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 90, at: 130, df: 80, sp: 55, sl: 65 },
         weightkg: 130
     },
     Machoke: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 80, at: 100, df: 70, sp: 45, sl: 50 },
         weightkg: 70.5,
         nfe: true
     },
     Machop: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 70, at: 80, df: 50, sp: 35, sl: 35 },
         weightkg: 19.5,
         nfe: true
     },
     Magikarp: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 20, at: 10, df: 55, sp: 80, sl: 20 },
         weightkg: 10,
         nfe: true
     },
     Magmar: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 65, at: 95, df: 57, sp: 93, sl: 85 },
         weightkg: 44.5
     },
     Magnemite: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 25, at: 35, df: 70, sp: 45, sl: 95 },
         weightkg: 6,
         nfe: true
     },
     Magneton: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 50, at: 60, df: 95, sp: 70, sl: 120 },
         weightkg: 60
     },
     Mankey: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 40, at: 80, df: 35, sp: 70, sl: 35 },
         weightkg: 28,
         nfe: true
     },
-    Marowak: { types: ['Tierra'], bs: { hp: 60, at: 80, df: 110, sp: 45, sl: 50 }, weightkg: 45 },
+    Marowak: { types: ['Ground'], bs: { hp: 60, at: 80, df: 110, sp: 45, sl: 50 }, weightkg: 45 },
     Meowth: {
         types: ['Normal'],
         bs: { hp: 40, at: 45, df: 35, sp: 90, sl: 40 },
@@ -478,148 +478,148 @@ var RBY = {
         nfe: true
     },
     Metapod: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 50, at: 20, df: 55, sp: 30, sl: 25 },
         weightkg: 9.9,
         nfe: true
     },
     Mew: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 100, at: 100, df: 100, sp: 100, sl: 100 },
         weightkg: 4
     },
     Mewtwo: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 106, at: 110, df: 90, sp: 130, sl: 154 },
         weightkg: 122
     },
     Moltres: {
-        types: ['Fuego', 'Volador'],
+        types: ['Fire', 'Flying'],
         bs: { hp: 90, at: 100, df: 90, sp: 90, sl: 125 },
         weightkg: 60
     },
     'Mr. Mime': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 40, at: 45, df: 65, sp: 90, sl: 100 },
         weightkg: 54.5
     },
-    Muk: { types: ['Veneno'], bs: { hp: 105, at: 105, df: 75, sp: 50, sl: 65 }, weightkg: 30 },
+    Muk: { types: ['Poison'], bs: { hp: 105, at: 105, df: 75, sp: 50, sl: 65 }, weightkg: 30 },
     Nidoking: {
-        types: ['Veneno', 'Tierra'],
+        types: ['Poison', 'Ground'],
         bs: { hp: 81, at: 92, df: 77, sp: 85, sl: 75 },
         weightkg: 62
     },
     Nidoqueen: {
-        types: ['Veneno', 'Tierra'],
+        types: ['Poison', 'Ground'],
         bs: { hp: 90, at: 82, df: 87, sp: 76, sl: 75 },
         weightkg: 60
     },
     'Nidoran-F': {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 55, at: 47, df: 52, sp: 41, sl: 40 },
         weightkg: 7,
         nfe: true
     },
     'Nidoran-M': {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 46, at: 57, df: 40, sp: 50, sl: 40 },
         weightkg: 9,
         nfe: true
     },
     Nidorina: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 70, at: 62, df: 67, sp: 56, sl: 55 },
         weightkg: 20,
         nfe: true
     },
     Nidorino: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 61, at: 72, df: 57, sp: 65, sl: 55 },
         weightkg: 19.5,
         nfe: true
     },
     Ninetales: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 73, at: 76, df: 75, sp: 100, sl: 100 },
         weightkg: 19.9
     },
     Oddish: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 45, at: 50, df: 55, sp: 30, sl: 75 },
         weightkg: 5.4,
         nfe: true
     },
     Omanyte: {
-        types: ['Roca', 'Agua'],
+        types: ['Rock', 'Water'],
         bs: { hp: 35, at: 40, df: 100, sp: 35, sl: 90 },
         weightkg: 7.5,
         nfe: true
     },
     Omastar: {
-        types: ['Roca', 'Agua'],
+        types: ['Rock', 'Water'],
         bs: { hp: 70, at: 60, df: 125, sp: 55, sl: 115 },
         weightkg: 35
     },
     Onix: {
-        types: ['Roca', 'Tierra'],
+        types: ['Rock', 'Ground'],
         bs: { hp: 35, at: 45, df: 160, sp: 70, sl: 30 },
         weightkg: 210
     },
     Paras: {
-        types: ['Bicho', 'Planta'],
+        types: ['Bug', 'Grass'],
         bs: { hp: 35, at: 70, df: 55, sp: 25, sl: 55 },
         weightkg: 5.4,
         nfe: true
     },
     Parasect: {
-        types: ['Bicho', 'Planta'],
+        types: ['Bug', 'Grass'],
         bs: { hp: 60, at: 95, df: 80, sp: 30, sl: 80 },
         weightkg: 29.5
     },
     Persian: { types: ['Normal'], bs: { hp: 65, at: 70, df: 60, sp: 115, sl: 65 }, weightkg: 32 },
     Pidgeot: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 83, at: 80, df: 75, sp: 91, sl: 70 },
         weightkg: 39.5
     },
     Pidgeotto: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 63, at: 60, df: 55, sp: 71, sl: 50 },
         weightkg: 30,
         nfe: true
     },
     Pidgey: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 40, at: 45, df: 40, sp: 56, sl: 35 },
         weightkg: 1.8,
         nfe: true
     },
     Pikachu: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 30, sp: 90, sl: 50 },
         weightkg: 6,
         nfe: true
     },
-    Pinsir: { types: ['Bicho'], bs: { hp: 65, at: 125, df: 100, sp: 85, sl: 55 }, weightkg: 55 },
+    Pinsir: { types: ['Bug'], bs: { hp: 65, at: 125, df: 100, sp: 85, sl: 55 }, weightkg: 55 },
     Poliwag: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 40, at: 50, df: 40, sp: 90, sl: 40 },
         weightkg: 12.4,
         nfe: true
     },
     Poliwhirl: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 65, at: 65, df: 65, sp: 90, sl: 50 },
         weightkg: 20,
         nfe: true
     },
     Poliwrath: {
-        types: ['Agua', 'Lucha'],
+        types: ['Water', 'Fighting'],
         bs: { hp: 90, at: 85, df: 95, sp: 70, sl: 70 },
         weightkg: 54
     },
     Ponyta: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 50, at: 85, df: 55, sp: 90, sl: 65 },
         weightkg: 30,
         nfe: true
@@ -630,22 +630,22 @@ var RBY = {
         weightkg: 36.5
     },
     Primeape: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 65, at: 105, df: 60, sp: 95, sl: 60 },
         weightkg: 32
     },
     Psyduck: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 50, at: 52, df: 48, sp: 55, sl: 50 },
         weightkg: 19.6,
         nfe: true
     },
     Raichu: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 60, at: 90, df: 55, sp: 100, sl: 90 },
         weightkg: 30
     },
-    Rapidash: { types: ['Fuego'], bs: { hp: 65, at: 100, df: 70, sp: 105, sl: 80 }, weightkg: 95 },
+    Rapidash: { types: ['Fire'], bs: { hp: 65, at: 100, df: 70, sp: 105, sl: 80 }, weightkg: 95 },
     Raticate: {
         types: ['Normal'],
         bs: { hp: 55, at: 81, df: 60, sp: 97, sl: 50 },
@@ -658,53 +658,53 @@ var RBY = {
         nfe: true
     },
     Rhydon: {
-        types: ['Tierra', 'Roca'],
+        types: ['Ground', 'Rock'],
         bs: { hp: 105, at: 130, df: 120, sp: 40, sl: 45 },
         weightkg: 120
     },
     Rhyhorn: {
-        types: ['Tierra', 'Roca'],
+        types: ['Ground', 'Rock'],
         bs: { hp: 80, at: 85, df: 95, sp: 25, sl: 30 },
         weightkg: 115,
         nfe: true
     },
     Sandshrew: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 50, at: 75, df: 85, sp: 40, sl: 30 },
         weightkg: 12,
         nfe: true
     },
     Sandslash: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 75, at: 100, df: 110, sp: 65, sl: 55 },
         weightkg: 29.5
     },
     Scyther: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 70, at: 110, df: 80, sp: 105, sl: 55 },
         weightkg: 56
     },
-    Seadra: { types: ['Agua'], bs: { hp: 55, at: 65, df: 95, sp: 85, sl: 95 }, weightkg: 25 },
-    Seaking: { types: ['Agua'], bs: { hp: 80, at: 92, df: 65, sp: 68, sl: 80 }, weightkg: 39 },
+    Seadra: { types: ['Water'], bs: { hp: 55, at: 65, df: 95, sp: 85, sl: 95 }, weightkg: 25 },
+    Seaking: { types: ['Water'], bs: { hp: 80, at: 92, df: 65, sp: 68, sl: 80 }, weightkg: 39 },
     Seel: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 65, at: 45, df: 55, sp: 45, sl: 70 },
         weightkg: 90,
         nfe: true
     },
     Shellder: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 30, at: 65, df: 100, sp: 40, sl: 45 },
         weightkg: 4,
         nfe: true
     },
     Slowbro: {
-        types: ['Agua', 'Psíquico'],
+        types: ['Water', 'Psychic'],
         bs: { hp: 95, at: 75, df: 110, sp: 30, sl: 80 },
         weightkg: 78.5
     },
     Slowpoke: {
-        types: ['Agua', 'Psíquico'],
+        types: ['Water', 'Psychic'],
         bs: { hp: 90, at: 65, df: 65, sp: 15, sl: 40 },
         weightkg: 36,
         nfe: true
@@ -715,30 +715,30 @@ var RBY = {
         weightkg: 460
     },
     Spearow: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 40, at: 60, df: 30, sp: 70, sl: 31 },
         weightkg: 2,
         nfe: true
     },
     Squirtle: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 44, at: 48, df: 65, sp: 43, sl: 50 },
         weightkg: 9,
         nfe: true
     },
     Starmie: {
-        types: ['Agua', 'Psíquico'],
+        types: ['Water', 'Psychic'],
         bs: { hp: 60, at: 75, df: 85, sp: 115, sl: 100 },
         weightkg: 80
     },
     Staryu: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 30, at: 45, df: 55, sp: 85, sl: 70 },
         weightkg: 34.5,
         nfe: true
     },
     Tangela: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 65, at: 55, df: 115, sp: 60, sl: 100 },
         weightkg: 35
     },
@@ -748,79 +748,79 @@ var RBY = {
         weightkg: 88.4
     },
     Tentacool: {
-        types: ['Agua', 'Veneno'],
+        types: ['Water', 'Poison'],
         bs: { hp: 40, at: 40, df: 35, sp: 70, sl: 100 },
         weightkg: 45.5,
         nfe: true
     },
     Tentacruel: {
-        types: ['Agua', 'Veneno'],
+        types: ['Water', 'Poison'],
         bs: { hp: 80, at: 70, df: 65, sp: 100, sl: 120 },
         weightkg: 55
     },
     Vaporeon: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 130, at: 65, df: 60, sp: 65, sl: 110 },
         weightkg: 29
     },
     Venomoth: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 70, at: 65, df: 60, sp: 90, sl: 90 },
         weightkg: 12.5
     },
     Venonat: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 60, at: 55, df: 50, sp: 45, sl: 40 },
         weightkg: 30,
         nfe: true
     },
     Venusaur: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 80, at: 82, df: 83, sp: 80, sl: 100 },
         weightkg: 100
     },
     Victreebel: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 80, at: 105, df: 65, sp: 70, sl: 100 },
         weightkg: 15.5
     },
     Vileplume: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 75, at: 80, df: 85, sp: 50, sl: 100 },
         weightkg: 18.6
     },
     Voltorb: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 40, at: 30, df: 50, sp: 100, sl: 55 },
         weightkg: 10.4,
         nfe: true
     },
     Vulpix: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 38, at: 41, df: 40, sp: 65, sl: 65 },
         weightkg: 9.9,
         nfe: true
     },
     Wartortle: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 59, at: 63, df: 80, sp: 58, sl: 65 },
         weightkg: 22.5,
         nfe: true
     },
     Weedle: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 40, at: 35, df: 30, sp: 50, sl: 20 },
         weightkg: 3.2,
         nfe: true
     },
     Weepinbell: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 65, at: 90, df: 50, sp: 55, sl: 85 },
         weightkg: 6.4,
         nfe: true
     },
     Weezing: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 65, at: 90, df: 120, sp: 60, sl: 85 },
         weightkg: 9.5
     },
@@ -830,12 +830,12 @@ var RBY = {
         weightkg: 12
     },
     Zapdos: {
-        types: ['Eléctrico', 'Volador'],
+        types: ['Electric', 'Flying'],
         bs: { hp: 90, at: 90, df: 85, sp: 100, sl: 125 },
         weightkg: 52.6
     },
     Zubat: {
-        types: ['Veneno', 'Volador'],
+        types: ['Poison', 'Flying'],
         bs: { hp: 40, at: 45, df: 35, sp: 55, sl: 40 },
         weightkg: 7.5,
         nfe: true
@@ -917,8 +917,8 @@ var GSC_PATCH = {
     Machop: { bs: { sa: 35, sd: 35 } },
     Magikarp: { bs: { sa: 15, sd: 20 } },
     Magmar: { bs: { sa: 100, sd: 85 } },
-    Magnemite: { types: ['Eléctrico', 'Acero'], bs: { sa: 95, sd: 55 }, gender: 'N' },
-    Magneton: { types: ['Eléctrico', 'Acero'], bs: { sa: 120, sd: 70 }, gender: 'N' },
+    Magnemite: { types: ['Electric', 'Steel'], bs: { sa: 95, sd: 55 }, gender: 'N' },
+    Magneton: { types: ['Electric', 'Steel'], bs: { sa: 120, sd: 70 }, gender: 'N' },
     Mankey: { bs: { sa: 35, sd: 45 } },
     Marowak: { bs: { sa: 50, sd: 80 } },
     Meowth: { bs: { sa: 40, sd: 40 } },
@@ -995,28 +995,28 @@ var GSC_PATCH = {
     Zubat: { bs: { sa: 30, sd: 40 } },
     Aipom: { types: ['Normal'], bs: { hp: 55, at: 70, df: 55, sa: 40, sd: 55, sp: 85 }, weightkg: 11.5 },
     Ampharos: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 90, at: 75, df: 75, sa: 115, sd: 90, sp: 55 },
         weightkg: 61.5
     },
     Ariados: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 70, at: 90, df: 70, sa: 60, sd: 60, sp: 40 },
         weightkg: 33.5
     },
     Azumarill: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 100, at: 50, df: 80, sa: 50, sd: 80, sp: 50 },
         weightkg: 28.5
     },
     Bayleef: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 60, at: 62, df: 80, sa: 63, sd: 80, sp: 60 },
         weightkg: 15.8,
         nfe: true
     },
     Bellossom: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 75, at: 80, df: 85, sa: 90, sd: 100, sp: 50 },
         weightkg: 5.8
     },
@@ -1026,19 +1026,19 @@ var GSC_PATCH = {
         weightkg: 46.8
     },
     Celebi: {
-        types: ['Psíquico', 'Planta'],
+        types: ['Psychic', 'Grass'],
         bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 },
         weightkg: 5,
         gender: 'N'
     },
     Chikorita: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 45, at: 49, df: 65, sa: 49, sd: 65, sp: 45 },
         weightkg: 6.4,
         nfe: true
     },
     Chinchou: {
-        types: ['Agua', 'Eléctrico'],
+        types: ['Water', 'Electric'],
         bs: { hp: 75, at: 38, df: 38, sa: 56, sd: 56, sp: 67 },
         weightkg: 12,
         nfe: true
@@ -1050,34 +1050,34 @@ var GSC_PATCH = {
         nfe: true
     },
     Corsola: {
-        types: ['Agua', 'Roca'],
+        types: ['Water', 'Rock'],
         bs: { hp: 55, at: 55, df: 85, sa: 65, sd: 85, sp: 35 },
         weightkg: 5
     },
     Crobat: {
-        types: ['Veneno', 'Volador'],
+        types: ['Poison', 'Flying'],
         bs: { hp: 85, at: 90, df: 80, sa: 70, sd: 80, sp: 130 },
         weightkg: 75
     },
     Croconaw: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 65, at: 80, df: 80, sa: 59, sd: 63, sp: 58 },
         weightkg: 25,
         nfe: true
     },
     Cyndaquil: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 39, at: 52, df: 43, sa: 60, sd: 50, sp: 65 },
         weightkg: 7.9,
         nfe: true
     },
     Delibird: {
-        types: ['Hielo', 'Volador'],
+        types: ['Ice', 'Flying'],
         bs: { hp: 45, at: 55, df: 45, sa: 65, sd: 45, sp: 75 },
         weightkg: 16
     },
     Donphan: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 90, at: 120, df: 120, sa: 60, sd: 60, sp: 50 },
         weightkg: 120
     },
@@ -1087,46 +1087,46 @@ var GSC_PATCH = {
         weightkg: 14
     },
     Elekid: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 45, at: 63, df: 37, sa: 65, sd: 55, sp: 95 },
         weightkg: 23.5,
         nfe: true
     },
     Entei: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 115, at: 115, df: 85, sa: 90, sd: 75, sp: 100 },
         weightkg: 198,
         gender: 'N'
     },
     Espeon: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 65, at: 65, df: 60, sa: 130, sd: 95, sp: 110 },
         weightkg: 26.5
     },
     Feraligatr: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 85, at: 105, df: 100, sa: 79, sd: 83, sp: 78 },
         weightkg: 88.8
     },
     Flaaffy: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 70, at: 55, df: 55, sa: 80, sd: 60, sp: 45 },
         weightkg: 13.3,
         nfe: true
     },
     Forretress: {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 75, at: 90, df: 140, sa: 60, sd: 60, sp: 40 },
         weightkg: 125.8
     },
     Furret: { types: ['Normal'], bs: { hp: 85, at: 76, df: 64, sa: 45, sd: 55, sp: 90 }, weightkg: 32.5 },
     Girafarig: {
-        types: ['Normal', 'Psíquico'],
+        types: ['Normal', 'Psychic'],
         bs: { hp: 70, at: 80, df: 65, sa: 90, sd: 65, sp: 85 },
         weightkg: 41.5
     },
     Gligar: {
-        types: ['Tierra', 'Volador'],
+        types: ['Ground', 'Flying'],
         bs: { hp: 65, at: 75, df: 105, sa: 35, sd: 65, sp: 85 },
         weightkg: 64.8
     },
@@ -1136,40 +1136,40 @@ var GSC_PATCH = {
         weightkg: 48.7
     },
     Heracross: {
-        types: ['Bicho', 'Lucha'],
+        types: ['Bug', 'Fighting'],
         bs: { hp: 80, at: 125, df: 75, sa: 40, sd: 95, sp: 85 },
         weightkg: 54
     },
     Hitmontop: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 50, at: 95, df: 95, sa: 35, sd: 110, sp: 70 },
         weightkg: 48
     },
     'Ho-Oh': {
-        types: ['Fuego', 'Volador'],
+        types: ['Fire', 'Flying'],
         bs: { hp: 106, at: 130, df: 90, sa: 110, sd: 154, sp: 90 },
         weightkg: 199,
         gender: 'N'
     },
     Hoothoot: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 60, at: 30, df: 30, sa: 36, sd: 56, sp: 50 },
         weightkg: 21.2,
         nfe: true
     },
     Hoppip: {
-        types: ['Planta', 'Volador'],
+        types: ['Grass', 'Flying'],
         bs: { hp: 35, at: 35, df: 40, sa: 35, sd: 55, sp: 50 },
         weightkg: 0.5,
         nfe: true
     },
     Houndoom: {
-        types: ['Siniestro', 'Fuego'],
+        types: ['Dark', 'Fire'],
         bs: { hp: 75, at: 90, df: 50, sa: 110, sd: 80, sp: 95 },
         weightkg: 35
     },
     Houndour: {
-        types: ['Siniestro', 'Fuego'],
+        types: ['Dark', 'Fire'],
         bs: { hp: 45, at: 60, df: 30, sa: 80, sd: 50, sp: 65 },
         weightkg: 10.8,
         nfe: true
@@ -1181,73 +1181,73 @@ var GSC_PATCH = {
         nfe: true
     },
     Jumpluff: {
-        types: ['Planta', 'Volador'],
+        types: ['Grass', 'Flying'],
         bs: { hp: 75, at: 55, df: 70, sa: 55, sd: 85, sp: 110 },
         weightkg: 3
     },
     Kingdra: {
-        types: ['Agua', 'Dragón'],
+        types: ['Water', 'Dragon'],
         bs: { hp: 75, at: 95, df: 95, sa: 95, sd: 95, sp: 85 },
         weightkg: 152
     },
     Lanturn: {
-        types: ['Agua', 'Eléctrico'],
+        types: ['Water', 'Electric'],
         bs: { hp: 125, at: 58, df: 58, sa: 76, sd: 76, sp: 67 },
         weightkg: 22.5
     },
     Larvitar: {
-        types: ['Roca', 'Tierra'],
+        types: ['Rock', 'Ground'],
         bs: { hp: 50, at: 64, df: 50, sa: 45, sd: 50, sp: 41 },
         weightkg: 72,
         nfe: true
     },
     Ledian: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 55, at: 35, df: 50, sa: 55, sd: 110, sp: 85 },
         weightkg: 35.6
     },
     Ledyba: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 40, at: 20, df: 30, sa: 40, sd: 80, sp: 55 },
         weightkg: 10.8,
         nfe: true
     },
     Lugia: {
-        types: ['Psíquico', 'Volador'],
+        types: ['Psychic', 'Flying'],
         bs: { hp: 106, at: 90, df: 130, sa: 90, sd: 154, sp: 110 },
         weightkg: 216,
         gender: 'N'
     },
     Magby: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 45, at: 75, df: 37, sa: 70, sd: 55, sp: 83 },
         weightkg: 21.4,
         nfe: true
     },
     Magcargo: {
-        types: ['Fuego', 'Roca'],
+        types: ['Fire', 'Rock'],
         bs: { hp: 50, at: 50, df: 120, sa: 80, sd: 80, sp: 30 },
         weightkg: 55
     },
     Mantine: {
-        types: ['Agua', 'Volador'],
+        types: ['Water', 'Flying'],
         bs: { hp: 65, at: 40, df: 70, sa: 80, sd: 140, sp: 70 },
         weightkg: 220
     },
     Mareep: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 55, at: 40, df: 40, sa: 65, sd: 45, sp: 35 },
         weightkg: 7.8,
         nfe: true
     },
     Marill: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 70, at: 20, df: 50, sa: 20, sd: 50, sp: 40 },
         weightkg: 8.5,
         nfe: true
     },
     Meganium: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 80, at: 82, df: 100, sa: 83, sd: 100, sp: 80 },
         weightkg: 100.5
     },
@@ -1257,56 +1257,56 @@ var GSC_PATCH = {
         weightkg: 75.5
     },
     Misdreavus: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 60, at: 60, df: 60, sa: 85, sd: 85, sp: 85 },
         weightkg: 1
     },
     Murkrow: {
-        types: ['Siniestro', 'Volador'],
+        types: ['Dark', 'Flying'],
         bs: { hp: 60, at: 85, df: 42, sa: 85, sd: 42, sp: 91 },
         weightkg: 2.1
     },
     Natu: {
-        types: ['Psíquico', 'Volador'],
+        types: ['Psychic', 'Flying'],
         bs: { hp: 40, at: 50, df: 45, sa: 70, sd: 45, sp: 70 },
         weightkg: 2,
         nfe: true
     },
     Noctowl: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 100, at: 50, df: 50, sa: 76, sd: 96, sp: 70 },
         weightkg: 40.8
     },
     Octillery: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 75, at: 105, df: 75, sa: 105, sd: 75, sp: 45 },
         weightkg: 28.5
     },
     Phanpy: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 90, at: 60, df: 60, sa: 40, sd: 40, sp: 40 },
         weightkg: 33.5,
         nfe: true
     },
     Pichu: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 20, at: 40, df: 15, sa: 35, sd: 35, sp: 60 },
         weightkg: 2,
         nfe: true
     },
     Piloswine: {
-        types: ['Hielo', 'Tierra'],
+        types: ['Ice', 'Ground'],
         bs: { hp: 100, at: 100, df: 80, sa: 60, sd: 60, sp: 50 },
         weightkg: 55.8
     },
     Pineco: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 50, at: 65, df: 90, sa: 35, sd: 35, sp: 15 },
         weightkg: 7.2,
         nfe: true
     },
     Politoed: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 90, at: 75, df: 75, sa: 90, sd: 100, sp: 70 },
         weightkg: 33.9
     },
@@ -1317,41 +1317,41 @@ var GSC_PATCH = {
         gender: 'N'
     },
     Pupitar: {
-        types: ['Roca', 'Tierra'],
+        types: ['Rock', 'Ground'],
         bs: { hp: 70, at: 84, df: 70, sa: 65, sd: 70, sp: 51 },
         weightkg: 152,
         nfe: true
     },
     Quagsire: {
-        types: ['Agua', 'Tierra'],
+        types: ['Water', 'Ground'],
         bs: { hp: 95, at: 85, df: 85, sa: 65, sd: 65, sp: 35 },
         weightkg: 75
     },
     Quilava: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 58, at: 64, df: 58, sa: 80, sd: 65, sp: 80 },
         weightkg: 19,
         nfe: true
     },
     Qwilfish: {
-        types: ['Agua', 'Veneno'],
+        types: ['Water', 'Poison'],
         bs: { hp: 65, at: 95, df: 75, sa: 55, sd: 55, sp: 85 },
         weightkg: 3.9
     },
     Raikou: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 90, at: 85, df: 75, sa: 115, sd: 100, sp: 115 },
         weightkg: 178,
         gender: 'N'
     },
     Remoraid: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 35, at: 65, df: 35, sa: 65, sd: 35, sp: 65 },
         weightkg: 12,
         nfe: true
     },
     Scizor: {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 70, at: 130, df: 100, sa: 55, sd: 80, sp: 65 },
         weightkg: 118
     },
@@ -1362,41 +1362,41 @@ var GSC_PATCH = {
         nfe: true
     },
     Shuckle: {
-        types: ['Bicho', 'Roca'],
+        types: ['Bug', 'Rock'],
         bs: { hp: 20, at: 10, df: 230, sa: 10, sd: 230, sp: 5 },
         weightkg: 20.5
     },
     Skarmory: {
-        types: ['Acero', 'Volador'],
+        types: ['Steel', 'Flying'],
         bs: { hp: 65, at: 80, df: 140, sa: 40, sd: 70, sp: 70 },
         weightkg: 50.5
     },
     Skiploom: {
-        types: ['Planta', 'Volador'],
+        types: ['Grass', 'Flying'],
         bs: { hp: 55, at: 45, df: 50, sa: 45, sd: 65, sp: 80 },
         weightkg: 1,
         nfe: true
     },
     Slowking: {
-        types: ['Agua', 'Psíquico'],
+        types: ['Water', 'Psychic'],
         bs: { hp: 95, at: 75, df: 80, sa: 100, sd: 110, sp: 30 },
         weightkg: 79.5
     },
     Slugma: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 40, at: 40, df: 40, sa: 70, sd: 40, sp: 20 },
         weightkg: 35,
         nfe: true
     },
     Smeargle: { types: ['Normal'], bs: { hp: 55, at: 20, df: 35, sa: 20, sd: 45, sp: 75 }, weightkg: 58 },
     Smoochum: {
-        types: ['Hielo', 'Psíquico'],
+        types: ['Ice', 'Psychic'],
         bs: { hp: 45, at: 30, df: 15, sa: 85, sd: 65, sp: 65 },
         weightkg: 6,
         nfe: true
     },
     Sneasel: {
-        types: ['Siniestro', 'Hielo'],
+        types: ['Dark', 'Ice'],
         bs: { hp: 55, at: 95, df: 55, sa: 35, sd: 75, sp: 115 },
         weightkg: 28
     },
@@ -1407,7 +1407,7 @@ var GSC_PATCH = {
         nfe: true
     },
     Spinarak: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 40, at: 60, df: 40, sa: 40, sd: 40, sp: 30 },
         weightkg: 8.5,
         nfe: true
@@ -1418,34 +1418,34 @@ var GSC_PATCH = {
         weightkg: 71.2
     },
     Steelix: {
-        types: ['Acero', 'Tierra'],
+        types: ['Steel', 'Ground'],
         bs: { hp: 75, at: 85, df: 200, sa: 55, sd: 65, sp: 30 },
         weightkg: 400
     },
     Sudowoodo: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 70, at: 100, df: 115, sa: 30, sd: 65, sp: 30 },
         weightkg: 38
     },
     Suicune: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 100, at: 75, df: 115, sa: 90, sd: 115, sp: 85 },
         weightkg: 187,
         gender: 'N'
     },
     Sunflora: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 75, at: 75, df: 55, sa: 105, sd: 85, sp: 30 },
         weightkg: 8.5
     },
     Sunkern: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 30, at: 30, df: 30, sa: 30, sd: 30, sp: 30 },
         weightkg: 1.8,
         nfe: true
     },
     Swinub: {
-        types: ['Hielo', 'Tierra'],
+        types: ['Ice', 'Ground'],
         bs: { hp: 50, at: 50, df: 40, sa: 30, sd: 30, sp: 50 },
         weightkg: 6.5,
         nfe: true
@@ -1463,35 +1463,35 @@ var GSC_PATCH = {
         nfe: true
     },
     Togetic: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 55, at: 40, df: 85, sa: 80, sd: 105, sp: 40 },
         weightkg: 3.2
     },
     Totodile: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 50, at: 65, df: 64, sa: 44, sd: 48, sp: 43 },
         weightkg: 9.5,
         nfe: true
     },
     Typhlosion: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100 },
         weightkg: 79.5
     },
     Tyranitar: {
-        types: ['Roca', 'Siniestro'],
+        types: ['Rock', 'Dark'],
         bs: { hp: 100, at: 134, df: 110, sa: 95, sd: 100, sp: 61 },
         weightkg: 202
     },
     Tyrogue: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 35, at: 35, df: 35, sa: 35, sd: 35, sp: 35 },
         weightkg: 21,
         nfe: true
     },
-    Umbreon: { types: ['Siniestro'], bs: { hp: 95, at: 65, df: 110, sa: 60, sd: 130, sp: 65 }, weightkg: 27 },
+    Umbreon: { types: ['Dark'], bs: { hp: 95, at: 65, df: 110, sa: 60, sd: 130, sp: 65 }, weightkg: 27 },
     Unown: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 48, at: 72, df: 48, sa: 72, sd: 48, sp: 48 },
         weightkg: 5,
         gender: 'N'
@@ -1502,23 +1502,23 @@ var GSC_PATCH = {
         weightkg: 125.8
     },
     Wobbuffet: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 190, at: 33, df: 58, sa: 33, sd: 58, sp: 33 },
         weightkg: 28.5
     },
     Wooper: {
-        types: ['Agua', 'Tierra'],
+        types: ['Water', 'Ground'],
         bs: { hp: 55, at: 45, df: 45, sa: 25, sd: 25, sp: 15 },
         weightkg: 8.5,
         nfe: true
     },
     Xatu: {
-        types: ['Psíquico', 'Volador'],
+        types: ['Psychic', 'Flying'],
         bs: { hp: 65, at: 75, df: 70, sa: 95, sd: 70, sp: 95 },
         weightkg: 15
     },
     Yanma: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 65, at: 65, df: 45, sa: 75, sd: 45, sp: 95 },
         weightkg: 38
     }
@@ -1777,38 +1777,38 @@ var ADV_PATCH = {
     Xatu: { abilities: { 0: 'Synchronize' } },
     Yanma: { abilities: { 0: 'Speed Boost' } },
     Absol: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 65, at: 130, df: 60, sa: 75, sd: 60, sp: 75 },
         weightkg: 47,
         abilities: { 0: 'Pressure' }
     },
     Aggron: {
-        types: ['Acero', 'Roca'],
+        types: ['Steel', 'Rock'],
         bs: { hp: 70, at: 110, df: 180, sa: 60, sd: 60, sp: 50 },
         weightkg: 360,
         abilities: { 0: 'Sturdy' }
     },
     Altaria: {
-        types: ['Dragón', 'Volador'],
+        types: ['Dragon', 'Flying'],
         bs: { hp: 75, at: 70, df: 90, sa: 70, sd: 105, sp: 80 },
         weightkg: 20.6,
         abilities: { 0: 'Natural Cure' }
     },
     Anorith: {
-        types: ['Roca', 'Bicho'],
+        types: ['Rock', 'Bug'],
         bs: { hp: 45, at: 95, df: 50, sa: 40, sd: 50, sp: 75 },
         weightkg: 12.5,
         nfe: true,
         abilities: { 0: 'Battle Armor' }
     },
     Armaldo: {
-        types: ['Roca', 'Bicho'],
+        types: ['Rock', 'Bug'],
         bs: { hp: 75, at: 125, df: 100, sa: 70, sd: 80, sp: 45 },
         weightkg: 68.2,
         abilities: { 0: 'Battle Armor' }
     },
     Aron: {
-        types: ['Acero', 'Roca'],
+        types: ['Steel', 'Rock'],
         bs: { hp: 50, at: 70, df: 100, sa: 40, sd: 40, sp: 30 },
         weightkg: 60,
         nfe: true,
@@ -1822,14 +1822,14 @@ var ADV_PATCH = {
         abilities: { 0: 'Thick Fat' }
     },
     Bagon: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 45, at: 75, df: 60, sa: 40, sd: 30, sp: 50 },
         weightkg: 42.1,
         nfe: true,
         abilities: { 0: 'Rock Head' }
     },
     Baltoy: {
-        types: ['Tierra', 'Psíquico'],
+        types: ['Ground', 'Psychic'],
         bs: { hp: 40, at: 40, df: 55, sa: 40, sd: 70, sp: 55 },
         weightkg: 21.5,
         abilities: { 0: 'Levitate' },
@@ -1837,26 +1837,26 @@ var ADV_PATCH = {
         gender: 'N'
     },
     Banette: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 64, at: 115, df: 65, sa: 83, sd: 63, sp: 65 },
         weightkg: 12.5,
         abilities: { 0: 'Insomnia' }
     },
     Barboach: {
-        types: ['Agua', 'Tierra'],
+        types: ['Water', 'Ground'],
         bs: { hp: 50, at: 48, df: 43, sa: 46, sd: 41, sp: 60 },
         weightkg: 1.9,
         nfe: true,
         abilities: { 0: 'Oblivious' }
     },
     Beautifly: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 60, at: 70, df: 50, sa: 90, sd: 50, sp: 65 },
         weightkg: 28.4,
         abilities: { 0: 'Swarm' }
     },
     Beldum: {
-        types: ['Acero', 'Psíquico'],
+        types: ['Steel', 'Psychic'],
         bs: { hp: 40, at: 55, df: 80, sa: 35, sd: 60, sp: 30 },
         weightkg: 95.2,
         nfe: true,
@@ -1864,45 +1864,45 @@ var ADV_PATCH = {
         abilities: { 0: 'Clear Body' }
     },
     Blaziken: {
-        types: ['Fuego', 'Lucha'],
+        types: ['Fire', 'Fighting'],
         bs: { hp: 80, at: 120, df: 70, sa: 110, sd: 70, sp: 80 },
         weightkg: 52,
         abilities: { 0: 'Blaze' }
     },
     Breloom: {
-        types: ['Planta', 'Lucha'],
+        types: ['Grass', 'Fighting'],
         bs: { hp: 60, at: 130, df: 80, sa: 60, sd: 60, sp: 70 },
         weightkg: 39.2,
         abilities: { 0: 'Effect Spore' }
     },
     Cacnea: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 50, at: 85, df: 40, sa: 85, sd: 40, sp: 35 },
         weightkg: 51.3,
         nfe: true,
         abilities: { 0: 'Sand Veil' }
     },
     Cacturne: {
-        types: ['Planta', 'Siniestro'],
+        types: ['Grass', 'Dark'],
         bs: { hp: 70, at: 115, df: 60, sa: 115, sd: 60, sp: 55 },
         weightkg: 77.4,
         abilities: { 0: 'Sand Veil' }
     },
     Camerupt: {
-        types: ['Fuego', 'Tierra'],
+        types: ['Fire', 'Ground'],
         bs: { hp: 70, at: 100, df: 70, sa: 105, sd: 75, sp: 40 },
         weightkg: 220,
         abilities: { 0: 'Magma Armor' }
     },
     Carvanha: {
-        types: ['Agua', 'Siniestro'],
+        types: ['Water', 'Dark'],
         bs: { hp: 45, at: 90, df: 20, sa: 65, sd: 20, sp: 65 },
         weightkg: 20.8,
         nfe: true,
         abilities: { 0: 'Rough Skin' }
     },
     Cascoon: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 50, at: 35, df: 55, sa: 25, sd: 25, sp: 15 },
         weightkg: 11.5,
         abilities: { 0: 'Shed Skin' },
@@ -1916,68 +1916,68 @@ var ADV_PATCH = {
         otherFormes: ['Castform-Rainy', 'Castform-Snowy', 'Castform-Sunny']
     },
     'Castform-Rainy': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 70, at: 70, df: 70, sa: 70, sd: 70, sp: 70 },
         weightkg: 0.8,
         abilities: { 0: 'Forecast' },
         baseSpecies: 'Castform'
     },
     'Castform-Snowy': {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 70, at: 70, df: 70, sa: 70, sd: 70, sp: 70 },
         weightkg: 0.8,
         abilities: { 0: 'Forecast' },
         baseSpecies: 'Castform'
     },
     'Castform-Sunny': {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 70, at: 70, df: 70, sa: 70, sd: 70, sp: 70 },
         weightkg: 0.8,
         abilities: { 0: 'Forecast' },
         baseSpecies: 'Castform'
     },
     Chimecho: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 65, at: 50, df: 70, sa: 95, sd: 80, sp: 65 },
         weightkg: 1,
         abilities: { 0: 'Levitate' }
     },
     Clamperl: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 35, at: 64, df: 85, sa: 74, sd: 55, sp: 32 },
         weightkg: 52.5,
         nfe: true,
         abilities: { 0: 'Shell Armor' }
     },
     Claydol: {
-        types: ['Tierra', 'Psíquico'],
+        types: ['Ground', 'Psychic'],
         bs: { hp: 60, at: 70, df: 105, sa: 70, sd: 120, sp: 75 },
         weightkg: 108,
         abilities: { 0: 'Levitate' },
         gender: 'N'
     },
     Combusken: {
-        types: ['Fuego', 'Lucha'],
+        types: ['Fire', 'Fighting'],
         bs: { hp: 60, at: 85, df: 60, sa: 85, sd: 60, sp: 55 },
         weightkg: 19.5,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Corphish: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 43, at: 80, df: 65, sa: 50, sd: 35, sp: 35 },
         weightkg: 11.5,
         nfe: true,
         abilities: { 0: 'Hyper Cutter' }
     },
     Cradily: {
-        types: ['Roca', 'Planta'],
+        types: ['Rock', 'Grass'],
         bs: { hp: 86, at: 81, df: 97, sa: 81, sd: 107, sp: 43 },
         weightkg: 60.4,
         abilities: { 0: 'Suction Cups' }
     },
     Crawdaunt: {
-        types: ['Agua', 'Siniestro'],
+        types: ['Water', 'Dark'],
         bs: { hp: 63, at: 120, df: 85, sa: 90, sd: 55, sp: 55 },
         weightkg: 32.8,
         abilities: { 0: 'Hyper Cutter' }
@@ -1989,7 +1989,7 @@ var ADV_PATCH = {
         abilities: { 0: 'Cute Charm' }
     },
     Deoxys: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 50, at: 150, df: 50, sa: 150, sd: 50, sp: 150 },
         weightkg: 60.8,
         abilities: { 0: 'Pressure' },
@@ -1997,7 +1997,7 @@ var ADV_PATCH = {
         otherFormes: ['Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed']
     },
     'Deoxys-Attack': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 50, at: 180, df: 20, sa: 180, sd: 20, sp: 150 },
         weightkg: 60.8,
         abilities: { 0: 'Pressure' },
@@ -2005,7 +2005,7 @@ var ADV_PATCH = {
         baseSpecies: 'Deoxys'
     },
     'Deoxys-Defense': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 50, at: 70, df: 160, sa: 70, sd: 160, sp: 90 },
         weightkg: 60.8,
         abilities: { 0: 'Pressure' },
@@ -2013,7 +2013,7 @@ var ADV_PATCH = {
         baseSpecies: 'Deoxys'
     },
     'Deoxys-Speed': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 50, at: 95, df: 90, sa: 95, sd: 90, sp: 180 },
         weightkg: 60.8,
         abilities: { 0: 'Pressure' },
@@ -2021,26 +2021,26 @@ var ADV_PATCH = {
         baseSpecies: 'Deoxys'
     },
     Dusclops: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 40, at: 70, df: 130, sa: 60, sd: 130, sp: 25 },
         weightkg: 30.6,
         abilities: { 0: 'Pressure' }
     },
     Duskull: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 20, at: 40, df: 90, sa: 30, sd: 90, sp: 25 },
         weightkg: 15,
         nfe: true,
         abilities: { 0: 'Levitate' }
     },
     Dustox: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 60, at: 50, df: 70, sa: 50, sd: 90, sp: 65 },
         weightkg: 31.6,
         abilities: { 0: 'Shield Dust' }
     },
     Electrike: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 40, at: 45, df: 40, sa: 65, sd: 40, sp: 65 },
         weightkg: 15.2,
         nfe: true,
@@ -2053,83 +2053,83 @@ var ADV_PATCH = {
         abilities: { 0: 'Soundproof' }
     },
     Feebas: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 20, at: 15, df: 20, sa: 10, sd: 55, sp: 80 },
         weightkg: 7.4,
         nfe: true,
         abilities: { 0: 'Swift Swim' }
     },
     Flygon: {
-        types: ['Tierra', 'Dragón'],
+        types: ['Ground', 'Dragon'],
         bs: { hp: 80, at: 100, df: 80, sa: 80, sd: 80, sp: 100 },
         weightkg: 82,
         abilities: { 0: 'Levitate' }
     },
     Gardevoir: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 68, at: 65, df: 65, sa: 125, sd: 115, sp: 80 },
         weightkg: 48.4,
         abilities: { 0: 'Synchronize' }
     },
     Glalie: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 80, at: 80, df: 80, sa: 80, sd: 80, sp: 80 },
         weightkg: 256.5,
         abilities: { 0: 'Inner Focus' }
     },
     Gorebyss: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 55, at: 84, df: 105, sa: 114, sd: 75, sp: 52 },
         weightkg: 22.6,
         abilities: { 0: 'Swift Swim' }
     },
     Groudon: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 100, at: 150, df: 140, sa: 100, sd: 90, sp: 90 },
         weightkg: 950,
         abilities: { 0: 'Drought' },
         gender: 'N'
     },
     Grovyle: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 50, at: 65, df: 45, sa: 85, sd: 65, sp: 95 },
         weightkg: 21.6,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Grumpig: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 80, at: 45, df: 65, sa: 90, sd: 110, sp: 80 },
         weightkg: 71.5,
         abilities: { 0: 'Thick Fat' }
     },
     Gulpin: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 70, at: 43, df: 53, sa: 43, sd: 53, sp: 40 },
         weightkg: 10.3,
         nfe: true,
         abilities: { 0: 'Liquid Ooze' }
     },
     Hariyama: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 144, at: 120, df: 60, sa: 40, sd: 60, sp: 50 },
         weightkg: 253.8,
         abilities: { 0: 'Thick Fat' }
     },
     Huntail: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 55, at: 104, df: 105, sa: 94, sd: 75, sp: 52 },
         weightkg: 27,
         abilities: { 0: 'Swift Swim' }
     },
     Illumise: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 65, at: 47, df: 55, sa: 73, sd: 75, sp: 85 },
         abilities: { 0: 'Oblivious' },
         weightkg: 17.7
     },
     Jirachi: {
-        types: ['Acero', 'Psíquico'],
+        types: ['Steel', 'Psychic'],
         bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 },
         weightkg: 1.1,
         abilities: { 0: 'Serene Grace' },
@@ -2142,40 +2142,40 @@ var ADV_PATCH = {
         abilities: { 0: 'Color Change' }
     },
     Kirlia: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 38, at: 35, df: 35, sa: 65, sd: 55, sp: 50 },
         weightkg: 20.2,
         nfe: true,
         abilities: { 0: 'Synchronize' }
     },
     Kyogre: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 100, at: 100, df: 90, sa: 150, sd: 140, sp: 90 },
         weightkg: 352,
         abilities: { 0: 'Drizzle' },
         gender: 'N'
     },
     Lairon: {
-        types: ['Acero', 'Roca'],
+        types: ['Steel', 'Rock'],
         bs: { hp: 60, at: 90, df: 140, sa: 50, sd: 50, sp: 40 },
         weightkg: 120,
         nfe: true,
         abilities: { 0: 'Sturdy' }
     },
     Latias: {
-        types: ['Dragón', 'Psíquico'],
+        types: ['Dragon', 'Psychic'],
         bs: { hp: 80, at: 80, df: 90, sa: 110, sd: 130, sp: 110 },
         weightkg: 40,
         abilities: { 0: 'Levitate' }
     },
     Latios: {
-        types: ['Dragón', 'Psíquico'],
+        types: ['Dragon', 'Psychic'],
         bs: { hp: 80, at: 90, df: 80, sa: 130, sd: 110, sp: 110 },
         weightkg: 60,
         abilities: { 0: 'Levitate' }
     },
     Lileep: {
-        types: ['Roca', 'Planta'],
+        types: ['Rock', 'Grass'],
         bs: { hp: 66, at: 41, df: 77, sa: 61, sd: 87, sp: 23 },
         weightkg: 23.8,
         nfe: true,
@@ -2188,14 +2188,14 @@ var ADV_PATCH = {
         abilities: { 0: 'Pickup' }
     },
     Lombre: {
-        types: ['Agua', 'Planta'],
+        types: ['Water', 'Grass'],
         bs: { hp: 60, at: 50, df: 50, sa: 60, sd: 70, sp: 50 },
         weightkg: 32.5,
         nfe: true,
         abilities: { 0: 'Swift Swim' }
     },
     Lotad: {
-        types: ['Agua', 'Planta'],
+        types: ['Water', 'Grass'],
         bs: { hp: 40, at: 30, df: 30, sa: 40, sd: 50, sp: 30 },
         weightkg: 2.6,
         nfe: true,
@@ -2209,78 +2209,78 @@ var ADV_PATCH = {
         abilities: { 0: 'Soundproof' }
     },
     Ludicolo: {
-        types: ['Agua', 'Planta'],
+        types: ['Water', 'Grass'],
         bs: { hp: 80, at: 70, df: 70, sa: 90, sd: 100, sp: 70 },
         weightkg: 55,
         abilities: { 0: 'Swift Swim' }
     },
     Lunatone: {
-        types: ['Roca', 'Psíquico'],
+        types: ['Rock', 'Psychic'],
         bs: { hp: 70, at: 55, df: 65, sa: 95, sd: 85, sp: 70 },
         weightkg: 168,
         abilities: { 0: 'Levitate' },
         gender: 'N'
     },
     Luvdisc: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 43, at: 30, df: 55, sa: 40, sd: 65, sp: 97 },
         weightkg: 8.7,
         abilities: { 0: 'Swift Swim' }
     },
     Makuhita: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 72, at: 60, df: 30, sa: 20, sd: 30, sp: 25 },
         weightkg: 86.4,
         nfe: true,
         abilities: { 0: 'Thick Fat' }
     },
     Manectric: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 70, at: 75, df: 60, sa: 105, sd: 60, sp: 105 },
         weightkg: 40.2,
         abilities: { 0: 'Static' }
     },
     Marshtomp: {
-        types: ['Agua', 'Tierra'],
+        types: ['Water', 'Ground'],
         bs: { hp: 70, at: 85, df: 70, sa: 60, sd: 70, sp: 50 },
         weightkg: 28,
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
     Masquerain: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 70, at: 60, df: 62, sa: 80, sd: 82, sp: 60 },
         weightkg: 3.6,
         abilities: { 0: 'Intimidate' }
     },
     Mawile: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 50, at: 85, df: 85, sa: 55, sd: 55, sp: 50 },
         weightkg: 11.5,
         abilities: { 0: 'Hyper Cutter' }
     },
     Medicham: {
-        types: ['Lucha', 'Psíquico'],
+        types: ['Fighting', 'Psychic'],
         bs: { hp: 60, at: 60, df: 75, sa: 60, sd: 75, sp: 80 },
         weightkg: 31.5,
         abilities: { 0: 'Pure Power' }
     },
     Meditite: {
-        types: ['Lucha', 'Psíquico'],
+        types: ['Fighting', 'Psychic'],
         bs: { hp: 30, at: 40, df: 55, sa: 40, sd: 55, sp: 60 },
         weightkg: 11.2,
         nfe: true,
         abilities: { 0: 'Pure Power' }
     },
     Metagross: {
-        types: ['Acero', 'Psíquico'],
+        types: ['Steel', 'Psychic'],
         bs: { hp: 80, at: 135, df: 130, sa: 95, sd: 90, sp: 70 },
         weightkg: 550,
         gender: 'N',
         abilities: { 0: 'Clear Body' }
     },
     Metang: {
-        types: ['Acero', 'Psíquico'],
+        types: ['Steel', 'Psychic'],
         bs: { hp: 60, at: 75, df: 100, sa: 55, sd: 80, sp: 50 },
         weightkg: 202.5,
         nfe: true,
@@ -2288,209 +2288,209 @@ var ADV_PATCH = {
         abilities: { 0: 'Clear Body' }
     },
     Mightyena: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 70, at: 90, df: 70, sa: 60, sd: 60, sp: 70 },
         weightkg: 37,
         abilities: { 0: 'Intimidate' }
     },
     Milotic: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 95, at: 60, df: 79, sa: 100, sd: 125, sp: 81 },
         weightkg: 162,
         abilities: { 0: 'Marvel Scale' }
     },
     Minun: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 60, at: 40, df: 50, sa: 75, sd: 85, sp: 95 },
         weightkg: 4.2,
         abilities: { 0: 'Minus' }
     },
     Mudkip: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 50, at: 70, df: 50, sa: 50, sd: 50, sp: 40 },
         weightkg: 7.6,
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
     Nincada: {
-        types: ['Bicho', 'Tierra'],
+        types: ['Bug', 'Ground'],
         bs: { hp: 31, at: 45, df: 90, sa: 30, sd: 30, sp: 40 },
         weightkg: 5.5,
         nfe: true,
         abilities: { 0: 'Compound Eyes' }
     },
     Ninjask: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 61, at: 90, df: 45, sa: 50, sd: 50, sp: 160 },
         weightkg: 12,
         abilities: { 0: 'Speed Boost' }
     },
     Nosepass: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 30, at: 45, df: 135, sa: 45, sd: 90, sp: 30 },
         weightkg: 97,
         abilities: { 0: 'Sturdy' }
     },
     Numel: {
-        types: ['Fuego', 'Tierra'],
+        types: ['Fire', 'Ground'],
         bs: { hp: 60, at: 60, df: 40, sa: 65, sd: 45, sp: 35 },
         weightkg: 24,
         nfe: true,
         abilities: { 0: 'Oblivious' }
     },
     Nuzleaf: {
-        types: ['Planta', 'Siniestro'],
+        types: ['Grass', 'Dark'],
         bs: { hp: 70, at: 70, df: 40, sa: 60, sd: 40, sp: 60 },
         weightkg: 28,
         nfe: true,
         abilities: { 0: 'Chlorophyll' }
     },
     Pelipper: {
-        types: ['Agua', 'Volador'],
+        types: ['Water', 'Flying'],
         bs: { hp: 60, at: 50, df: 100, sa: 85, sd: 70, sp: 65 },
         weightkg: 28,
         abilities: { 0: 'Keen Eye' }
     },
     Plusle: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 60, at: 50, df: 40, sa: 85, sd: 75, sp: 95 },
         weightkg: 4.2,
         abilities: { 0: 'Plus' }
     },
     Poochyena: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 35, at: 55, df: 35, sa: 30, sd: 30, sp: 35 },
         weightkg: 13.6,
         nfe: true,
         abilities: { 0: 'Run Away' }
     },
     Ralts: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 28, at: 25, df: 25, sa: 45, sd: 35, sp: 40 },
         weightkg: 6.6,
         nfe: true,
         abilities: { 0: 'Synchronize' }
     },
     Rayquaza: {
-        types: ['Dragón', 'Volador'],
+        types: ['Dragon', 'Flying'],
         bs: { hp: 105, at: 150, df: 90, sa: 150, sd: 90, sp: 95 },
         weightkg: 206.5,
         abilities: { 0: 'Air Lock' },
         gender: 'N'
     },
     Regice: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 80, at: 50, df: 100, sa: 100, sd: 200, sp: 50 },
         weightkg: 175,
         gender: 'N',
         abilities: { 0: 'Clear Body' }
     },
     Regirock: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 80, at: 100, df: 200, sa: 50, sd: 100, sp: 50 },
         weightkg: 230,
         gender: 'N',
         abilities: { 0: 'Clear Body' }
     },
     Registeel: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 80, at: 75, df: 150, sa: 75, sd: 150, sp: 50 },
         weightkg: 205,
         gender: 'N',
         abilities: { 0: 'Clear Body' }
     },
     Relicanth: {
-        types: ['Agua', 'Roca'],
+        types: ['Water', 'Rock'],
         bs: { hp: 100, at: 90, df: 130, sa: 45, sd: 65, sp: 55 },
         weightkg: 23.4,
         abilities: { 0: 'Swift Swim' }
     },
     Roselia: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 50, at: 60, df: 45, sa: 100, sd: 80, sp: 65 },
         weightkg: 2,
         abilities: { 0: 'Natural Cure' }
     },
     Sableye: {
-        types: ['Siniestro', 'Fantasma'],
+        types: ['Dark', 'Ghost'],
         bs: { hp: 50, at: 75, df: 75, sa: 65, sd: 65, sp: 50 },
         weightkg: 11,
         abilities: { 0: 'Keen Eye' }
     },
     Salamence: {
-        types: ['Dragón', 'Volador'],
+        types: ['Dragon', 'Flying'],
         bs: { hp: 95, at: 135, df: 80, sa: 110, sd: 80, sp: 100 },
         weightkg: 102.6,
         abilities: { 0: 'Intimidate' }
     },
     Sceptile: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 70, at: 85, df: 65, sa: 105, sd: 85, sp: 120 },
         weightkg: 52.2,
         abilities: { 0: 'Overgrow' }
     },
     Sealeo: {
-        types: ['Hielo', 'Agua'],
+        types: ['Ice', 'Water'],
         bs: { hp: 90, at: 60, df: 70, sa: 75, sd: 70, sp: 45 },
         weightkg: 87.6,
         nfe: true,
         abilities: { 0: 'Thick Fat' }
     },
     Seedot: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 40, at: 40, df: 50, sa: 30, sd: 30, sp: 30 },
         weightkg: 4,
         nfe: true,
         abilities: { 0: 'Chlorophyll' }
     },
     Seviper: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 73, at: 100, df: 60, sa: 100, sd: 60, sp: 65 },
         weightkg: 52.5,
         abilities: { 0: 'Shed Skin' }
     },
     Sharpedo: {
-        types: ['Agua', 'Siniestro'],
+        types: ['Water', 'Dark'],
         bs: { hp: 70, at: 120, df: 40, sa: 95, sd: 40, sp: 95 },
         weightkg: 88.8,
         abilities: { 0: 'Rough Skin' }
     },
     Shedinja: {
-        types: ['Bicho', 'Fantasma'],
+        types: ['Bug', 'Ghost'],
         bs: { hp: 1, at: 90, df: 45, sa: 30, sd: 30, sp: 40 },
         weightkg: 1.2,
         abilities: { 0: 'Wonder Guard' },
         gender: 'N'
     },
     Shelgon: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 65, at: 95, df: 100, sa: 60, sd: 50, sp: 50 },
         weightkg: 110.5,
         nfe: true,
         abilities: { 0: 'Rock Head' }
     },
     Shiftry: {
-        types: ['Planta', 'Siniestro'],
+        types: ['Grass', 'Dark'],
         bs: { hp: 90, at: 100, df: 60, sa: 90, sd: 60, sp: 80 },
         weightkg: 59.6,
         abilities: { 0: 'Chlorophyll' }
     },
     Shroomish: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 60, at: 40, df: 60, sa: 40, sd: 60, sp: 35 },
         weightkg: 4.5,
         nfe: true,
         abilities: { 0: 'Effect Spore' }
     },
     Shuppet: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 44, at: 75, df: 35, sa: 63, sd: 33, sp: 45 },
         weightkg: 2.3,
         nfe: true,
         abilities: { 0: 'Insomnia' }
     },
     Silcoon: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 50, at: 35, df: 55, sa: 25, sd: 25, sp: 15 },
         weightkg: 10,
         abilities: { 0: 'Shed Skin' },
@@ -2517,21 +2517,21 @@ var ADV_PATCH = {
         nfe: true
     },
     Snorunt: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 50, at: 50, df: 50, sa: 50, sd: 50, sp: 50 },
         weightkg: 16.8,
         nfe: true,
         abilities: { 0: 'Inner Focus' }
     },
     Solrock: {
-        types: ['Roca', 'Psíquico'],
+        types: ['Rock', 'Psychic'],
         bs: { hp: 70, at: 95, df: 85, sa: 55, sd: 65, sp: 70 },
         weightkg: 154,
         abilities: { 0: 'Levitate' },
         gender: 'N'
     },
     Spheal: {
-        types: ['Hielo', 'Agua'],
+        types: ['Ice', 'Water'],
         bs: { hp: 70, at: 40, df: 50, sa: 55, sd: 50, sp: 25 },
         weightkg: 39.5,
         nfe: true,
@@ -2544,86 +2544,86 @@ var ADV_PATCH = {
         abilities: { 0: 'Own Tempo' }
     },
     Spoink: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 60, at: 25, df: 35, sa: 70, sd: 80, sp: 60 },
         weightkg: 30.6,
         nfe: true,
         abilities: { 0: 'Thick Fat' }
     },
     Surskit: {
-        types: ['Bicho', 'Agua'],
+        types: ['Bug', 'Water'],
         bs: { hp: 40, at: 30, df: 32, sa: 50, sd: 52, sp: 65 },
         weightkg: 1.7,
         nfe: true,
         abilities: { 0: 'Swift Swim' }
     },
     Swablu: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 45, at: 40, df: 60, sa: 40, sd: 75, sp: 50 },
         weightkg: 1.2,
         nfe: true,
         abilities: { 0: 'Natural Cure' }
     },
     Swalot: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 100, at: 73, df: 83, sa: 73, sd: 83, sp: 55 },
         weightkg: 80,
         abilities: { 0: 'Liquid Ooze' }
     },
     Swampert: {
-        types: ['Agua', 'Tierra'],
+        types: ['Water', 'Ground'],
         bs: { hp: 100, at: 110, df: 90, sa: 85, sd: 90, sp: 60 },
         weightkg: 81.9,
         abilities: { 0: 'Torrent' }
     },
     Swellow: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 60, at: 85, df: 60, sa: 50, sd: 50, sp: 125 },
         weightkg: 19.8,
         abilities: { 0: 'Guts' }
     },
     Taillow: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 40, at: 55, df: 30, sa: 30, sd: 30, sp: 85 },
         weightkg: 2.3,
         nfe: true,
         abilities: { 0: 'Guts' }
     },
     Torchic: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 45, at: 60, df: 40, sa: 70, sd: 50, sp: 45 },
         weightkg: 2.5,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Torkoal: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 70, at: 85, df: 140, sa: 85, sd: 70, sp: 20 },
         weightkg: 80.4,
         abilities: { 0: 'White Smoke' }
     },
     Trapinch: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 45, at: 100, df: 45, sa: 45, sd: 45, sp: 10 },
         weightkg: 15,
         nfe: true,
         abilities: { 0: 'Hyper Cutter' }
     },
     Treecko: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 40, at: 45, df: 35, sa: 65, sd: 55, sp: 70 },
         weightkg: 5,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Tropius: {
-        types: ['Planta', 'Volador'],
+        types: ['Grass', 'Flying'],
         bs: { hp: 99, at: 68, df: 83, sa: 72, sd: 87, sp: 51 },
         weightkg: 100,
         abilities: { 0: 'Chlorophyll' }
     },
     Vibrava: {
-        types: ['Tierra', 'Dragón'],
+        types: ['Ground', 'Dragon'],
         bs: { hp: 50, at: 70, df: 50, sa: 50, sd: 50, sp: 70 },
         weightkg: 15.3,
         abilities: { 0: 'Levitate' },
@@ -2637,32 +2637,32 @@ var ADV_PATCH = {
         nfe: true
     },
     Volbeat: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 65, at: 73, df: 55, sa: 47, sd: 75, sp: 85 },
         weightkg: 17.7,
         abilities: { 0: 'Illuminate' }
     },
     Wailmer: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 130, at: 70, df: 35, sa: 70, sd: 35, sp: 60 },
         weightkg: 130,
         nfe: true,
         abilities: { 0: 'Water Veil' }
     },
     Wailord: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 170, at: 90, df: 45, sa: 90, sd: 45, sp: 60 },
         weightkg: 398,
         abilities: { 0: 'Water Veil' }
     },
     Walrein: {
-        types: ['Hielo', 'Agua'],
+        types: ['Ice', 'Water'],
         bs: { hp: 110, at: 80, df: 90, sa: 95, sd: 90, sp: 65 },
         weightkg: 150.6,
         abilities: { 0: 'Thick Fat' }
     },
     Whiscash: {
-        types: ['Agua', 'Tierra'],
+        types: ['Water', 'Ground'],
         bs: { hp: 110, at: 78, df: 73, sa: 76, sd: 71, sp: 60 },
         weightkg: 23.6,
         abilities: { 0: 'Oblivious' }
@@ -2675,21 +2675,21 @@ var ADV_PATCH = {
         abilities: { 0: 'Soundproof' }
     },
     Wingull: {
-        types: ['Agua', 'Volador'],
+        types: ['Water', 'Flying'],
         bs: { hp: 40, at: 30, df: 30, sa: 55, sd: 30, sp: 85 },
         weightkg: 9.5,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
     },
     Wurmple: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 45, at: 45, df: 35, sa: 20, sd: 30, sp: 20 },
         weightkg: 3.6,
         nfe: true,
         abilities: { 0: 'Shield Dust' }
     },
     Wynaut: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 95, at: 23, df: 48, sa: 23, sd: 48, sp: 23 },
         weightkg: 14,
         nfe: true,
@@ -2731,7 +2731,7 @@ var DPP_PATCH = {
     Togetic: { nfe: true },
     Yanma: { nfe: true },
     Abomasnow: {
-        types: ['Planta', 'Hielo'],
+        types: ['Grass', 'Ice'],
         bs: { hp: 90, at: 92, df: 75, sa: 92, sd: 85, sp: 60 },
         weightkg: 135.5,
         abilities: { 0: 'Snow Warning' }
@@ -2768,7 +2768,7 @@ var DPP_PATCH = {
         ]
     },
     'Arceus-Bug': {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2776,7 +2776,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Dark': {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2784,7 +2784,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Dragon': {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2792,7 +2792,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Electric': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2800,7 +2800,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Fighting': {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2808,7 +2808,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Fire': {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2816,7 +2816,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Flying': {
-        types: ['Volador'],
+        types: ['Flying'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2824,7 +2824,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Ghost': {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2832,7 +2832,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Grass': {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2840,7 +2840,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Ground': {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2848,7 +2848,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Ice': {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2856,7 +2856,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Poison': {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2864,7 +2864,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Psychic': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2872,7 +2872,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Rock': {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2880,7 +2880,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Steel': {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2888,7 +2888,7 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     'Arceus-Water': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -2896,26 +2896,26 @@ var DPP_PATCH = {
         baseSpecies: 'Arceus'
     },
     Arghonaut: {
-        types: ['Agua', 'Lucha'],
+        types: ['Water', 'Fighting'],
         bs: { hp: 105, at: 110, df: 95, sa: 70, sd: 100, sp: 75 },
         weightkg: 151,
         abilities: { 0: 'Unaware' }
     },
     Azelf: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 75, at: 125, df: 70, sa: 125, sd: 70, sp: 115 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N'
     },
     Bastiodon: {
-        types: ['Roca', 'Acero'],
+        types: ['Rock', 'Steel'],
         bs: { hp: 60, at: 52, df: 168, sa: 47, sd: 138, sp: 30 },
         weightkg: 149.5,
         abilities: { 0: 'Sturdy' }
     },
     Bibarel: {
-        types: ['Normal', 'Agua'],
+        types: ['Normal', 'Water'],
         bs: { hp: 79, at: 85, df: 60, sa: 55, sd: 60, sp: 71 },
         weightkg: 31.5,
         abilities: { 0: 'Simple' }
@@ -2928,28 +2928,28 @@ var DPP_PATCH = {
         abilities: { 0: 'Simple' }
     },
     Bonsly: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 50, at: 80, df: 95, sa: 10, sd: 45, sp: 10 },
         weightkg: 15,
         nfe: true,
         abilities: { 0: 'Sturdy' }
     },
     Breezi: {
-        types: ['Veneno', 'Volador'],
+        types: ['Poison', 'Flying'],
         bs: { hp: 50, at: 46, df: 69, sa: 60, sd: 50, sp: 75 },
         weightkg: 0.6,
         nfe: true,
         abilities: { 0: 'Unburden' }
     },
     Bronzong: {
-        types: ['Acero', 'Psíquico'],
+        types: ['Steel', 'Psychic'],
         bs: { hp: 67, at: 89, df: 116, sa: 79, sd: 116, sp: 33 },
         weightkg: 187,
         gender: 'N',
         abilities: { 0: 'Levitate' }
     },
     Bronzor: {
-        types: ['Acero', 'Psíquico'],
+        types: ['Steel', 'Psychic'],
         bs: { hp: 57, at: 24, df: 86, sa: 24, sd: 86, sp: 23 },
         weightkg: 60.5,
         nfe: true,
@@ -2957,14 +2957,14 @@ var DPP_PATCH = {
         abilities: { 0: 'Levitate' }
     },
     Budew: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 40, at: 30, df: 35, sa: 50, sd: 70, sp: 55 },
         weightkg: 1.2,
         nfe: true,
         abilities: { 0: 'Natural Cure' }
     },
     Buizel: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 55, at: 65, df: 35, sa: 60, sd: 30, sp: 85 },
         weightkg: 29.5,
         nfe: true,
@@ -2978,236 +2978,236 @@ var DPP_PATCH = {
         abilities: { 0: 'Run Away' }
     },
     Burmy: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 40, at: 29, df: 45, sa: 29, sd: 45, sp: 36 },
         weightkg: 3.4,
         nfe: true,
         abilities: { 0: 'Shed Skin' }
     },
     Carnivine: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 74, at: 100, df: 72, sa: 90, sd: 72, sp: 46 },
         weightkg: 27,
         abilities: { 0: 'Levitate' }
     },
     Chatot: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 76, at: 65, df: 45, sa: 92, sd: 42, sp: 91 },
         weightkg: 1.9,
         abilities: { 0: 'Keen Eye' }
     },
     Cherrim: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 70, at: 60, df: 70, sa: 87, sd: 78, sp: 85 },
         weightkg: 9.3,
         abilities: { 0: 'Flower Gift' },
         otherFormes: ['Cherrim-Sunshine']
     },
     'Cherrim-Sunshine': {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 70, at: 60, df: 70, sa: 87, sd: 78, sp: 85 },
         weightkg: 9.3,
         abilities: { 0: 'Flower Gift' },
         baseSpecies: 'Cherrim'
     },
     Cherubi: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 45, at: 35, df: 45, sa: 62, sd: 53, sp: 35 },
         weightkg: 3.3,
         abilities: { 0: 'Chlorophyll' },
         nfe: true
     },
     Chimchar: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 44, at: 58, df: 44, sa: 58, sd: 44, sp: 61 },
         weightkg: 6.2,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Chingling: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 45, at: 30, df: 50, sa: 65, sd: 50, sp: 45 },
         weightkg: 0.6,
         abilities: { 0: 'Levitate' },
         nfe: true
     },
     Colossoil: {
-        types: ['Tierra', 'Siniestro'],
+        types: ['Ground', 'Dark'],
         bs: { hp: 133, at: 122, df: 72, sa: 71, sd: 72, sp: 95 },
         weightkg: 683.6,
         abilities: { 0: 'Rebound' }
     },
     Combee: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 30, at: 30, df: 42, sa: 30, sd: 42, sp: 70 },
         weightkg: 5.5,
         nfe: true,
         abilities: { 0: 'Honey Gather' }
     },
     Cranidos: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 67, at: 125, df: 40, sa: 30, sd: 30, sp: 58 },
         weightkg: 31.5,
         nfe: true,
         abilities: { 0: 'Mold Breaker' }
     },
     Cresselia: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 120, at: 70, df: 120, sa: 75, sd: 130, sp: 85 },
         weightkg: 85.6,
         abilities: { 0: 'Levitate' }
     },
     Croagunk: {
-        types: ['Veneno', 'Lucha'],
+        types: ['Poison', 'Fighting'],
         bs: { hp: 48, at: 61, df: 40, sa: 61, sd: 40, sp: 50 },
         weightkg: 23,
         nfe: true,
         abilities: { 0: 'Anticipation' }
     },
     Cyclohm: {
-        types: ['Eléctrico', 'Dragón'],
+        types: ['Electric', 'Dragon'],
         bs: { hp: 108, at: 60, df: 118, sa: 112, sd: 70, sp: 80 },
         weightkg: 59,
         abilities: { 0: 'Shield Dust' }
     },
     Darkrai: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 70, at: 90, df: 90, sa: 135, sd: 90, sp: 125 },
         weightkg: 50.5,
         abilities: { 0: 'Bad Dreams' },
         gender: 'N'
     },
     Dialga: {
-        types: ['Acero', 'Dragón'],
+        types: ['Steel', 'Dragon'],
         bs: { hp: 100, at: 120, df: 120, sa: 150, sd: 100, sp: 90 },
         weightkg: 683,
         gender: 'N',
         abilities: { 0: 'Pressure' }
     },
     Dorsoil: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 103, at: 72, df: 52, sa: 61, sd: 52, sp: 65 },
         weightkg: 145,
         nfe: true,
         abilities: { 0: 'Oblivious' }
     },
     Drapion: {
-        types: ['Veneno', 'Siniestro'],
+        types: ['Poison', 'Dark'],
         bs: { hp: 70, at: 90, df: 110, sa: 60, sd: 75, sp: 95 },
         weightkg: 61.5,
         abilities: { 0: 'Battle Armor' }
     },
     Drifblim: {
-        types: ['Fantasma', 'Volador'],
+        types: ['Ghost', 'Flying'],
         bs: { hp: 150, at: 80, df: 44, sa: 90, sd: 54, sp: 80 },
         weightkg: 15,
         abilities: { 0: 'Aftermath' }
     },
     Drifloon: {
-        types: ['Fantasma', 'Volador'],
+        types: ['Ghost', 'Flying'],
         bs: { hp: 90, at: 50, df: 34, sa: 60, sd: 44, sp: 70 },
         weightkg: 1.2,
         nfe: true,
         abilities: { 0: 'Aftermath' }
     },
     Duohm: {
-        types: ['Eléctrico', 'Dragón'],
+        types: ['Electric', 'Dragon'],
         bs: { hp: 88, at: 40, df: 103, sa: 77, sd: 60, sp: 60 },
         weightkg: 19.2,
         nfe: true,
         abilities: { 0: 'Shield Dust' }
     },
     Dusknoir: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 45, at: 100, df: 135, sa: 65, sd: 135, sp: 45 },
         weightkg: 106.6,
         abilities: { 0: 'Pressure' }
     },
     Electivire: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 75, at: 123, df: 67, sa: 95, sd: 85, sp: 95 },
         weightkg: 138.6,
         abilities: { 0: 'Motor Drive' }
     },
     Embirch: {
-        types: ['Fuego', 'Planta'],
+        types: ['Fire', 'Grass'],
         bs: { hp: 60, at: 40, df: 55, sa: 65, sd: 40, sp: 60 },
         weightkg: 15,
         nfe: true,
         abilities: { 0: 'Reckless' }
     },
     Empoleon: {
-        types: ['Agua', 'Acero'],
+        types: ['Water', 'Steel'],
         bs: { hp: 84, at: 86, df: 88, sa: 111, sd: 101, sp: 60 },
         weightkg: 84.5,
         abilities: { 0: 'Torrent' }
     },
     Fidgit: {
-        types: ['Veneno', 'Tierra'],
+        types: ['Poison', 'Ground'],
         bs: { hp: 95, at: 76, df: 109, sa: 90, sd: 80, sp: 105 },
         weightkg: 53,
         abilities: { 0: 'Persistent' }
     },
     Finneon: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 49, at: 49, df: 56, sa: 49, sd: 61, sp: 66 },
         weightkg: 7,
         nfe: true,
         abilities: { 0: 'Swift Swim' }
     },
     Flarelm: {
-        types: ['Fuego', 'Planta'],
+        types: ['Fire', 'Grass'],
         bs: { hp: 90, at: 50, df: 95, sa: 75, sd: 70, sp: 40 },
         weightkg: 73,
         nfe: true,
         abilities: { 0: 'Rock Head' }
     },
     Floatzel: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 85, at: 105, df: 55, sa: 85, sd: 50, sp: 115 },
         weightkg: 33.5,
         abilities: { 0: 'Swift Swim' }
     },
     Froslass: {
-        types: ['Hielo', 'Fantasma'],
+        types: ['Ice', 'Ghost'],
         bs: { hp: 70, at: 80, df: 70, sa: 80, sd: 70, sp: 110 },
         weightkg: 26.6,
         abilities: { 0: 'Snow Cloak' }
     },
     Gabite: {
-        types: ['Dragón', 'Tierra'],
+        types: ['Dragon', 'Ground'],
         bs: { hp: 68, at: 90, df: 65, sa: 50, sd: 55, sp: 82 },
         weightkg: 56,
         nfe: true,
         abilities: { 0: 'Sand Veil' }
     },
     Gallade: {
-        types: ['Psíquico', 'Lucha'],
+        types: ['Psychic', 'Fighting'],
         bs: { hp: 68, at: 125, df: 65, sa: 65, sd: 115, sp: 80 },
         weightkg: 52,
         abilities: { 0: 'Steadfast' }
     },
     Garchomp: {
-        types: ['Dragón', 'Tierra'],
+        types: ['Dragon', 'Ground'],
         bs: { hp: 108, at: 130, df: 95, sa: 80, sd: 85, sp: 102 },
         weightkg: 95,
         abilities: { 0: 'Sand Veil' }
     },
     Gastrodon: {
-        types: ['Agua', 'Tierra'],
+        types: ['Water', 'Ground'],
         bs: { hp: 111, at: 83, df: 68, sa: 92, sd: 82, sp: 39 },
         weightkg: 29.9,
         abilities: { 0: 'Sticky Hold' }
     },
     Gible: {
-        types: ['Dragón', 'Tierra'],
+        types: ['Dragon', 'Ground'],
         bs: { hp: 58, at: 70, df: 45, sa: 40, sd: 45, sp: 42 },
         weightkg: 20.5,
         nfe: true,
         abilities: { 0: 'Sand Veil' }
     },
     Giratina: {
-        types: ['Fantasma', 'Dragón'],
+        types: ['Ghost', 'Dragon'],
         bs: { hp: 150, at: 100, df: 120, sa: 100, sd: 120, sp: 90 },
         weightkg: 750,
         gender: 'N',
@@ -3215,7 +3215,7 @@ var DPP_PATCH = {
         abilities: { 0: 'Pressure' }
     },
     'Giratina-Origin': {
-        types: ['Fantasma', 'Dragón'],
+        types: ['Ghost', 'Dragon'],
         bs: { hp: 150, at: 120, df: 100, sa: 120, sd: 100, sp: 90 },
         weightkg: 650,
         gender: 'N',
@@ -3223,7 +3223,7 @@ var DPP_PATCH = {
         baseSpecies: 'Giratina'
     },
     Glaceon: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 65, at: 60, df: 110, sa: 130, sd: 95, sp: 65 },
         weightkg: 25.9,
         abilities: { 0: 'Snow Cloak' }
@@ -3236,13 +3236,13 @@ var DPP_PATCH = {
         abilities: { 0: 'Limber' }
     },
     Gliscor: {
-        types: ['Tierra', 'Volador'],
+        types: ['Ground', 'Flying'],
         bs: { hp: 75, at: 95, df: 125, sa: 45, sd: 75, sp: 95 },
         weightkg: 42.5,
         abilities: { 0: 'Hyper Cutter' }
     },
     Grotle: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 75, at: 89, df: 85, sa: 55, sd: 65, sp: 36 },
         weightkg: 97,
         nfe: true,
@@ -3256,63 +3256,63 @@ var DPP_PATCH = {
         abilities: { 0: 'Natural Cure' }
     },
     Heatran: {
-        types: ['Fuego', 'Acero'],
+        types: ['Fire', 'Steel'],
         bs: { hp: 91, at: 90, df: 106, sa: 130, sd: 106, sp: 77 },
         weightkg: 430,
         abilities: { 0: 'Flash Fire' }
     },
     Hippopotas: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 68, at: 72, df: 78, sa: 38, sd: 42, sp: 32 },
         weightkg: 49.5,
         nfe: true,
         abilities: { 0: 'Sand Stream' }
     },
     Hippowdon: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 108, at: 112, df: 118, sa: 68, sd: 72, sp: 47 },
         weightkg: 300,
         abilities: { 0: 'Sand Stream' }
     },
     Honchkrow: {
-        types: ['Siniestro', 'Volador'],
+        types: ['Dark', 'Flying'],
         bs: { hp: 100, at: 125, df: 52, sa: 105, sd: 52, sp: 71 },
         weightkg: 27.3,
         abilities: { 0: 'Insomnia' }
     },
     Infernape: {
-        types: ['Fuego', 'Lucha'],
+        types: ['Fire', 'Fighting'],
         bs: { hp: 76, at: 104, df: 71, sa: 104, sd: 71, sp: 108 },
         weightkg: 55,
         abilities: { 0: 'Blaze' }
     },
     Kitsunoh: {
-        types: ['Fantasma', 'Acero'],
+        types: ['Ghost', 'Steel'],
         bs: { hp: 80, at: 103, df: 85, sa: 55, sd: 80, sp: 110 },
         weightkg: 51,
         abilities: { 0: 'Frisk' }
     },
     Kricketot: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 37, at: 25, df: 41, sa: 25, sd: 41, sp: 25 },
         weightkg: 2.2,
         nfe: true,
         abilities: { 0: 'Shed Skin' }
     },
     Kricketune: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 77, at: 85, df: 51, sa: 55, sd: 51, sp: 65 },
         weightkg: 25.5,
         abilities: { 0: 'Swarm' }
     },
     Krilowatt: {
-        types: ['Eléctrico', 'Agua'],
+        types: ['Electric', 'Water'],
         bs: { hp: 151, at: 84, df: 73, sa: 83, sd: 74, sp: 105 },
         weightkg: 10.6,
         abilities: { 0: 'Trace' }
     },
     Leafeon: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 65, at: 110, df: 130, sa: 60, sd: 65, sp: 95 },
         weightkg: 25.5,
         abilities: { 0: 'Leaf Guard' }
@@ -3330,99 +3330,99 @@ var DPP_PATCH = {
         abilities: { 0: 'Cute Charm' }
     },
     Lucario: {
-        types: ['Lucha', 'Acero'],
+        types: ['Fighting', 'Steel'],
         bs: { hp: 70, at: 110, df: 70, sa: 115, sd: 70, sp: 90 },
         weightkg: 54,
         abilities: { 0: 'Steadfast' }
     },
     Lumineon: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 69, at: 69, df: 76, sa: 69, sd: 86, sp: 91 },
         weightkg: 24,
         abilities: { 0: 'Swift Swim' }
     },
     Luxio: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 60, at: 85, df: 49, sa: 60, sd: 49, sp: 60 },
         weightkg: 30.5,
         nfe: true,
         abilities: { 0: 'Rivalry' }
     },
     Luxray: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 80, at: 120, df: 79, sa: 95, sd: 79, sp: 70 },
         weightkg: 42,
         abilities: { 0: 'Rivalry' }
     },
     Magmortar: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 75, at: 95, df: 67, sa: 125, sd: 95, sp: 83 },
         weightkg: 68,
         abilities: { 0: 'Flame Body' }
     },
     Magnezone: {
-        types: ['Eléctrico', 'Acero'],
+        types: ['Electric', 'Steel'],
         bs: { hp: 70, at: 70, df: 115, sa: 130, sd: 90, sp: 60 },
         weightkg: 180,
         gender: 'N',
         abilities: { 0: 'Magnet Pull' }
     },
     Mamoswine: {
-        types: ['Hielo', 'Tierra'],
+        types: ['Ice', 'Ground'],
         bs: { hp: 110, at: 130, df: 80, sa: 70, sd: 60, sp: 80 },
         weightkg: 291,
         abilities: { 0: 'Oblivious' }
     },
     Manaphy: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 },
         weightkg: 1.4,
         abilities: { 0: 'Hydration' },
         gender: 'N'
     },
     Mantyke: {
-        types: ['Agua', 'Volador'],
+        types: ['Water', 'Flying'],
         bs: { hp: 45, at: 20, df: 50, sa: 60, sd: 120, sp: 50 },
         weightkg: 65,
         nfe: true,
         abilities: { 0: 'Swift Swim' }
     },
     Mesprit: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 80, at: 105, df: 105, sa: 105, sd: 105, sp: 80 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N'
     },
     'Mime Jr.': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 20, at: 25, df: 45, sa: 70, sd: 90, sp: 60 },
         weightkg: 13,
         nfe: true,
         abilities: { 0: 'Soundproof' }
     },
     Mismagius: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 60, at: 60, df: 60, sa: 105, sd: 105, sp: 105 },
         weightkg: 4.4,
         abilities: { 0: 'Levitate' }
     },
     Monferno: {
-        types: ['Fuego', 'Lucha'],
+        types: ['Fire', 'Fighting'],
         bs: { hp: 64, at: 78, df: 52, sa: 78, sd: 52, sp: 81 },
         weightkg: 22,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Monohm: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 53, at: 40, df: 58, sa: 67, sd: 55, sp: 55 },
         weightkg: 4.1,
         nfe: true,
         abilities: { 0: 'Shield Dust' }
     },
     Mothim: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 70, at: 94, df: 50, sa: 94, sd: 50, sp: 66 },
         weightkg: 23.3,
         abilities: { 0: 'Swarm' }
@@ -3435,41 +3435,41 @@ var DPP_PATCH = {
         abilities: { 0: 'Pickup' }
     },
     Nohface: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 50, at: 73, df: 50, sa: 30, sd: 50, sp: 80 },
         weightkg: 5.9,
         nfe: true,
         abilities: { 0: 'Frisk' }
     },
     Pachirisu: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 60, at: 45, df: 70, sa: 45, sd: 90, sp: 95 },
         weightkg: 3.9,
         abilities: { 0: 'Run Away' }
     },
     Palkia: {
-        types: ['Agua', 'Dragón'],
+        types: ['Water', 'Dragon'],
         bs: { hp: 90, at: 120, df: 100, sa: 150, sd: 120, sp: 100 },
         weightkg: 336,
         gender: 'N',
         abilities: { 0: 'Pressure' }
     },
     Phione: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 80, at: 80, df: 80, sa: 80, sd: 80, sp: 80 },
         weightkg: 3.1,
         abilities: { 0: 'Hydration' },
         gender: 'N'
     },
     'Pichu-Spiky-eared': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 20, at: 40, df: 15, sa: 35, sd: 35, sp: 60 },
         weightkg: 2,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pichu'
     },
     Piplup: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 53, at: 51, df: 53, sa: 61, sd: 56, sp: 40 },
         weightkg: 5.2,
         nfe: true,
@@ -3483,27 +3483,27 @@ var DPP_PATCH = {
         abilities: { 0: 'Adaptability' }
     },
     Prinplup: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 64, at: 66, df: 68, sa: 81, sd: 76, sp: 50 },
         weightkg: 23,
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
     Privatyke: {
-        types: ['Agua', 'Lucha'],
+        types: ['Water', 'Fighting'],
         bs: { hp: 65, at: 75, df: 65, sa: 40, sd: 60, sp: 45 },
         weightkg: 35,
         nfe: true,
         abilities: { 0: 'Unaware' }
     },
     Probopass: {
-        types: ['Roca', 'Acero'],
+        types: ['Rock', 'Steel'],
         bs: { hp: 60, at: 55, df: 145, sa: 75, sd: 150, sp: 40 },
         weightkg: 340,
         abilities: { 0: 'Sturdy' }
     },
     Protowatt: {
-        types: ['Eléctrico', 'Agua'],
+        types: ['Electric', 'Water'],
         bs: { hp: 51, at: 44, df: 33, sa: 43, sd: 34, sp: 65 },
         weightkg: 0.1,
         nfe: true,
@@ -3516,19 +3516,19 @@ var DPP_PATCH = {
         abilities: { 0: 'Thick Fat' }
     },
     Pyroak: {
-        types: ['Fuego', 'Planta'],
+        types: ['Fire', 'Grass'],
         bs: { hp: 120, at: 70, df: 105, sa: 95, sd: 90, sp: 60 },
         weightkg: 168,
         abilities: { 0: 'Rock Head' }
     },
     Rampardos: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 97, at: 165, df: 60, sa: 65, sd: 50, sp: 58 },
         weightkg: 102.5,
         abilities: { 0: 'Mold Breaker' }
     },
     Rebble: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 45, at: 25, df: 65, sa: 75, sd: 55, sp: 80 },
         weightkg: 7,
         nfe: true,
@@ -3543,32 +3543,32 @@ var DPP_PATCH = {
         gender: 'N'
     },
     Revenankh: {
-        types: ['Fantasma', 'Lucha'],
+        types: ['Ghost', 'Fighting'],
         bs: { hp: 90, at: 105, df: 90, sa: 65, sd: 110, sp: 65 },
         weightkg: 44,
         abilities: { 0: 'Shed Skin' }
     },
     Rhyperior: {
-        types: ['Tierra', 'Roca'],
+        types: ['Ground', 'Rock'],
         bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
         weightkg: 282.8,
         abilities: { 0: 'Lightning Rod' }
     },
     Riolu: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 40, at: 70, df: 40, sa: 35, sd: 40, sp: 60 },
         weightkg: 20.2,
         nfe: true,
         abilities: { 0: 'Steadfast' }
     },
     Roserade: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 60, at: 70, df: 55, sa: 125, sd: 105, sp: 90 },
         weightkg: 14.5,
         abilities: { 0: 'Natural Cure' }
     },
     Rotom: {
-        types: ['Eléctrico', 'Fantasma'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
@@ -3576,7 +3576,7 @@ var DPP_PATCH = {
         otherFormes: ['Rotom-Fan', 'Rotom-Frost', 'Rotom-Heat', 'Rotom-Mow', 'Rotom-Wash']
     },
     'Rotom-Mow': {
-        types: ['Eléctrico', 'Fantasma'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
@@ -3584,7 +3584,7 @@ var DPP_PATCH = {
         baseSpecies: 'Rotom'
     },
     'Rotom-Frost': {
-        types: ['Eléctrico', 'Fantasma'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
@@ -3592,7 +3592,7 @@ var DPP_PATCH = {
         baseSpecies: 'Rotom'
     },
     'Rotom-Heat': {
-        types: ['Eléctrico', 'Fantasma'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
@@ -3600,7 +3600,7 @@ var DPP_PATCH = {
         baseSpecies: 'Rotom'
     },
     'Rotom-Fan': {
-        types: ['Eléctrico', 'Fantasma'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
@@ -3608,7 +3608,7 @@ var DPP_PATCH = {
         baseSpecies: 'Rotom'
     },
     'Rotom-Wash': {
-        types: ['Eléctrico', 'Fantasma'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
@@ -3616,7 +3616,7 @@ var DPP_PATCH = {
         baseSpecies: 'Rotom'
     },
     Shaymin: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 },
         weightkg: 2.1,
         abilities: { 0: 'Natural Cure' },
@@ -3624,7 +3624,7 @@ var DPP_PATCH = {
         otherFormes: ['Shaymin-Sky']
     },
     'Shaymin-Sky': {
-        types: ['Planta', 'Volador'],
+        types: ['Grass', 'Flying'],
         bs: { hp: 100, at: 103, df: 75, sa: 120, sd: 75, sp: 127 },
         weightkg: 5.2,
         abilities: { 0: 'Serene Grace' },
@@ -3632,101 +3632,101 @@ var DPP_PATCH = {
         baseSpecies: 'Shaymin'
     },
     Shellos: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 76, at: 48, df: 48, sa: 57, sd: 62, sp: 34 },
         weightkg: 6.3,
         nfe: true,
         abilities: { 0: 'Sticky Hold' }
     },
     Shieldon: {
-        types: ['Roca', 'Acero'],
+        types: ['Rock', 'Steel'],
         bs: { hp: 30, at: 42, df: 118, sa: 42, sd: 88, sp: 30 },
         weightkg: 57,
         nfe: true,
         abilities: { 0: 'Sturdy' }
     },
     Shinx: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 45, at: 65, df: 34, sa: 40, sd: 34, sp: 45 },
         weightkg: 9.5,
         nfe: true,
         abilities: { 0: 'Rivalry' }
     },
     Skorupi: {
-        types: ['Veneno', 'Bicho'],
+        types: ['Poison', 'Bug'],
         bs: { hp: 40, at: 50, df: 90, sa: 30, sd: 55, sp: 65 },
         weightkg: 12,
         nfe: true,
         abilities: { 0: 'Battle Armor' }
     },
     Skuntank: {
-        types: ['Veneno', 'Siniestro'],
+        types: ['Poison', 'Dark'],
         bs: { hp: 103, at: 93, df: 67, sa: 71, sd: 61, sp: 84 },
         weightkg: 38,
         abilities: { 0: 'Stench' }
     },
     Snover: {
-        types: ['Planta', 'Hielo'],
+        types: ['Grass', 'Ice'],
         bs: { hp: 60, at: 62, df: 50, sa: 62, sd: 60, sp: 40 },
         weightkg: 50.5,
         nfe: true,
         abilities: { 0: 'Snow Warning' }
     },
     Spiritomb: {
-        types: ['Fantasma', 'Siniestro'],
+        types: ['Ghost', 'Dark'],
         bs: { hp: 50, at: 92, df: 108, sa: 92, sd: 108, sp: 35 },
         weightkg: 108,
         abilities: { 0: 'Pressure' }
     },
     Staraptor: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 85, at: 120, df: 70, sa: 50, sd: 50, sp: 100 },
         weightkg: 24.9,
         abilities: { 0: 'Intimidate' }
     },
     Staravia: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 55, at: 75, df: 50, sa: 40, sd: 40, sp: 80 },
         weightkg: 15.5,
         nfe: true,
         abilities: { 0: 'Intimidate' }
     },
     Starly: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 40, at: 55, df: 30, sa: 30, sd: 30, sp: 60 },
         weightkg: 2,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
     },
     Stratagem: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 90, at: 60, df: 65, sa: 120, sd: 70, sp: 130 },
         weightkg: 45,
         gender: 'N',
         abilities: { 0: 'Levitate' }
     },
     Stunky: {
-        types: ['Veneno', 'Siniestro'],
+        types: ['Poison', 'Dark'],
         bs: { hp: 63, at: 63, df: 47, sa: 41, sd: 41, sp: 74 },
         weightkg: 19.2,
         nfe: true,
         abilities: { 0: 'Stench' }
     },
     Syclant: {
-        types: ['Hielo', 'Bicho'],
+        types: ['Ice', 'Bug'],
         bs: { hp: 70, at: 116, df: 70, sa: 114, sd: 64, sp: 121 },
         weightkg: 52,
         abilities: { 0: 'Compound Eyes' }
     },
     Syclar: {
-        types: ['Hielo', 'Bicho'],
+        types: ['Ice', 'Bug'],
         bs: { hp: 40, at: 76, df: 45, sa: 74, sd: 39, sp: 91 },
         weightkg: 4,
         nfe: true,
         abilities: { 0: 'Compound Eyes' }
     },
     Tactite: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 70, at: 40, df: 65, sa: 100, sd: 65, sp: 95 },
         weightkg: 16,
         nfe: true,
@@ -3734,91 +3734,91 @@ var DPP_PATCH = {
         abilities: { 0: 'Levitate' }
     },
     Tangrowth: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 100, at: 100, df: 125, sa: 110, sd: 50, sp: 50 },
         weightkg: 128.6,
         abilities: { 0: 'Chlorophyll' }
     },
     Togekiss: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 85, at: 50, df: 95, sa: 120, sd: 115, sp: 80 },
         weightkg: 38,
         abilities: { 0: 'Hustle' }
     },
     Torterra: {
-        types: ['Planta', 'Tierra'],
+        types: ['Grass', 'Ground'],
         bs: { hp: 95, at: 109, df: 105, sa: 75, sd: 85, sp: 56 },
         weightkg: 310,
         abilities: { 0: 'Overgrow' }
     },
     Toxicroak: {
-        types: ['Veneno', 'Lucha'],
+        types: ['Poison', 'Fighting'],
         bs: { hp: 83, at: 106, df: 65, sa: 86, sd: 65, sp: 85 },
         weightkg: 44.4,
         abilities: { 0: 'Anticipation' }
     },
     Turtwig: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 55, at: 68, df: 64, sa: 45, sd: 55, sp: 31 },
         weightkg: 10.2,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Uxie: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 75, at: 75, df: 130, sa: 75, sd: 130, sp: 95 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N'
     },
     Vespiquen: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 70, at: 80, df: 102, sa: 80, sd: 102, sp: 40 },
         weightkg: 38.5,
         abilities: { 0: 'Pressure' }
     },
     Voodoll: {
-        types: ['Normal', 'Siniestro'],
+        types: ['Normal', 'Dark'],
         bs: { hp: 55, at: 40, df: 55, sa: 75, sd: 50, sp: 70 },
         weightkg: 25,
         nfe: true,
         abilities: { 0: 'Volt Absorb' }
     },
     Voodoom: {
-        types: ['Lucha', 'Siniestro'],
+        types: ['Fighting', 'Dark'],
         bs: { hp: 90, at: 85, df: 80, sa: 105, sd: 80, sp: 110 },
         weightkg: 75.5,
         abilities: { 0: 'Volt Absorb' }
     },
     Weavile: {
-        types: ['Siniestro', 'Hielo'],
+        types: ['Dark', 'Ice'],
         bs: { hp: 70, at: 120, df: 65, sa: 45, sd: 85, sp: 125 },
         weightkg: 34,
         abilities: { 0: 'Pressure' }
     },
     Wormadam: {
-        types: ['Bicho', 'Planta'],
+        types: ['Bug', 'Grass'],
         bs: { hp: 60, at: 59, df: 85, sa: 79, sd: 105, sp: 36 },
         weightkg: 6.5,
         abilities: { 0: 'Anticipation' },
         otherFormes: ['Wormadam-Sandy', 'Wormadam-Trash']
     },
     'Wormadam-Sandy': {
-        types: ['Bicho', 'Tierra'],
+        types: ['Bug', 'Ground'],
         bs: { hp: 60, at: 79, df: 105, sa: 59, sd: 85, sp: 36 },
         weightkg: 6.5,
         abilities: { 0: 'Anticipation' },
         baseSpecies: 'Wormadam'
     },
     'Wormadam-Trash': {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 60, at: 69, df: 95, sa: 69, sd: 95, sp: 36 },
         weightkg: 6.5,
         abilities: { 0: 'Anticipation' },
         baseSpecies: 'Wormadam'
     },
     Yanmega: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 86, at: 76, df: 86, sa: 116, sd: 56, sp: 95 },
         weightkg: 51.5,
         abilities: { 0: 'Speed Boost' }
@@ -3826,44 +3826,44 @@ var DPP_PATCH = {
 };
 var DPP = (0, util_1.extend)(true, {}, ADV, DPP_PATCH);
 var BW_PATCH = {
-    'Rotom-Fan': { types: ['Eléctrico', 'Volador'] },
-    'Rotom-Frost': { types: ['Eléctrico', 'Hielo'] },
-    'Rotom-Heat': { types: ['Eléctrico', 'Fuego'] },
-    'Rotom-Mow': { types: ['Eléctrico', 'Planta'] },
-    'Rotom-Wash': { types: ['Eléctrico', 'Agua'] },
+    'Rotom-Fan': { types: ['Electric', 'Flying'] },
+    'Rotom-Frost': { types: ['Electric', 'Ice'] },
+    'Rotom-Heat': { types: ['Electric', 'Fire'] },
+    'Rotom-Mow': { types: ['Electric', 'Grass'] },
+    'Rotom-Wash': { types: ['Electric', 'Water'] },
     Accelgor: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 80, at: 70, df: 40, sa: 100, sd: 60, sp: 145 },
         weightkg: 25.3,
         abilities: { 0: 'Hydration' }
     },
     Alomomola: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 165, at: 75, df: 80, sa: 40, sd: 45, sp: 65 },
         weightkg: 31.6,
         abilities: { 0: 'Healer' }
     },
     Amoonguss: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 114, at: 85, df: 70, sa: 85, sd: 80, sp: 30 },
         weightkg: 10.5,
         abilities: { 0: 'Effect Spore' }
     },
     Archen: {
-        types: ['Roca', 'Volador'],
+        types: ['Rock', 'Flying'],
         bs: { hp: 55, at: 112, df: 45, sa: 74, sd: 45, sp: 70 },
         weightkg: 9.5,
         abilities: { 0: 'Defeatist' },
         nfe: true
     },
     Archeops: {
-        types: ['Roca', 'Volador'],
+        types: ['Rock', 'Flying'],
         bs: { hp: 75, at: 140, df: 65, sa: 112, sd: 65, sp: 110 },
         weightkg: 32,
         abilities: { 0: 'Defeatist' }
     },
     Argalis: {
-        types: ['Bicho', 'Psíquico'],
+        types: ['Bug', 'Psychic'],
         bs: { hp: 60, at: 90, df: 89, sa: 87, sd: 40, sp: 54 },
         weightkg: 341.4,
         nfe: true,
@@ -3876,59 +3876,59 @@ var BW_PATCH = {
         abilities: { 0: 'Healer' }
     },
     Aurumoth: {
-        types: ['Bicho', 'Psíquico'],
+        types: ['Bug', 'Psychic'],
         bs: { hp: 110, at: 120, df: 99, sa: 117, sd: 60, sp: 94 },
         weightkg: 193,
         abilities: { 0: 'Weak Armor' }
     },
     Axew: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 46, at: 87, df: 60, sa: 30, sd: 40, sp: 57 },
         weightkg: 18,
         nfe: true,
         abilities: { 0: 'Rivalry' }
     },
     Basculin: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 70, at: 92, df: 65, sa: 80, sd: 55, sp: 98 },
         weightkg: 18,
         abilities: { 0: 'Reckless' },
         otherFormes: ['Basculin-Blue-Striped']
     },
     'Basculin-Blue-Striped': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 70, at: 92, df: 65, sa: 80, sd: 55, sp: 98 },
         weightkg: 18,
         abilities: { 0: 'Rock Head' },
         baseSpecies: 'Basculin'
     },
     Beartic: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 95, at: 110, df: 80, sa: 70, sd: 80, sp: 50 },
         weightkg: 260,
         abilities: { 0: 'Snow Cloak' }
     },
     Beheeyem: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 75, at: 75, df: 75, sa: 125, sd: 95, sp: 40 },
         weightkg: 34.5,
         abilities: { 0: 'Telepathy' }
     },
     Bisharp: {
-        types: ['Siniestro', 'Acero'],
+        types: ['Dark', 'Steel'],
         bs: { hp: 65, at: 125, df: 100, sa: 60, sd: 70, sp: 70 },
         weightkg: 70,
         abilities: { 0: 'Defiant' }
     },
     Blitzle: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 45, at: 60, df: 32, sa: 50, sd: 32, sp: 76 },
         weightkg: 29.8,
         nfe: true,
         abilities: { 0: 'Lightning Rod' }
     },
     Boldore: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 70, at: 105, df: 105, sa: 50, sd: 40, sp: 20 },
         weightkg: 102,
         nfe: true,
@@ -3941,39 +3941,39 @@ var BW_PATCH = {
         abilities: { 0: 'Reckless' }
     },
     Brattler: {
-        types: ['Siniestro', 'Planta'],
+        types: ['Dark', 'Grass'],
         bs: { hp: 80, at: 70, df: 40, sa: 20, sd: 90, sp: 30 },
         weightkg: 11.5,
         nfe: true,
         abilities: { 0: 'Harvest' }
     },
     Braviary: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 100, at: 123, df: 75, sa: 57, sd: 75, sp: 80 },
         weightkg: 41,
         abilities: { 0: 'Keen Eye' }
     },
     Carracosta: {
-        types: ['Agua', 'Roca'],
+        types: ['Water', 'Rock'],
         bs: { hp: 74, at: 108, df: 133, sa: 83, sd: 65, sp: 32 },
         weightkg: 81,
         abilities: { 0: 'Solid Rock' }
     },
     Cawdet: {
-        types: ['Acero', 'Volador'],
+        types: ['Steel', 'Flying'],
         bs: { hp: 35, at: 72, df: 85, sa: 40, sd: 55, sp: 88 },
         weightkg: 25,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
     },
     Cawmodore: {
-        types: ['Acero', 'Volador'],
+        types: ['Steel', 'Flying'],
         bs: { hp: 50, at: 92, df: 130, sa: 65, sd: 75, sp: 118 },
         weightkg: 37,
         abilities: { 0: 'Intimidate' }
     },
     Chandelure: {
-        types: ['Fantasma', 'Fuego'],
+        types: ['Ghost', 'Fire'],
         bs: { hp: 60, at: 55, df: 90, sa: 145, sd: 90, sp: 80 },
         weightkg: 34.3,
         abilities: { 0: 'Flash Fire' }
@@ -3985,232 +3985,232 @@ var BW_PATCH = {
         abilities: { 0: 'Cute Charm' }
     },
     Cobalion: {
-        types: ['Acero', 'Lucha'],
+        types: ['Steel', 'Fighting'],
         bs: { hp: 91, at: 90, df: 129, sa: 90, sd: 72, sp: 108 },
         weightkg: 250,
         abilities: { 0: 'Justified' },
         gender: 'N'
     },
     Cofagrigus: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 58, at: 50, df: 145, sa: 95, sd: 105, sp: 30 },
         weightkg: 76.5,
         abilities: { 0: 'Mummy' }
     },
     Conkeldurr: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 105, at: 140, df: 95, sa: 55, sd: 65, sp: 45 },
         weightkg: 87,
         abilities: { 0: 'Guts' }
     },
     Cottonee: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 40, at: 27, df: 60, sa: 37, sd: 50, sp: 66 },
         weightkg: 0.6,
         nfe: true,
         abilities: { 0: 'Prankster' }
     },
     Crustle: {
-        types: ['Bicho', 'Roca'],
+        types: ['Bug', 'Rock'],
         bs: { hp: 70, at: 95, df: 125, sa: 65, sd: 75, sp: 45 },
         weightkg: 200,
         abilities: { 0: 'Sturdy' }
     },
     Cryogonal: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 70, at: 50, df: 30, sa: 95, sd: 135, sp: 105 },
         weightkg: 148,
         abilities: { 0: 'Levitate' },
         gender: 'N'
     },
     Cubchoo: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 55, at: 70, df: 40, sa: 60, sd: 40, sp: 40 },
         weightkg: 8.5,
         nfe: true,
         abilities: { 0: 'Snow Cloak' }
     },
     Cupra: {
-        types: ['Bicho', 'Psíquico'],
+        types: ['Bug', 'Psychic'],
         bs: { hp: 50, at: 60, df: 49, sa: 67, sd: 30, sp: 44 },
         weightkg: 4.8,
         nfe: true,
         abilities: { 0: 'Shield Dust' }
     },
     Darmanitan: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 105, at: 140, df: 55, sa: 30, sd: 55, sp: 95 },
         weightkg: 92.9,
         abilities: { 0: 'Sheer Force' },
         otherFormes: ['Darmanitan-Zen']
     },
     'Darmanitan-Zen': {
-        types: ['Fuego', 'Psíquico'],
+        types: ['Fire', 'Psychic'],
         bs: { hp: 105, at: 30, df: 105, sa: 140, sd: 105, sp: 55 },
         weightkg: 92.9,
         baseSpecies: 'Darmanitan',
         abilities: { 0: 'Zen Mode' }
     },
     Darumaka: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 70, at: 90, df: 45, sa: 15, sd: 45, sp: 50 },
         weightkg: 37.5,
         nfe: true,
         abilities: { 0: 'Hustle' }
     },
     Deerling: {
-        types: ['Normal', 'Planta'],
+        types: ['Normal', 'Grass'],
         bs: { hp: 60, at: 60, df: 50, sa: 40, sd: 50, sp: 75 },
         weightkg: 19.5,
         nfe: true,
         abilities: { 0: 'Chlorophyll' }
     },
     Deino: {
-        types: ['Siniestro', 'Dragón'],
+        types: ['Dark', 'Dragon'],
         bs: { hp: 52, at: 65, df: 50, sa: 45, sd: 50, sp: 38 },
         weightkg: 17.3,
         abilities: { 0: 'Hustle' },
         nfe: true
     },
     Dewott: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 75, at: 75, df: 60, sa: 83, sd: 60, sp: 60 },
         weightkg: 24.5,
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
     Drilbur: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 60, at: 85, df: 40, sa: 30, sd: 45, sp: 68 },
         weightkg: 8.5,
         nfe: true,
         abilities: { 0: 'Sand Rush' }
     },
     Druddigon: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 77, at: 120, df: 90, sa: 60, sd: 90, sp: 48 },
         weightkg: 139,
         abilities: { 0: 'Rough Skin' }
     },
     Ducklett: {
-        types: ['Agua', 'Volador'],
+        types: ['Water', 'Flying'],
         bs: { hp: 62, at: 44, df: 50, sa: 44, sd: 50, sp: 55 },
         weightkg: 5.5,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
     },
     Duosion: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 65, at: 40, df: 50, sa: 125, sd: 60, sp: 30 },
         weightkg: 8,
         nfe: true,
         abilities: { 0: 'Overcoat' }
     },
     Durant: {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 58, at: 109, df: 112, sa: 48, sd: 48, sp: 109 },
         weightkg: 33,
         abilities: { 0: 'Swarm' }
     },
     Dwebble: {
-        types: ['Bicho', 'Roca'],
+        types: ['Bug', 'Rock'],
         bs: { hp: 50, at: 65, df: 85, sa: 35, sd: 35, sp: 55 },
         weightkg: 14.5,
         nfe: true,
         abilities: { 0: 'Sturdy' }
     },
     Eelektrik: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 65, at: 85, df: 70, sa: 75, sd: 70, sp: 40 },
         weightkg: 22,
         abilities: { 0: 'Levitate' },
         nfe: true
     },
     Eelektross: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 85, at: 115, df: 80, sa: 105, sd: 80, sp: 50 },
         weightkg: 80.5,
         abilities: { 0: 'Levitate' }
     },
     Elgyem: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 55, at: 55, df: 55, sa: 85, sd: 55, sp: 30 },
         weightkg: 9,
         nfe: true,
         abilities: { 0: 'Telepathy' }
     },
     Emboar: {
-        types: ['Fuego', 'Lucha'],
+        types: ['Fire', 'Fighting'],
         bs: { hp: 110, at: 123, df: 65, sa: 100, sd: 65, sp: 65 },
         weightkg: 150,
         abilities: { 0: 'Blaze' }
     },
     Emolga: {
-        types: ['Eléctrico', 'Volador'],
+        types: ['Electric', 'Flying'],
         bs: { hp: 55, at: 75, df: 60, sa: 75, sd: 60, sp: 103 },
         weightkg: 5,
         abilities: { 0: 'Static' }
     },
     Escavalier: {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 70, at: 135, df: 105, sa: 60, sd: 105, sp: 20 },
         weightkg: 33,
         abilities: { 0: 'Swarm' }
     },
     Excadrill: {
-        types: ['Tierra', 'Acero'],
+        types: ['Ground', 'Steel'],
         bs: { hp: 110, at: 135, df: 60, sa: 50, sd: 65, sp: 88 },
         weightkg: 40.4,
         abilities: { 0: 'Sand Rush' }
     },
     Ferroseed: {
-        types: ['Planta', 'Acero'],
+        types: ['Grass', 'Steel'],
         bs: { hp: 44, at: 50, df: 91, sa: 24, sd: 86, sp: 10 },
         weightkg: 18.8,
         nfe: true,
         abilities: { 0: 'Iron Barbs' }
     },
     Ferrothorn: {
-        types: ['Planta', 'Acero'],
+        types: ['Grass', 'Steel'],
         bs: { hp: 74, at: 94, df: 131, sa: 54, sd: 116, sp: 20 },
         weightkg: 110,
         abilities: { 0: 'Iron Barbs' }
     },
     Foongus: {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 69, at: 55, df: 45, sa: 55, sd: 55, sp: 15 },
         weightkg: 1,
         nfe: true,
         abilities: { 0: 'Effect Spore' }
     },
     Fraxure: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 66, at: 117, df: 70, sa: 40, sd: 50, sp: 67 },
         weightkg: 36,
         nfe: true,
         abilities: { 0: 'Rivalry' }
     },
     Frillish: {
-        types: ['Agua', 'Fantasma'],
+        types: ['Water', 'Ghost'],
         bs: { hp: 55, at: 40, df: 50, sa: 65, sd: 85, sp: 40 },
         weightkg: 33,
         nfe: true,
         abilities: { 0: 'Water Absorb' }
     },
     Galvantula: {
-        types: ['Bicho', 'Eléctrico'],
+        types: ['Bug', 'Electric'],
         bs: { hp: 70, at: 77, df: 60, sa: 97, sd: 60, sp: 108 },
         weightkg: 14.3,
         abilities: { 0: 'Compound Eyes' }
     },
     Garbodor: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 80, at: 95, df: 82, sa: 60, sd: 82, sp: 75 },
         weightkg: 107.3,
         abilities: { 0: 'Stench' }
     },
     Genesect: {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 71, at: 120, df: 95, sa: 120, sd: 95, sp: 99 },
         weightkg: 82.5,
         abilities: { 0: 'Download' },
@@ -4218,7 +4218,7 @@ var BW_PATCH = {
         otherFormes: ['Genesect-Burn', 'Genesect-Chill', 'Genesect-Douse', 'Genesect-Shock']
     },
     'Genesect-Burn': {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 71, at: 120, df: 95, sa: 120, sd: 95, sp: 99 },
         weightkg: 82.5,
         abilities: { 0: 'Download' },
@@ -4226,7 +4226,7 @@ var BW_PATCH = {
         baseSpecies: 'Genesect'
     },
     'Genesect-Chill': {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 71, at: 120, df: 95, sa: 120, sd: 95, sp: 99 },
         weightkg: 82.5,
         abilities: { 0: 'Download' },
@@ -4234,7 +4234,7 @@ var BW_PATCH = {
         baseSpecies: 'Genesect'
     },
     'Genesect-Douse': {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 71, at: 120, df: 95, sa: 120, sd: 95, sp: 99 },
         weightkg: 82.5,
         abilities: { 0: 'Download' },
@@ -4242,7 +4242,7 @@ var BW_PATCH = {
         baseSpecies: 'Genesect'
     },
     'Genesect-Shock': {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 71, at: 120, df: 95, sa: 120, sd: 95, sp: 99 },
         weightkg: 82.5,
         abilities: { 0: 'Download' },
@@ -4250,13 +4250,13 @@ var BW_PATCH = {
         baseSpecies: 'Genesect'
     },
     Gigalith: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 85, at: 135, df: 130, sa: 60, sd: 70, sp: 25 },
         weightkg: 260,
         abilities: { 0: 'Sturdy' }
     },
     Golett: {
-        types: ['Tierra', 'Fantasma'],
+        types: ['Ground', 'Ghost'],
         bs: { hp: 59, at: 74, df: 50, sa: 35, sd: 50, sp: 35 },
         weightkg: 92,
         nfe: true,
@@ -4264,47 +4264,47 @@ var BW_PATCH = {
         abilities: { 0: 'Iron Fist' }
     },
     Golurk: {
-        types: ['Tierra', 'Fantasma'],
+        types: ['Ground', 'Ghost'],
         bs: { hp: 89, at: 124, df: 80, sa: 55, sd: 80, sp: 55 },
         weightkg: 330,
         gender: 'N',
         abilities: { 0: 'Iron Fist' }
     },
     Gothita: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 45, at: 30, df: 50, sa: 55, sd: 65, sp: 45 },
         weightkg: 5.8,
         nfe: true,
         abilities: { 0: 'Frisk' }
     },
     Gothitelle: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 70, at: 55, df: 95, sa: 95, sd: 110, sp: 65 },
         weightkg: 44,
         abilities: { 0: 'Frisk' }
     },
     Gothorita: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 60, at: 45, df: 70, sa: 75, sd: 85, sp: 55 },
         weightkg: 18,
         nfe: true,
         abilities: { 0: 'Frisk' }
     },
     Gurdurr: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 85, at: 105, df: 85, sa: 40, sd: 50, sp: 40 },
         weightkg: 40,
         nfe: true,
         abilities: { 0: 'Guts' }
     },
     Haxorus: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 76, at: 147, df: 90, sa: 60, sd: 70, sp: 97 },
         weightkg: 105.5,
         abilities: { 0: 'Rivalry' }
     },
     Heatmor: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 85, at: 97, df: 66, sa: 105, sd: 66, sp: 65 },
         weightkg: 58,
         abilities: { 0: 'Gluttony' }
@@ -4317,33 +4317,33 @@ var BW_PATCH = {
         abilities: { 0: 'Intimidate' }
     },
     Hydreigon: {
-        types: ['Siniestro', 'Dragón'],
+        types: ['Dark', 'Dragon'],
         bs: { hp: 92, at: 105, df: 90, sa: 125, sd: 90, sp: 98 },
         weightkg: 160,
         abilities: { 0: 'Levitate' }
     },
     Jellicent: {
-        types: ['Agua', 'Fantasma'],
+        types: ['Water', 'Ghost'],
         bs: { hp: 100, at: 60, df: 70, sa: 85, sd: 105, sp: 60 },
         weightkg: 135,
         abilities: { 0: 'Water Absorb' }
     },
     Joltik: {
-        types: ['Bicho', 'Eléctrico'],
+        types: ['Bug', 'Electric'],
         bs: { hp: 50, at: 47, df: 50, sa: 57, sd: 50, sp: 65 },
         weightkg: 0.6,
         nfe: true,
         abilities: { 0: 'Compound Eyes' }
     },
     Karrablast: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 50, at: 75, df: 45, sa: 40, sd: 45, sp: 60 },
         weightkg: 5.9,
         nfe: true,
         abilities: { 0: 'Swarm' }
     },
     Keldeo: {
-        types: ['Agua', 'Lucha'],
+        types: ['Water', 'Fighting'],
         bs: { hp: 91, at: 72, df: 90, sa: 129, sd: 90, sp: 108 },
         weightkg: 48.5,
         abilities: { 0: 'Justified' },
@@ -4351,7 +4351,7 @@ var BW_PATCH = {
         otherFormes: ['Keldeo-Resolute']
     },
     'Keldeo-Resolute': {
-        types: ['Agua', 'Lucha'],
+        types: ['Water', 'Fighting'],
         bs: { hp: 91, at: 72, df: 90, sa: 129, sd: 90, sp: 108 },
         weightkg: 48.5,
         abilities: { 0: 'Justified' },
@@ -4359,7 +4359,7 @@ var BW_PATCH = {
         baseSpecies: 'Keldeo'
     },
     Klang: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 60, at: 80, df: 95, sa: 70, sd: 85, sp: 50 },
         weightkg: 51,
         nfe: true,
@@ -4367,7 +4367,7 @@ var BW_PATCH = {
         abilities: { 0: 'Plus' }
     },
     Klink: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 40, at: 55, df: 70, sa: 45, sd: 60, sp: 30 },
         weightkg: 21,
         nfe: true,
@@ -4375,27 +4375,27 @@ var BW_PATCH = {
         abilities: { 0: 'Plus' }
     },
     Klinklang: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 60, at: 100, df: 115, sa: 70, sd: 85, sp: 90 },
         weightkg: 81,
         gender: 'N',
         abilities: { 0: 'Plus' }
     },
     Krokorok: {
-        types: ['Tierra', 'Siniestro'],
+        types: ['Ground', 'Dark'],
         bs: { hp: 60, at: 82, df: 45, sa: 45, sd: 45, sp: 74 },
         weightkg: 33.4,
         nfe: true,
         abilities: { 0: 'Intimidate' }
     },
     Krookodile: {
-        types: ['Tierra', 'Siniestro'],
+        types: ['Ground', 'Dark'],
         bs: { hp: 95, at: 117, df: 70, sa: 65, sd: 70, sp: 92 },
         weightkg: 96.3,
         abilities: { 0: 'Intimidate' }
     },
     Kyurem: {
-        types: ['Dragón', 'Hielo'],
+        types: ['Dragon', 'Ice'],
         bs: { hp: 125, at: 130, df: 90, sa: 130, sd: 90, sp: 95 },
         weightkg: 325,
         abilities: { 0: 'Pressure' },
@@ -4403,7 +4403,7 @@ var BW_PATCH = {
         otherFormes: ['Kyurem-Black', 'Kyurem-White']
     },
     'Kyurem-Black': {
-        types: ['Dragón', 'Hielo'],
+        types: ['Dragon', 'Ice'],
         bs: { hp: 125, at: 170, df: 100, sa: 120, sd: 90, sp: 95 },
         weightkg: 325,
         abilities: { 0: 'Teravolt' },
@@ -4411,7 +4411,7 @@ var BW_PATCH = {
         baseSpecies: 'Kyurem'
     },
     'Kyurem-White': {
-        types: ['Dragón', 'Hielo'],
+        types: ['Dragon', 'Ice'],
         bs: { hp: 125, at: 120, df: 90, sa: 170, sd: 100, sp: 95 },
         weightkg: 325,
         abilities: { 0: 'Turboblaze' },
@@ -4419,47 +4419,47 @@ var BW_PATCH = {
         baseSpecies: 'Kyurem'
     },
     Lampent: {
-        types: ['Fantasma', 'Fuego'],
+        types: ['Ghost', 'Fire'],
         bs: { hp: 60, at: 40, df: 60, sa: 95, sd: 60, sp: 55 },
         weightkg: 13,
         nfe: true,
         abilities: { 0: 'Flash Fire' }
     },
     Landorus: {
-        types: ['Tierra', 'Volador'],
+        types: ['Ground', 'Flying'],
         bs: { hp: 89, at: 125, df: 90, sa: 115, sd: 80, sp: 101 },
         weightkg: 68,
         abilities: { 0: 'Sand Force' },
         otherFormes: ['Landorus-Therian']
     },
     'Landorus-Therian': {
-        types: ['Tierra', 'Volador'],
+        types: ['Ground', 'Flying'],
         bs: { hp: 89, at: 145, df: 90, sa: 105, sd: 80, sp: 91 },
         weightkg: 68,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Landorus'
     },
     Larvesta: {
-        types: ['Bicho', 'Fuego'],
+        types: ['Bug', 'Fire'],
         bs: { hp: 55, at: 85, df: 55, sa: 50, sd: 55, sp: 60 },
         weightkg: 28.8,
         nfe: true,
         abilities: { 0: 'Flame Body' }
     },
     Leavanny: {
-        types: ['Bicho', 'Planta'],
+        types: ['Bug', 'Grass'],
         bs: { hp: 75, at: 103, df: 80, sa: 70, sd: 70, sp: 92 },
         weightkg: 20.5,
         abilities: { 0: 'Swarm' }
     },
     Liepard: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 64, at: 88, df: 50, sa: 88, sd: 50, sp: 106 },
         weightkg: 37.5,
         abilities: { 0: 'Limber' }
     },
     Lilligant: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 70, at: 60, df: 75, sa: 110, sd: 75, sp: 90 },
         weightkg: 16.3,
         abilities: { 0: 'Chlorophyll' }
@@ -4472,32 +4472,32 @@ var BW_PATCH = {
         abilities: { 0: 'Vital Spirit' }
     },
     Litwick: {
-        types: ['Fantasma', 'Fuego'],
+        types: ['Ghost', 'Fire'],
         bs: { hp: 50, at: 30, df: 55, sa: 65, sd: 55, sp: 20 },
         weightkg: 3.1,
         nfe: true,
         abilities: { 0: 'Flash Fire' }
     },
     Malaconda: {
-        types: ['Siniestro', 'Planta'],
+        types: ['Dark', 'Grass'],
         bs: { hp: 115, at: 100, df: 60, sa: 40, sd: 130, sp: 55 },
         weightkg: 108.8,
         abilities: { 0: 'Harvest' }
     },
     Mandibuzz: {
-        types: ['Siniestro', 'Volador'],
+        types: ['Dark', 'Flying'],
         bs: { hp: 110, at: 65, df: 105, sa: 55, sd: 95, sp: 80 },
         weightkg: 39.5,
         abilities: { 0: 'Big Pecks' }
     },
     Maractus: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 75, at: 86, df: 67, sa: 106, sd: 67, sp: 60 },
         weightkg: 28,
         abilities: { 0: 'Water Absorb' }
     },
     Meloetta: {
-        types: ['Normal', 'Psíquico'],
+        types: ['Normal', 'Psychic'],
         bs: { hp: 100, at: 77, df: 77, sa: 128, sd: 128, sp: 90 },
         weightkg: 6.5,
         abilities: { 0: 'Serene Grace' },
@@ -4505,7 +4505,7 @@ var BW_PATCH = {
         gender: 'N'
     },
     'Meloetta-Pirouette': {
-        types: ['Normal', 'Lucha'],
+        types: ['Normal', 'Fighting'],
         bs: { hp: 100, at: 128, df: 90, sa: 77, sd: 77, sp: 128 },
         weightkg: 6.5,
         abilities: { 0: 'Serene Grace' },
@@ -4513,14 +4513,14 @@ var BW_PATCH = {
         gender: 'N'
     },
     Mienfoo: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 45, at: 85, df: 50, sa: 55, sd: 50, sp: 65 },
         weightkg: 20,
         nfe: true,
         abilities: { 0: 'Inner Focus' }
     },
     Mienshao: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 65, at: 125, df: 60, sa: 95, sd: 60, sp: 105 },
         weightkg: 35.5,
         abilities: { 0: 'Inner Focus' }
@@ -4533,67 +4533,67 @@ var BW_PATCH = {
         abilities: { 0: 'Cute Charm' }
     },
     Mollux: {
-        types: ['Fuego', 'Veneno'],
+        types: ['Fire', 'Poison'],
         bs: { hp: 95, at: 45, df: 83, sa: 131, sd: 105, sp: 76 },
         weightkg: 41,
         abilities: { 0: 'Dry Skin' }
     },
     Munna: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 76, at: 25, df: 45, sa: 67, sd: 55, sp: 24 },
         weightkg: 23.3,
         nfe: true,
         abilities: { 0: 'Forewarn' }
     },
     Musharna: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 116, at: 55, df: 85, sa: 107, sd: 95, sp: 29 },
         weightkg: 60.5,
         abilities: { 0: 'Forewarn' }
     },
     Necturine: {
-        types: ['Planta', 'Fantasma'],
+        types: ['Grass', 'Ghost'],
         bs: { hp: 49, at: 55, df: 60, sa: 50, sd: 75, sp: 51 },
         weightkg: 1.8,
         nfe: true,
         abilities: { 0: 'Anticipation' }
     },
     Necturna: {
-        types: ['Planta', 'Fantasma'],
+        types: ['Grass', 'Ghost'],
         bs: { hp: 64, at: 120, df: 100, sa: 85, sd: 120, sp: 81 },
         weightkg: 49.6,
         abilities: { 0: 'Forewarn' }
     },
     Oshawott: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 55, at: 55, df: 45, sa: 63, sd: 45, sp: 45 },
         weightkg: 5.9,
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
     Palpitoad: {
-        types: ['Agua', 'Tierra'],
+        types: ['Water', 'Ground'],
         bs: { hp: 75, at: 65, df: 55, sa: 65, sd: 55, sp: 69 },
         weightkg: 17,
         nfe: true,
         abilities: { 0: 'Swift Swim' }
     },
     Panpour: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 50, at: 53, df: 48, sa: 53, sd: 48, sp: 64 },
         weightkg: 13.5,
         nfe: true,
         abilities: { 0: 'Gluttony' }
     },
     Pansage: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 50, at: 53, df: 48, sa: 53, sd: 48, sp: 64 },
         weightkg: 10.5,
         nfe: true,
         abilities: { 0: 'Gluttony' }
     },
     Pansear: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 50, at: 53, df: 48, sa: 53, sd: 48, sp: 64 },
         weightkg: 11,
         nfe: true,
@@ -4607,184 +4607,184 @@ var BW_PATCH = {
         abilities: { 0: 'Run Away' }
     },
     Pawniard: {
-        types: ['Siniestro', 'Acero'],
+        types: ['Dark', 'Steel'],
         bs: { hp: 45, at: 85, df: 70, sa: 40, sd: 40, sp: 60 },
         weightkg: 10.2,
         nfe: true,
         abilities: { 0: 'Defiant' }
     },
     Petilil: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 45, at: 35, df: 50, sa: 70, sd: 50, sp: 30 },
         weightkg: 6.6,
         nfe: true,
         abilities: { 0: 'Chlorophyll' }
     },
     Pidove: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 50, at: 55, df: 50, sa: 36, sd: 30, sp: 43 },
         weightkg: 2.1,
         nfe: true,
         abilities: { 0: 'Big Pecks' }
     },
     Pignite: {
-        types: ['Fuego', 'Lucha'],
+        types: ['Fire', 'Fighting'],
         bs: { hp: 90, at: 93, df: 55, sa: 70, sd: 55, sp: 55 },
         weightkg: 55.5,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Purrloin: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 41, at: 50, df: 37, sa: 50, sd: 37, sp: 66 },
         weightkg: 10.1,
         nfe: true,
         abilities: { 0: 'Limber' }
     },
     Reshiram: {
-        types: ['Dragón', 'Fuego'],
+        types: ['Dragon', 'Fire'],
         bs: { hp: 100, at: 120, df: 100, sa: 150, sd: 120, sp: 90 },
         weightkg: 330,
         abilities: { 0: 'Turboblaze' },
         gender: 'N'
     },
     Reuniclus: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 110, at: 65, df: 75, sa: 125, sd: 85, sp: 30 },
         weightkg: 20.1,
         abilities: { 0: 'Overcoat' }
     },
     Roggenrola: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 55, at: 75, df: 85, sa: 25, sd: 25, sp: 15 },
         weightkg: 18,
         nfe: true,
         abilities: { 0: 'Sturdy' }
     },
     Rufflet: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 70, at: 83, df: 50, sa: 37, sd: 50, sp: 60 },
         weightkg: 10.5,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
     },
     Samurott: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 95, at: 100, df: 85, sa: 108, sd: 70, sp: 70 },
         weightkg: 94.6,
         abilities: { 0: 'Torrent' }
     },
     Sandile: {
-        types: ['Tierra', 'Siniestro'],
+        types: ['Ground', 'Dark'],
         bs: { hp: 50, at: 72, df: 35, sa: 35, sd: 35, sp: 65 },
         weightkg: 15.2,
         nfe: true,
         abilities: { 0: 'Intimidate' }
     },
     Sawk: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 75, at: 125, df: 75, sa: 30, sd: 75, sp: 85 },
         weightkg: 51,
         abilities: { 0: 'Sturdy' }
     },
     Sawsbuck: {
-        types: ['Normal', 'Planta'],
+        types: ['Normal', 'Grass'],
         bs: { hp: 80, at: 100, df: 70, sa: 60, sd: 70, sp: 95 },
         weightkg: 92.5,
         abilities: { 0: 'Chlorophyll' }
     },
     Scolipede: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 60, at: 90, df: 89, sa: 55, sd: 69, sp: 112 },
         weightkg: 200.5,
         abilities: { 0: 'Poison Point' }
     },
     Scrafty: {
-        types: ['Siniestro', 'Lucha'],
+        types: ['Dark', 'Fighting'],
         bs: { hp: 65, at: 90, df: 115, sa: 45, sd: 115, sp: 58 },
         weightkg: 30,
         abilities: { 0: 'Shed Skin' }
     },
     Scraggy: {
-        types: ['Siniestro', 'Lucha'],
+        types: ['Dark', 'Fighting'],
         bs: { hp: 50, at: 75, df: 70, sa: 35, sd: 70, sp: 48 },
         weightkg: 11.8,
         nfe: true,
         abilities: { 0: 'Shed Skin' }
     },
     Scratchet: {
-        types: ['Normal', 'Lucha'],
+        types: ['Normal', 'Fighting'],
         bs: { hp: 55, at: 85, df: 80, sa: 20, sd: 70, sp: 40 },
         weightkg: 20,
         nfe: true,
         abilities: { 0: 'Scrappy' }
     },
     Seismitoad: {
-        types: ['Agua', 'Tierra'],
+        types: ['Water', 'Ground'],
         bs: { hp: 105, at: 85, df: 75, sa: 85, sd: 75, sp: 74 },
         weightkg: 62,
         abilities: { 0: 'Swift Swim' }
     },
     Serperior: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 75, at: 75, df: 95, sa: 75, sd: 95, sp: 113 },
         weightkg: 63,
         abilities: { 0: 'Overgrow' }
     },
     Servine: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 60, at: 60, df: 75, sa: 60, sd: 75, sp: 83 },
         weightkg: 16,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Sewaddle: {
-        types: ['Bicho', 'Planta'],
+        types: ['Bug', 'Grass'],
         bs: { hp: 45, at: 53, df: 70, sa: 40, sd: 60, sp: 42 },
         weightkg: 2.5,
         nfe: true,
         abilities: { 0: 'Swarm' }
     },
     Shelmet: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 50, at: 40, df: 85, sa: 40, sd: 65, sp: 25 },
         weightkg: 7.7,
         nfe: true,
         abilities: { 0: 'Hydration' }
     },
     Sigilyph: {
-        types: ['Psíquico', 'Volador'],
+        types: ['Psychic', 'Flying'],
         bs: { hp: 72, at: 58, df: 80, sa: 103, sd: 80, sp: 97 },
         weightkg: 14,
         abilities: { 0: 'Wonder Skin' }
     },
     Simipour: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 75, at: 98, df: 63, sa: 98, sd: 63, sp: 101 },
         weightkg: 29,
         abilities: { 0: 'Gluttony' }
     },
     Simisage: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 75, at: 98, df: 63, sa: 98, sd: 63, sp: 101 },
         weightkg: 30.5,
         abilities: { 0: 'Gluttony' }
     },
     Simisear: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 75, at: 98, df: 63, sa: 98, sd: 63, sp: 101 },
         weightkg: 28,
         abilities: { 0: 'Gluttony' }
     },
     Snivy: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 45, at: 45, df: 55, sa: 45, sd: 55, sp: 63 },
         weightkg: 8.1,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Solosis: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 45, at: 30, df: 40, sa: 105, sd: 50, sp: 20 },
         weightkg: 1,
         nfe: true,
@@ -4797,181 +4797,181 @@ var BW_PATCH = {
         abilities: { 0: 'Intimidate' }
     },
     Stunfisk: {
-        types: ['Tierra', 'Eléctrico'],
+        types: ['Ground', 'Electric'],
         bs: { hp: 109, at: 66, df: 84, sa: 81, sd: 99, sp: 32 },
         weightkg: 11,
         abilities: { 0: 'Static' }
     },
     Swadloon: {
-        types: ['Bicho', 'Planta'],
+        types: ['Bug', 'Grass'],
         bs: { hp: 55, at: 63, df: 90, sa: 50, sd: 80, sp: 42 },
         weightkg: 7.3,
         nfe: true,
         abilities: { 0: 'Leaf Guard' }
     },
     Swanna: {
-        types: ['Agua', 'Volador'],
+        types: ['Water', 'Flying'],
         bs: { hp: 75, at: 87, df: 63, sa: 87, sd: 63, sp: 98 },
         weightkg: 24.2,
         abilities: { 0: 'Keen Eye' }
     },
     Swoobat: {
-        types: ['Psíquico', 'Volador'],
+        types: ['Psychic', 'Flying'],
         bs: { hp: 67, at: 57, df: 55, sa: 77, sd: 55, sp: 114 },
         weightkg: 10.5,
         abilities: { 0: 'Unaware' }
     },
     Tepig: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 65, at: 63, df: 45, sa: 45, sd: 45, sp: 45 },
         weightkg: 9.9,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Terrakion: {
-        types: ['Roca', 'Lucha'],
+        types: ['Rock', 'Fighting'],
         bs: { hp: 91, at: 129, df: 90, sa: 72, sd: 90, sp: 108 },
         weightkg: 260,
         abilities: { 0: 'Justified' },
         gender: 'N'
     },
     Throh: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 120, at: 100, df: 85, sa: 30, sd: 85, sp: 45 },
         weightkg: 55.5,
         abilities: { 0: 'Guts' }
     },
     Thundurus: {
-        types: ['Eléctrico', 'Volador'],
+        types: ['Electric', 'Flying'],
         bs: { hp: 79, at: 115, df: 70, sa: 125, sd: 80, sp: 111 },
         weightkg: 61,
         abilities: { 0: 'Prankster' },
         otherFormes: ['Thundurus-Therian']
     },
     'Thundurus-Therian': {
-        types: ['Eléctrico', 'Volador'],
+        types: ['Electric', 'Flying'],
         bs: { hp: 79, at: 105, df: 70, sa: 145, sd: 80, sp: 101 },
         weightkg: 61,
         abilities: { 0: 'Volt Absorb' },
         baseSpecies: 'Thundurus'
     },
     Timburr: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 75, at: 80, df: 55, sa: 25, sd: 35, sp: 35 },
         weightkg: 12.5,
         nfe: true,
         abilities: { 0: 'Guts' }
     },
     Tirtouga: {
-        types: ['Agua', 'Roca'],
+        types: ['Water', 'Rock'],
         bs: { hp: 54, at: 78, df: 103, sa: 53, sd: 45, sp: 22 },
         weightkg: 16.5,
         nfe: true,
         abilities: { 0: 'Solid Rock' }
     },
     Tomohawk: {
-        types: ['Volador', 'Lucha'],
+        types: ['Flying', 'Fighting'],
         bs: { hp: 105, at: 60, df: 90, sa: 115, sd: 80, sp: 85 },
         weightkg: 37.2,
         abilities: { 0: 'Intimidate' }
     },
     Tornadus: {
-        types: ['Volador'],
+        types: ['Flying'],
         bs: { hp: 79, at: 115, df: 70, sa: 125, sd: 80, sp: 111 },
         weightkg: 63,
         abilities: { 0: 'Prankster' },
         otherFormes: ['Tornadus-Therian']
     },
     'Tornadus-Therian': {
-        types: ['Volador'],
+        types: ['Flying'],
         bs: { hp: 79, at: 100, df: 80, sa: 110, sd: 90, sp: 121 },
         weightkg: 63,
         abilities: { 0: 'Regenerator' },
         baseSpecies: 'Tornadus'
     },
     Tranquill: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 62, at: 77, df: 62, sa: 50, sd: 42, sp: 65 },
         weightkg: 15,
         nfe: true,
         abilities: { 0: 'Big Pecks' }
     },
     Trubbish: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 50, at: 50, df: 62, sa: 40, sd: 62, sp: 65 },
         weightkg: 31,
         nfe: true,
         abilities: { 0: 'Stench' }
     },
     Tympole: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 50, at: 50, df: 40, sa: 50, sd: 40, sp: 64 },
         weightkg: 4.5,
         nfe: true,
         abilities: { 0: 'Swift Swim' }
     },
     Tynamo: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 45, sd: 40, sp: 60 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         nfe: true
     },
     Unfezant: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 80, at: 105, df: 80, sa: 65, sd: 55, sp: 93 },
         weightkg: 29,
         abilities: { 0: 'Big Pecks' }
     },
     Vanillish: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 51, at: 65, df: 65, sa: 80, sd: 75, sp: 59 },
         weightkg: 41,
         nfe: true,
         abilities: { 0: 'Ice Body' }
     },
     Vanillite: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 36, at: 50, df: 50, sa: 65, sd: 60, sp: 44 },
         weightkg: 5.7,
         nfe: true,
         abilities: { 0: 'Ice Body' }
     },
     Vanilluxe: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 71, at: 95, df: 85, sa: 110, sd: 95, sp: 79 },
         weightkg: 57.5,
         abilities: { 0: 'Ice Body' }
     },
     Venipede: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 30, at: 45, df: 59, sa: 30, sd: 39, sp: 57 },
         weightkg: 5.3,
         nfe: true,
         abilities: { 0: 'Poison Point' }
     },
     Victini: {
-        types: ['Psíquico', 'Fuego'],
+        types: ['Psychic', 'Fire'],
         bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 },
         weightkg: 4,
         abilities: { 0: 'Victory Star' },
         gender: 'N'
     },
     Virizion: {
-        types: ['Planta', 'Lucha'],
+        types: ['Grass', 'Fighting'],
         bs: { hp: 91, at: 90, df: 72, sa: 90, sd: 129, sp: 108 },
         weightkg: 200,
         abilities: { 0: 'Justified' },
         gender: 'N'
     },
     Volcarona: {
-        types: ['Bicho', 'Fuego'],
+        types: ['Bug', 'Fire'],
         bs: { hp: 85, at: 60, df: 65, sa: 135, sd: 105, sp: 100 },
         weightkg: 46,
         abilities: { 0: 'Flame Body' }
     },
     Vullaby: {
-        types: ['Siniestro', 'Volador'],
+        types: ['Dark', 'Flying'],
         bs: { hp: 70, at: 55, df: 75, sa: 45, sd: 65, sp: 60 },
         weightkg: 9,
         nfe: true,
@@ -4984,60 +4984,60 @@ var BW_PATCH = {
         abilities: { 0: 'Illuminate' }
     },
     Whimsicott: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 60, at: 67, df: 85, sa: 77, sd: 75, sp: 116 },
         weightkg: 6.6,
         abilities: { 0: 'Prankster' }
     },
     Whirlipede: {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 40, at: 55, df: 99, sa: 40, sd: 79, sp: 47 },
         weightkg: 58.5,
         nfe: true,
         abilities: { 0: 'Poison Point' }
     },
     Woobat: {
-        types: ['Psíquico', 'Volador'],
+        types: ['Psychic', 'Flying'],
         bs: { hp: 55, at: 45, df: 43, sa: 55, sd: 43, sp: 72 },
         weightkg: 2.1,
         nfe: true,
         abilities: { 0: 'Unaware' }
     },
     Yamask: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 38, at: 30, df: 85, sa: 55, sd: 65, sp: 30 },
         weightkg: 1.5,
         abilities: { 0: 'Mummy' },
         nfe: true
     },
     Zebstrika: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 75, at: 100, df: 63, sa: 80, sd: 63, sp: 116 },
         weightkg: 79.5,
         abilities: { 0: 'Lightning Rod' }
     },
     Zekrom: {
-        types: ['Dragón', 'Eléctrico'],
+        types: ['Dragon', 'Electric'],
         bs: { hp: 100, at: 150, df: 120, sa: 120, sd: 100, sp: 90 },
         weightkg: 345,
         abilities: { 0: 'Teravolt' },
         gender: 'N'
     },
     Zoroark: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 60, at: 105, df: 60, sa: 120, sd: 60, sp: 105 },
         weightkg: 81.1,
         abilities: { 0: 'Illusion' }
     },
     Zorua: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 40, at: 65, df: 40, sa: 80, sd: 40, sp: 65 },
         weightkg: 12.5,
         abilities: { 0: 'Illusion' },
         nfe: true
     },
     Zweilous: {
-        types: ['Siniestro', 'Dragón'],
+        types: ['Dark', 'Dragon'],
         bs: { hp: 72, at: 85, df: 70, sa: 65, sd: 70, sp: 58 },
         weightkg: 50,
         abilities: { 0: 'Hustle' },
@@ -5056,8 +5056,8 @@ var XY_PATCH = {
     Altaria: { otherFormes: ['Altaria-Mega'] },
     Ampharos: { bs: { df: 85 }, otherFormes: ['Ampharos-Mega'] },
     Audino: { otherFormes: ['Audino-Mega'] },
-    Azumarill: { types: ['Agua', 'Hada'], bs: { sa: 60 } },
-    Azurill: { types: ['Normal', 'Hada'] },
+    Azumarill: { types: ['Water', 'Fairy'], bs: { sa: 60 } },
+    Azurill: { types: ['Normal', 'Fairy'] },
     Banette: { otherFormes: ['Banette-Mega'] },
     Beautifly: { bs: { sa: 100 } },
     Beedrill: { bs: { at: 90 }, otherFormes: ['Beedrill-Mega'] },
@@ -5067,28 +5067,28 @@ var XY_PATCH = {
     Butterfree: { bs: { sa: 90 } },
     Camerupt: { otherFormes: ['Camerupt-Mega'] },
     Charizard: { otherFormes: ['Charizard-Mega-X', 'Charizard-Mega-Y'] },
-    Clefable: { types: ['Hada'], bs: { sa: 95 } },
-    Clefairy: { types: ['Hada'] },
-    Cleffa: { types: ['Hada'] },
-    Cottonee: { types: ['Planta', 'Hada'] },
+    Clefable: { types: ['Fairy'], bs: { sa: 95 } },
+    Clefairy: { types: ['Fairy'] },
+    Cleffa: { types: ['Fairy'] },
+    Cottonee: { types: ['Grass', 'Fairy'] },
     Exploud: { bs: { sd: 73 } },
     Gallade: { otherFormes: ['Gallade-Mega'] },
     Garchomp: { otherFormes: ['Garchomp-Mega'] },
-    Gardevoir: { types: ['Psíquico', 'Hada'], otherFormes: ['Gardevoir-Mega'] },
+    Gardevoir: { types: ['Psychic', 'Fairy'], otherFormes: ['Gardevoir-Mega'] },
     Gengar: { otherFormes: ['Gengar-Mega'] },
     Gigalith: { bs: { sd: 80 } },
     Glalie: { otherFormes: ['Glalie-Mega'] },
     Golem: { bs: { at: 120 } },
-    Granbull: { types: ['Hada'] },
+    Granbull: { types: ['Fairy'] },
     Groudon: { otherFormes: ['Groudon-Primal'] },
     Gyarados: { otherFormes: ['Gyarados-Mega'] },
     Heracross: { otherFormes: ['Heracross-Mega'] },
     Houndoom: { otherFormes: ['Houndoom-Mega'] },
-    Igglybuff: { types: ['Normal', 'Hada'] },
-    Jigglypuff: { types: ['Normal', 'Hada'] },
+    Igglybuff: { types: ['Normal', 'Fairy'] },
+    Jigglypuff: { types: ['Normal', 'Fairy'] },
     Jumpluff: { bs: { sd: 95 } },
     Kangaskhan: { otherFormes: ['Kangaskhan-Mega'] },
-    Kirlia: { types: ['Psíquico', 'Hada'] },
+    Kirlia: { types: ['Psychic', 'Fairy'] },
     Krookodile: { bs: { df: 80 } },
     Kyogre: { otherFormes: ['Kyogre-Primal'] },
     Latias: { otherFormes: ['Latias-Mega'] },
@@ -5097,13 +5097,13 @@ var XY_PATCH = {
     Lopunny: { otherFormes: ['Lopunny-Mega'] },
     Lucario: { otherFormes: ['Lucario-Mega'] },
     Manectric: { otherFormes: ['Manectric-Mega'] },
-    Marill: { types: ['Agua', 'Hada'] },
-    Mawile: { types: ['Acero', 'Hada'], otherFormes: ['Mawile-Mega'] },
+    Marill: { types: ['Water', 'Fairy'] },
+    Mawile: { types: ['Steel', 'Fairy'], otherFormes: ['Mawile-Mega'] },
     Medicham: { otherFormes: ['Medicham-Mega'] },
     Metagross: { otherFormes: ['Metagross-Mega'] },
     Mewtwo: { otherFormes: ['Mewtwo-Mega-X', 'Mewtwo-Mega-Y'] },
-    'Mime Jr.': { types: ['Psíquico', 'Hada'] },
-    'Mr. Mime': { types: ['Psíquico', 'Hada'] },
+    'Mime Jr.': { types: ['Psychic', 'Fairy'] },
+    'Mr. Mime': { types: ['Psychic', 'Fairy'] },
     Nidoking: { bs: { at: 102 } },
     Nidoqueen: { bs: { at: 92 } },
     Pidgeot: { bs: { sp: 101 }, otherFormes: ['Pidgeot-Mega'] },
@@ -5121,7 +5121,7 @@ var XY_PATCH = {
     Pinsir: { otherFormes: ['Pinsir-Mega'] },
     Poliwrath: { bs: { at: 95 } },
     Raichu: { bs: { sp: 110 } },
-    Ralts: { types: ['Psíquico', 'Hada'] },
+    Ralts: { types: ['Psychic', 'Fairy'] },
     Rayquaza: { otherFormes: ['Rayquaza-Mega'] },
     Roserade: { bs: { df: 65 } },
     Sableye: { otherFormes: ['Sableye-Mega'] },
@@ -5132,51 +5132,51 @@ var XY_PATCH = {
     Seismitoad: { bs: { at: 95 } },
     Sharpedo: { otherFormes: ['Sharpedo-Mega'] },
     Slowbro: { otherFormes: ['Slowbro-Mega'] },
-    Snubbull: { types: ['Hada'] },
+    Snubbull: { types: ['Fairy'] },
     Staraptor: { bs: { sd: 60 } },
     Steelix: { otherFormes: ['Steelix-Mega'] },
     Stoutland: { bs: { at: 110 } },
     Swampert: { otherFormes: ['Swampert-Mega'] },
-    Togekiss: { types: ['Hada', 'Volador'] },
-    Togepi: { types: ['Hada'] },
-    Togetic: { types: ['Hada', 'Volador'] },
+    Togekiss: { types: ['Fairy', 'Flying'] },
+    Togepi: { types: ['Fairy'] },
+    Togetic: { types: ['Fairy', 'Flying'] },
     Tyranitar: { otherFormes: ['Tyranitar-Mega'] },
     Unfezant: { bs: { at: 115 } },
     Venusaur: { otherFormes: ['Venusaur-Mega'] },
     Victreebel: { bs: { sd: 70 } },
     Vileplume: { bs: { sa: 110 } },
-    Whimsicott: { types: ['Planta', 'Hada'] },
-    Wigglytuff: { types: ['Normal', 'Hada'], bs: { sa: 85 } },
+    Whimsicott: { types: ['Grass', 'Fairy'] },
+    Wigglytuff: { types: ['Normal', 'Fairy'], bs: { sa: 85 } },
     'Aegislash-Blade': {
-        types: ['Acero', 'Fantasma'],
+        types: ['Steel', 'Ghost'],
         bs: { hp: 60, at: 150, df: 50, sa: 150, sd: 50, sp: 60 },
         weightkg: 53,
         abilities: { 0: 'Stance Change' },
         otherFormes: ['Aegislash-Shield', 'Aegislash-Both']
     },
     'Aegislash-Shield': {
-        types: ['Acero', 'Fantasma'],
+        types: ['Steel', 'Ghost'],
         bs: { hp: 60, at: 50, df: 150, sa: 50, sd: 150, sp: 60 },
         weightkg: 53,
         abilities: { 0: 'Stance Change' },
         baseSpecies: 'Aegislash-Blade'
     },
     'Aegislash-Both': {
-        types: ['Acero', 'Fantasma'],
+        types: ['Steel', 'Ghost'],
         bs: { hp: 60, at: 150, df: 150, sa: 150, sd: 150, sp: 60 },
         weightkg: 53,
         abilities: { 0: 'Stance Change' },
         baseSpecies: 'Aegislash-Blade'
     },
     Amaura: {
-        types: ['Roca', 'Hielo'],
+        types: ['Rock', 'Ice'],
         bs: { hp: 77, at: 59, df: 50, sa: 67, sd: 63, sp: 46 },
         weightkg: 25.2,
         nfe: true,
         abilities: { 0: 'Refrigerate' }
     },
     'Arceus-Fairy': {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 120, at: 120, df: 120, sa: 120, sd: 120, sp: 120 },
         weightkg: 320,
         abilities: { 0: 'Multitype' },
@@ -5184,45 +5184,45 @@ var XY_PATCH = {
         gender: 'N'
     },
     Aromatisse: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 101, at: 72, df: 72, sa: 99, sd: 89, sp: 29 },
         weightkg: 15.5,
         abilities: { 0: 'Healer' }
     },
     Aurorus: {
-        types: ['Roca', 'Hielo'],
+        types: ['Rock', 'Ice'],
         bs: { hp: 123, at: 77, df: 72, sa: 99, sd: 92, sp: 58 },
         weightkg: 225,
         abilities: { 0: 'Refrigerate' }
     },
     Avalugg: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 95, at: 117, df: 184, sa: 44, sd: 46, sp: 28 },
         weightkg: 505,
         abilities: { 0: 'Own Tempo' }
     },
     Barbaracle: {
-        types: ['Roca', 'Agua'],
+        types: ['Rock', 'Water'],
         bs: { hp: 72, at: 105, df: 115, sa: 54, sd: 86, sp: 68 },
         weightkg: 96,
         abilities: { 0: 'Tough Claws' }
     },
     Bergmite: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 55, at: 69, df: 85, sa: 32, sd: 35, sp: 28 },
         weightkg: 99.5,
         nfe: true,
         abilities: { 0: 'Own Tempo' }
     },
     Binacle: {
-        types: ['Roca', 'Agua'],
+        types: ['Rock', 'Water'],
         bs: { hp: 42, at: 52, df: 67, sa: 39, sd: 56, sp: 50 },
         weightkg: 31,
         nfe: true,
         abilities: { 0: 'Tough Claws' }
     },
     Braixen: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 59, at: 59, df: 58, sa: 90, sd: 70, sp: 73 },
         weightkg: 14.5,
         nfe: true,
@@ -5236,54 +5236,54 @@ var XY_PATCH = {
         abilities: { 0: 'Pickup' }
     },
     Caimanoe: {
-        types: ['Agua', 'Acero'],
+        types: ['Water', 'Steel'],
         bs: { hp: 73, at: 85, df: 65, sa: 80, sd: 40, sp: 87 },
         weightkg: 72.5,
         nfe: true,
         abilities: { 0: 'Water Veil' }
     },
     Carbink: {
-        types: ['Roca', 'Hada'],
+        types: ['Rock', 'Fairy'],
         bs: { hp: 50, at: 50, df: 150, sa: 50, sd: 150, sp: 50 },
         weightkg: 5.7,
         gender: 'N',
         abilities: { 0: 'Clear Body' }
     },
     Chesnaught: {
-        types: ['Planta', 'Lucha'],
+        types: ['Grass', 'Fighting'],
         bs: { hp: 88, at: 107, df: 122, sa: 74, sd: 75, sp: 64 },
         weightkg: 90,
         abilities: { 0: 'Overgrow' }
     },
     Chespin: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 56, at: 61, df: 65, sa: 48, sd: 45, sp: 38 },
         weightkg: 9,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Clauncher: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 50, at: 53, df: 62, sa: 58, sd: 63, sp: 44 },
         weightkg: 8.3,
         abilities: { 0: 'Mega Launcher' },
         nfe: true
     },
     Clawitzer: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 71, at: 73, df: 88, sa: 120, sd: 89, sp: 59 },
         weightkg: 35.3,
         abilities: { 0: 'Mega Launcher' }
     },
     Crucibelle: {
-        types: ['Roca', 'Veneno'],
+        types: ['Rock', 'Poison'],
         bs: { hp: 106, at: 105, df: 65, sa: 75, sd: 85, sp: 104 },
         weightkg: 23.6,
         abilities: { 0: 'Regenerator' },
         otherFormes: ['Crucibelle-Mega']
     },
     Diancie: {
-        types: ['Roca', 'Hada'],
+        types: ['Rock', 'Fairy'],
         bs: { hp: 50, at: 100, df: 150, sa: 100, sd: 150, sp: 50 },
         weightkg: 8.8,
         abilities: { 0: 'Clear Body' },
@@ -5291,80 +5291,80 @@ var XY_PATCH = {
         gender: 'N'
     },
     Dedenne: {
-        types: ['Eléctrico', 'Hada'],
+        types: ['Electric', 'Fairy'],
         bs: { hp: 67, at: 58, df: 57, sa: 81, sd: 67, sp: 101 },
         weightkg: 2.2,
         abilities: { 0: 'Cheek Pouch' }
     },
     Delphox: {
-        types: ['Fuego', 'Psíquico'],
+        types: ['Fire', 'Psychic'],
         bs: { hp: 75, at: 69, df: 72, sa: 114, sd: 100, sp: 104 },
         weightkg: 39,
         abilities: { 0: 'Blaze' }
     },
     Diggersby: {
-        types: ['Normal', 'Tierra'],
+        types: ['Normal', 'Ground'],
         bs: { hp: 85, at: 56, df: 77, sa: 50, sd: 77, sp: 78 },
         weightkg: 42.4,
         abilities: { 0: 'Pickup' }
     },
     Doublade: {
-        types: ['Acero', 'Fantasma'],
+        types: ['Steel', 'Ghost'],
         bs: { hp: 59, at: 110, df: 150, sa: 45, sd: 49, sp: 35 },
         weightkg: 4.5,
         abilities: { 0: 'No Guard' },
         nfe: true
     },
     Dragalge: {
-        types: ['Veneno', 'Dragón'],
+        types: ['Poison', 'Dragon'],
         bs: { hp: 65, at: 75, df: 90, sa: 97, sd: 123, sp: 44 },
         weightkg: 81.5,
         abilities: { 0: 'Poison Point' }
     },
     Espurr: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 62, at: 48, df: 54, sa: 63, sd: 60, sp: 68 },
         weightkg: 3.5,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
     },
     Fennekin: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 40, at: 45, df: 40, sa: 62, sd: 60, sp: 60 },
         weightkg: 9.4,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Flabébé: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 44, at: 38, df: 39, sa: 61, sd: 79, sp: 42 },
         weightkg: 0.1,
         nfe: true,
         abilities: { 0: 'Flower Veil' }
     },
     Fletchinder: {
-        types: ['Fuego', 'Volador'],
+        types: ['Fire', 'Flying'],
         bs: { hp: 62, at: 73, df: 55, sa: 56, sd: 52, sp: 84 },
         weightkg: 16,
         nfe: true,
         abilities: { 0: 'Flame Body' }
     },
     Fletchling: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 45, at: 50, df: 43, sa: 40, sd: 38, sp: 62 },
         weightkg: 1.7,
         nfe: true,
         abilities: { 0: 'Big Pecks' }
     },
     Floatoy: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 48, at: 70, df: 40, sa: 70, sd: 30, sp: 77 },
         weightkg: 1.9,
         nfe: true,
         abilities: { 0: 'Water Veil' }
     },
     Floette: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 54, at: 45, df: 47, sa: 75, sd: 98, sp: 52 },
         weightkg: 0.9,
         nfe: true,
@@ -5372,27 +5372,27 @@ var XY_PATCH = {
         abilities: { 0: 'Flower Veil' }
     },
     'Floette-Eternal': {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 74, at: 65, df: 67, sa: 125, sd: 128, sp: 92 },
         weightkg: 0.9,
         abilities: { 0: 'Flower Veil' },
         baseSpecies: 'Floette'
     },
     Florges: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 78, at: 65, df: 68, sa: 112, sd: 154, sp: 75 },
         weightkg: 10,
         abilities: { 0: 'Flower Veil' }
     },
     Froakie: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 41, at: 56, df: 40, sa: 62, sd: 44, sp: 71 },
         weightkg: 7,
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
     Frogadier: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 54, at: 63, df: 52, sa: 83, sd: 56, sp: 97 },
         weightkg: 10.9,
         nfe: true,
@@ -5405,86 +5405,86 @@ var XY_PATCH = {
         abilities: { 0: 'Fur Coat' }
     },
     Gogoat: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 123, at: 100, df: 62, sa: 97, sd: 81, sp: 68 },
         weightkg: 91,
         abilities: { 0: 'Sap Sipper' }
     },
     Goodra: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 90, at: 100, df: 70, sa: 110, sd: 150, sp: 80 },
         weightkg: 150.5,
         abilities: { 0: 'Sap Sipper' }
     },
     Goomy: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 45, at: 50, df: 35, sa: 55, sd: 75, sp: 40 },
         weightkg: 2.8,
         nfe: true,
         abilities: { 0: 'Sap Sipper' }
     },
     Gourgeist: {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 65, at: 90, df: 122, sa: 58, sd: 75, sp: 84 },
         weightkg: 12.5,
         abilities: { 0: 'Pickup' },
         otherFormes: ['Gourgeist-Large', 'Gourgeist-Small', 'Gourgeist-Super']
     },
     'Gourgeist-Large': {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 75, at: 95, df: 122, sa: 58, sd: 75, sp: 69 },
         weightkg: 14,
         abilities: { 0: 'Pickup' },
         baseSpecies: 'Gourgeist'
     },
     'Gourgeist-Small': {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 55, at: 85, df: 122, sa: 58, sd: 75, sp: 99 },
         weightkg: 9.5,
         abilities: { 0: 'Pickup' },
         baseSpecies: 'Gourgeist'
     },
     'Gourgeist-Super': {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 85, at: 100, df: 122, sa: 58, sd: 75, sp: 54 },
         weightkg: 39,
         abilities: { 0: 'Pickup' },
         baseSpecies: 'Gourgeist'
     },
     Greninja: {
-        types: ['Agua', 'Siniestro'],
+        types: ['Water', 'Dark'],
         bs: { hp: 72, at: 95, df: 67, sa: 103, sd: 71, sp: 122 },
         weightkg: 40,
         abilities: { 0: 'Torrent' }
     },
     Hawlucha: {
-        types: ['Lucha', 'Volador'],
+        types: ['Fighting', 'Flying'],
         bs: { hp: 78, at: 92, df: 75, sa: 74, sd: 63, sp: 118 },
         weightkg: 21.5,
         abilities: { 0: 'Limber' }
     },
     Heliolisk: {
-        types: ['Eléctrico', 'Normal'],
+        types: ['Electric', 'Normal'],
         bs: { hp: 62, at: 55, df: 52, sa: 109, sd: 94, sp: 109 },
         weightkg: 21,
         abilities: { 0: 'Dry Skin' }
     },
     Helioptile: {
-        types: ['Eléctrico', 'Normal'],
+        types: ['Electric', 'Normal'],
         bs: { hp: 44, at: 38, df: 33, sa: 61, sd: 43, sp: 70 },
         weightkg: 6,
         nfe: true,
         abilities: { 0: 'Dry Skin' }
     },
     Honedge: {
-        types: ['Acero', 'Fantasma'],
+        types: ['Steel', 'Ghost'],
         bs: { hp: 45, at: 80, df: 100, sa: 35, sd: 37, sp: 28 },
         weightkg: 2,
         abilities: { 0: 'No Guard' },
         nfe: true
     },
     Hoopa: {
-        types: ['Psíquico', 'Fantasma'],
+        types: ['Psychic', 'Ghost'],
         bs: { hp: 80, at: 110, df: 60, sa: 150, sd: 130, sp: 70 },
         weightkg: 9,
         gender: 'N',
@@ -5492,7 +5492,7 @@ var XY_PATCH = {
         otherFormes: ['Hoopa-Unbound']
     },
     'Hoopa-Unbound': {
-        types: ['Psíquico', 'Siniestro'],
+        types: ['Psychic', 'Dark'],
         bs: { hp: 80, at: 160, df: 60, sa: 170, sd: 130, sp: 80 },
         weightkg: 490,
         gender: 'N',
@@ -5500,151 +5500,151 @@ var XY_PATCH = {
         baseSpecies: 'Hoopa'
     },
     Inkay: {
-        types: ['Siniestro', 'Psíquico'],
+        types: ['Dark', 'Psychic'],
         bs: { hp: 53, at: 54, df: 53, sa: 37, sd: 46, sp: 45 },
         weightkg: 3.5,
         nfe: true,
         abilities: { 0: 'Contrary' }
     },
     Kerfluffle: {
-        types: ['Hada', 'Lucha'],
+        types: ['Fairy', 'Fighting'],
         bs: { hp: 84, at: 78, df: 86, sa: 115, sd: 88, sp: 119 },
         weightkg: 24.2,
         abilities: { 0: 'Natural Cure' }
     },
     Klefki: {
-        types: ['Acero', 'Hada'],
+        types: ['Steel', 'Fairy'],
         bs: { hp: 57, at: 80, df: 91, sa: 80, sd: 87, sp: 75 },
         weightkg: 3,
         abilities: { 0: 'Prankster' }
     },
     Litleo: {
-        types: ['Fuego', 'Normal'],
+        types: ['Fire', 'Normal'],
         bs: { hp: 62, at: 50, df: 58, sa: 73, sd: 54, sp: 72 },
         weightkg: 13.5,
         nfe: true,
         abilities: { 0: 'Rivalry' }
     },
     Malamar: {
-        types: ['Siniestro', 'Psíquico'],
+        types: ['Dark', 'Psychic'],
         bs: { hp: 86, at: 92, df: 88, sa: 68, sd: 75, sp: 73 },
         weightkg: 47,
         abilities: { 0: 'Contrary' }
     },
     'Abomasnow-Mega': {
-        types: ['Planta', 'Hielo'],
+        types: ['Grass', 'Ice'],
         bs: { hp: 90, at: 132, df: 105, sa: 132, sd: 105, sp: 30 },
         weightkg: 185,
         abilities: { 0: 'Snow Warning' },
         baseSpecies: 'Abomasnow'
     },
     'Absol-Mega': {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 65, at: 150, df: 60, sa: 115, sd: 60, sp: 115 },
         weightkg: 49,
         abilities: { 0: 'Magic Bounce' },
         baseSpecies: 'Absol'
     },
     'Aerodactyl-Mega': {
-        types: ['Roca', 'Volador'],
+        types: ['Rock', 'Flying'],
         bs: { hp: 80, at: 135, df: 85, sa: 70, sd: 95, sp: 150 },
         weightkg: 79,
         abilities: { 0: 'Tough Claws' },
         baseSpecies: 'Aerodactyl'
     },
     'Aggron-Mega': {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 70, at: 140, df: 230, sa: 60, sd: 80, sp: 50 },
         weightkg: 395,
         abilities: { 0: 'Filter' },
         baseSpecies: 'Aggron'
     },
     'Alakazam-Mega': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 55, at: 50, df: 65, sa: 175, sd: 95, sp: 150 },
         weightkg: 48,
         abilities: { 0: 'Trace' },
         baseSpecies: 'Alakazam'
     },
     'Altaria-Mega': {
-        types: ['Dragón', 'Hada'],
+        types: ['Dragon', 'Fairy'],
         bs: { hp: 75, at: 110, df: 110, sa: 110, sd: 105, sp: 80 },
         weightkg: 20.6,
         abilities: { 0: 'Pixilate' },
         baseSpecies: 'Altaria'
     },
     'Ampharos-Mega': {
-        types: ['Eléctrico', 'Dragón'],
+        types: ['Electric', 'Dragon'],
         bs: { hp: 90, at: 95, df: 105, sa: 165, sd: 110, sp: 45 },
         weightkg: 61.5,
         abilities: { 0: 'Mold Breaker' },
         baseSpecies: 'Ampharos'
     },
     'Audino-Mega': {
-        types: ['Normal', 'Hada'],
+        types: ['Normal', 'Fairy'],
         bs: { hp: 103, at: 60, df: 126, sa: 80, sd: 126, sp: 50 },
         weightkg: 32,
         abilities: { 0: 'Healer' },
         baseSpecies: 'Audino'
     },
     'Banette-Mega': {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 64, at: 165, df: 75, sa: 93, sd: 83, sp: 75 },
         weightkg: 13,
         abilities: { 0: 'Prankster' },
         baseSpecies: 'Banette'
     },
     'Beedrill-Mega': {
-        types: ['Bicho', 'Veneno'],
+        types: ['Bug', 'Poison'],
         bs: { hp: 65, at: 150, df: 40, sa: 15, sd: 80, sp: 145 },
         weightkg: 40.5,
         abilities: { 0: 'Adaptability' },
         baseSpecies: 'Beedrill'
     },
     'Blastoise-Mega': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 79, at: 103, df: 120, sa: 135, sd: 115, sp: 78 },
         weightkg: 101.1,
         abilities: { 0: 'Mega Launcher' },
         baseSpecies: 'Blastoise'
     },
     'Blaziken-Mega': {
-        types: ['Fuego', 'Lucha'],
+        types: ['Fire', 'Fighting'],
         bs: { hp: 80, at: 160, df: 80, sa: 130, sd: 80, sp: 100 },
         weightkg: 52,
         abilities: { 0: 'Speed Boost' },
         baseSpecies: 'Blaziken'
     },
     'Camerupt-Mega': {
-        types: ['Fuego', 'Tierra'],
+        types: ['Fire', 'Ground'],
         bs: { hp: 70, at: 120, df: 100, sa: 145, sd: 105, sp: 20 },
         weightkg: 320.5,
         abilities: { 0: 'Sheer Force' },
         baseSpecies: 'Camerupt'
     },
     'Charizard-Mega-X': {
-        types: ['Fuego', 'Dragón'],
+        types: ['Fire', 'Dragon'],
         bs: { hp: 78, at: 130, df: 111, sa: 130, sd: 85, sp: 100 },
         weightkg: 110.5,
         abilities: { 0: 'Tough Claws' },
         baseSpecies: 'Charizard'
     },
     'Charizard-Mega-Y': {
-        types: ['Fuego', 'Volador'],
+        types: ['Fire', 'Flying'],
         bs: { hp: 78, at: 104, df: 78, sa: 159, sd: 115, sp: 100 },
         weightkg: 100.5,
         abilities: { 0: 'Drought' },
         baseSpecies: 'Charizard'
     },
     'Crucibelle-Mega': {
-        types: ['Roca', 'Veneno'],
+        types: ['Rock', 'Poison'],
         bs: { hp: 106, at: 135, df: 75, sa: 85, sd: 125, sp: 114 },
         weightkg: 22.5,
         abilities: { 0: 'Magic Guard' },
         baseSpecies: 'Crucibelle'
     },
     'Diancie-Mega': {
-        types: ['Roca', 'Hada'],
+        types: ['Rock', 'Fairy'],
         bs: { hp: 50, at: 160, df: 110, sa: 160, sd: 110, sp: 110 },
         weightkg: 27.8,
         abilities: { 0: 'Magic Bounce' },
@@ -5652,56 +5652,56 @@ var XY_PATCH = {
         gender: 'N'
     },
     'Gallade-Mega': {
-        types: ['Psíquico', 'Lucha'],
+        types: ['Psychic', 'Fighting'],
         bs: { hp: 68, at: 165, df: 95, sa: 65, sd: 115, sp: 110 },
         weightkg: 56.4,
         abilities: { 0: 'Inner Focus' },
         baseSpecies: 'Gallade'
     },
     'Garchomp-Mega': {
-        types: ['Dragón', 'Tierra'],
+        types: ['Dragon', 'Ground'],
         bs: { hp: 108, at: 170, df: 115, sa: 120, sd: 95, sp: 92 },
         weightkg: 95,
         abilities: { 0: 'Sand Force' },
         baseSpecies: 'Garchomp'
     },
     'Gardevoir-Mega': {
-        types: ['Psíquico', 'Hada'],
+        types: ['Psychic', 'Fairy'],
         bs: { hp: 68, at: 85, df: 65, sa: 165, sd: 135, sp: 100 },
         weightkg: 48.4,
         abilities: { 0: 'Pixilate' },
         baseSpecies: 'Gardevoir'
     },
     'Gengar-Mega': {
-        types: ['Fantasma', 'Veneno'],
+        types: ['Ghost', 'Poison'],
         bs: { hp: 60, at: 65, df: 80, sa: 170, sd: 95, sp: 130 },
         weightkg: 40.5,
         abilities: { 0: 'Shadow Tag' },
         baseSpecies: 'Gengar'
     },
     'Glalie-Mega': {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 80, at: 120, df: 80, sa: 120, sd: 80, sp: 100 },
         weightkg: 350.2,
         abilities: { 0: 'Refrigerate' },
         baseSpecies: 'Glalie'
     },
     'Gyarados-Mega': {
-        types: ['Agua', 'Siniestro'],
+        types: ['Water', 'Dark'],
         bs: { hp: 95, at: 155, df: 109, sa: 70, sd: 130, sp: 81 },
         weightkg: 305,
         abilities: { 0: 'Mold Breaker' },
         baseSpecies: 'Gyarados'
     },
     'Heracross-Mega': {
-        types: ['Bicho', 'Lucha'],
+        types: ['Bug', 'Fighting'],
         bs: { hp: 80, at: 185, df: 115, sa: 40, sd: 105, sp: 75 },
         weightkg: 62.5,
         abilities: { 0: 'Skill Link' },
         baseSpecies: 'Heracross'
     },
     'Houndoom-Mega': {
-        types: ['Siniestro', 'Fuego'],
+        types: ['Dark', 'Fire'],
         bs: { hp: 75, at: 90, df: 90, sa: 140, sd: 90, sp: 115 },
         weightkg: 49.5,
         abilities: { 0: 'Solar Power' },
@@ -5715,56 +5715,56 @@ var XY_PATCH = {
         baseSpecies: 'Kangaskhan'
     },
     'Latias-Mega': {
-        types: ['Dragón', 'Psíquico'],
+        types: ['Dragon', 'Psychic'],
         bs: { hp: 80, at: 100, df: 120, sa: 140, sd: 150, sp: 110 },
         weightkg: 52,
         abilities: { 0: 'Levitate' },
         baseSpecies: 'Latias'
     },
     'Latios-Mega': {
-        types: ['Dragón', 'Psíquico'],
+        types: ['Dragon', 'Psychic'],
         bs: { hp: 80, at: 130, df: 100, sa: 160, sd: 120, sp: 110 },
         weightkg: 70,
         abilities: { 0: 'Levitate' },
         baseSpecies: 'Latios'
     },
     'Lopunny-Mega': {
-        types: ['Normal', 'Lucha'],
+        types: ['Normal', 'Fighting'],
         bs: { hp: 65, at: 136, df: 94, sa: 54, sd: 96, sp: 135 },
         weightkg: 28.3,
         abilities: { 0: 'Scrappy' },
         baseSpecies: 'Lopunny'
     },
     'Lucario-Mega': {
-        types: ['Lucha', 'Acero'],
+        types: ['Fighting', 'Steel'],
         bs: { hp: 70, at: 145, df: 88, sa: 140, sd: 70, sp: 112 },
         weightkg: 57.5,
         abilities: { 0: 'Adaptability' },
         baseSpecies: 'Lucario'
     },
     'Manectric-Mega': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 70, at: 75, df: 80, sa: 135, sd: 80, sp: 135 },
         weightkg: 44,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Manectric'
     },
     'Mawile-Mega': {
-        types: ['Acero', 'Hada'],
+        types: ['Steel', 'Fairy'],
         bs: { hp: 50, at: 105, df: 125, sa: 55, sd: 95, sp: 50 },
         weightkg: 23.5,
         abilities: { 0: 'Huge Power' },
         baseSpecies: 'Mawile'
     },
     'Medicham-Mega': {
-        types: ['Lucha', 'Psíquico'],
+        types: ['Fighting', 'Psychic'],
         bs: { hp: 60, at: 100, df: 85, sa: 80, sd: 85, sp: 100 },
         weightkg: 31.5,
         abilities: { 0: 'Pure Power' },
         baseSpecies: 'Medicham'
     },
     'Metagross-Mega': {
-        types: ['Acero', 'Psíquico'],
+        types: ['Steel', 'Psychic'],
         bs: { hp: 80, at: 145, df: 150, sa: 105, sd: 110, sp: 110 },
         weightkg: 942.9,
         abilities: { 0: 'Tough Claws' },
@@ -5772,7 +5772,7 @@ var XY_PATCH = {
         gender: 'N'
     },
     'Mewtwo-Mega-X': {
-        types: ['Psíquico', 'Lucha'],
+        types: ['Psychic', 'Fighting'],
         bs: { hp: 106, at: 190, df: 100, sa: 154, sd: 100, sp: 130 },
         weightkg: 127,
         abilities: { 0: 'Steadfast' },
@@ -5780,7 +5780,7 @@ var XY_PATCH = {
         gender: 'N'
     },
     'Mewtwo-Mega-Y': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 106, at: 150, df: 70, sa: 194, sd: 120, sp: 140 },
         weightkg: 33,
         abilities: { 0: 'Insomnia' },
@@ -5788,21 +5788,21 @@ var XY_PATCH = {
         gender: 'N'
     },
     'Pidgeot-Mega': {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 83, at: 80, df: 80, sa: 135, sd: 80, sp: 121 },
         weightkg: 50.5,
         abilities: { 0: 'No Guard' },
         baseSpecies: 'Pidgeot'
     },
     'Pinsir-Mega': {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 65, at: 155, df: 120, sa: 65, sd: 90, sp: 105 },
         weightkg: 59,
         abilities: { 0: 'Aerilate' },
         baseSpecies: 'Pinsir'
     },
     'Rayquaza-Mega': {
-        types: ['Dragón', 'Volador'],
+        types: ['Dragon', 'Flying'],
         bs: { hp: 105, at: 180, df: 100, sa: 180, sd: 100, sp: 115 },
         weightkg: 392,
         gender: 'N',
@@ -5810,185 +5810,185 @@ var XY_PATCH = {
         baseSpecies: 'Rayquaza'
     },
     'Sableye-Mega': {
-        types: ['Siniestro', 'Fantasma'],
+        types: ['Dark', 'Ghost'],
         bs: { hp: 50, at: 85, df: 125, sa: 85, sd: 115, sp: 20 },
         weightkg: 161,
         abilities: { 0: 'Magic Bounce' },
         baseSpecies: 'Sableye'
     },
     'Salamence-Mega': {
-        types: ['Dragón', 'Volador'],
+        types: ['Dragon', 'Flying'],
         bs: { hp: 95, at: 145, df: 130, sa: 120, sd: 90, sp: 120 },
         weightkg: 112.6,
         abilities: { 0: 'Aerilate' },
         baseSpecies: 'Salamence'
     },
     'Sceptile-Mega': {
-        types: ['Planta', 'Dragón'],
+        types: ['Grass', 'Dragon'],
         bs: { hp: 70, at: 110, df: 75, sa: 145, sd: 85, sp: 145 },
         weightkg: 55.2,
         abilities: { 0: 'Lightning Rod' },
         baseSpecies: 'Sceptile'
     },
     'Scizor-Mega': {
-        types: ['Bicho', 'Acero'],
+        types: ['Bug', 'Steel'],
         bs: { hp: 70, at: 150, df: 140, sa: 65, sd: 100, sp: 75 },
         weightkg: 125,
         abilities: { 0: 'Technician' },
         baseSpecies: 'Scizor'
     },
     'Sharpedo-Mega': {
-        types: ['Agua', 'Siniestro'],
+        types: ['Water', 'Dark'],
         bs: { hp: 70, at: 140, df: 70, sa: 110, sd: 65, sp: 105 },
         weightkg: 130.3,
         abilities: { 0: 'Strong Jaw' },
         baseSpecies: 'Sharpedo'
     },
     'Slowbro-Mega': {
-        types: ['Agua', 'Psíquico'],
+        types: ['Water', 'Psychic'],
         bs: { hp: 95, at: 75, df: 180, sa: 130, sd: 80, sp: 30 },
         weightkg: 120,
         abilities: { 0: 'Shell Armor' },
         baseSpecies: 'Slowbro'
     },
     'Steelix-Mega': {
-        types: ['Acero', 'Tierra'],
+        types: ['Steel', 'Ground'],
         bs: { hp: 75, at: 125, df: 230, sa: 55, sd: 95, sp: 30 },
         weightkg: 740,
         abilities: { 0: 'Sand Force' },
         baseSpecies: 'Steelix'
     },
     'Swampert-Mega': {
-        types: ['Agua', 'Tierra'],
+        types: ['Water', 'Ground'],
         bs: { hp: 100, at: 150, df: 110, sa: 95, sd: 110, sp: 70 },
         weightkg: 102,
         abilities: { 0: 'Swift Swim' },
         baseSpecies: 'Swampert'
     },
     'Tyranitar-Mega': {
-        types: ['Roca', 'Siniestro'],
+        types: ['Rock', 'Dark'],
         bs: { hp: 100, at: 164, df: 150, sa: 95, sd: 120, sp: 71 },
         weightkg: 255,
         abilities: { 0: 'Sand Stream' },
         baseSpecies: 'Tyranitar'
     },
     'Venusaur-Mega': {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 80, at: 100, df: 123, sa: 122, sd: 120, sp: 80 },
         weightkg: 155.5,
         abilities: { 0: 'Thick Fat' },
         baseSpecies: 'Venusaur'
     },
     Meowstic: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 74, at: 48, df: 76, sa: 83, sd: 81, sp: 104 },
         weightkg: 8.5,
         abilities: { 0: 'Keen Eye' },
         otherFormes: ['Meowstic-F']
     },
     'Meowstic-F': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 74, at: 48, df: 76, sa: 83, sd: 81, sp: 104 },
         weightkg: 8.5,
         abilities: { 0: 'Keen Eye' },
         baseSpecies: 'Meowstic'
     },
     Naviathan: {
-        types: ['Agua', 'Acero'],
+        types: ['Water', 'Steel'],
         bs: { hp: 103, at: 110, df: 90, sa: 95, sd: 65, sp: 97 },
         weightkg: 510,
         abilities: { 0: 'Water Veil' }
     },
     Noibat: {
-        types: ['Volador', 'Dragón'],
+        types: ['Flying', 'Dragon'],
         bs: { hp: 40, at: 30, df: 35, sa: 45, sd: 40, sp: 55 },
         weightkg: 8,
         nfe: true,
         abilities: { 0: 'Frisk' }
     },
     Noivern: {
-        types: ['Volador', 'Dragón'],
+        types: ['Flying', 'Dragon'],
         bs: { hp: 85, at: 70, df: 80, sa: 97, sd: 80, sp: 123 },
         weightkg: 85,
         abilities: { 0: 'Frisk' }
     },
     Pancham: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 67, at: 82, df: 62, sa: 46, sd: 48, sp: 43 },
         weightkg: 8,
         nfe: true,
         abilities: { 0: 'Iron Fist' }
     },
     Pangoro: {
-        types: ['Lucha', 'Siniestro'],
+        types: ['Fighting', 'Dark'],
         bs: { hp: 95, at: 124, df: 78, sa: 69, sd: 71, sp: 58 },
         weightkg: 136,
         abilities: { 0: 'Iron Fist' }
     },
     Phantump: {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 43, at: 70, df: 48, sa: 50, sd: 60, sp: 38 },
         weightkg: 7,
         nfe: true,
         abilities: { 0: 'Natural Cure' }
     },
     'Pikachu-Cosplay': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Lightning Rod' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Rock-Star': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Lightning Rod' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Belle': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Lightning Rod' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-PhD': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Lightning Rod' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Pop-Star': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Lightning Rod' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Libre': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Lightning Rod' },
         baseSpecies: 'Pikachu'
     },
     Plasmanta: {
-        types: ['Eléctrico', 'Veneno'],
+        types: ['Electric', 'Poison'],
         bs: { hp: 60, at: 57, df: 119, sa: 131, sd: 98, sp: 100 },
         weightkg: 460,
         abilities: { 0: 'Storm Drain' }
     },
     Pluffle: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 74, at: 38, df: 51, sa: 65, sd: 78, sp: 49 },
         weightkg: 1.8,
         nfe: true,
         abilities: { 0: 'Natural Cure' }
     },
     'Groudon-Primal': {
-        types: ['Tierra', 'Fuego'],
+        types: ['Ground', 'Fire'],
         bs: { hp: 100, at: 180, df: 160, sa: 150, sd: 90, sp: 90 },
         weightkg: 999.7,
         abilities: { 0: 'Desolate Land' },
@@ -5996,7 +5996,7 @@ var XY_PATCH = {
         gender: 'N'
     },
     'Kyogre-Primal': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 100, at: 150, df: 90, sa: 180, sd: 160, sp: 90 },
         weightkg: 430,
         abilities: { 0: 'Primordial Sea' },
@@ -6004,7 +6004,7 @@ var XY_PATCH = {
         gender: 'N'
     },
     Pumpkaboo: {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 49, at: 66, df: 70, sa: 44, sd: 55, sp: 51 },
         weightkg: 5,
         nfe: true,
@@ -6012,7 +6012,7 @@ var XY_PATCH = {
         otherFormes: ['Pumpkaboo-Large', 'Pumpkaboo-Small', 'Pumpkaboo-Super']
     },
     'Pumpkaboo-Large': {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 54, at: 66, df: 70, sa: 44, sd: 55, sp: 46 },
         weightkg: 7.5,
         nfe: true,
@@ -6020,7 +6020,7 @@ var XY_PATCH = {
         baseSpecies: 'Pumpkaboo'
     },
     'Pumpkaboo-Small': {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 44, at: 66, df: 70, sa: 44, sd: 55, sp: 56 },
         weightkg: 3.5,
         nfe: true,
@@ -6028,7 +6028,7 @@ var XY_PATCH = {
         baseSpecies: 'Pumpkaboo'
     },
     'Pumpkaboo-Super': {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 59, at: 66, df: 70, sa: 44, sd: 55, sp: 41 },
         weightkg: 15,
         nfe: true,
@@ -6036,168 +6036,168 @@ var XY_PATCH = {
         baseSpecies: 'Pumpkaboo'
     },
     Pyroar: {
-        types: ['Fuego', 'Normal'],
+        types: ['Fire', 'Normal'],
         bs: { hp: 86, at: 68, df: 72, sa: 109, sd: 66, sp: 106 },
         weightkg: 81.5,
         abilities: { 0: 'Rivalry' }
     },
     Quilladin: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 61, at: 78, df: 95, sa: 56, sd: 58, sp: 57 },
         weightkg: 29,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Scatterbug: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 38, at: 35, df: 40, sa: 27, sd: 25, sp: 35 },
         weightkg: 2.5,
         nfe: true,
         abilities: { 0: 'Shield Dust' }
     },
     Skiddo: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 66, at: 65, df: 48, sa: 62, sd: 57, sp: 52 },
         weightkg: 31,
         nfe: true,
         abilities: { 0: 'Sap Sipper' }
     },
     Skrelp: {
-        types: ['Veneno', 'Agua'],
+        types: ['Poison', 'Water'],
         bs: { hp: 50, at: 60, df: 60, sa: 60, sd: 60, sp: 30 },
         weightkg: 7.3,
         nfe: true,
         abilities: { 0: 'Poison Point' }
     },
     Sliggoo: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 68, at: 75, df: 53, sa: 83, sd: 113, sp: 60 },
         weightkg: 17.5,
         nfe: true,
         abilities: { 0: 'Sap Sipper' }
     },
     Slurpuff: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 82, at: 80, df: 86, sa: 85, sd: 75, sp: 72 },
         weightkg: 5,
         abilities: { 0: 'Sweet Veil' }
     },
     Snugglow: {
-        types: ['Eléctrico', 'Veneno'],
+        types: ['Electric', 'Poison'],
         bs: { hp: 40, at: 37, df: 79, sa: 91, sd: 68, sp: 70 },
         weightkg: 6,
         nfe: true,
         abilities: { 0: 'Storm Drain' }
     },
     Spewpa: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 45, at: 22, df: 60, sa: 27, sd: 30, sp: 29 },
         weightkg: 8.4,
         nfe: true,
         abilities: { 0: 'Shed Skin' }
     },
     Spritzee: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 78, at: 52, df: 60, sa: 63, sd: 65, sp: 23 },
         weightkg: 0.5,
         nfe: true,
         abilities: { 0: 'Healer' }
     },
     Swirlix: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 62, at: 48, df: 66, sa: 59, sd: 57, sp: 49 },
         weightkg: 3.5,
         nfe: true,
         abilities: { 0: 'Sweet Veil' }
     },
     Sylveon: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 95, at: 65, df: 65, sa: 110, sd: 130, sp: 60 },
         weightkg: 23.5,
         abilities: { 0: 'Cute Charm' }
     },
     Talonflame: {
-        types: ['Fuego', 'Volador'],
+        types: ['Fire', 'Flying'],
         bs: { hp: 78, at: 81, df: 71, sa: 74, sd: 69, sp: 126 },
         weightkg: 24.5,
         abilities: { 0: 'Flame Body' }
     },
     Trevenant: {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 85, at: 110, df: 76, sa: 65, sd: 82, sp: 56 },
         weightkg: 71,
         abilities: { 0: 'Natural Cure' }
     },
     Tyrantrum: {
-        types: ['Roca', 'Dragón'],
+        types: ['Rock', 'Dragon'],
         bs: { hp: 82, at: 121, df: 119, sa: 69, sd: 59, sp: 71 },
         weightkg: 270,
         abilities: { 0: 'Strong Jaw' }
     },
     Tyrunt: {
-        types: ['Roca', 'Dragón'],
+        types: ['Rock', 'Dragon'],
         bs: { hp: 58, at: 89, df: 77, sa: 45, sd: 45, sp: 48 },
         weightkg: 26,
         nfe: true,
         abilities: { 0: 'Strong Jaw' }
     },
     Vivillon: {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 80, at: 52, df: 50, sa: 90, sd: 50, sp: 89 },
         weightkg: 17,
         abilities: { 0: 'Shield Dust' },
         otherFormes: ['Vivillon-Fancy', 'Vivillon-Pokeball']
     },
     'Vivillon-Fancy': {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 80, at: 52, df: 50, sa: 90, sd: 50, sp: 89 },
         weightkg: 17,
         abilities: { 0: 'Shield Dust' },
         baseSpecies: 'Vivillon'
     },
     'Vivillon-Pokeball': {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 80, at: 52, df: 50, sa: 90, sd: 50, sp: 89 },
         weightkg: 17,
         abilities: { 0: 'Shield Dust' },
         baseSpecies: 'Vivillon'
     },
     Volcanion: {
-        types: ['Fuego', 'Agua'],
+        types: ['Fire', 'Water'],
         bs: { hp: 80, at: 110, df: 120, sa: 130, sd: 90, sp: 70 },
         weightkg: 195,
         gender: 'N',
         abilities: { 0: 'Water Absorb' }
     },
     Volkraken: {
-        types: ['Agua', 'Fuego'],
+        types: ['Water', 'Fire'],
         bs: { hp: 100, at: 45, df: 80, sa: 135, sd: 100, sp: 95 },
         weightkg: 44.5,
         abilities: { 0: 'Analytic' }
     },
     Volkritter: {
-        types: ['Agua', 'Fuego'],
+        types: ['Water', 'Fire'],
         bs: { hp: 60, at: 30, df: 50, sa: 80, sd: 60, sp: 70 },
         weightkg: 15,
         nfe: true,
         abilities: { 0: 'Anticipation' }
     },
     Xerneas: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 126, at: 131, df: 95, sa: 131, sd: 98, sp: 99 },
         weightkg: 215,
         abilities: { 0: 'Fairy Aura' },
         gender: 'N'
     },
     Yveltal: {
-        types: ['Siniestro', 'Volador'],
+        types: ['Dark', 'Flying'],
         bs: { hp: 126, at: 131, df: 95, sa: 131, sd: 98, sp: 99 },
         weightkg: 203,
         abilities: { 0: 'Dark Aura' },
         gender: 'N'
     },
     Zygarde: {
-        types: ['Dragón', 'Tierra'],
+        types: ['Dragon', 'Ground'],
         bs: { hp: 108, at: 100, df: 121, sa: 81, sd: 95, sp: 95 },
         weightkg: 305,
         abilities: { 0: 'Aura Break' },
@@ -6270,87 +6270,87 @@ var SM_PATCH = {
     Woobat: { bs: { hp: 65 } },
     Zygarde: { otherFormes: ['Zygarde-10%', 'Zygarde-Complete'] },
     Araquanid: {
-        types: ['Agua', 'Bicho'],
+        types: ['Water', 'Bug'],
         bs: { hp: 68, at: 70, df: 92, sa: 50, sd: 132, sp: 42 },
         abilities: { 0: 'Water Bubble' },
         weightkg: 82,
         otherFormes: ['Araquanid-Totem']
     },
     'Araquanid-Totem': {
-        types: ['Agua', 'Bicho'],
+        types: ['Water', 'Bug'],
         bs: { hp: 68, at: 70, df: 92, sa: 50, sd: 132, sp: 42 },
         abilities: { 0: 'Water Bubble' },
         weightkg: 217.5,
         baseSpecies: 'Araquanid'
     },
     Bewear: {
-        types: ['Normal', 'Lucha'],
+        types: ['Normal', 'Fighting'],
         bs: { hp: 120, at: 125, df: 80, sa: 55, sd: 60, sp: 60 },
         abilities: { 0: 'Fluffy' },
         weightkg: 135
     },
     Blacephalon: {
-        types: ['Fuego', 'Fantasma'],
+        types: ['Fire', 'Ghost'],
         bs: { hp: 53, at: 127, df: 53, sa: 151, sd: 79, sp: 107 },
         weightkg: 13,
         abilities: { 0: 'Beast Boost' },
         gender: 'N'
     },
     Bounsweet: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 42, at: 30, df: 38, sa: 30, sd: 38, sp: 32 },
         weightkg: 3.2,
         nfe: true,
         abilities: { 0: 'Leaf Guard' }
     },
     Brionne: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 60, at: 69, df: 69, sa: 91, sd: 81, sp: 50 },
         weightkg: 17.5,
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
     Bruxish: {
-        types: ['Agua', 'Psíquico'],
+        types: ['Water', 'Psychic'],
         bs: { hp: 68, at: 105, df: 70, sa: 70, sd: 70, sp: 92 },
         weightkg: 19,
         abilities: { 0: 'Dazzling' }
     },
     Buzzwole: {
-        types: ['Bicho', 'Lucha'],
+        types: ['Bug', 'Fighting'],
         bs: { hp: 107, at: 139, df: 139, sa: 53, sd: 53, sp: 79 },
         weightkg: 333.6,
         abilities: { 0: 'Beast Boost' },
         gender: 'N'
     },
     Caribolt: {
-        types: ['Planta', 'Eléctrico'],
+        types: ['Grass', 'Electric'],
         bs: { hp: 84, at: 106, df: 82, sa: 77, sd: 80, sp: 106 },
         weightkg: 140,
         abilities: { 0: 'Overgrow' }
     },
     Celesteela: {
-        types: ['Acero', 'Volador'],
+        types: ['Steel', 'Flying'],
         bs: { hp: 97, at: 101, df: 103, sa: 107, sd: 101, sp: 61 },
         weightkg: 999.9,
         abilities: { 0: 'Beast Boost' },
         gender: 'N'
     },
     Charjabug: {
-        types: ['Bicho', 'Eléctrico'],
+        types: ['Bug', 'Electric'],
         bs: { hp: 57, at: 82, df: 95, sa: 55, sd: 75, sp: 36 },
         weightkg: 10.5,
         nfe: true,
         abilities: { 0: 'Battery' }
     },
     Comfey: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 51, at: 52, df: 90, sa: 82, sd: 110, sp: 100 },
         weightkg: 0.3,
         abilities: { 0: 'Flower Veil' }
     },
     Cosmoem: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 43, at: 29, df: 131, sa: 29, sd: 131, sp: 37 },
         weightkg: 999.9,
         nfe: true,
@@ -6358,14 +6358,14 @@ var SM_PATCH = {
         abilities: { 0: 'Sturdy' }
     },
     Coribalis: {
-        types: ['Agua', 'Bicho'],
+        types: ['Water', 'Bug'],
         bs: { hp: 76, at: 69, df: 90, sa: 65, sd: 77, sp: 43 },
         weightkg: 24.5,
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
     Cosmog: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 43, at: 29, df: 31, sa: 29, sd: 31, sp: 37 },
         weightkg: 0.1,
         nfe: true,
@@ -6373,60 +6373,60 @@ var SM_PATCH = {
         abilities: { 0: 'Unaware' }
     },
     Crabominable: {
-        types: ['Lucha', 'Hielo'],
+        types: ['Fighting', 'Ice'],
         bs: { hp: 97, at: 132, df: 77, sa: 62, sd: 67, sp: 43 },
         weightkg: 180,
         abilities: { 0: 'Hyper Cutter' }
     },
     Crabrawler: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 47, at: 82, df: 57, sa: 42, sd: 47, sp: 63 },
         weightkg: 7,
         nfe: true,
         abilities: { 0: 'Hyper Cutter' }
     },
     Cutiefly: {
-        types: ['Bicho', 'Hada'],
+        types: ['Bug', 'Fairy'],
         bs: { hp: 40, at: 45, df: 40, sa: 55, sd: 40, sp: 84 },
         weightkg: 0.2,
         nfe: true,
         abilities: { 0: 'Honey Gather' }
     },
     Dartrix: {
-        types: ['Planta', 'Volador'],
+        types: ['Grass', 'Flying'],
         bs: { hp: 78, at: 75, df: 75, sa: 70, sd: 70, sp: 52 },
         weightkg: 16,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Decidueye: {
-        types: ['Planta', 'Fantasma'],
+        types: ['Grass', 'Ghost'],
         bs: { hp: 78, at: 107, df: 75, sa: 100, sd: 100, sp: 70 },
         weightkg: 36.6,
         abilities: { 0: 'Overgrow' }
     },
     Dewpider: {
-        types: ['Agua', 'Bicho'],
+        types: ['Water', 'Bug'],
         bs: { hp: 38, at: 40, df: 52, sa: 40, sd: 72, sp: 27 },
         weightkg: 4,
         nfe: true,
         abilities: { 0: 'Water Bubble' }
     },
     Dhelmise: {
-        types: ['Fantasma', 'Planta'],
+        types: ['Ghost', 'Grass'],
         bs: { hp: 70, at: 131, df: 100, sa: 86, sd: 90, sp: 40 },
         weightkg: 210,
         gender: 'N',
         abilities: { 0: 'Steelworker' }
     },
     Drampa: {
-        types: ['Normal', 'Dragón'],
+        types: ['Normal', 'Dragon'],
         bs: { hp: 78, at: 60, df: 85, sa: 135, sd: 91, sp: 36 },
         weightkg: 185,
         abilities: { 0: 'Berserk' }
     },
     'Diglett-Alola': {
-        types: ['Tierra', 'Acero'],
+        types: ['Ground', 'Steel'],
         bs: { hp: 10, at: 55, df: 30, sa: 35, sd: 45, sp: 90 },
         weightkg: 1,
         baseSpecies: 'Diglett',
@@ -6434,7 +6434,7 @@ var SM_PATCH = {
         abilities: { 0: 'Sand Veil' }
     },
     'Dugtrio-Alola': {
-        types: ['Tierra', 'Acero'],
+        types: ['Ground', 'Steel'],
         bs: { hp: 35, at: 100, df: 60, sa: 50, sd: 70, sp: 110 },
         weightkg: 66.6,
         baseSpecies: 'Dugtrio',
@@ -6448,42 +6448,42 @@ var SM_PATCH = {
         baseSpecies: 'Eevee'
     },
     Electrelk: {
-        types: ['Planta', 'Eléctrico'],
+        types: ['Grass', 'Electric'],
         bs: { hp: 59, at: 81, df: 67, sa: 57, sd: 55, sp: 101 },
         weightkg: 41.5,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Equilibra: {
-        types: ['Acero', 'Tierra'],
+        types: ['Steel', 'Ground'],
         bs: { hp: 102, at: 50, df: 96, sa: 133, sd: 118, sp: 60 },
         weightkg: 51.3,
         gender: 'N',
         abilities: { 0: 'Levitate' }
     },
     'Exeggutor-Alola': {
-        types: ['Planta', 'Dragón'],
+        types: ['Grass', 'Dragon'],
         bs: { hp: 95, at: 105, df: 85, sa: 125, sd: 75, sp: 45 },
         weightkg: 415.6,
         baseSpecies: 'Exeggutor',
         abilities: { 0: 'Frisk' }
     },
     Fawnifer: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 49, at: 61, df: 42, sa: 52, sd: 40, sp: 76 },
         weightkg: 6.9,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Fomantis: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 40, at: 55, df: 35, sa: 50, sd: 35, sp: 35 },
         weightkg: 1.5,
         nfe: true,
         abilities: { 0: 'Leaf Guard' }
     },
     'Geodude-Alola': {
-        types: ['Roca', 'Eléctrico'],
+        types: ['Rock', 'Electric'],
         bs: { hp: 40, at: 80, df: 100, sa: 30, sd: 30, sp: 20 },
         weightkg: 20.3,
         baseSpecies: 'Geodude',
@@ -6491,20 +6491,20 @@ var SM_PATCH = {
         abilities: { 0: 'Magnet Pull' }
     },
     'Golem-Alola': {
-        types: ['Roca', 'Eléctrico'],
+        types: ['Rock', 'Electric'],
         bs: { hp: 80, at: 120, df: 130, sa: 55, sd: 65, sp: 45 },
         weightkg: 316,
         abilities: { 0: 'Magnet Pull' },
         baseSpecies: 'Golem'
     },
     Golisopod: {
-        types: ['Bicho', 'Agua'],
+        types: ['Bug', 'Water'],
         bs: { hp: 75, at: 125, df: 140, sa: 60, sd: 90, sp: 40 },
         weightkg: 108,
         abilities: { 0: 'Emergency Exit' }
     },
     'Graveler-Alola': {
-        types: ['Roca', 'Eléctrico'],
+        types: ['Rock', 'Electric'],
         bs: { hp: 55, at: 95, df: 115, sa: 45, sd: 45, sp: 35 },
         weightkg: 110,
         baseSpecies: 'Graveler',
@@ -6512,7 +6512,7 @@ var SM_PATCH = {
         abilities: { 0: 'Magnet Pull' }
     },
     'Grimer-Alola': {
-        types: ['Veneno', 'Siniestro'],
+        types: ['Poison', 'Dark'],
         bs: { hp: 80, at: 80, df: 50, sa: 40, sd: 50, sp: 25 },
         weightkg: 42,
         baseSpecies: 'Grimer',
@@ -6520,14 +6520,14 @@ var SM_PATCH = {
         abilities: { 0: 'Poison Touch' }
     },
     'Greninja-Ash': {
-        types: ['Agua', 'Siniestro'],
+        types: ['Water', 'Dark'],
         bs: { hp: 72, at: 145, df: 67, sa: 153, sd: 71, sp: 132 },
         weightkg: 40,
         abilities: { 0: 'Battle Bond' },
         baseSpecies: 'Greninja'
     },
     Grubbin: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 47, at: 62, df: 45, sa: 55, sd: 45, sp: 46 },
         weightkg: 4.4,
         nfe: true,
@@ -6548,34 +6548,34 @@ var SM_PATCH = {
         abilities: { 0: 'Adaptability' }
     },
     Guzzlord: {
-        types: ['Siniestro', 'Dragón'],
+        types: ['Dark', 'Dragon'],
         bs: { hp: 223, at: 101, df: 53, sa: 97, sd: 53, sp: 43 },
         weightkg: 888,
         abilities: { 0: 'Beast Boost' },
         gender: 'N'
     },
     'Hakamo-o': {
-        types: ['Dragón', 'Lucha'],
+        types: ['Dragon', 'Fighting'],
         bs: { hp: 55, at: 75, df: 90, sa: 65, sd: 70, sp: 65 },
         weightkg: 47,
         nfe: true,
         abilities: { 0: 'Bulletproof' }
     },
     Incineroar: {
-        types: ['Fuego', 'Siniestro'],
+        types: ['Fire', 'Dark'],
         bs: { hp: 95, at: 115, df: 90, sa: 80, sd: 90, sp: 60 },
         weightkg: 83,
         abilities: { 0: 'Blaze' }
     },
     'Jangmo-o': {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 45, at: 55, df: 65, sa: 45, sd: 45, sp: 45 },
         weightkg: 29.7,
         nfe: true,
         abilities: { 0: 'Bulletproof' }
     },
     Justyke: {
-        types: ['Acero', 'Tierra'],
+        types: ['Steel', 'Ground'],
         bs: { hp: 72, at: 70, df: 56, sa: 83, sd: 68, sp: 30 },
         weightkg: 36.5,
         nfe: true,
@@ -6583,13 +6583,13 @@ var SM_PATCH = {
         gender: 'N'
     },
     Jumbao: {
-        types: ['Planta', 'Hada'],
+        types: ['Grass', 'Fairy'],
         bs: { hp: 92, at: 63, df: 97, sa: 124, sd: 104, sp: 96 },
         weightkg: 200,
         abilities: { 0: 'Trace' }
     },
     Kartana: {
-        types: ['Planta', 'Acero'],
+        types: ['Grass', 'Steel'],
         bs: { hp: 59, at: 181, df: 131, sa: 59, sd: 31, sp: 109 },
         weightkg: 0.1,
         abilities: { 0: 'Beast Boost' },
@@ -6602,119 +6602,119 @@ var SM_PATCH = {
         abilities: { 0: 'Comatose' }
     },
     'Kommo-o': {
-        types: ['Dragón', 'Lucha'],
+        types: ['Dragon', 'Fighting'],
         bs: { hp: 75, at: 110, df: 125, sa: 100, sd: 105, sp: 85 },
         weightkg: 78.2,
         otherFormes: ['Kommo-o-Totem'],
         abilities: { 0: 'Bulletproof' }
     },
     'Kommo-o-Totem': {
-        types: ['Dragón', 'Lucha'],
+        types: ['Dragon', 'Fighting'],
         bs: { hp: 75, at: 110, df: 125, sa: 100, sd: 105, sp: 85 },
         weightkg: 207.5,
         abilities: { 0: 'Overcoat' },
         baseSpecies: 'Kommo-o'
     },
     Litten: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 45, at: 65, df: 40, sa: 60, sd: 40, sp: 70 },
         weightkg: 4.3,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Lunala: {
-        types: ['Psíquico', 'Fantasma'],
+        types: ['Psychic', 'Ghost'],
         bs: { hp: 137, at: 113, df: 89, sa: 137, sd: 107, sp: 97 },
         weightkg: 120,
         abilities: { 0: 'Shadow Shield' },
         gender: 'N'
     },
     Lurantis: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 70, at: 105, df: 90, sa: 80, sd: 90, sp: 45 },
         weightkg: 18.5,
         otherFormes: ['Lurantis-Totem'],
         abilities: { 0: 'Leaf Guard' }
     },
     'Lurantis-Totem': {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 70, at: 105, df: 90, sa: 80, sd: 90, sp: 45 },
         weightkg: 58,
         abilities: { 0: 'Leaf Guard' },
         baseSpecies: 'Lurantis'
     },
     Lycanroc: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 75, at: 115, df: 65, sa: 55, sd: 65, sp: 112 },
         weightkg: 25,
         otherFormes: ['Lycanroc-Dusk', 'Lycanroc-Midnight'],
         abilities: { 0: 'Keen Eye' }
     },
     'Lycanroc-Dusk': {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 75, at: 117, df: 65, sa: 55, sd: 65, sp: 110 },
         weightkg: 25,
         abilities: { 0: 'Tough Claws' },
         baseSpecies: 'Lycanroc'
     },
     'Lycanroc-Midnight': {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 85, at: 115, df: 75, sa: 55, sd: 75, sp: 82 },
         weightkg: 25,
         baseSpecies: 'Lycanroc',
         abilities: { 0: 'Keen Eye' }
     },
     Magearna: {
-        types: ['Acero', 'Hada'],
+        types: ['Steel', 'Fairy'],
         bs: { hp: 80, at: 95, df: 115, sa: 130, sd: 115, sp: 65 },
         weightkg: 80.5,
         gender: 'N',
         abilities: { 0: 'Soul-Heart' }
     },
     Mareanie: {
-        types: ['Veneno', 'Agua'],
+        types: ['Poison', 'Water'],
         bs: { hp: 50, at: 53, df: 62, sa: 43, sd: 52, sp: 45 },
         weightkg: 8,
         nfe: true,
         abilities: { 0: 'Merciless' }
     },
     'Marowak-Alola': {
-        types: ['Fuego', 'Fantasma'],
+        types: ['Fire', 'Ghost'],
         bs: { hp: 60, at: 80, df: 110, sa: 50, sd: 80, sp: 45 },
         weightkg: 34,
         abilities: { 0: 'Cursed Body' },
         baseSpecies: 'Marowak'
     },
     'Marowak-Alola-Totem': {
-        types: ['Fuego', 'Fantasma'],
+        types: ['Fire', 'Ghost'],
         bs: { hp: 60, at: 80, df: 110, sa: 50, sd: 80, sp: 45 },
         weightkg: 98,
         abilities: { 0: 'Rock Head' },
         baseSpecies: 'Marowak'
     },
     Marshadow: {
-        types: ['Lucha', 'Fantasma'],
+        types: ['Fighting', 'Ghost'],
         bs: { hp: 90, at: 125, df: 80, sa: 90, sd: 90, sp: 125 },
         weightkg: 22.2,
         gender: 'N',
         abilities: { 0: 'Technician' }
     },
     Melmetal: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 135, at: 143, df: 143, sa: 80, sd: 65, sp: 34 },
         weightkg: 800,
         gender: 'N',
         abilities: { 0: 'Iron Fist' }
     },
     Meltan: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 46, at: 65, df: 65, sa: 55, sd: 35, sp: 34 },
         weightkg: 8,
         gender: 'N',
         abilities: { 0: 'Magnet Pull' }
     },
     'Meowth-Alola': {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 40, at: 35, df: 35, sa: 50, sd: 40, sp: 90 },
         weightkg: 4.2,
         baseSpecies: 'Meowth',
@@ -6722,35 +6722,35 @@ var SM_PATCH = {
         abilities: { 0: 'Pickup' }
     },
     Mimikyu: {
-        types: ['Fantasma', 'Hada'],
+        types: ['Ghost', 'Fairy'],
         bs: { hp: 55, at: 90, df: 80, sa: 50, sd: 105, sp: 96 },
         weightkg: 0.7,
         otherFormes: ['Mimikyu-Busted', 'Mimikyu-Busted-Totem', 'Mimikyu-Totem'],
         abilities: { 0: 'Disguise' }
     },
     'Mimikyu-Busted': {
-        types: ['Fantasma', 'Hada'],
+        types: ['Ghost', 'Fairy'],
         bs: { hp: 55, at: 90, df: 80, sa: 50, sd: 105, sp: 96 },
         weightkg: 0.7,
         baseSpecies: 'Mimikyu',
         abilities: { 0: 'Disguise' }
     },
     'Mimikyu-Busted-Totem': {
-        types: ['Fantasma', 'Hada'],
+        types: ['Ghost', 'Fairy'],
         bs: { hp: 55, at: 90, df: 80, sa: 50, sd: 105, sp: 96 },
         weightkg: 2.8,
         baseSpecies: 'Mimikyu',
         abilities: { 0: 'Disguise' }
     },
     'Mimikyu-Totem': {
-        types: ['Fantasma', 'Hada'],
+        types: ['Ghost', 'Fairy'],
         bs: { hp: 55, at: 90, df: 80, sa: 50, sd: 105, sp: 96 },
         weightkg: 2.8,
         baseSpecies: 'Mimikyu',
         abilities: { 0: 'Disguise' }
     },
     Minior: {
-        types: ['Roca', 'Volador'],
+        types: ['Rock', 'Flying'],
         bs: { hp: 60, at: 100, df: 60, sa: 100, sd: 60, sp: 120 },
         weightkg: 0.3,
         otherFormes: ['Minior-Meteor'],
@@ -6758,7 +6758,7 @@ var SM_PATCH = {
         abilities: { 0: 'Shields Down' }
     },
     'Minior-Meteor': {
-        types: ['Roca', 'Volador'],
+        types: ['Rock', 'Flying'],
         bs: { hp: 60, at: 60, df: 100, sa: 60, sd: 100, sp: 60 },
         weightkg: 40,
         gender: 'N',
@@ -6766,48 +6766,48 @@ var SM_PATCH = {
         abilities: { 0: 'Shields Down' }
     },
     Morelull: {
-        types: ['Planta', 'Hada'],
+        types: ['Grass', 'Fairy'],
         bs: { hp: 40, at: 35, df: 55, sa: 65, sd: 75, sp: 15 },
         weightkg: 1.5,
         nfe: true,
         abilities: { 0: 'Illuminate' }
     },
     Mudbray: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 70, at: 100, df: 70, sa: 45, sd: 55, sp: 45 },
         weightkg: 110,
         nfe: true,
         abilities: { 0: 'Own Tempo' }
     },
     Mudsdale: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 100, at: 125, df: 100, sa: 55, sd: 85, sp: 35 },
         weightkg: 920,
         abilities: { 0: 'Own Tempo' }
     },
     'Muk-Alola': {
-        types: ['Veneno', 'Siniestro'],
+        types: ['Poison', 'Dark'],
         bs: { hp: 105, at: 105, df: 75, sa: 65, sd: 100, sp: 50 },
         weightkg: 52,
         baseSpecies: 'Muk',
         abilities: { 0: 'Poison Touch' }
     },
     Mumbao: {
-        types: ['Planta', 'Hada'],
+        types: ['Grass', 'Fairy'],
         bs: { hp: 55, at: 30, df: 64, sa: 87, sd: 73, sp: 66 },
         weightkg: 83,
         nfe: true,
         abilities: { 0: 'Trace' }
     },
     Naganadel: {
-        types: ['Veneno', 'Dragón'],
+        types: ['Poison', 'Dragon'],
         bs: { hp: 73, at: 73, df: 73, sa: 127, sd: 73, sp: 121 },
         weightkg: 150,
         abilities: { 0: 'Beast Boost' },
         gender: 'N'
     },
     Necrozma: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 97, at: 107, df: 101, sa: 127, sd: 89, sp: 79 },
         weightkg: 230,
         abilities: { 0: 'Prism Armor' },
@@ -6815,7 +6815,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Necrozma-Dawn-Wings': {
-        types: ['Psíquico', 'Fantasma'],
+        types: ['Psychic', 'Ghost'],
         bs: { hp: 97, at: 113, df: 109, sa: 157, sd: 127, sp: 77 },
         weightkg: 350,
         abilities: { 0: 'Prism Armor' },
@@ -6823,7 +6823,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Necrozma-Dusk-Mane': {
-        types: ['Psíquico', 'Acero'],
+        types: ['Psychic', 'Steel'],
         bs: { hp: 97, at: 157, df: 127, sa: 113, sd: 109, sp: 77 },
         weightkg: 460,
         abilities: { 0: 'Prism Armor' },
@@ -6831,7 +6831,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Necrozma-Ultra': {
-        types: ['Psíquico', 'Dragón'],
+        types: ['Psychic', 'Dragon'],
         bs: { hp: 97, at: 167, df: 97, sa: 167, sd: 97, sp: 129 },
         weightkg: 230,
         abilities: { 0: 'Neuroforce' },
@@ -6839,150 +6839,150 @@ var SM_PATCH = {
         gender: 'N'
     },
     Nihilego: {
-        types: ['Roca', 'Veneno'],
+        types: ['Rock', 'Poison'],
         bs: { hp: 109, at: 53, df: 47, sa: 127, sd: 131, sp: 103 },
         weightkg: 55.5,
         abilities: { 0: 'Beast Boost' },
         gender: 'N'
     },
     'Ninetales-Alola': {
-        types: ['Hielo', 'Hada'],
+        types: ['Ice', 'Fairy'],
         bs: { hp: 73, at: 67, df: 75, sa: 81, sd: 100, sp: 109 },
         weightkg: 19.9,
         abilities: { 0: 'Snow Cloak' },
         baseSpecies: 'Ninetales'
     },
     Oranguru: {
-        types: ['Normal', 'Psíquico'],
+        types: ['Normal', 'Psychic'],
         bs: { hp: 90, at: 60, df: 80, sa: 90, sd: 110, sp: 60 },
         weightkg: 76,
         abilities: { 0: 'Inner Focus' }
     },
     Oricorio: {
-        types: ['Fuego', 'Volador'],
+        types: ['Fire', 'Flying'],
         bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
         weightkg: 3.4,
         abilities: { 0: 'Dancer' },
         otherFormes: ['Oricorio-Pa\'u', 'Oricorio-Pom-Pom', 'Oricorio-Sensu']
     },
     'Oricorio-Pa\'u': {
-        types: ['Psíquico', 'Volador'],
+        types: ['Psychic', 'Flying'],
         bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
         weightkg: 3.4,
         abilities: { 0: 'Dancer' },
         baseSpecies: 'Oricorio'
     },
     'Oricorio-Pom-Pom': {
-        types: ['Eléctrico', 'Volador'],
+        types: ['Electric', 'Flying'],
         bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
         weightkg: 3.4,
         abilities: { 0: 'Dancer' },
         baseSpecies: 'Oricorio'
     },
     'Oricorio-Sensu': {
-        types: ['Fantasma', 'Volador'],
+        types: ['Ghost', 'Flying'],
         bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
         weightkg: 3.4,
         abilities: { 0: 'Dancer' },
         baseSpecies: 'Oricorio'
     },
     Pajantom: {
-        types: ['Dragón', 'Fantasma'],
+        types: ['Dragon', 'Ghost'],
         bs: { hp: 84, at: 133, df: 71, sa: 51, sd: 111, sp: 101 },
         weightkg: 3.1,
         abilities: { 0: 'Comatose' }
     },
     Palossand: {
-        types: ['Fantasma', 'Tierra'],
+        types: ['Ghost', 'Ground'],
         bs: { hp: 85, at: 75, df: 110, sa: 100, sd: 75, sp: 35 },
         weightkg: 250,
         abilities: { 0: 'Water Compaction' }
     },
     Passimian: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 100, at: 120, df: 90, sa: 40, sd: 60, sp: 80 },
         weightkg: 82.8,
         abilities: { 0: 'Receiver' }
     },
     'Persian-Alola': {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 65, at: 60, df: 60, sa: 75, sd: 65, sp: 115 },
         weightkg: 33,
         baseSpecies: 'Persian',
         abilities: { 0: 'Fur Coat' }
     },
     Pheromosa: {
-        types: ['Bicho', 'Lucha'],
+        types: ['Bug', 'Fighting'],
         bs: { hp: 71, at: 137, df: 37, sa: 137, sd: 37, sp: 151 },
         weightkg: 25,
         abilities: { 0: 'Beast Boost' },
         gender: 'N'
     },
     'Pikachu-Alola': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Hoenn': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Kalos': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Original': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Partner': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Sinnoh': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Starter': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 45, at: 80, df: 50, sa: 75, sd: 60, sp: 120 },
         weightkg: 6,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-Unova': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pikachu'
     },
     Pikipek: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 35, at: 75, df: 30, sa: 30, sd: 30, sp: 65 },
         weightkg: 1.2,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
     },
     Poipole: {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 67, at: 73, df: 67, sa: 73, sd: 67, sp: 73 },
         weightkg: 1.8,
         abilities: { 0: 'Beast Boost' },
@@ -6990,47 +6990,47 @@ var SM_PATCH = {
         gender: 'N'
     },
     Popplio: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 50, at: 54, df: 54, sa: 66, sd: 56, sp: 40 },
         weightkg: 7.5,
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
     Primarina: {
-        types: ['Agua', 'Hada'],
+        types: ['Water', 'Fairy'],
         bs: { hp: 80, at: 74, df: 74, sa: 126, sd: 116, sp: 60 },
         weightkg: 44,
         abilities: { 0: 'Torrent' }
     },
     Pyukumuku: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 55, at: 60, df: 130, sa: 30, sd: 130, sp: 5 },
         weightkg: 1.2,
         abilities: { 0: 'Innards Out' }
     },
     'Raichu-Alola': {
-        types: ['Eléctrico', 'Psíquico'],
+        types: ['Electric', 'Psychic'],
         bs: { hp: 60, at: 85, df: 50, sa: 95, sd: 85, sp: 110 },
         weightkg: 21,
         baseSpecies: 'Raichu',
         abilities: { 0: 'Surge Surfer' }
     },
     'Raticate-Alola': {
-        types: ['Siniestro', 'Normal'],
+        types: ['Dark', 'Normal'],
         bs: { hp: 75, at: 71, df: 70, sa: 40, sd: 80, sp: 77 },
         weightkg: 25.5,
         baseSpecies: 'Raticate',
         abilities: { 0: 'Gluttony' }
     },
     'Raticate-Alola-Totem': {
-        types: ['Siniestro', 'Normal'],
+        types: ['Dark', 'Normal'],
         bs: { hp: 75, at: 71, df: 70, sa: 40, sd: 80, sp: 77 },
         weightkg: 105,
         abilities: { 0: 'Thick Fat' },
         baseSpecies: 'Raticate'
     },
     'Rattata-Alola': {
-        types: ['Siniestro', 'Normal'],
+        types: ['Dark', 'Normal'],
         bs: { hp: 30, at: 56, df: 35, sa: 25, sd: 35, sp: 72 },
         weightkg: 3.8,
         baseSpecies: 'Rattata',
@@ -7038,56 +7038,56 @@ var SM_PATCH = {
         abilities: { 0: 'Gluttony' }
     },
     Ribombee: {
-        types: ['Bicho', 'Hada'],
+        types: ['Bug', 'Fairy'],
         bs: { hp: 60, at: 55, df: 60, sa: 95, sd: 70, sp: 124 },
         weightkg: 0.5,
         otherFormes: ['Ribombee-Totem'],
         abilities: { 0: 'Honey Gather' }
     },
     'Ribombee-Totem': {
-        types: ['Bicho', 'Hada'],
+        types: ['Bug', 'Fairy'],
         bs: { hp: 60, at: 55, df: 60, sa: 95, sd: 70, sp: 124 },
         weightkg: 2,
         abilities: { 0: 'Sweet Veil' },
         baseSpecies: 'Ribombee'
     },
     Rockruff: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 45, at: 65, df: 40, sa: 30, sd: 40, sp: 60 },
         weightkg: 9.2,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
     },
     Rowlet: {
-        types: ['Planta', 'Volador'],
+        types: ['Grass', 'Flying'],
         bs: { hp: 68, at: 55, df: 55, sa: 50, sd: 50, sp: 42 },
         weightkg: 1.5,
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
     Salandit: {
-        types: ['Veneno', 'Fuego'],
+        types: ['Poison', 'Fire'],
         bs: { hp: 48, at: 44, df: 40, sa: 71, sd: 40, sp: 77 },
         weightkg: 4.8,
         nfe: true,
         abilities: { 0: 'Corrosion' }
     },
     Salazzle: {
-        types: ['Veneno', 'Fuego'],
+        types: ['Poison', 'Fire'],
         bs: { hp: 68, at: 64, df: 60, sa: 111, sd: 60, sp: 117 },
         weightkg: 22.2,
         otherFormes: ['Salazzle-Totem'],
         abilities: { 0: 'Corrosion' }
     },
     'Salazzle-Totem': {
-        types: ['Veneno', 'Fuego'],
+        types: ['Poison', 'Fire'],
         bs: { hp: 68, at: 64, df: 60, sa: 111, sd: 60, sp: 117 },
         weightkg: 81,
         abilities: { 0: 'Corrosion' },
         baseSpecies: 'Salazzle'
     },
     'Sandshrew-Alola': {
-        types: ['Hielo', 'Acero'],
+        types: ['Ice', 'Steel'],
         bs: { hp: 50, at: 75, df: 90, sa: 10, sd: 35, sp: 40 },
         weightkg: 40,
         baseSpecies: 'Sandshrew',
@@ -7095,21 +7095,21 @@ var SM_PATCH = {
         abilities: { 0: 'Snow Cloak' }
     },
     'Sandslash-Alola': {
-        types: ['Hielo', 'Acero'],
+        types: ['Ice', 'Steel'],
         bs: { hp: 75, at: 100, df: 120, sa: 25, sd: 65, sp: 65 },
         weightkg: 55,
         baseSpecies: 'Sandslash',
         abilities: { 0: 'Snow Cloak' }
     },
     Sandygast: {
-        types: ['Fantasma', 'Tierra'],
+        types: ['Ghost', 'Ground'],
         bs: { hp: 55, at: 55, df: 80, sa: 70, sd: 45, sp: 15 },
         weightkg: 70,
         nfe: true,
         abilities: { 0: 'Water Compaction' }
     },
     Shiinotic: {
-        types: ['Planta', 'Hada'],
+        types: ['Grass', 'Fairy'],
         bs: { hp: 60, at: 45, df: 80, sa: 90, sd: 100, sp: 30 },
         weightkg: 11.5,
         abilities: { 0: 'Illuminate' }
@@ -7141,7 +7141,7 @@ var SM_PATCH = {
         ]
     },
     'Silvally-Bug': {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7149,7 +7149,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Dark': {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7157,7 +7157,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Dragon': {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7165,7 +7165,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Electric': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7173,7 +7173,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Fairy': {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7181,7 +7181,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Fighting': {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7189,7 +7189,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Fire': {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7197,7 +7197,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Flying': {
-        types: ['Volador'],
+        types: ['Flying'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7205,7 +7205,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Ghost': {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7213,7 +7213,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Grass': {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7221,7 +7221,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Ground': {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7229,7 +7229,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Ice': {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7237,7 +7237,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Poison': {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7245,7 +7245,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Psychic': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7253,7 +7253,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Rock': {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7261,7 +7261,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Steel': {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7269,7 +7269,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Silvally-Water': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 95 },
         weightkg: 100.5,
         abilities: { 0: 'RKS System' },
@@ -7277,142 +7277,142 @@ var SM_PATCH = {
         gender: 'N'
     },
     Smogecko: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 48, at: 66, df: 43, sa: 58, sd: 48, sp: 56 },
         weightkg: 8.5,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Smoguana: {
-        types: ['Fuego', 'Tierra'],
+        types: ['Fire', 'Ground'],
         bs: { hp: 68, at: 86, df: 53, sa: 68, sd: 68, sp: 76 },
         weightkg: 22.2,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Smokomodo: {
-        types: ['Fuego', 'Tierra'],
+        types: ['Fire', 'Ground'],
         bs: { hp: 88, at: 116, df: 67, sa: 88, sd: 78, sp: 97 },
         weightkg: 205,
         abilities: { 0: 'Blaze' }
     },
     Snaelstrom: {
-        types: ['Agua', 'Bicho'],
+        types: ['Water', 'Bug'],
         bs: { hp: 91, at: 94, df: 110, sa: 80, sd: 97, sp: 63 },
         weightkg: 120,
         abilities: { 0: 'Torrent' }
     },
     Solgaleo: {
-        types: ['Psíquico', 'Acero'],
+        types: ['Psychic', 'Steel'],
         bs: { hp: 137, at: 137, df: 107, sa: 113, sd: 89, sp: 97 },
         weightkg: 230,
         abilities: { 0: 'Full Metal Body' },
         gender: 'N'
     },
     Stakataka: {
-        types: ['Roca', 'Acero'],
+        types: ['Rock', 'Steel'],
         bs: { hp: 61, at: 131, df: 211, sa: 53, sd: 101, sp: 13 },
         weightkg: 820,
         abilities: { 0: 'Beast Boost' },
         gender: 'N'
     },
     Steenee: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 52, at: 40, df: 48, sa: 40, sd: 48, sp: 62 },
         weightkg: 8.2,
         nfe: true,
         abilities: { 0: 'Leaf Guard' }
     },
     Stufful: {
-        types: ['Normal', 'Lucha'],
+        types: ['Normal', 'Fighting'],
         bs: { hp: 70, at: 75, df: 50, sa: 45, sd: 50, sp: 50 },
         weightkg: 6.8,
         abilities: { 0: 'Fluffy' },
         nfe: true
     },
     Swirlpool: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 61, at: 49, df: 70, sa: 50, sd: 62, sp: 28 },
         weightkg: 7,
         nfe: true,
         abilities: { 0: 'Torrent' }
     },
     'Tapu Bulu': {
-        types: ['Planta', 'Hada'],
+        types: ['Grass', 'Fairy'],
         bs: { hp: 70, at: 130, df: 115, sa: 85, sd: 95, sp: 75 },
         weightkg: 45.5,
         abilities: { 0: 'Grassy Surge' },
         gender: 'N'
     },
     'Tapu Fini': {
-        types: ['Agua', 'Hada'],
+        types: ['Water', 'Fairy'],
         bs: { hp: 70, at: 75, df: 115, sa: 95, sd: 130, sp: 85 },
         weightkg: 21.2,
         abilities: { 0: 'Misty Surge' },
         gender: 'N'
     },
     'Tapu Koko': {
-        types: ['Eléctrico', 'Hada'],
+        types: ['Electric', 'Fairy'],
         bs: { hp: 70, at: 115, df: 85, sa: 95, sd: 75, sp: 130 },
         weightkg: 20.5,
         abilities: { 0: 'Electric Surge' },
         gender: 'N'
     },
     'Tapu Lele': {
-        types: ['Psíquico', 'Hada'],
+        types: ['Psychic', 'Fairy'],
         bs: { hp: 70, at: 85, df: 75, sa: 130, sd: 115, sp: 95 },
         weightkg: 18.6,
         abilities: { 0: 'Psychic Surge' },
         gender: 'N'
     },
     Togedemaru: {
-        types: ['Eléctrico', 'Acero'],
+        types: ['Electric', 'Steel'],
         bs: { hp: 65, at: 98, df: 63, sa: 40, sd: 73, sp: 96 },
         weightkg: 3.3,
         abilities: { 0: 'Iron Barbs' },
         otherFormes: ['Togedemaru-Totem']
     },
     'Togedemaru-Totem': {
-        types: ['Eléctrico', 'Acero'],
+        types: ['Electric', 'Steel'],
         bs: { hp: 65, at: 98, df: 63, sa: 40, sd: 73, sp: 96 },
         weightkg: 13,
         abilities: { 0: 'Sturdy' },
         baseSpecies: 'Togedemaru'
     },
     Torracat: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 65, at: 85, df: 50, sa: 80, sd: 50, sp: 90 },
         weightkg: 25,
         nfe: true,
         abilities: { 0: 'Blaze' }
     },
     Toucannon: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 80, at: 120, df: 75, sa: 75, sd: 75, sp: 60 },
         weightkg: 26,
         abilities: { 0: 'Keen Eye' }
     },
     Toxapex: {
-        types: ['Veneno', 'Agua'],
+        types: ['Poison', 'Water'],
         bs: { hp: 50, at: 63, df: 152, sa: 53, sd: 142, sp: 35 },
         weightkg: 14.5,
         abilities: { 0: 'Merciless' }
     },
     Trumbeak: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 55, at: 85, df: 50, sa: 40, sd: 50, sp: 75 },
         weightkg: 14.8,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
     },
     Tsareena: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 72, at: 120, df: 98, sa: 50, sd: 98, sp: 72 },
         weightkg: 21.4,
         abilities: { 0: 'Leaf Guard' }
     },
     Turtonator: {
-        types: ['Fuego', 'Dragón'],
+        types: ['Fire', 'Dragon'],
         bs: { hp: 60, at: 78, df: 135, sa: 91, sd: 85, sp: 36 },
         weightkg: 212,
         abilities: { 0: 'Shell Armor' }
@@ -7426,21 +7426,21 @@ var SM_PATCH = {
         gender: 'N'
     },
     Vikavolt: {
-        types: ['Bicho', 'Eléctrico'],
+        types: ['Bug', 'Electric'],
         bs: { hp: 77, at: 70, df: 90, sa: 145, sd: 75, sp: 43 },
         weightkg: 45,
         abilities: { 0: 'Levitate' },
         otherFormes: ['Vikavolt-Totem']
     },
     'Vikavolt-Totem': {
-        types: ['Bicho', 'Eléctrico'],
+        types: ['Bug', 'Electric'],
         bs: { hp: 77, at: 70, df: 90, sa: 145, sd: 75, sp: 43 },
         weightkg: 147.5,
         abilities: { 0: 'Levitate' },
         baseSpecies: 'Vikavolt'
     },
     'Vulpix-Alola': {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 38, at: 41, df: 40, sa: 50, sd: 65, sp: 65 },
         weightkg: 9.9,
         baseSpecies: 'Vulpix',
@@ -7448,28 +7448,28 @@ var SM_PATCH = {
         abilities: { 0: 'Snow Cloak' }
     },
     Wimpod: {
-        types: ['Bicho', 'Agua'],
+        types: ['Bug', 'Water'],
         bs: { hp: 25, at: 35, df: 40, sa: 20, sd: 30, sp: 80 },
         weightkg: 12,
         abilities: { 0: 'Wimp Out' },
         nfe: true
     },
     Wishiwashi: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 45, at: 20, df: 20, sa: 25, sd: 25, sp: 40 },
         weightkg: 0.3,
         otherFormes: ['Wishiwashi-School'],
         abilities: { 0: 'Schooling' }
     },
     'Wishiwashi-School': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 45, at: 140, df: 130, sa: 140, sd: 135, sp: 30 },
         weightkg: 78.6,
         baseSpecies: 'Wishiwashi',
         abilities: { 0: 'Schooling' }
     },
     Xurkitree: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 83, at: 89, df: 71, sa: 173, sd: 71, sp: 83 },
         weightkg: 100,
         abilities: { 0: 'Beast Boost' },
@@ -7483,14 +7483,14 @@ var SM_PATCH = {
         abilities: { 0: 'Stakeout' }
     },
     Zeraora: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 88, at: 112, df: 75, sa: 102, sd: 80, sp: 143 },
         weightkg: 44.5,
         abilities: { 0: 'Volt Absorb' },
         gender: 'N'
     },
     'Zygarde-10%': {
-        types: ['Dragón', 'Tierra'],
+        types: ['Dragon', 'Ground'],
         bs: { hp: 54, at: 100, df: 71, sa: 61, sd: 85, sp: 115 },
         weightkg: 33.5,
         abilities: { 0: 'Aura Break' },
@@ -7498,7 +7498,7 @@ var SM_PATCH = {
         gender: 'N'
     },
     'Zygarde-Complete': {
-        types: ['Dragón', 'Tierra'],
+        types: ['Dragon', 'Ground'],
         bs: { hp: 216, at: 100, df: 121, sa: 91, sd: 95, sp: 85 },
         weightkg: 610,
         abilities: { 0: 'Power Construct' },
@@ -7567,63 +7567,63 @@ var SS_PATCH = {
     Zapdos: { otherFormes: ['Zapdos-Galar'] },
     Zigzagoon: { otherFormes: ['Zigzagoon-Galar'] },
     Alcremie: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 65, at: 60, df: 75, sa: 110, sd: 121, sp: 64 },
         weightkg: 0.5,
         abilities: { 0: 'Sweet Veil' },
         otherFormes: ['Alcremie-Gmax']
     },
     'Alcremie-Gmax': {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 65, at: 60, df: 75, sa: 110, sd: 121, sp: 64 },
         weightkg: 0,
         abilities: { 0: 'Sweet Veil' },
         baseSpecies: 'Alcremie'
     },
     Appletun: {
-        types: ['Planta', 'Dragón'],
+        types: ['Grass', 'Dragon'],
         bs: { hp: 110, at: 85, df: 80, sa: 100, sd: 80, sp: 30 },
         weightkg: 13,
         abilities: { 0: 'Ripen' },
         otherFormes: ['Appletun-Gmax']
     },
     'Appletun-Gmax': {
-        types: ['Planta', 'Dragón'],
+        types: ['Grass', 'Dragon'],
         bs: { hp: 110, at: 85, df: 80, sa: 100, sd: 80, sp: 30 },
         weightkg: 0,
         abilities: { 0: 'Ripen' },
         baseSpecies: 'Appletun'
     },
     Applin: {
-        types: ['Planta', 'Dragón'],
+        types: ['Grass', 'Dragon'],
         bs: { hp: 40, at: 40, df: 80, sa: 40, sd: 40, sp: 20 },
         weightkg: 0.5,
         abilities: { 0: 'Ripen' },
         nfe: true
     },
     Arctovish: {
-        types: ['Agua', 'Hielo'],
+        types: ['Water', 'Ice'],
         bs: { hp: 90, at: 90, df: 100, sa: 80, sd: 90, sp: 55 },
         weightkg: 175,
         abilities: { 0: 'Water Absorb' },
         gender: 'N'
     },
     Arctozolt: {
-        types: ['Eléctrico', 'Hielo'],
+        types: ['Electric', 'Ice'],
         bs: { hp: 90, at: 100, df: 90, sa: 90, sd: 80, sp: 55 },
         weightkg: 150,
         abilities: { 0: 'Volt Absorb' },
         gender: 'N'
     },
     Arrokuda: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 41, at: 63, df: 40, sa: 40, sd: 30, sp: 66 },
         weightkg: 1,
         abilities: { 0: 'Swift Swim' },
         nfe: true
     },
     'Articuno-Galar': {
-        types: ['Psíquico', 'Volador'],
+        types: ['Psychic', 'Flying'],
         bs: { hp: 90, at: 85, df: 85, sa: 125, sd: 100, sp: 95 },
         weightkg: 50.9,
         abilities: { 0: 'Competitive' },
@@ -7631,46 +7631,46 @@ var SS_PATCH = {
         baseSpecies: 'Articuno'
     },
     Astrolotl: {
-        types: ['Fuego', 'Dragón'],
+        types: ['Fire', 'Dragon'],
         bs: { hp: 108, at: 108, df: 74, sa: 92, sd: 64, sp: 114 },
         weightkg: 50,
         abilities: { 0: 'Regenerator' }
     },
     Barraskewda: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 61, at: 123, df: 60, sa: 60, sd: 50, sp: 136 },
         weightkg: 30,
         abilities: { 0: 'Swift Swim' }
     },
     'Blastoise-Gmax': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 79, at: 83, df: 100, sa: 85, sd: 105, sp: 78 },
         weightkg: 0,
         abilities: { 0: 'Torrent' },
         baseSpecies: 'Blastoise'
     },
     Blipbug: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 25, at: 20, df: 20, sa: 25, sd: 45, sp: 45 },
         weightkg: 8,
         abilities: { 0: 'Swarm' },
         nfe: true
     },
     Boltund: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 69, at: 90, df: 60, sa: 90, sd: 60, sp: 121 },
         weightkg: 34,
         abilities: { 0: 'Strong Jaw' }
     },
     'Butterfree-Gmax': {
-        types: ['Bicho', 'Volador'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 60, at: 45, df: 50, sa: 90, sd: 80, sp: 70 },
         weightkg: 0,
         abilities: { 0: 'Compound Eyes' },
         baseSpecies: 'Butterfree'
     },
     Calyrex: {
-        types: ['Psíquico', 'Planta'],
+        types: ['Psychic', 'Grass'],
         bs: { hp: 100, at: 80, df: 80, sa: 80, sd: 80, sp: 80 },
         weightkg: 7.7,
         abilities: { 0: 'Unnerve' },
@@ -7678,7 +7678,7 @@ var SS_PATCH = {
         otherFormes: ['Calyrex-Ice', 'Calyrex-Shadow']
     },
     'Calyrex-Ice': {
-        types: ['Psíquico', 'Hielo'],
+        types: ['Psychic', 'Ice'],
         bs: { hp: 100, at: 165, df: 150, sa: 85, sd: 130, sp: 50 },
         weightkg: 809.1,
         abilities: { 0: 'As One (Glastrier)' },
@@ -7686,7 +7686,7 @@ var SS_PATCH = {
         baseSpecies: 'Calyrex'
     },
     'Calyrex-Shadow': {
-        types: ['Psíquico', 'Fantasma'],
+        types: ['Psychic', 'Ghost'],
         bs: { hp: 100, at: 85, df: 80, sa: 165, sd: 100, sp: 150 },
         weightkg: 53.6,
         abilities: { 0: 'As One (Spectrier)' },
@@ -7694,98 +7694,98 @@ var SS_PATCH = {
         baseSpecies: 'Calyrex'
     },
     Carkol: {
-        types: ['Roca', 'Fuego'],
+        types: ['Rock', 'Fire'],
         bs: { hp: 80, at: 60, df: 90, sa: 60, sd: 70, sp: 50 },
         weightkg: 78,
         abilities: { 0: 'Steam Engine' },
         nfe: true
     },
     Centiskorch: {
-        types: ['Fuego', 'Bicho'],
+        types: ['Fire', 'Bug'],
         bs: { hp: 100, at: 115, df: 65, sa: 90, sd: 90, sp: 65 },
         weightkg: 120,
         abilities: { 0: 'Flash Fire' },
         otherFormes: ['Centiskorch-Gmax']
     },
     'Centiskorch-Gmax': {
-        types: ['Fuego', 'Bicho'],
+        types: ['Fire', 'Bug'],
         bs: { hp: 100, at: 115, df: 65, sa: 90, sd: 90, sp: 65 },
         weightkg: 0,
         abilities: { 0: 'Flash Fire' },
         baseSpecies: 'Centiskorch'
     },
     'Charizard-Gmax': {
-        types: ['Fuego', 'Volador'],
+        types: ['Fire', 'Flying'],
         bs: { hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100 },
         weightkg: 0,
         abilities: { 0: 'Blaze' },
         baseSpecies: 'Charizard'
     },
     Chewtle: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 50, at: 64, df: 50, sa: 38, sd: 38, sp: 44 },
         weightkg: 8.5,
         abilities: { 0: 'Strong Jaw' },
         nfe: true
     },
     Chromera: {
-        types: ['Siniestro', 'Normal'],
+        types: ['Dark', 'Normal'],
         bs: { hp: 85, at: 85, df: 115, sa: 115, sd: 100, sp: 100 },
         weightkg: 215,
         abilities: { 0: 'Color Change' },
         gender: 'N'
     },
     Cinderace: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 80, at: 116, df: 75, sa: 65, sd: 75, sp: 119 },
         weightkg: 33,
         abilities: { 0: 'Blaze' },
         otherFormes: ['Cinderace-Gmax']
     },
     'Cinderace-Gmax': {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 80, at: 116, df: 75, sa: 65, sd: 75, sp: 119 },
         weightkg: 0,
         abilities: { 0: 'Blaze' },
         baseSpecies: 'Cinderace'
     },
     Clobbopus: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 50, at: 68, df: 60, sa: 50, sd: 50, sp: 32 },
         weightkg: 4,
         abilities: { 0: 'Limber' },
         nfe: true
     },
     Coalossal: {
-        types: ['Roca', 'Fuego'],
+        types: ['Rock', 'Fire'],
         bs: { hp: 110, at: 80, df: 120, sa: 80, sd: 90, sp: 30 },
         weightkg: 310.5,
         abilities: { 0: 'Steam Engine' },
         otherFormes: ['Coalossal-Gmax']
     },
     'Coalossal-Gmax': {
-        types: ['Roca', 'Fuego'],
+        types: ['Rock', 'Fire'],
         bs: { hp: 110, at: 80, df: 120, sa: 80, sd: 90, sp: 30 },
         weightkg: 0,
         abilities: { 0: 'Steam Engine' },
         baseSpecies: 'Coalossal'
     },
     Copperajah: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 122, at: 130, df: 69, sa: 80, sd: 69, sp: 30 },
         weightkg: 650,
         abilities: { 0: 'Sheer Force' },
         otherFormes: ['Copperajah-Gmax']
     },
     'Copperajah-Gmax': {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 122, at: 130, df: 69, sa: 80, sd: 69, sp: 30 },
         weightkg: 0,
         abilities: { 0: 'Sheer Force' },
         baseSpecies: 'Copperajah'
     },
     'Corsola-Galar': {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 60, at: 55, df: 100, sa: 65, sd: 100, sp: 30 },
         weightkg: 0.5,
         abilities: { 0: 'Weak Armor' },
@@ -7793,76 +7793,76 @@ var SS_PATCH = {
         baseSpecies: 'Corsola'
     },
     Corviknight: {
-        types: ['Volador', 'Acero'],
+        types: ['Flying', 'Steel'],
         bs: { hp: 98, at: 87, df: 105, sa: 53, sd: 85, sp: 67 },
         weightkg: 75,
         abilities: { 0: 'Pressure' },
         otherFormes: ['Corviknight-Gmax']
     },
     'Corviknight-Gmax': {
-        types: ['Volador', 'Acero'],
+        types: ['Flying', 'Steel'],
         bs: { hp: 98, at: 87, df: 105, sa: 53, sd: 85, sp: 67 },
         weightkg: 0,
         abilities: { 0: 'Pressure' },
         baseSpecies: 'Corviknight'
     },
     Corvisquire: {
-        types: ['Volador'],
+        types: ['Flying'],
         bs: { hp: 68, at: 67, df: 55, sa: 43, sd: 55, sp: 77 },
         weightkg: 16,
         abilities: { 0: 'Keen Eye' },
         nfe: true
     },
     Cramorant: {
-        types: ['Volador', 'Agua'],
+        types: ['Flying', 'Water'],
         bs: { hp: 70, at: 85, df: 55, sa: 85, sd: 95, sp: 85 },
         weightkg: 18,
         abilities: { 0: 'Gulp Missile' },
         otherFormes: ['Cramorant-Gorging', 'Cramorant-Gulping']
     },
     'Cramorant-Gorging': {
-        types: ['Volador', 'Agua'],
+        types: ['Flying', 'Water'],
         bs: { hp: 70, at: 85, df: 55, sa: 85, sd: 95, sp: 85 },
         weightkg: 18,
         abilities: { 0: 'Gulp Missile' },
         baseSpecies: 'Cramorant'
     },
     'Cramorant-Gulping': {
-        types: ['Volador', 'Agua'],
+        types: ['Flying', 'Water'],
         bs: { hp: 70, at: 85, df: 55, sa: 85, sd: 95, sp: 85 },
         weightkg: 18,
         abilities: { 0: 'Gulp Missile' },
         baseSpecies: 'Cramorant'
     },
     Cufant: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 72, at: 80, df: 49, sa: 40, sd: 49, sp: 40 },
         weightkg: 100,
         abilities: { 0: 'Sheer Force' },
         nfe: true
     },
     Cursola: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 60, at: 95, df: 50, sa: 145, sd: 130, sp: 30 },
         weightkg: 0.4,
         abilities: { 0: 'Weak Armor' }
     },
     'Darmanitan-Galar': {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 105, at: 140, df: 55, sa: 30, sd: 55, sp: 95 },
         weightkg: 120,
         abilities: { 0: 'Gorilla Tactics' },
         baseSpecies: 'Darmanitan'
     },
     'Darmanitan-Galar-Zen': {
-        types: ['Hielo', 'Fuego'],
+        types: ['Ice', 'Fire'],
         bs: { hp: 105, at: 160, df: 55, sa: 30, sd: 55, sp: 135 },
         weightkg: 120,
         abilities: { 0: 'Zen Mode' },
         baseSpecies: 'Darmanitan'
     },
     'Darumaka-Galar': {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 70, at: 90, df: 45, sa: 15, sd: 45, sp: 50 },
         weightkg: 40,
         abilities: { 0: 'Hustle' },
@@ -7870,62 +7870,62 @@ var SS_PATCH = {
         baseSpecies: 'Darumaka'
     },
     Dottler: {
-        types: ['Bicho', 'Psíquico'],
+        types: ['Bug', 'Psychic'],
         bs: { hp: 50, at: 35, df: 80, sa: 50, sd: 90, sp: 30 },
         weightkg: 19.5,
         abilities: { 0: 'Swarm' },
         nfe: true
     },
     Dracovish: {
-        types: ['Agua', 'Dragón'],
+        types: ['Water', 'Dragon'],
         bs: { hp: 90, at: 90, df: 100, sa: 70, sd: 80, sp: 75 },
         weightkg: 215,
         abilities: { 0: 'Water Absorb' },
         gender: 'N'
     },
     Dracozolt: {
-        types: ['Eléctrico', 'Dragón'],
+        types: ['Electric', 'Dragon'],
         bs: { hp: 90, at: 100, df: 90, sa: 80, sd: 70, sp: 75 },
         weightkg: 190,
         abilities: { 0: 'Volt Absorb' },
         gender: 'N'
     },
     Dragapult: {
-        types: ['Dragón', 'Fantasma'],
+        types: ['Dragon', 'Ghost'],
         bs: { hp: 88, at: 120, df: 75, sa: 100, sd: 75, sp: 142 },
         weightkg: 50,
         abilities: { 0: 'Clear Body' }
     },
     Drakloak: {
-        types: ['Dragón', 'Fantasma'],
+        types: ['Dragon', 'Ghost'],
         bs: { hp: 68, at: 80, df: 50, sa: 60, sd: 50, sp: 102 },
         weightkg: 11,
         abilities: { 0: 'Clear Body' },
         nfe: true
     },
     Drednaw: {
-        types: ['Agua', 'Roca'],
+        types: ['Water', 'Rock'],
         bs: { hp: 90, at: 115, df: 90, sa: 48, sd: 68, sp: 74 },
         weightkg: 115.5,
         abilities: { 0: 'Strong Jaw' },
         otherFormes: ['Drednaw-Gmax']
     },
     'Drednaw-Gmax': {
-        types: ['Agua', 'Roca'],
+        types: ['Water', 'Rock'],
         bs: { hp: 90, at: 115, df: 90, sa: 48, sd: 68, sp: 74 },
         weightkg: 0,
         abilities: { 0: 'Strong Jaw' },
         baseSpecies: 'Drednaw'
     },
     Dreepy: {
-        types: ['Dragón', 'Fantasma'],
+        types: ['Dragon', 'Ghost'],
         bs: { hp: 28, at: 60, df: 30, sa: 40, sd: 30, sp: 82 },
         weightkg: 2,
         abilities: { 0: 'Clear Body' },
         nfe: true
     },
     Drizzile: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 65, at: 60, df: 55, sa: 95, sd: 55, sp: 90 },
         weightkg: 11.5,
         abilities: { 0: 'Torrent' },
@@ -7938,14 +7938,14 @@ var SS_PATCH = {
         abilities: { 0: 'Fluffy' }
     },
     Duraludon: {
-        types: ['Acero', 'Dragón'],
+        types: ['Steel', 'Dragon'],
         bs: { hp: 70, at: 95, df: 115, sa: 120, sd: 50, sp: 85 },
         weightkg: 40,
         abilities: { 0: 'Light Metal' },
         otherFormes: ['Duraludon-Gmax']
     },
     'Duraludon-Gmax': {
-        types: ['Acero', 'Dragón'],
+        types: ['Steel', 'Dragon'],
         bs: { hp: 70, at: 95, df: 115, sa: 120, sd: 50, sp: 85 },
         weightkg: 0,
         abilities: { 0: 'Light Metal' },
@@ -7959,27 +7959,27 @@ var SS_PATCH = {
         baseSpecies: 'Eevee'
     },
     Eiscue: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 75, at: 80, df: 110, sa: 65, sd: 90, sp: 50 },
         weightkg: 89,
         abilities: { 0: 'Ice Face' },
         otherFormes: ['Eiscue-Noice']
     },
     'Eiscue-Noice': {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 75, at: 80, df: 70, sa: 65, sd: 50, sp: 130 },
         weightkg: 89,
         abilities: { 0: 'Ice Face' },
         baseSpecies: 'Eiscue'
     },
     Eldegoss: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 60, at: 50, df: 90, sa: 80, sd: 120, sp: 60 },
         weightkg: 2.5,
         abilities: { 0: 'Cotton Down' }
     },
     Eternatus: {
-        types: ['Veneno', 'Dragón'],
+        types: ['Poison', 'Dragon'],
         bs: { hp: 140, at: 85, df: 95, sa: 145, sd: 95, sp: 130 },
         weightkg: 950,
         abilities: { 0: 'Pressure' },
@@ -7987,7 +7987,7 @@ var SS_PATCH = {
         otherFormes: ['Eternatus-Eternamax']
     },
     'Eternatus-Eternamax': {
-        types: ['Veneno', 'Dragón'],
+        types: ['Poison', 'Dragon'],
         bs: { hp: 255, at: 115, df: 250, sa: 125, sd: 250, sp: 130 },
         weightkg: 0,
         abilities: { 0: 'Pressure' },
@@ -7995,14 +7995,14 @@ var SS_PATCH = {
         baseSpecies: 'Eternatus'
     },
     Falinks: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 65, at: 100, df: 100, sa: 70, sd: 60, sp: 75 },
         weightkg: 62,
         abilities: { 0: 'Battle Armor' },
         gender: 'N'
     },
     'Farfetch\u2019d-Galar': {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 52, at: 95, df: 55, sa: 58, sd: 62, sp: 55 },
         weightkg: 15,
         abilities: { 0: 'Steadfast' },
@@ -8010,55 +8010,55 @@ var SS_PATCH = {
         baseSpecies: 'Farfetch\u2019d'
     },
     Flapple: {
-        types: ['Planta', 'Dragón'],
+        types: ['Grass', 'Dragon'],
         bs: { hp: 70, at: 110, df: 80, sa: 95, sd: 60, sp: 70 },
         weightkg: 1,
         abilities: { 0: 'Ripen' },
         otherFormes: ['Flapple-Gmax']
     },
     'Flapple-Gmax': {
-        types: ['Planta', 'Dragón'],
+        types: ['Grass', 'Dragon'],
         bs: { hp: 70, at: 110, df: 80, sa: 95, sd: 60, sp: 70 },
         weightkg: 0,
         abilities: { 0: 'Ripen' },
         baseSpecies: 'Flapple'
     },
     Frosmoth: {
-        types: ['Hielo', 'Bicho'],
+        types: ['Ice', 'Bug'],
         bs: { hp: 70, at: 65, df: 60, sa: 125, sd: 90, sp: 65 },
         weightkg: 42,
         abilities: { 0: 'Shield Dust' }
     },
     'Garbodor-Gmax': {
-        types: ['Veneno'],
+        types: ['Poison'],
         bs: { hp: 80, at: 95, df: 82, sa: 60, sd: 82, sp: 75 },
         weightkg: 0,
         abilities: { 0: 'Stench' },
         baseSpecies: 'Garbodor'
     },
     'Gengar-Gmax': {
-        types: ['Fantasma', 'Veneno'],
+        types: ['Ghost', 'Poison'],
         bs: { hp: 60, at: 65, df: 60, sa: 130, sd: 75, sp: 110 },
         weightkg: 0,
         abilities: { 0: 'Cursed Body' },
         baseSpecies: 'Gengar'
     },
     Glastrier: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 100, at: 145, df: 130, sa: 65, sd: 110, sp: 30 },
         weightkg: 800,
         abilities: { 0: 'Chilling Neigh' },
         gender: 'N'
     },
     Gossifleur: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 40, at: 40, df: 60, sa: 40, sd: 60, sp: 10 },
         weightkg: 2.2,
         abilities: { 0: 'Cotton Down' },
         nfe: true
     },
     Grapploct: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 80, at: 118, df: 90, sa: 70, sd: 80, sp: 42 },
         weightkg: 39,
         abilities: { 0: 'Limber' }
@@ -8070,112 +8070,112 @@ var SS_PATCH = {
         abilities: { 0: 'Cheek Pouch' }
     },
     Grimmsnarl: {
-        types: ['Siniestro', 'Hada'],
+        types: ['Dark', 'Fairy'],
         bs: { hp: 95, at: 120, df: 65, sa: 95, sd: 75, sp: 60 },
         weightkg: 61,
         abilities: { 0: 'Prankster' },
         otherFormes: ['Grimmsnarl-Gmax']
     },
     'Grimmsnarl-Gmax': {
-        types: ['Siniestro', 'Hada'],
+        types: ['Dark', 'Fairy'],
         bs: { hp: 95, at: 120, df: 65, sa: 95, sd: 75, sp: 60 },
         weightkg: 0,
         abilities: { 0: 'Prankster' },
         baseSpecies: 'Grimmsnarl'
     },
     Grookey: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 50, at: 65, df: 50, sa: 40, sd: 40, sp: 65 },
         weightkg: 5,
         abilities: { 0: 'Overgrow' },
         nfe: true
     },
     Hatenna: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 42, at: 30, df: 45, sa: 56, sd: 53, sp: 39 },
         weightkg: 3.4,
         abilities: { 0: 'Healer' },
         nfe: true
     },
     Hatterene: {
-        types: ['Psíquico', 'Hada'],
+        types: ['Psychic', 'Fairy'],
         bs: { hp: 57, at: 90, df: 95, sa: 136, sd: 103, sp: 29 },
         weightkg: 5.1,
         abilities: { 0: 'Healer' },
         otherFormes: ['Hatterene-Gmax']
     },
     'Hatterene-Gmax': {
-        types: ['Psíquico', 'Hada'],
+        types: ['Psychic', 'Fairy'],
         bs: { hp: 57, at: 90, df: 95, sa: 136, sd: 103, sp: 29 },
         weightkg: 0,
         abilities: { 0: 'Healer' },
         baseSpecies: 'Hatterene'
     },
     Hattrem: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 57, at: 40, df: 65, sa: 86, sd: 73, sp: 49 },
         weightkg: 4.8,
         abilities: { 0: 'Healer' },
         nfe: true
     },
     Impidimp: {
-        types: ['Siniestro', 'Hada'],
+        types: ['Dark', 'Fairy'],
         bs: { hp: 45, at: 45, df: 30, sa: 55, sd: 40, sp: 50 },
         weightkg: 5.5,
         abilities: { 0: 'Prankster' },
         nfe: true
     },
     Indeedee: {
-        types: ['Psíquico', 'Normal'],
+        types: ['Psychic', 'Normal'],
         bs: { hp: 60, at: 65, df: 55, sa: 105, sd: 95, sp: 95 },
         weightkg: 28,
         abilities: { 0: 'Inner Focus' },
         otherFormes: ['Indeedee-F']
     },
     'Indeedee-F': {
-        types: ['Psíquico', 'Normal'],
+        types: ['Psychic', 'Normal'],
         bs: { hp: 70, at: 55, df: 65, sa: 95, sd: 105, sp: 85 },
         weightkg: 28,
         abilities: { 0: 'Own Tempo' },
         baseSpecies: 'Indeedee'
     },
     Inteleon: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 70, at: 85, df: 65, sa: 125, sd: 65, sp: 120 },
         weightkg: 45.2,
         abilities: { 0: 'Torrent' },
         otherFormes: ['Inteleon-Gmax']
     },
     'Inteleon-Gmax': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 70, at: 85, df: 65, sa: 125, sd: 65, sp: 120 },
         weightkg: 0,
         abilities: { 0: 'Torrent' },
         baseSpecies: 'Inteleon'
     },
     'Kingler-Gmax': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 55, at: 130, df: 115, sa: 50, sd: 50, sp: 75 },
         weightkg: 0,
         abilities: { 0: 'Hyper Cutter' },
         baseSpecies: 'Kingler'
     },
     'Kubfu': {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 60, at: 90, df: 60, sa: 53, sd: 50, sp: 72 },
         weightkg: 12,
         nfe: true,
         abilities: { 0: 'Inner Focus' }
     },
     'Lapras-Gmax': {
-        types: ['Agua', 'Hielo'],
+        types: ['Water', 'Ice'],
         bs: { hp: 130, at: 85, df: 80, sa: 85, sd: 95, sp: 60 },
         weightkg: 0,
         abilities: { 0: 'Water Absorb' },
         baseSpecies: 'Lapras'
     },
     'Linoone-Galar': {
-        types: ['Siniestro', 'Normal'],
+        types: ['Dark', 'Normal'],
         bs: { hp: 78, at: 70, df: 61, sa: 50, sd: 61, sp: 100 },
         weightkg: 32.5,
         abilities: { 0: 'Pickup' },
@@ -8185,21 +8185,21 @@ var SS_PATCH = {
     Magearna: { otherFormes: ['Magearna-Original'] },
     'Magearna-Original': {
         baseSpecies: 'Magearna',
-        types: ['Acero', 'Hada'],
+        types: ['Steel', 'Fairy'],
         bs: { hp: 80, at: 95, df: 115, sa: 130, sd: 115, sp: 65 },
         weightkg: 80.5,
         gender: 'N',
         abilities: { 0: 'Soul-Heart' }
     },
     'Machamp-Gmax': {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 90, at: 130, df: 80, sa: 65, sd: 85, sp: 55 },
         weightkg: 0,
         abilities: { 0: 'Guts' },
         baseSpecies: 'Machamp'
     },
     'Melmetal-Gmax': {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 135, at: 143, df: 143, sa: 80, sd: 65, sp: 34 },
         weightkg: 0,
         abilities: { 0: 'Iron Fist' },
@@ -8207,7 +8207,7 @@ var SS_PATCH = {
         gender: 'N'
     },
     'Meowth-Galar': {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 50, at: 65, df: 55, sa: 40, sd: 40, sp: 40 },
         weightkg: 7.5,
         abilities: { 0: 'Pickup' },
@@ -8222,27 +8222,27 @@ var SS_PATCH = {
         baseSpecies: 'Meowth'
     },
     Miasmaw: {
-        types: ['Bicho', 'Dragón'],
+        types: ['Bug', 'Dragon'],
         bs: { hp: 85, at: 135, df: 60, sa: 88, sd: 105, sp: 99 },
         weightkg: 57,
         abilities: { 0: 'Neutralizing Gas' }
     },
     Miasmite: {
-        types: ['Bicho', 'Dragón'],
+        types: ['Bug', 'Dragon'],
         bs: { hp: 40, at: 85, df: 60, sa: 52, sd: 52, sp: 44 },
         weightkg: 10.1,
         abilities: { 0: 'Neutralizing Gas' },
         nfe: true
     },
     Milcery: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 45, at: 40, df: 40, sa: 50, sd: 61, sp: 34 },
         weightkg: 0.3,
         abilities: { 0: 'Sweet Veil' },
         nfe: true
     },
     'Moltres-Galar': {
-        types: ['Siniestro', 'Volador'],
+        types: ['Dark', 'Flying'],
         bs: { hp: 90, at: 85, df: 90, sa: 100, sd: 125, sp: 90 },
         weightkg: 66,
         abilities: { 0: 'Berserk' },
@@ -8250,28 +8250,28 @@ var SS_PATCH = {
         baseSpecies: 'Moltres'
     },
     Morgrem: {
-        types: ['Siniestro', 'Hada'],
+        types: ['Dark', 'Fairy'],
         bs: { hp: 65, at: 60, df: 45, sa: 75, sd: 55, sp: 70 },
         weightkg: 12.5,
         abilities: { 0: 'Prankster' },
         nfe: true
     },
     Morpeko: {
-        types: ['Eléctrico', 'Siniestro'],
+        types: ['Electric', 'Dark'],
         bs: { hp: 58, at: 95, df: 58, sa: 70, sd: 58, sp: 97 },
         weightkg: 3,
         abilities: { 0: 'Hunger Switch' },
         otherFormes: ['Morpeko-Hangry']
     },
     'Morpeko-Hangry': {
-        types: ['Eléctrico', 'Siniestro'],
+        types: ['Electric', 'Dark'],
         bs: { hp: 58, at: 95, df: 58, sa: 70, sd: 58, sp: 97 },
         weightkg: 3,
         abilities: { 0: 'Hunger Switch' },
         baseSpecies: 'Morpeko'
     },
     'Mr. Mime-Galar': {
-        types: ['Hielo', 'Psíquico'],
+        types: ['Ice', 'Psychic'],
         bs: { hp: 50, at: 65, df: 65, sa: 90, sd: 90, sp: 100 },
         weightkg: 56.8,
         abilities: { 0: 'Vital Spirit' },
@@ -8279,66 +8279,66 @@ var SS_PATCH = {
         baseSpecies: 'Mr. Mime'
     },
     'Mr. Rime': {
-        types: ['Hielo', 'Psíquico'],
+        types: ['Ice', 'Psychic'],
         bs: { hp: 80, at: 85, df: 75, sa: 110, sd: 100, sp: 70 },
         weightkg: 58.2,
         abilities: { 0: 'Tangled Feet' }
     },
     Nickit: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 40, at: 28, df: 28, sa: 47, sd: 52, sp: 50 },
         weightkg: 8.9,
         abilities: { 0: 'Run Away' },
         nfe: true
     },
     Obstagoon: {
-        types: ['Siniestro', 'Normal'],
+        types: ['Dark', 'Normal'],
         bs: { hp: 93, at: 90, df: 101, sa: 60, sd: 81, sp: 95 },
         weightkg: 46,
         abilities: { 0: 'Reckless' }
     },
     Orbeetle: {
-        types: ['Bicho', 'Psíquico'],
+        types: ['Bug', 'Psychic'],
         bs: { hp: 60, at: 45, df: 110, sa: 80, sd: 120, sp: 90 },
         weightkg: 40.8,
         abilities: { 0: 'Swarm' },
         otherFormes: ['Orbeetle-Gmax']
     },
     'Orbeetle-Gmax': {
-        types: ['Bicho', 'Psíquico'],
+        types: ['Bug', 'Psychic'],
         bs: { hp: 60, at: 45, df: 110, sa: 80, sd: 120, sp: 90 },
         weightkg: 0,
         abilities: { 0: 'Swarm' },
         baseSpecies: 'Orbeetle'
     },
     Perrserker: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 70, at: 110, df: 100, sa: 50, sd: 60, sp: 50 },
         weightkg: 28,
         abilities: { 0: 'Battle Armor' }
     },
     'Pikachu-Gmax': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 0,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pikachu'
     },
     'Pikachu-World': {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Static' },
         baseSpecies: 'Pikachu'
     },
     Pincurchin: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 48, at: 101, df: 95, sa: 91, sd: 85, sp: 15 },
         weightkg: 1,
         abilities: { 0: 'Lightning Rod' }
     },
     Polteageist: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 60, at: 65, df: 65, sa: 134, sd: 114, sp: 70 },
         weightkg: 0.4,
         abilities: { 0: 'Weak Armor' },
@@ -8346,7 +8346,7 @@ var SS_PATCH = {
         gender: 'N'
     },
     'Polteageist-Antique': {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 60, at: 65, df: 65, sa: 134, sd: 114, sp: 70 },
         weightkg: 0.4,
         abilities: { 0: 'Weak Armor' },
@@ -8354,7 +8354,7 @@ var SS_PATCH = {
         gender: 'N'
     },
     'Ponyta-Galar': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 50, at: 85, df: 55, sa: 65, sd: 65, sp: 90 },
         weightkg: 24,
         abilities: { 0: 'Run Away' },
@@ -8362,110 +8362,110 @@ var SS_PATCH = {
         baseSpecies: 'Ponyta'
     },
     Raboot: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 65, at: 86, df: 60, sa: 55, sd: 60, sp: 94 },
         weightkg: 9,
         abilities: { 0: 'Blaze' },
         nfe: true
     },
     'Rapidash-Galar': {
-        types: ['Psíquico', 'Hada'],
+        types: ['Psychic', 'Fairy'],
         bs: { hp: 65, at: 100, df: 70, sa: 80, sd: 80, sp: 105 },
         weightkg: 80,
         abilities: { 0: 'Run Away' },
         baseSpecies: 'Rapidash'
     },
     Regidrago: {
-        types: ['Dragón'],
+        types: ['Dragon'],
         bs: { hp: 200, at: 100, df: 50, sa: 100, sd: 50, sp: 80 },
         weightkg: 200,
         abilities: { 0: 'Dragon\'s Maw' },
         gender: 'N'
     },
     Regieleki: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 80, at: 100, df: 50, sa: 100, sd: 50, sp: 200 },
         weightkg: 145,
         abilities: { 0: 'Transistor' },
         gender: 'N'
     },
     Rillaboom: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 100, at: 125, df: 90, sa: 60, sd: 70, sp: 85 },
         weightkg: 90,
         abilities: { 0: 'Overgrow' },
         otherFormes: ['Rillaboom-Gmax']
     },
     'Rillaboom-Gmax': {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 100, at: 125, df: 90, sa: 60, sd: 70, sp: 85 },
         weightkg: 0,
         abilities: { 0: 'Overgrow' },
         baseSpecies: 'Rillaboom'
     },
     Rolycoly: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 30, at: 40, df: 50, sa: 40, sd: 50, sp: 30 },
         weightkg: 12,
         abilities: { 0: 'Steam Engine' },
         nfe: true
     },
     Rookidee: {
-        types: ['Volador'],
+        types: ['Flying'],
         bs: { hp: 38, at: 47, df: 35, sa: 33, sd: 35, sp: 57 },
         weightkg: 1.8,
         abilities: { 0: 'Keen Eye' },
         nfe: true
     },
     Runerigus: {
-        types: ['Tierra', 'Fantasma'],
+        types: ['Ground', 'Ghost'],
         bs: { hp: 58, at: 95, df: 145, sa: 50, sd: 105, sp: 30 },
         weightkg: 66.6,
         abilities: { 0: 'Wandering Spirit' }
     },
     Saharaja: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 70, at: 112, df: 105, sa: 65, sd: 123, sp: 78 },
         weightkg: 303.9,
         abilities: { 0: 'Water Absorb' }
     },
     Saharascal: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 50, at: 80, df: 65, sa: 45, sd: 90, sp: 70 },
         weightkg: 48,
         abilities: { 0: 'Water Absorb' },
         nfe: true
     },
     Sandaconda: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 72, at: 107, df: 125, sa: 65, sd: 70, sp: 71 },
         weightkg: 65.5,
         abilities: { 0: 'Sand Spit' },
         otherFormes: ['Sandaconda-Gmax']
     },
     'Sandaconda-Gmax': {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 72, at: 107, df: 125, sa: 65, sd: 70, sp: 71 },
         weightkg: 0,
         abilities: { 0: 'Sand Spit' },
         baseSpecies: 'Sandaconda'
     },
     Scorbunny: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 50, at: 71, df: 40, sa: 40, sd: 40, sp: 69 },
         weightkg: 4.5,
         abilities: { 0: 'Blaze' },
         nfe: true
     },
     Silicobra: {
-        types: ['Tierra'],
+        types: ['Ground'],
         bs: { hp: 52, at: 57, df: 75, sa: 35, sd: 50, sp: 46 },
         weightkg: 7.6,
         abilities: { 0: 'Sand Spit' },
         nfe: true
     },
     Sinistea: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 40, at: 45, df: 45, sa: 74, sd: 54, sp: 50 },
         weightkg: 0.2,
         abilities: { 0: 'Weak Armor' },
@@ -8474,7 +8474,7 @@ var SS_PATCH = {
         gender: 'N'
     },
     'Sinistea-Antique': {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 40, at: 45, df: 45, sa: 74, sd: 54, sp: 50 },
         weightkg: 0.2,
         abilities: { 0: 'Weak Armor' },
@@ -8483,13 +8483,13 @@ var SS_PATCH = {
         gender: 'N'
     },
     'Sirfetch\u2019d': {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 62, at: 135, df: 95, sa: 68, sd: 82, sp: 65 },
         weightkg: 117,
         abilities: { 0: 'Steadfast' }
     },
     Sizzlipede: {
-        types: ['Fuego', 'Bicho'],
+        types: ['Fire', 'Bug'],
         bs: { hp: 50, at: 65, df: 45, sa: 50, sd: 50, sp: 45 },
         weightkg: 1,
         abilities: { 0: 'Flash Fire' },
@@ -8503,21 +8503,21 @@ var SS_PATCH = {
         nfe: true
     },
     'Slowbro-Galar': {
-        types: ['Veneno', 'Psíquico'],
+        types: ['Poison', 'Psychic'],
         bs: { hp: 95, at: 100, df: 95, sa: 100, sd: 70, sp: 30 },
         weightkg: 70.5,
         abilities: { 0: 'Quick Draw' },
         baseSpecies: 'Slowbro'
     },
     'Slowking-Galar': {
-        types: ['Veneno', 'Psíquico'],
+        types: ['Poison', 'Psychic'],
         bs: { hp: 95, at: 65, df: 80, sa: 110, sd: 110, sp: 30 },
         weightkg: 79.5,
         abilities: { 0: 'Curious Medicine' },
         baseSpecies: 'Slowking'
     },
     'Slowpoke-Galar': {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 90, at: 65, df: 65, sa: 40, sd: 40, sp: 15 },
         weightkg: 36,
         nfe: true,
@@ -8525,14 +8525,14 @@ var SS_PATCH = {
         baseSpecies: 'Slowpoke'
     },
     Solotl: {
-        types: ['Fuego', 'Dragón'],
+        types: ['Fire', 'Dragon'],
         bs: { hp: 68, at: 48, df: 34, sa: 72, sd: 24, sp: 84 },
         weightkg: 11.8,
         nfe: true,
         abilities: { 0: 'Regenerator' }
     },
     Snom: {
-        types: ['Hielo', 'Bicho'],
+        types: ['Ice', 'Bug'],
         bs: { hp: 30, at: 25, df: 35, sa: 45, sd: 30, sp: 20 },
         weightkg: 3.8,
         abilities: { 0: 'Shield Dust' },
@@ -8546,110 +8546,110 @@ var SS_PATCH = {
         baseSpecies: 'Snorlax'
     },
     Sobble: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 50, at: 40, df: 40, sa: 70, sd: 40, sp: 70 },
         weightkg: 4,
         abilities: { 0: 'Torrent' },
         nfe: true
     },
     Spectrier: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 100, at: 65, df: 60, sa: 145, sd: 80, sp: 130 },
         weightkg: 44.5,
         abilities: { 0: 'Grim Neigh' },
         gender: 'N'
     },
     Stonjourner: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 100, at: 125, df: 135, sa: 20, sd: 20, sp: 70 },
         weightkg: 520,
         abilities: { 0: 'Power Spot' }
     },
     'Stunfisk-Galar': {
-        types: ['Tierra', 'Acero'],
+        types: ['Ground', 'Steel'],
         bs: { hp: 109, at: 81, df: 99, sa: 66, sd: 84, sp: 32 },
         weightkg: 20.5,
         abilities: { 0: 'Mimicry' },
         baseSpecies: 'Stunfisk'
     },
     Thievul: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 70, at: 58, df: 58, sa: 87, sd: 92, sp: 90 },
         weightkg: 19.9,
         abilities: { 0: 'Run Away' }
     },
     Thwackey: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 70, at: 85, df: 70, sa: 55, sd: 60, sp: 80 },
         weightkg: 14,
         abilities: { 0: 'Overgrow' },
         nfe: true
     },
     Toxel: {
-        types: ['Eléctrico', 'Veneno'],
+        types: ['Electric', 'Poison'],
         bs: { hp: 40, at: 38, df: 35, sa: 54, sd: 35, sp: 40 },
         weightkg: 11,
         abilities: { 0: 'Rattled' },
         nfe: true
     },
     Toxtricity: {
-        types: ['Eléctrico', 'Veneno'],
+        types: ['Electric', 'Poison'],
         bs: { hp: 75, at: 98, df: 70, sa: 114, sd: 70, sp: 75 },
         weightkg: 40,
         abilities: { 0: 'Punk Rock' },
         otherFormes: ['Toxtricity-Gmax', 'Toxtricity-Low-Key', 'Toxtricity-Low-Key-Gmax']
     },
     'Toxtricity-Gmax': {
-        types: ['Eléctrico', 'Veneno'],
+        types: ['Electric', 'Poison'],
         bs: { hp: 75, at: 98, df: 70, sa: 114, sd: 70, sp: 75 },
         weightkg: 0,
         abilities: { 0: 'Punk Rock' },
         baseSpecies: 'Toxtricity'
     },
     'Toxtricity-Low-Key': {
-        types: ['Eléctrico', 'Veneno'],
+        types: ['Electric', 'Poison'],
         bs: { hp: 75, at: 98, df: 70, sa: 114, sd: 70, sp: 75 },
         weightkg: 40,
         abilities: { 0: 'Punk Rock' },
         baseSpecies: 'Toxtricity'
     },
     'Toxtricity-Low-Key-Gmax': {
-        types: ['Eléctrico', 'Veneno'],
+        types: ['Electric', 'Poison'],
         bs: { hp: 75, at: 98, df: 70, sa: 114, sd: 70, sp: 75 },
         weightkg: 0,
         abilities: { 0: 'Punk Rock' },
         baseSpecies: 'Toxtricity'
     },
     Urshifu: {
-        types: ['Lucha', 'Siniestro'],
+        types: ['Fighting', 'Dark'],
         bs: { hp: 100, at: 130, df: 100, sa: 63, sd: 60, sp: 97 },
         weightkg: 105,
         abilities: { 0: 'Unseen Fist' },
         otherFormes: ['Urshifu-Gmax', 'Urshifu-Rapid-Strike', 'Urshifu-Rapid-Strike-Gmax']
     },
     'Urshifu-Rapid-Strike': {
-        types: ['Lucha', 'Agua'],
+        types: ['Fighting', 'Water'],
         bs: { hp: 100, at: 130, df: 100, sa: 63, sd: 60, sp: 97 },
         weightkg: 105,
         abilities: { 0: 'Unseen Fist' },
         baseSpecies: 'Urshifu'
     },
     'Urshifu-Rapid-Strike-Gmax': {
-        types: ['Lucha', 'Agua'],
+        types: ['Fighting', 'Water'],
         bs: { hp: 100, at: 130, df: 100, sa: 63, sd: 60, sp: 97 },
         weightkg: 105,
         abilities: { 0: 'Unseen Fist' },
         baseSpecies: 'Urshifu'
     },
     'Urshifu-Gmax': {
-        types: ['Lucha', 'Siniestro'],
+        types: ['Fighting', 'Dark'],
         bs: { hp: 100, at: 130, df: 100, sa: 63, sd: 60, sp: 97 },
         weightkg: 0,
         abilities: { 0: 'Unseen Fist' },
         baseSpecies: 'Urshifu'
     },
     Venomicon: {
-        types: ['Veneno', 'Volador'],
+        types: ['Poison', 'Flying'],
         bs: { hp: 85, at: 50, df: 113, sa: 118, sd: 90, sp: 64 },
         weightkg: 11.5,
         abilities: { 0: 'Stamina' },
@@ -8657,7 +8657,7 @@ var SS_PATCH = {
         gender: 'N'
     },
     'Venomicon-Epilogue': {
-        types: ['Veneno', 'Volador'],
+        types: ['Poison', 'Flying'],
         bs: { hp: 85, at: 102, df: 85, sa: 62, sd: 85, sp: 101 },
         weightkg: 12.4,
         abilities: { 0: 'Tinted Lens' },
@@ -8665,14 +8665,14 @@ var SS_PATCH = {
         gender: 'N'
     },
     'Venusaur-Gmax': {
-        types: ['Planta', 'Veneno'],
+        types: ['Grass', 'Poison'],
         bs: { hp: 80, at: 82, df: 83, sa: 100, sd: 100, sp: 80 },
         weightkg: 0,
         abilities: { 0: 'Overgrow' },
         baseSpecies: 'Venusaur'
     },
     'Weezing-Galar': {
-        types: ['Veneno', 'Hada'],
+        types: ['Poison', 'Fairy'],
         bs: { hp: 65, at: 90, df: 120, sa: 85, sd: 70, sp: 60 },
         weightkg: 16,
         abilities: { 0: 'Levitate' },
@@ -8686,7 +8686,7 @@ var SS_PATCH = {
         nfe: true
     },
     'Yamask-Galar': {
-        types: ['Tierra', 'Fantasma'],
+        types: ['Ground', 'Ghost'],
         bs: { hp: 38, at: 55, df: 85, sa: 30, sd: 65, sp: 30 },
         weightkg: 1.5,
         abilities: { 0: 'Wandering Spirit' },
@@ -8694,14 +8694,14 @@ var SS_PATCH = {
         baseSpecies: 'Yamask'
     },
     Yamper: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 59, at: 45, df: 50, sa: 40, sd: 50, sp: 26 },
         weightkg: 13.5,
         abilities: { 0: 'Ball Fetch' },
         nfe: true
     },
     Zacian: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 92, at: 130, df: 115, sa: 80, sd: 115, sp: 138 },
         weightkg: 110,
         abilities: { 0: 'Intrepid Sword' },
@@ -8709,7 +8709,7 @@ var SS_PATCH = {
         otherFormes: ['Zacian-Crowned']
     },
     'Zacian-Crowned': {
-        types: ['Hada', 'Acero'],
+        types: ['Fairy', 'Steel'],
         bs: { hp: 92, at: 170, df: 115, sa: 80, sd: 115, sp: 148 },
         weightkg: 355,
         abilities: { 0: 'Intrepid Sword' },
@@ -8717,7 +8717,7 @@ var SS_PATCH = {
         gender: 'N'
     },
     Zamazenta: {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 92, at: 130, df: 115, sa: 80, sd: 115, sp: 138 },
         weightkg: 210,
         abilities: { 0: 'Dauntless Shield' },
@@ -8725,7 +8725,7 @@ var SS_PATCH = {
         otherFormes: ['Zamazenta-Crowned']
     },
     'Zamazenta-Crowned': {
-        types: ['Lucha', 'Acero'],
+        types: ['Fighting', 'Steel'],
         bs: { hp: 92, at: 130, df: 145, sa: 80, sd: 145, sp: 128 },
         weightkg: 785,
         abilities: { 0: 'Dauntless Shield' },
@@ -8733,7 +8733,7 @@ var SS_PATCH = {
         gender: 'N'
     },
     'Zapdos-Galar': {
-        types: ['Lucha', 'Volador'],
+        types: ['Fighting', 'Flying'],
         bs: { hp: 90, at: 125, df: 90, sa: 85, sd: 90, sp: 100 },
         weightkg: 58.2,
         abilities: { 0: 'Defiant' },
@@ -8741,7 +8741,7 @@ var SS_PATCH = {
         baseSpecies: 'Zapdos'
     },
     Zarude: {
-        types: ['Siniestro', 'Planta'],
+        types: ['Dark', 'Grass'],
         bs: { hp: 105, at: 120, df: 105, sa: 70, sd: 95, sp: 105 },
         weightkg: 70,
         abilities: { 0: 'Leaf Guard' },
@@ -8749,7 +8749,7 @@ var SS_PATCH = {
         otherFormes: ['Zarude-Dada']
     },
     'Zarude-Dada': {
-        types: ['Siniestro', 'Planta'],
+        types: ['Dark', 'Grass'],
         bs: { hp: 105, at: 120, df: 105, sa: 70, sd: 95, sp: 105 },
         weightkg: 70,
         abilities: { 0: 'Leaf Guard' },
@@ -8757,7 +8757,7 @@ var SS_PATCH = {
         gender: 'N'
     },
     'Zigzagoon-Galar': {
-        types: ['Siniestro', 'Normal'],
+        types: ['Dark', 'Normal'],
         bs: { hp: 38, at: 30, df: 41, sa: 30, sd: 41, sp: 60 },
         weightkg: 17.5,
         abilities: { 0: 'Pickup' },
@@ -8791,35 +8791,35 @@ var PLA_PATCH = {
     Zoroark: { otherFormes: ['Zoroark-Hisui'] },
     Zorua: { otherFormes: ['Zorua-Hisui'] },
     'Arcanine-Hisui': {
-        types: ['Fuego', 'Roca'],
+        types: ['Fire', 'Rock'],
         bs: { hp: 95, at: 115, df: 80, sa: 95, sd: 80, sp: 90 },
         weightkg: 168,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Arcanine'
     },
     'Avalugg-Hisui': {
-        types: ['Hielo', 'Roca'],
+        types: ['Ice', 'Rock'],
         bs: { hp: 95, at: 127, df: 184, sa: 34, sd: 36, sp: 38 },
         weightkg: 262.4,
         abilities: { 0: 'Strong Jaw' },
         baseSpecies: 'Avalugg'
     },
     Basculegion: {
-        types: ['Agua', 'Fantasma'],
+        types: ['Water', 'Ghost'],
         bs: { hp: 120, at: 112, df: 65, sa: 80, sd: 75, sp: 78 },
         weightkg: 110,
         abilities: { 0: 'Swift Swim' },
         otherFormes: ['Basculegion-F']
     },
     'Basculegion-F': {
-        types: ['Agua', 'Fantasma'],
+        types: ['Water', 'Ghost'],
         bs: { hp: 120, at: 92, df: 65, sa: 100, sd: 75, sp: 78 },
         weightkg: 110,
         abilities: { 0: 'Swift Swim' },
         baseSpecies: 'Basculegion'
     },
     'Basculin-White-Striped': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 70, at: 92, df: 65, sa: 80, sd: 55, sp: 98 },
         weightkg: 18,
         abilities: { 0: 'Rattled' },
@@ -8827,21 +8827,21 @@ var PLA_PATCH = {
         nfe: true
     },
     'Braviary-Hisui': {
-        types: ['Psíquico', 'Volador'],
+        types: ['Psychic', 'Flying'],
         bs: { hp: 110, at: 83, df: 70, sa: 112, sd: 70, sp: 65 },
         weightkg: 43.4,
         abilities: { 0: 'Keen Eye' },
         baseSpecies: 'Braviary'
     },
     'Decidueye-Hisui': {
-        types: ['Planta', 'Lucha'],
+        types: ['Grass', 'Fighting'],
         bs: { hp: 88, at: 112, df: 80, sa: 95, sd: 95, sp: 60 },
         weightkg: 37,
         abilities: { 0: 'Overgrow' },
         baseSpecies: 'Decidueye'
     },
     'Dialga-Origin': {
-        types: ['Acero', 'Dragón'],
+        types: ['Steel', 'Dragon'],
         bs: { hp: 100, at: 100, df: 120, sa: 150, sd: 120, sp: 90 },
         weightkg: 850,
         gender: 'N',
@@ -8849,7 +8849,7 @@ var PLA_PATCH = {
         baseSpecies: 'Dialga'
     },
     'Electrode-Hisui': {
-        types: ['Eléctrico', 'Planta'],
+        types: ['Electric', 'Grass'],
         bs: { hp: 60, at: 50, df: 70, sa: 80, sd: 80, sp: 150 },
         weightkg: 71,
         gender: 'N',
@@ -8857,28 +8857,28 @@ var PLA_PATCH = {
         baseSpecies: 'Electrode'
     },
     Enamorus: {
-        types: ['Hada', 'Volador'],
+        types: ['Fairy', 'Flying'],
         bs: { hp: 74, at: 115, df: 70, sa: 135, sd: 80, sp: 106 },
         weightkg: 48,
         abilities: { 0: 'Cute Charm' },
         otherFormes: ['Enamorus-Therian']
     },
     'Enamorus-Therian': {
-        types: ['Hada', 'Volador'],
+        types: ['Fairy', 'Flying'],
         bs: { hp: 74, at: 115, df: 110, sa: 135, sd: 100, sp: 46 },
         weightkg: 48,
         abilities: { 0: 'Overcoat' },
         baseSpecies: 'Enamorus'
     },
     'Goodra-Hisui': {
-        types: ['Acero', 'Dragón'],
+        types: ['Steel', 'Dragon'],
         bs: { hp: 80, at: 100, df: 100, sa: 110, sd: 150, sp: 60 },
         weightkg: 334.1,
         abilities: { 0: 'Sap Sipper' },
         baseSpecies: 'Goodra'
     },
     'Growlithe-Hisui': {
-        types: ['Fuego', 'Roca'],
+        types: ['Fire', 'Rock'],
         bs: { hp: 60, at: 75, df: 45, sa: 65, sd: 50, sp: 55 },
         weightkg: 22.7,
         abilities: { 0: 'Intimidate' },
@@ -8886,26 +8886,26 @@ var PLA_PATCH = {
         nfe: true
     },
     Kleavor: {
-        types: ['Bicho', 'Roca'],
+        types: ['Bug', 'Rock'],
         bs: { hp: 70, at: 130, df: 95, sa: 45, sd: 75, sp: 85 },
         weightkg: 89,
         abilities: { 0: 'Swarm' }
     },
     'Lilligant-Hisui': {
-        types: ['Planta', 'Lucha'],
+        types: ['Grass', 'Fighting'],
         bs: { hp: 70, at: 105, df: 75, sa: 50, sd: 75, sp: 105 },
         weightkg: 19.2,
         abilities: { 0: 'Chlorophyll' },
         baseSpecies: 'Lilligant'
     },
     Overqwil: {
-        types: ['Siniestro', 'Veneno'],
+        types: ['Dark', 'Poison'],
         bs: { hp: 85, at: 115, df: 95, sa: 65, sd: 65, sp: 85 },
         weightkg: 3.9,
         abilities: { 0: 'Poison Point' }
     },
     'Palkia-Origin': {
-        types: ['Agua', 'Dragón'],
+        types: ['Water', 'Dragon'],
         bs: { hp: 90, at: 100, df: 100, sa: 150, sd: 120, sp: 120 },
         weightkg: 660,
         gender: 'N',
@@ -8913,7 +8913,7 @@ var PLA_PATCH = {
         baseSpecies: 'Palkia'
     },
     'Qwilfish-Hisui': {
-        types: ['Siniestro', 'Veneno'],
+        types: ['Dark', 'Poison'],
         bs: { hp: 65, at: 95, df: 85, sa: 55, sd: 55, sp: 85 },
         weightkg: 3.9,
         abilities: { 0: 'Poison Point' },
@@ -8921,14 +8921,14 @@ var PLA_PATCH = {
         nfe: true
     },
     'Samurott-Hisui': {
-        types: ['Agua', 'Siniestro'],
+        types: ['Water', 'Dark'],
         bs: { hp: 90, at: 108, df: 80, sa: 100, sd: 65, sp: 85 },
         weightkg: 58.2,
         abilities: { 0: 'Torrent' },
         baseSpecies: 'Samurott'
     },
     'Sliggoo-Hisui': {
-        types: ['Acero', 'Dragón'],
+        types: ['Steel', 'Dragon'],
         bs: { hp: 58, at: 75, df: 83, sa: 83, sd: 113, sp: 40 },
         weightkg: 68.5,
         abilities: { 0: 'Sap Sipper' },
@@ -8936,7 +8936,7 @@ var PLA_PATCH = {
         nfe: true
     },
     'Sneasel-Hisui': {
-        types: ['Lucha', 'Veneno'],
+        types: ['Fighting', 'Poison'],
         bs: { hp: 55, at: 95, df: 55, sa: 35, sd: 75, sp: 115 },
         weightkg: 27,
         abilities: { 0: 'Inner Focus' },
@@ -8944,26 +8944,26 @@ var PLA_PATCH = {
         nfe: true
     },
     Sneasler: {
-        types: ['Lucha', 'Veneno'],
+        types: ['Fighting', 'Poison'],
         bs: { hp: 80, at: 130, df: 60, sa: 40, sd: 80, sp: 120 },
         weightkg: 43,
         abilities: { 0: 'Pressure' }
     },
     'Typhlosion-Hisui': {
-        types: ['Fuego', 'Fantasma'],
+        types: ['Fire', 'Ghost'],
         bs: { hp: 73, at: 84, df: 78, sa: 119, sd: 85, sp: 95 },
         weightkg: 69.8,
         abilities: { 0: 'Blaze' },
         baseSpecies: 'Typhlosion'
     },
     Ursaluna: {
-        types: ['Tierra', 'Normal'],
+        types: ['Ground', 'Normal'],
         bs: { hp: 130, at: 140, df: 105, sa: 45, sd: 80, sp: 50 },
         weightkg: 290,
         abilities: { 0: 'Guts' }
     },
     'Voltorb-Hisui': {
-        types: ['Eléctrico', 'Planta'],
+        types: ['Electric', 'Grass'],
         bs: { hp: 40, at: 30, df: 50, sa: 55, sd: 55, sp: 100 },
         weightkg: 13,
         gender: 'N',
@@ -8972,20 +8972,20 @@ var PLA_PATCH = {
         nfe: true
     },
     Wyrdeer: {
-        types: ['Normal', 'Psíquico'],
+        types: ['Normal', 'Psychic'],
         bs: { hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 65 },
         weightkg: 95.1,
         abilities: { 0: 'Intimidate' }
     },
     'Zoroark-Hisui': {
-        types: ['Normal', 'Fantasma'],
+        types: ['Normal', 'Ghost'],
         bs: { hp: 60, at: 105, df: 60, sa: 120, sd: 60, sp: 105 },
         weightkg: 73,
         abilities: { 0: 'Illusion' },
         baseSpecies: 'Zoroark'
     },
     'Zorua-Hisui': {
-        types: ['Normal', 'Fantasma'],
+        types: ['Normal', 'Ghost'],
         bs: { hp: 35, at: 60, df: 40, sa: 85, sd: 40, sp: 70 },
         weightkg: 12.5,
         abilities: { 0: 'Illusion' },
@@ -9006,149 +9006,149 @@ var SV_PATCH = {
     Zamazenta: { bs: { at: 120 } },
     'Zamazenta-Crowned': { bs: { at: 120, df: 140, sd: 140 } },
     Annihilape: {
-        types: ['Lucha', 'Fantasma'],
+        types: ['Fighting', 'Ghost'],
         bs: { hp: 110, at: 115, df: 80, sa: 50, sd: 90, sp: 90 },
         weightkg: 56,
         abilities: { 0: 'Vital Spirit' }
     },
     Arboliva: {
-        types: ['Planta', 'Normal'],
+        types: ['Grass', 'Normal'],
         bs: { hp: 78, at: 69, df: 90, sa: 125, sd: 109, sp: 39 },
         weightkg: 48.2,
         abilities: { 0: 'Seed Sower' }
     },
     Arctibax: {
-        types: ['Dragón', 'Hielo'],
+        types: ['Dragon', 'Ice'],
         bs: { hp: 90, at: 95, df: 66, sa: 45, sd: 65, sp: 62 },
         weightkg: 30,
         abilities: { 0: 'Thermal Exchange' },
         nfe: true
     },
     Armarouge: {
-        types: ['Fuego', 'Psíquico'],
+        types: ['Fire', 'Psychic'],
         bs: { hp: 85, at: 60, df: 100, sa: 125, sd: 80, sp: 75 },
         weightkg: 85,
         abilities: { 0: 'Flash Fire' }
     },
     Baxcalibur: {
-        types: ['Dragón', 'Hielo'],
+        types: ['Dragon', 'Ice'],
         bs: { hp: 115, at: 145, df: 92, sa: 75, sd: 86, sp: 87 },
         weightkg: 210,
         abilities: { 0: 'Thermal Exchange' }
     },
     Bellibolt: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 109, at: 64, df: 91, sa: 103, sd: 83, sp: 45 },
         weightkg: 113,
         abilities: { 0: 'Electromorphosis' }
     },
     Bombirdier: {
-        types: ['Volador', 'Siniestro'],
+        types: ['Flying', 'Dark'],
         bs: { hp: 70, at: 103, df: 85, sa: 60, sd: 85, sp: 82 },
         weightkg: 42.9,
         abilities: { 0: 'Big Pecks' }
     },
     Brambleghast: {
-        types: ['Planta', 'Fantasma'],
+        types: ['Grass', 'Ghost'],
         bs: { hp: 55, at: 115, df: 70, sa: 80, sd: 70, sp: 90 },
         weightkg: 6,
         abilities: { 0: 'Wind Rider' }
     },
     Bramblin: {
-        types: ['Planta', 'Fantasma'],
+        types: ['Grass', 'Ghost'],
         bs: { hp: 40, at: 65, df: 30, sa: 45, sd: 35, sp: 60 },
         weightkg: 0.6,
         abilities: { 0: 'Wind Rider' },
         nfe: true
     },
     'Brute Bonnet': {
-        types: ['Planta', 'Siniestro'],
+        types: ['Grass', 'Dark'],
         bs: { hp: 111, at: 127, df: 99, sa: 79, sd: 99, sp: 55 },
         weightkg: 21,
         gender: 'N',
         abilities: { 0: 'Protosynthesis' }
     },
     Capsakid: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 52, at: 62, df: 40, sa: 62, sd: 40, sp: 50 },
         weightkg: 3,
         abilities: { 0: 'Chlorophyll' },
         nfe: true
     },
     Ceruledge: {
-        types: ['Fuego', 'Fantasma'],
+        types: ['Fire', 'Ghost'],
         bs: { hp: 75, at: 125, df: 80, sa: 60, sd: 100, sp: 85 },
         weightkg: 62,
         abilities: { 0: 'Flash Fire' }
     },
     Cetitan: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 170, at: 113, df: 65, sa: 45, sd: 55, sp: 73 },
         weightkg: 700,
         abilities: { 0: 'Thick Fat' }
     },
     Cetoddle: {
-        types: ['Hielo'],
+        types: ['Ice'],
         bs: { hp: 108, at: 68, df: 45, sa: 30, sd: 40, sp: 43 },
         weightkg: 45,
         abilities: { 0: 'Thick Fat' },
         nfe: true
     },
     Charcadet: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 40, at: 50, df: 40, sa: 50, sd: 40, sp: 35 },
         weightkg: 10.5,
         abilities: { 0: 'Flash Fire' },
         nfe: true
     },
     'Chi-Yu': {
-        types: ['Siniestro', 'Fuego'],
+        types: ['Dark', 'Fire'],
         bs: { hp: 55, at: 80, df: 80, sa: 135, sd: 120, sp: 100 },
         weightkg: 4.9,
         gender: 'N',
         abilities: { 0: 'Beads of Ruin' }
     },
     'Chien-Pao': {
-        types: ['Siniestro', 'Hielo'],
+        types: ['Dark', 'Ice'],
         bs: { hp: 80, at: 120, df: 80, sa: 90, sd: 65, sp: 135 },
         weightkg: 152.2,
         gender: 'N',
         abilities: { 0: 'Sword of Ruin' }
     },
     Clodsire: {
-        types: ['Veneno', 'Tierra'],
+        types: ['Poison', 'Ground'],
         bs: { hp: 130, at: 75, df: 60, sa: 45, sd: 100, sp: 20 },
         weightkg: 223,
         abilities: { 0: 'Poison Point' }
     },
     Crocalor: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 81, at: 55, df: 78, sa: 90, sd: 58, sp: 49 },
         weightkg: 30.7,
         abilities: { 0: 'Blaze' },
         nfe: true
     },
     Cyclizar: {
-        types: ['Dragón', 'Normal'],
+        types: ['Dragon', 'Normal'],
         bs: { hp: 70, at: 95, df: 65, sa: 85, sd: 65, sp: 121 },
         weightkg: 63,
         abilities: { 0: 'Shed Skin' }
     },
     Dachsbun: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 57, at: 80, df: 115, sa: 50, sd: 80, sp: 95 },
         weightkg: 14.9,
         abilities: { 0: 'Well-Baked Body' }
     },
     Dolliv: {
-        types: ['Planta', 'Normal'],
+        types: ['Grass', 'Normal'],
         bs: { hp: 52, at: 53, df: 60, sa: 78, sd: 78, sp: 33 },
         weightkg: 11.9,
         abilities: { 0: 'Early Bird' },
         nfe: true
     },
     Dondozo: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 150, at: 100, df: 115, sa: 65, sd: 65, sp: 35 },
         weightkg: 220,
         abilities: { 0: 'Unaware' }
@@ -9168,87 +9168,87 @@ var SV_PATCH = {
         baseSpecies: 'Dudunsparce'
     },
     Espathra: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 95, at: 60, df: 60, sa: 101, sd: 60, sp: 105 },
         weightkg: 90,
         abilities: { 0: 'Opportunist' }
     },
     Farigiraf: {
-        types: ['Normal', 'Psíquico'],
+        types: ['Normal', 'Psychic'],
         bs: { hp: 120, at: 90, df: 70, sa: 110, sd: 70, sp: 60 },
         weightkg: 160,
         abilities: { 0: 'Cud Chew' }
     },
     Fidough: {
-        types: ['Hada'],
+        types: ['Fairy'],
         bs: { hp: 37, at: 55, df: 70, sa: 30, sd: 55, sp: 65 },
         weightkg: 10.9,
         abilities: { 0: 'Own Tempo' },
         nfe: true
     },
     Finizen: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 70, at: 45, df: 40, sa: 45, sd: 40, sp: 75 },
         weightkg: 60.2,
         abilities: { 0: 'Water Veil' },
         nfe: true
     },
     Flamigo: {
-        types: ['Volador', 'Lucha'],
+        types: ['Flying', 'Fighting'],
         bs: { hp: 82, at: 115, df: 74, sa: 75, sd: 64, sp: 90 },
         weightkg: 37,
         abilities: { 0: 'Scrappy' }
     },
     Flittle: {
-        types: ['Psíquico'],
+        types: ['Psychic'],
         bs: { hp: 30, at: 35, df: 30, sa: 55, sd: 40, sp: 75 },
         weightkg: 1.5,
         abilities: { 0: 'Anticipation' },
         nfe: true
     },
     Floragato: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 61, at: 80, df: 63, sa: 60, sd: 63, sp: 83 },
         weightkg: 12.2,
         abilities: { 0: 'Overgrow' },
         nfe: true
     },
     'Flutter Mane': {
-        types: ['Fantasma', 'Hada'],
+        types: ['Ghost', 'Fairy'],
         bs: { hp: 55, at: 55, df: 55, sa: 135, sd: 135, sp: 135 },
         weightkg: 4,
         gender: 'N',
         abilities: { 0: 'Protosynthesis' }
     },
     Frigibax: {
-        types: ['Dragón', 'Hielo'],
+        types: ['Dragon', 'Ice'],
         bs: { hp: 65, at: 75, df: 45, sa: 35, sd: 45, sp: 55 },
         weightkg: 17,
         abilities: { 0: 'Thermal Exchange' },
         nfe: true
     },
     Fuecoco: {
-        types: ['Fuego'],
+        types: ['Fire'],
         bs: { hp: 67, at: 45, df: 59, sa: 63, sd: 40, sp: 36 },
         weightkg: 9.8,
         abilities: { 0: 'Blaze' },
         nfe: true
     },
     Garganacl: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 100, at: 100, df: 130, sa: 45, sd: 90, sp: 35 },
         weightkg: 240,
         abilities: { 0: 'Purifying Salt' }
     },
     Gholdengo: {
-        types: ['Acero', 'Fantasma'],
+        types: ['Steel', 'Ghost'],
         bs: { hp: 87, at: 60, df: 95, sa: 133, sd: 91, sp: 84 },
         weightkg: 30,
         gender: 'N',
         abilities: { 0: 'Good as Gold' }
     },
     Gimmighoul: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 45, at: 30, df: 70, sa: 75, sd: 70, sp: 10 },
         weightkg: 5,
         gender: 'N',
@@ -9256,113 +9256,113 @@ var SV_PATCH = {
         nfe: true
     },
     Glimmet: {
-        types: ['Roca', 'Veneno'],
+        types: ['Rock', 'Poison'],
         bs: { hp: 48, at: 35, df: 42, sa: 105, sd: 60, sp: 60 },
         weightkg: 8,
         abilities: { 0: 'Toxic Debris' },
         nfe: true
     },
     Glimmora: {
-        types: ['Roca', 'Veneno'],
+        types: ['Rock', 'Poison'],
         bs: { hp: 83, at: 55, df: 90, sa: 130, sd: 81, sp: 86 },
         weightkg: 45,
         abilities: { 0: 'Toxic Debris' }
     },
     Grafaiai: {
-        types: ['Veneno', 'Normal'],
+        types: ['Poison', 'Normal'],
         bs: { hp: 63, at: 95, df: 65, sa: 80, sd: 72, sp: 110 },
         weightkg: 27.2,
         abilities: { 0: 'Unburden' }
     },
     'Great Tusk': {
-        types: ['Tierra', 'Lucha'],
+        types: ['Ground', 'Fighting'],
         bs: { hp: 115, at: 131, df: 131, sa: 53, sd: 53, sp: 87 },
         weightkg: 320,
         gender: 'N',
         abilities: { 0: 'Protosynthesis' }
     },
     Greavard: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 50, at: 61, df: 60, sa: 30, sd: 55, sp: 34 },
         weightkg: 35,
         abilities: { 0: 'Pickup' },
         nfe: true
     },
     Houndstone: {
-        types: ['Fantasma'],
+        types: ['Ghost'],
         bs: { hp: 72, at: 101, df: 100, sa: 50, sd: 97, sp: 68 },
         weightkg: 15,
         abilities: { 0: 'Sand Rush' }
     },
     'Iron Bundle': {
-        types: ['Hielo', 'Agua'],
+        types: ['Ice', 'Water'],
         bs: { hp: 56, at: 80, df: 114, sa: 124, sd: 60, sp: 136 },
         weightkg: 11,
         gender: 'N',
         abilities: { 0: 'Quark Drive' }
     },
     'Iron Hands': {
-        types: ['Lucha', 'Eléctrico'],
+        types: ['Fighting', 'Electric'],
         bs: { hp: 154, at: 140, df: 108, sa: 50, sd: 68, sp: 50 },
         weightkg: 380.7,
         gender: 'N',
         abilities: { 0: 'Quark Drive' }
     },
     'Iron Jugulis': {
-        types: ['Siniestro', 'Volador'],
+        types: ['Dark', 'Flying'],
         bs: { hp: 94, at: 80, df: 86, sa: 122, sd: 80, sp: 108 },
         weightkg: 111,
         gender: 'N',
         abilities: { 0: 'Quark Drive' }
     },
     'Iron Moth': {
-        types: ['Fuego', 'Veneno'],
+        types: ['Fire', 'Poison'],
         bs: { hp: 80, at: 70, df: 60, sa: 140, sd: 110, sp: 110 },
         weightkg: 36,
         gender: 'N',
         abilities: { 0: 'Quark Drive' }
     },
     'Iron Thorns': {
-        types: ['Roca', 'Eléctrico'],
+        types: ['Rock', 'Electric'],
         bs: { hp: 100, at: 134, df: 110, sa: 70, sd: 84, sp: 72 },
         weightkg: 303,
         gender: 'N',
         abilities: { 0: 'Quark Drive' }
     },
     'Iron Treads': {
-        types: ['Tierra', 'Acero'],
+        types: ['Ground', 'Steel'],
         bs: { hp: 90, at: 112, df: 120, sa: 72, sd: 70, sp: 106 },
         weightkg: 240,
         gender: 'N',
         abilities: { 0: 'Quark Drive' }
     },
     'Iron Valiant': {
-        types: ['Hada', 'Lucha'],
+        types: ['Fairy', 'Fighting'],
         bs: { hp: 74, at: 130, df: 90, sa: 120, sd: 60, sp: 116 },
         weightkg: 35,
         gender: 'N',
         abilities: { 0: 'Quark Drive' }
     },
     Kilowattrel: {
-        types: ['Eléctrico', 'Volador'],
+        types: ['Electric', 'Flying'],
         bs: { hp: 70, at: 70, df: 60, sa: 105, sd: 60, sp: 125 },
         weightkg: 38.6,
         abilities: { 0: 'Wind Power' }
     },
     Kingambit: {
-        types: ['Siniestro', 'Acero'],
+        types: ['Dark', 'Steel'],
         bs: { hp: 100, at: 135, df: 120, sa: 60, sd: 85, sp: 50 },
         weightkg: 120,
         abilities: { 0: 'Defiant' }
     },
     Klawf: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 70, at: 100, df: 115, sa: 35, sd: 55, sp: 75 },
         weightkg: 79,
         abilities: { 0: 'Anger Shell' }
     },
     Koraidon: {
-        types: ['Lucha', 'Dragón'],
+        types: ['Fighting', 'Dragon'],
         bs: { hp: 100, at: 135, df: 115, sa: 85, sd: 100, sp: 135 },
         weightkg: 303,
         gender: 'N',
@@ -9376,19 +9376,19 @@ var SV_PATCH = {
         nfe: true
     },
     Lokix: {
-        types: ['Bicho', 'Siniestro'],
+        types: ['Bug', 'Dark'],
         bs: { hp: 71, at: 102, df: 78, sa: 52, sd: 55, sp: 92 },
         weightkg: 17.5,
         abilities: { 0: 'Swarm' }
     },
     Mabosstiff: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 80, at: 120, df: 90, sa: 60, sd: 70, sp: 85 },
         weightkg: 61,
         abilities: { 0: 'Intimidate' }
     },
     Maschiff: {
-        types: ['Siniestro'],
+        types: ['Dark'],
         bs: { hp: 60, at: 78, df: 60, sa: 40, sd: 51, sp: 51 },
         weightkg: 16,
         abilities: { 0: 'Intimidate' },
@@ -9411,34 +9411,34 @@ var SV_PATCH = {
         baseSpecies: 'Maushold'
     },
     Meowscarada: {
-        types: ['Planta', 'Siniestro'],
+        types: ['Grass', 'Dark'],
         bs: { hp: 76, at: 110, df: 70, sa: 81, sd: 70, sp: 123 },
         weightkg: 31.2,
         abilities: { 0: 'Overgrow' }
     },
     Miraidon: {
-        types: ['Eléctrico', 'Dragón'],
+        types: ['Electric', 'Dragon'],
         bs: { hp: 100, at: 85, df: 100, sa: 135, sd: 115, sp: 135 },
         weightkg: 240,
         gender: 'N',
         abilities: { 0: 'Hadron Engine' }
     },
     Nacli: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 55, at: 55, df: 75, sa: 35, sd: 35, sp: 25 },
         weightkg: 16,
         abilities: { 0: 'Purifying Salt' },
         nfe: true
     },
     Naclstack: {
-        types: ['Roca'],
+        types: ['Rock'],
         bs: { hp: 60, at: 60, df: 100, sa: 35, sd: 65, sp: 35 },
         weightkg: 105,
         abilities: { 0: 'Purifying Salt' },
         nfe: true
     },
     Nymble: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 33, at: 46, df: 40, sa: 21, sd: 25, sp: 45 },
         weightkg: 1,
         abilities: { 0: 'Swarm' },
@@ -9459,181 +9459,181 @@ var SV_PATCH = {
         baseSpecies: 'Oinkologne'
     },
     Orthworm: {
-        types: ['Acero'],
+        types: ['Steel'],
         bs: { hp: 70, at: 85, df: 145, sa: 60, sd: 55, sp: 65 },
         weightkg: 310,
         abilities: { 0: 'Earth Eater' }
     },
     Palafin: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 100, at: 70, df: 72, sa: 53, sd: 62, sp: 100 },
         weightkg: 60.2,
         abilities: { 0: 'Zero to Hero' },
         otherFormes: ['Palafin-Hero']
     },
     'Palafin-Hero': {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 100, at: 160, df: 97, sa: 106, sd: 87, sp: 100 },
         weightkg: 97.4,
         abilities: { 0: 'Zero to Hero' },
         baseSpecies: 'Palafin'
     },
     Pawmi: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 45, at: 50, df: 20, sa: 40, sd: 25, sp: 60 },
         weightkg: 2.5,
         abilities: { 0: 'Static' },
         nfe: true
     },
     Pawmo: {
-        types: ['Eléctrico', 'Lucha'],
+        types: ['Electric', 'Fighting'],
         bs: { hp: 60, at: 75, df: 40, sa: 50, sd: 40, sp: 85 },
         weightkg: 6.5,
         abilities: { 0: 'Volt Absorb' },
         nfe: true
     },
     Pawmot: {
-        types: ['Eléctrico', 'Lucha'],
+        types: ['Electric', 'Fighting'],
         bs: { hp: 70, at: 115, df: 70, sa: 70, sd: 60, sp: 105 },
         weightkg: 41,
         abilities: { 0: 'Volt Absorb' }
     },
     Quaquaval: {
-        types: ['Agua', 'Lucha'],
+        types: ['Water', 'Fighting'],
         bs: { hp: 85, at: 120, df: 80, sa: 85, sd: 75, sp: 85 },
         weightkg: 61.9,
         abilities: { 0: 'Torrent' }
     },
     Quaxly: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 55, at: 65, df: 45, sa: 50, sd: 45, sp: 50 },
         weightkg: 6.1,
         abilities: { 0: 'Torrent' },
         nfe: true
     },
     Quaxwell: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 70, at: 85, df: 65, sa: 65, sd: 60, sp: 65 },
         weightkg: 21.5,
         abilities: { 0: 'Torrent' },
         nfe: true
     },
     Rabsca: {
-        types: ['Bicho', 'Psíquico'],
+        types: ['Bug', 'Psychic'],
         bs: { hp: 75, at: 50, df: 85, sa: 115, sd: 100, sp: 45 },
         weightkg: 3.5,
         abilities: { 0: 'Synchronize' }
     },
     Rellor: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 41, at: 50, df: 60, sa: 31, sd: 58, sp: 30 },
         weightkg: 1,
         abilities: { 0: 'Compound Eyes' },
         nfe: true
     },
     Revavroom: {
-        types: ['Acero', 'Veneno'],
+        types: ['Steel', 'Poison'],
         bs: { hp: 80, at: 119, df: 90, sa: 54, sd: 67, sp: 90 },
         weightkg: 120,
         abilities: { 0: 'Overcoat' }
     },
     'Roaring Moon': {
-        types: ['Dragón', 'Siniestro'],
+        types: ['Dragon', 'Dark'],
         bs: { hp: 105, at: 139, df: 71, sa: 55, sd: 101, sp: 119 },
         weightkg: 380,
         gender: 'N',
         abilities: { 0: 'Protosynthesis' }
     },
     'Sandy Shocks': {
-        types: ['Eléctrico', 'Tierra'],
+        types: ['Electric', 'Ground'],
         bs: { hp: 85, at: 81, df: 97, sa: 121, sd: 85, sp: 101 },
         weightkg: 60,
         gender: 'N',
         abilities: { 0: 'Protosynthesis' }
     },
     Scovillain: {
-        types: ['Planta', 'Fuego'],
+        types: ['Grass', 'Fire'],
         bs: { hp: 65, at: 108, df: 65, sa: 108, sd: 65, sp: 75 },
         weightkg: 15,
         abilities: { 0: 'Chlorophyll' }
     },
     'Scream Tail': {
-        types: ['Hada', 'Psíquico'],
+        types: ['Fairy', 'Psychic'],
         bs: { hp: 115, at: 65, df: 99, sa: 65, sd: 115, sp: 111 },
         weightkg: 8,
         gender: 'N',
         abilities: { 0: 'Protosynthesis' }
     },
     Shroodle: {
-        types: ['Veneno', 'Normal'],
+        types: ['Poison', 'Normal'],
         bs: { hp: 40, at: 65, df: 35, sa: 40, sd: 35, sp: 75 },
         weightkg: 0.7,
         abilities: { 0: 'Unburden' },
         nfe: true
     },
     Skeledirge: {
-        types: ['Fuego', 'Fantasma'],
+        types: ['Fire', 'Ghost'],
         bs: { hp: 104, at: 75, df: 100, sa: 110, sd: 75, sp: 66 },
         weightkg: 326.5,
         abilities: { 0: 'Blaze' }
     },
     'Slither Wing': {
-        types: ['Bicho', 'Lucha'],
+        types: ['Bug', 'Fighting'],
         bs: { hp: 85, at: 135, df: 79, sa: 85, sd: 105, sp: 81 },
         weightkg: 92,
         gender: 'N',
         abilities: { 0: 'Protosynthesis' }
     },
     Smoliv: {
-        types: ['Planta', 'Normal'],
+        types: ['Grass', 'Normal'],
         bs: { hp: 41, at: 35, df: 45, sa: 58, sd: 51, sp: 30 },
         weightkg: 6.5,
         abilities: { 0: 'Early Bird' },
         nfe: true
     },
     Spidops: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 60, at: 79, df: 92, sa: 52, sd: 86, sp: 35 },
         weightkg: 16.5,
         abilities: { 0: 'Insomnia' }
     },
     Sprigatito: {
-        types: ['Planta'],
+        types: ['Grass'],
         bs: { hp: 40, at: 61, df: 54, sa: 45, sd: 45, sp: 65 },
         weightkg: 4.1,
         abilities: { 0: 'Overgrow' },
         nfe: true
     },
     Squawkabilly: {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 82, at: 96, df: 51, sa: 45, sd: 51, sp: 92 },
         weightkg: 2.4,
         abilities: { 0: 'Intimidate' },
         otherFormes: ['Squawkabilly-Blue', 'Squawkabilly-White', 'Squawkabilly-Yellow']
     },
     'Squawkabilly-Blue': {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 82, at: 96, df: 51, sa: 45, sd: 51, sp: 92 },
         weightkg: 2.4,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Squawkabilly'
     },
     'Squawkabilly-White': {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 82, at: 96, df: 51, sa: 45, sd: 51, sp: 92 },
         weightkg: 2.4,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Squawkabilly'
     },
     'Squawkabilly-Yellow': {
-        types: ['Normal', 'Volador'],
+        types: ['Normal', 'Flying'],
         bs: { hp: 82, at: 96, df: 51, sa: 45, sd: 51, sp: 92 },
         weightkg: 2.4,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Squawkabilly'
     },
     Tadbulb: {
-        types: ['Eléctrico'],
+        types: ['Electric'],
         bs: { hp: 61, at: 31, df: 41, sa: 59, sd: 35, sp: 45 },
         weightkg: 0.4,
         abilities: { 0: 'Own Tempo' },
@@ -9648,115 +9648,115 @@ var SV_PATCH = {
         nfe: true
     },
     Tarountula: {
-        types: ['Bicho'],
+        types: ['Bug'],
         bs: { hp: 35, at: 41, df: 45, sa: 29, sd: 40, sp: 20 },
         weightkg: 4,
         abilities: { 0: 'Insomnia' },
         nfe: true
     },
     Tatsugiri: {
-        types: ['Dragón', 'Agua'],
+        types: ['Dragon', 'Water'],
         bs: { hp: 68, at: 50, df: 60, sa: 120, sd: 95, sp: 82 },
         weightkg: 8,
         abilities: { 0: 'Commander' }
     },
     'Tauros-Paldea': {
-        types: ['Lucha'],
+        types: ['Fighting'],
         bs: { hp: 75, at: 110, df: 105, sa: 30, sd: 70, sp: 100 },
         weightkg: 88.4,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Tauros'
     },
     'Tauros-Paldea-Fire': {
-        types: ['Lucha', 'Fuego'],
+        types: ['Fighting', 'Fire'],
         bs: { hp: 75, at: 110, df: 105, sa: 30, sd: 70, sp: 100 },
         weightkg: 88.4,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Tauros'
     },
     'Tauros-Paldea-Water': {
-        types: ['Lucha', 'Agua'],
+        types: ['Fighting', 'Water'],
         bs: { hp: 75, at: 110, df: 105, sa: 30, sd: 70, sp: 100 },
         weightkg: 88.4,
         abilities: { 0: 'Intimidate' },
         baseSpecies: 'Tauros'
     },
     'Ting-Lu': {
-        types: ['Siniestro', 'Tierra'],
+        types: ['Dark', 'Ground'],
         bs: { hp: 155, at: 110, df: 125, sa: 55, sd: 80, sp: 45 },
         weightkg: 699.7,
         gender: 'N',
         abilities: { 0: 'Vessel of Ruin' }
     },
     Tinkatink: {
-        types: ['Hada', 'Acero'],
+        types: ['Fairy', 'Steel'],
         bs: { hp: 50, at: 45, df: 45, sa: 35, sd: 64, sp: 58 },
         weightkg: 8.9,
         abilities: { 0: 'Mold Breaker' },
         nfe: true
     },
     Tinkaton: {
-        types: ['Hada', 'Acero'],
+        types: ['Fairy', 'Steel'],
         bs: { hp: 85, at: 75, df: 77, sa: 70, sd: 105, sp: 94 },
         weightkg: 112.8,
         abilities: { 0: 'Mold Breaker' }
     },
     Tinkatuff: {
-        types: ['Hada', 'Acero'],
+        types: ['Fairy', 'Steel'],
         bs: { hp: 65, at: 55, df: 55, sa: 45, sd: 82, sp: 78 },
         weightkg: 59.1,
         abilities: { 0: 'Mold Breaker' },
         nfe: true
     },
     Toedscool: {
-        types: ['Tierra', 'Planta'],
+        types: ['Ground', 'Grass'],
         bs: { hp: 40, at: 40, df: 35, sa: 50, sd: 100, sp: 70 },
         weightkg: 33,
         abilities: { 0: 'Mycelium Might' },
         nfe: true
     },
     Toedscruel: {
-        types: ['Tierra', 'Planta'],
+        types: ['Ground', 'Grass'],
         bs: { hp: 80, at: 70, df: 65, sa: 80, sd: 120, sp: 100 },
         weightkg: 58,
         abilities: { 0: 'Mycelium Might' }
     },
     Varoom: {
-        types: ['Acero', 'Veneno'],
+        types: ['Steel', 'Poison'],
         bs: { hp: 45, at: 70, df: 63, sa: 30, sd: 45, sp: 47 },
         weightkg: 35,
         abilities: { 0: 'Overcoat' },
         nfe: true
     },
     Veluza: {
-        types: ['Agua', 'Psíquico'],
+        types: ['Water', 'Psychic'],
         bs: { hp: 90, at: 102, df: 73, sa: 78, sd: 65, sp: 70 },
         weightkg: 90,
         abilities: { 0: 'Mold Breaker' }
     },
     Wattrel: {
-        types: ['Eléctrico', 'Volador'],
+        types: ['Electric', 'Flying'],
         bs: { hp: 40, at: 40, df: 35, sa: 55, sd: 40, sp: 70 },
         weightkg: 3.6,
         abilities: { 0: 'Wind Power' },
         nfe: true
     },
     Wiglett: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 10, at: 55, df: 25, sa: 35, sd: 25, sp: 95 },
         weightkg: 1.8,
         abilities: { 0: 'Gooey' },
         nfe: true
     },
     'Wo-Chien': {
-        types: ['Siniestro', 'Planta'],
+        types: ['Dark', 'Grass'],
         bs: { hp: 85, at: 85, df: 100, sa: 95, sd: 135, sp: 70 },
         weightkg: 74.2,
         gender: 'N',
         abilities: { 0: 'Tablets of Ruin' }
     },
     'Wooper-Paldea': {
-        types: ['Veneno', 'Tierra'],
+        types: ['Poison', 'Ground'],
         bs: { hp: 55, at: 45, df: 45, sa: 25, sd: 25, sp: 15 },
         weightkg: 8.5,
         abilities: { 0: 'Poison Point' },
@@ -9764,7 +9764,7 @@ var SV_PATCH = {
         nfe: true
     },
     Wugtrio: {
-        types: ['Agua'],
+        types: ['Water'],
         bs: { hp: 35, at: 100, df: 50, sa: 50, sd: 70, sp: 120 },
         weightkg: 5.4,
         abilities: { 0: 'Gooey' }

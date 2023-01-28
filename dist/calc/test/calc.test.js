@@ -172,21 +172,21 @@ describe('calc', function () {
                 var e_2, _a;
                 var weathers = [
                     {
-                        weather: 'Sun', type: 'Fuego', damage: {
+                        weather: 'Sun', type: 'Fire', damage: {
                             adv: { range: [346, 408], desc: '(149.7 - 176.6%) -- guaranteed OHKO' },
                             dpp: { range: [170, 204], desc: '(73.5 - 88.3%) -- guaranteed 2HKO' },
                             modern: { range: [344, 408], desc: '(148.9 - 176.6%) -- guaranteed OHKO' }
                         }
                     },
                     {
-                        weather: 'Rain', type: 'Agua', damage: {
+                        weather: 'Rain', type: 'Water', damage: {
                             adv: { range: [86, 102], desc: '(37.2 - 44.1%) -- guaranteed 3HKO' },
                             dpp: { range: [42, 51], desc: '(18.1 - 22%) -- possible 5HKO' },
                             modern: { range: [86, 102], desc: '(37.2 - 44.1%) -- guaranteed 3HKO' }
                         }
                     },
                     {
-                        weather: 'Sand', type: 'Roca', damage: {
+                        weather: 'Sand', type: 'Rock', damage: {
                             adv: {
                                 range: [96, 114],
                                 desc: '(41.5 - 49.3%) -- 20.7% chance to 2HKO after sandstorm damage'
@@ -202,7 +202,7 @@ describe('calc', function () {
                         }
                     },
                     {
-                        weather: 'Hail', type: 'Hielo', damage: {
+                        weather: 'Hail', type: 'Ice', damage: {
                             adv: {
                                 range: [234, 276],
                                 desc: '(101.2 - 119.4%) -- guaranteed OHKO'
@@ -222,7 +222,7 @@ describe('calc', function () {
                     for (var weathers_1 = __values(weathers), weathers_1_1 = weathers_1.next(); !weathers_1_1.done; weathers_1_1 = weathers_1.next()) {
                         var _b = weathers_1_1.value, weather = _b.weather, type = _b.type, damage = _b.damage;
                         var dmg = gen === 3 ? damage.adv : gen === 4 ? damage.dpp : damage.modern;
-                        var _c = __read(gen === 3 && type === 'Roca' ? ['Atk', 'Def'] : ['SpA', 'SpD'], 2), atk = _c[0], def = _c[1];
+                        var _c = __read(gen === 3 && type === 'Rock' ? ['Atk', 'Def'] : ['SpA', 'SpD'], 2), atk = _c[0], def = _c[1];
                         var result = calculate(Pokemon('Castform'), Pokemon('Bulbasaur'), Move('Weather Ball'), Field({ weather: weather }));
                         expect(result.range()).toEqual(dmg.range);
                         expect(result.desc()).toBe("0 ".concat(atk, " Castform Weather Ball (100 BP ").concat(type, ") vs. 0 HP / 0 ").concat(def, " Bulbasaur in ").concat(weather, ": ").concat(dmg.range[0], "-").concat(dmg.range[1], " ").concat(dmg.desc));
@@ -278,7 +278,7 @@ describe('calc', function () {
         (0, helper_1.inGens)(7, 9, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
             test("Psychic Terrain (gen ".concat(gen, ")"), function () {
-                var field = Field({ terrain: 'Psíquico' });
+                var field = Field({ terrain: 'Psychic' });
                 var Mewtwo = Pokemon('Mewtwo', {
                     nature: 'Timid',
                     evs: { spa: 252 },
@@ -701,7 +701,7 @@ describe('calc', function () {
                 var silvally = Pokemon('Silvally-Dark', { item: 'Dark Memory' });
                 var knockoff = Move('Knock Off');
                 var result = calculate(sawk, silvally, knockoff);
-                expect(result.desc()).toBe('252 Atk Mold Breaker Sawk Knock Off vs. 0 HP / 0 Def Silvally-Siniestro: 36-43 (10.8 - 12.9%) -- possible 8HKO');
+                expect(result.desc()).toBe('252 Atk Mold Breaker Sawk Knock Off vs. 0 HP / 0 Def Silvally-Dark: 36-43 (10.8 - 12.9%) -- possible 8HKO');
             });
             test('-ate Abilities', function () {
                 var sylveon = Pokemon('Sylveon', { ability: 'Pixilate', evs: { spa: 252 } });

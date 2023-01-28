@@ -63,19 +63,19 @@ function calculateDPP(gen, attacker, defender, move, field) {
     var basePower = move.bp;
     if (move.named('Weather Ball')) {
         if (field.hasWeather('Sun')) {
-            move.type = 'Fuego';
+            move.type = 'Fire';
             basePower *= 2;
         }
         else if (field.hasWeather('Rain')) {
-            move.type = 'Agua';
+            move.type = 'Water';
             basePower *= 2;
         }
         else if (field.hasWeather('Sand')) {
-            move.type = 'Roca';
+            move.type = 'Rock';
             basePower *= 2;
         }
         else if (field.hasWeather('Hail')) {
-            move.type = 'Hielo';
+            move.type = 'Ice';
             basePower *= 2;
         }
         else {
@@ -106,7 +106,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         ? (0, util_1.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
-    if (typeEffectiveness === 0 && move.hasType('Tierra') && defender.hasItem('Iron Ball')) {
+    if (typeEffectiveness === 0 && move.hasType('Ground') && defender.hasItem('Iron Ball')) {
         if (type1Effectiveness === 0) {
             type1Effectiveness = 1;
         }
@@ -120,10 +120,10 @@ function calculateDPP(gen, attacker, defender, move, field) {
     }
     var ignoresWonderGuard = move.hasType('???') || move.named('Fire Fang');
     if ((!ignoresWonderGuard && defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
-        (move.hasType('Fuego') && defender.hasAbility('Flash Fire')) ||
-        (move.hasType('Agua') && defender.hasAbility('Dry Skin', 'Water Absorb')) ||
-        (move.hasType('Eléctrico') && defender.hasAbility('Motor Drive', 'Volt Absorb')) ||
-        (move.hasType('Tierra') && !field.isGravity &&
+        (move.hasType('Fire') && defender.hasAbility('Flash Fire')) ||
+        (move.hasType('Water') && defender.hasAbility('Dry Skin', 'Water Absorb')) ||
+        (move.hasType('Electric') && defender.hasAbility('Motor Drive', 'Volt Absorb')) ||
+        (move.hasType('Ground') && !field.isGravity &&
             !defender.hasItem('Iron Ball') && defender.hasAbility('Levitate')) ||
         (move.flags.sound && defender.hasAbility('Soundproof'))) {
         desc.defenderAbility = defender.ability;
@@ -224,13 +224,13 @@ function calculateDPP(gen, attacker, defender, move, field) {
     else if (move.hasType((0, items_1.getItemBoostType)(attacker.item)) ||
         (attacker.hasItem('Adamant Orb') &&
             attacker.named('Dialga') &&
-            move.hasType('Acero', 'Dragón')) ||
+            move.hasType('Steel', 'Dragon')) ||
         (attacker.hasItem('Lustrous Orb') &&
             attacker.named('Palkia') &&
-            move.hasType('Agua', 'Dragón')) ||
+            move.hasType('Water', 'Dragon')) ||
         (attacker.hasItem('Griseous Orb') &&
             attacker.named('Giratina-Origin') &&
-            move.hasType('Fantasma', 'Dragón'))) {
+            move.hasType('Ghost', 'Dragon'))) {
         basePower = Math.floor(basePower * 1.2);
         desc.attackerItem = attacker.item;
     }
@@ -240,20 +240,20 @@ function calculateDPP(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     else if ((attacker.curHP() <= attacker.maxHP() / 3 &&
-        ((attacker.hasAbility('Overgrow') && move.hasType('Planta')) ||
-            (attacker.hasAbility('Blaze') && move.hasType('Fuego')) ||
-            (attacker.hasAbility('Torrent') && move.hasType('Agua')) ||
-            (attacker.hasAbility('Swarm') && move.hasType('Bicho')))) ||
+        ((attacker.hasAbility('Overgrow') && move.hasType('Grass')) ||
+            (attacker.hasAbility('Blaze') && move.hasType('Fire')) ||
+            (attacker.hasAbility('Torrent') && move.hasType('Water')) ||
+            (attacker.hasAbility('Swarm') && move.hasType('Bug')))) ||
         (attacker.hasAbility('Technician') && basePower <= 60)) {
         basePower = Math.floor(basePower * 1.5);
         desc.attackerAbility = attacker.ability;
     }
-    if ((defender.hasAbility('Heatproof') && move.hasType('Fuego')) ||
-        (defender.hasAbility('Thick Fat') && (move.hasType('Fuego', 'Hielo')))) {
+    if ((defender.hasAbility('Heatproof') && move.hasType('Fire')) ||
+        (defender.hasAbility('Thick Fat') && (move.hasType('Fire', 'Ice')))) {
         basePower = Math.floor(basePower * 0.5);
         desc.defenderAbility = defender.ability;
     }
-    else if (defender.hasAbility('Dry Skin') && move.hasType('Fuego')) {
+    else if (defender.hasAbility('Dry Skin') && move.hasType('Fire')) {
         basePower = Math.floor(basePower * 1.25);
         desc.defenderAbility = defender.ability;
     }
@@ -358,7 +358,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         defense *= 2;
         desc.defenderItem = defender.item;
     }
-    if (field.hasWeather('Sand') && defender.hasType('Roca') && !isPhysical) {
+    if (field.hasWeather('Sand') && defender.hasType('Rock') && !isPhysical) {
         defense = Math.floor(defense * 1.5);
         desc.weather = field.weather;
     }
@@ -388,18 +388,18 @@ function calculateDPP(gen, attacker, defender, move, field) {
         ['allAdjacent', 'allAdjacentFoes'].includes(move.target)) {
         baseDamage = Math.floor((baseDamage * 3) / 4);
     }
-    if ((field.hasWeather('Sun') && move.hasType('Fuego')) ||
-        (field.hasWeather('Rain') && move.hasType('Agua'))) {
+    if ((field.hasWeather('Sun') && move.hasType('Fire')) ||
+        (field.hasWeather('Rain') && move.hasType('Water'))) {
         baseDamage = Math.floor(baseDamage * 1.5);
         desc.weather = field.weather;
     }
-    else if ((field.hasWeather('Sun') && move.hasType('Agua')) ||
-        (field.hasWeather('Rain') && move.hasType('Fuego')) ||
+    else if ((field.hasWeather('Sun') && move.hasType('Water')) ||
+        (field.hasWeather('Rain') && move.hasType('Fire')) ||
         (move.named('Solar Beam') && field.hasWeather('Rain', 'Sand', 'Hail'))) {
         baseDamage = Math.floor(baseDamage * 0.5);
         desc.weather = field.weather;
     }
-    if (attacker.hasAbility('Flash Fire') && attacker.abilityOn && move.hasType('Fuego')) {
+    if (attacker.hasAbility('Flash Fire') && attacker.abilityOn && move.hasType('Fire')) {
         baseDamage = Math.floor(baseDamage * 1.5);
         desc.attackerAbility = 'Flash Fire';
     }

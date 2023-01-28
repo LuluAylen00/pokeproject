@@ -13,26 +13,26 @@ var SS = GSC;
 var SV = GSC;
 exports.STATS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 var HP_TYPES = [
-    'Lucha', 'Volador', 'Veneno', 'Tierra', 'Roca', 'Bicho', 'Fantasma', 'Acero',
-    'Fuego', 'Agua', 'Planta', 'Eléctrico', 'Psíquico', 'Hielo', 'Dragón', 'Siniestro',
+    'Fighting', 'Flying', 'Poison', 'Ground', 'Rock', 'Bug', 'Ghost', 'Steel',
+    'Fire', 'Water', 'Grass', 'Electric', 'Psychic', 'Ice', 'Dragon', 'Dark',
 ];
 var HP = {
-    Bicho: { ivs: { atk: 30, def: 30, spd: 30 }, dvs: { atk: 13, def: 13 } },
-    Siniestro: { ivs: {}, dvs: {} },
-    'Dragón': { ivs: { atk: 30 }, dvs: { def: 14 } },
-    'Eléctrico': { ivs: { spa: 30 }, dvs: { atk: 14 } },
-    Lucha: { ivs: { def: 30, spa: 30, spd: 30, spe: 30 }, dvs: { atk: 12, def: 12 } },
-    Fuego: { ivs: { atk: 30, spa: 30, spe: 30 }, dvs: { atk: 14, def: 12 } },
-    Volador: { ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30 }, dvs: { atk: 12, def: 13 } },
-    Fantasma: { ivs: { def: 30, spd: 30 }, dvs: { atk: 13, def: 14 } },
-    Planta: { ivs: { atk: 30, spa: 30 }, dvs: { atk: 14, def: 14 } },
-    Tierra: { ivs: { spa: 30, spd: 30 }, dvs: { atk: 12 } },
-    Hielo: { ivs: { atk: 30, def: 30 }, dvs: { def: 13 } },
-    Veneno: { ivs: { def: 30, spa: 30, spd: 30 }, dvs: { atk: 12, def: 14 } },
-    'Psíquico': { ivs: { atk: 30, spe: 30 }, dvs: { def: 12 } },
-    Roca: { ivs: { def: 30, spd: 30, spe: 30 }, dvs: { atk: 13, def: 12 } },
-    Acero: { ivs: { spd: 30 }, dvs: { atk: 13 } },
-    Agua: { ivs: { atk: 30, def: 30, spa: 30 }, dvs: { atk: 14, def: 13 } }
+    Bug: { ivs: { atk: 30, def: 30, spd: 30 }, dvs: { atk: 13, def: 13 } },
+    Dark: { ivs: {}, dvs: {} },
+    'Dragon': { ivs: { atk: 30 }, dvs: { def: 14 } },
+    'Electric': { ivs: { spa: 30 }, dvs: { atk: 14 } },
+    Fighting: { ivs: { def: 30, spa: 30, spd: 30, spe: 30 }, dvs: { atk: 12, def: 12 } },
+    Fire: { ivs: { atk: 30, spa: 30, spe: 30 }, dvs: { atk: 14, def: 12 } },
+    Flying: { ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30 }, dvs: { atk: 12, def: 13 } },
+    Ghost: { ivs: { def: 30, spd: 30 }, dvs: { atk: 13, def: 14 } },
+    Grass: { ivs: { atk: 30, spa: 30 }, dvs: { atk: 14, def: 14 } },
+    Ground: { ivs: { spa: 30, spd: 30 }, dvs: { atk: 12 } },
+    Ice: { ivs: { atk: 30, def: 30 }, dvs: { def: 13 } },
+    Poison: { ivs: { def: 30, spa: 30, spd: 30 }, dvs: { atk: 12, def: 14 } },
+    'Psychic': { ivs: { atk: 30, spe: 30 }, dvs: { def: 12 } },
+    Rock: { ivs: { def: 30, spd: 30, spe: 30 }, dvs: { atk: 13, def: 12 } },
+    Steel: { ivs: { spd: 30 }, dvs: { atk: 13 } },
+    Water: { ivs: { atk: 30, def: 30, spa: 30 }, dvs: { atk: 14, def: 13 } }
 };
 exports.Stats = new ((function () {
     function class_1() {
