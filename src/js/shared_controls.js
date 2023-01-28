@@ -1073,7 +1073,11 @@ $(".gen").change(function () {
 	loadDefaultLists();
 	$(".gen-specific.g" + gen).show();
 	$(".gen-specific").not(".g" + gen).hide();
-	var typeOptions = getSelectOptions(Object.keys(typeChart));
+	var tipos = {
+		original: Object.keys(typeChart),
+		translated: ['???','Normal','Planta','Fuego','Agua','Eléctrico','Hielo','Volador','Bicho','Veneno','Tierra','Roca','Lucha','Psíquico','Fantasma','Dragón','Siniestro','Acero']
+	}
+	var typeOptions = getSelectOptions(tipos.original, false, false, tipos.translated);
 	$("select.type1, select.move-type").find("option").remove().end().append(typeOptions);
 	$("select.teraType").find("option").remove().end().append(getSelectOptions(Object.keys(typeChart).slice(1)));
 	$("select.type2").find("option").remove().end().append("<option value=\"\">(none)</option>" + typeOptions);
