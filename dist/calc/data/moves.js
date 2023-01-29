@@ -3175,7 +3175,7 @@ var translatedMoves = [
         "move": "return",
         "lang": {
             "en": "Return",
-            "es": "Retribución"
+            "es": "Retroceso"
         }
     },
     {

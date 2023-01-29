@@ -851,14 +851,14 @@ function translateElement(name : string, valueType : string){
       case "habilidad":
           let foundHab = habilidades.find(e => e.en == name)
           if (foundHab) {
-              return "con "+foundHab.es;
+              return "+ Hab. "+foundHab.es;
           } else {
               return "";
           }
       case "objeto":
           let found = objetos.find(e => e.en == name)
           if (found) {
-              return "+ Hab. "+found.es;
+              return "+ Obj. "+found.es;
           } else {
               return "";
           }

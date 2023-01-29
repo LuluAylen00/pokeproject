@@ -684,7 +684,7 @@ function translateElement(name, valueType) {
         case "habilidad":
             var foundHab = habilidades.find(function (e) { return e.en == name; });
             if (foundHab) {
-                return "con " + foundHab.es;
+                return "+ Hab. " + foundHab.es;
             }
             else {
                 return "";
@@ -692,7 +692,7 @@ function translateElement(name, valueType) {
         case "objeto":
             var found = objetos.find(function (e) { return e.en == name; });
             if (found) {
-                return "+ Hab. " + found.es;
+                return "+ Obj. " + found.es;
             }
             else {
                 return "";
