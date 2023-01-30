@@ -1206,19 +1206,19 @@ function getByTier(tier, setName) {
 		case "All":
 			return true
 		case "OU":
-			if (setName.includes("OU") || setName.includes("UU") || setName.includes("NU") || setName.includes("RU") || setName.includes("ZU")) {
+			if (setName.includes("OU")) {
 				return true;	
 			} else {
 				return false;
 			}
 		case "UU":
-			if (setName.includes("UU") || setName.includes("NU") || setName.includes("RU") || setName.includes("ZU")) {
+			if (setName.includes("UU")) {
 				return true;	
 			} else {
 				return false;
 			}
 		case "NU":
-			if (setName.includes("NU") || setName.includes("RU") || setName.includes("ZU")) {
+			if (setName.includes("NU") || setName.includes("UT")) {
 				return true;	
 			} else {
 				return false;

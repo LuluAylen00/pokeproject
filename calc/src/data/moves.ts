@@ -315,7 +315,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Sweet Kiss': {bp: 0, category: 'Status', type: 'Normal'},
   Rollout: {bp: 30, type: 'Rock'},
   Frustration: {bp: 0, type: 'Normal'},
-  Return: {bp: 0, type: 'Normal'},
+  Return: {bp: 102, type: 'Normal'},
   'Sacred Fire': {bp: 100, type: 'Fire'},
   'Baton Pass': {bp: 0, category: 'Status', type: 'Normal'},
   'Dragon Breath': {bp: 60, type: 'Dragon'},
@@ -917,7 +917,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   Roost: {bp: 0, type: 'Flying'},
   'Stealth Rock': {bp: 0, type: 'Rock'},
   'Sucker Punch': {
-    bp: 80,
+    bp: 70,
     type: 'Dark',
     priority: 1,
     makesContact: true,
@@ -1400,7 +1400,7 @@ const BW_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     secondaries: true,
   },
   'Storm Throw': {
-    bp: 40,
+    bp: 60,
     type: 'Fighting',
     willCrit: true,
     makesContact: true,
@@ -4095,7 +4095,7 @@ var translatedMoves = [
         "move": "bullet-seed",
         "lang": {
             "en": "Bullet Seed",
-            "es": "Semilladora"
+            "es": "Recurrente"
         }
     },
     {
