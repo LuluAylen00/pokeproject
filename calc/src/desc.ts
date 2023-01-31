@@ -433,12 +433,12 @@ const TRAPPING = [
 function getHazards(gen: Generation, defender: Pokemon, defenderSide: Side) {
   let damage = 0;
   const texts: string[] = [];
-
+  
   if (defender.hasItem('Heavy-Duty Boots')) {
     return {damage, texts};
   }
   if (defenderSide.isSR && !defender.hasAbility('Magic Guard', 'Mountaineer')) {
-    const rockType = gen.types.get('roca' as ID)!;
+    const rockType = gen.types.get('rock' as ID)!;
     const effectiveness =
       rockType.effectiveness[defender.types[0]]! *
       (defender.types[1] ? rockType.effectiveness[defender.types[1]]! : 1);
@@ -446,7 +446,7 @@ function getHazards(gen: Generation, defender: Pokemon, defenderSide: Side) {
     texts.push('Trampa Rocas');
   }
   if (defenderSide.steelsurge && !defender.hasAbility('Magic Guard', 'Mountaineer')) {
-    const steelType = gen.types.get('acero' as ID)!; 
+    const steelType = gen.types.get('steel' as ID)!; 
     const effectiveness =
       steelType.effectiveness[defender.types[0]]! *
       (defender.types[1] ? steelType.effectiveness[defender.types[1]]! : 1);

@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /* header */
 a img {
     border: 0;
@@ -148,13 +152,30 @@ html, body {
     color: black;
     margin: 0;
     padding: 0;
-    min-width: 100em;
+    /* min-width: 100em; */
 }
 .wrapper {
-    padding: 0 1em;
-    max-width: 1285px;
-    margin: 0 auto;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    /* margin: 0 auto; */
 }
+.combat-panel {
+    width:95%;
+}
+.poke-info > * {
+    width: 100%;
+}
+
+.poke-info > legend {
+    width: 33%
+}
+
+.each-move {
+    width: 96%;
+}
+
 .credits {
     clear: both;
     padding: 20px;
@@ -165,7 +186,7 @@ div.wrapper > div > span {
     padding-right: 5px;
 }
 fieldset {
-    float: left;
+    /* float: left; */
     background-color: #F1F4F9;
     border: 1px solid #AAAAAA;
 }
@@ -211,15 +232,28 @@ th {
     font-size: 0.8em;
 }
 .panel {
-    float: left;
     display: inline-block; /* required for honkaculate to work */
+    width: 32%;
 }
+.panel-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
 .poke-info {
-    width: 30em;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.field-info, .poke-import {
+.field-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    width: 27.5em;
 }
 .holder-0 {
     position: absolute;
@@ -370,7 +404,8 @@ th {
     margin: 1em 0;
 }
 .set-selector {
-    width: 100%;
+    width: 96%;
+    max-width: 30vw;
 }
 .info-selectors select {
     width: 12em;
@@ -382,16 +417,16 @@ select.toxic-counter {
     font-size: 0.9em;
 }
 .move-selector {
-    width: 11.5em;
+    width: 9em;
 }
 .poke-info input.move-bp {
-    width: 2em;
+    width: 2.4em;
 }
 .move-type {
     width: 5.5em;
 }
 .move-cat {
-    width: 6em;
+    width: 5em;
 }
 .move-hits {
     width: 4.5em;
@@ -399,7 +434,6 @@ select.toxic-counter {
 .poke-info .crit-btn {
     font-size: 0.8em;
     width: 2.5em;
-    height: 1em;
     padding: 3px 3px;
     margin: 0px 1px;
 }
@@ -430,7 +464,7 @@ table.field {
 
 /* select2 overrides */
 .select2-container .select2-choice > .select2-chosen {
-    width: 100%;
+    width: 93%;
 }
 .small-select.select2-container .select2-choice {
     font-size: 0.9em;
@@ -455,13 +489,13 @@ table.field {
 }
 
 .import-team-text {
-    min-width: 27em;
+    width: 100%;
     min-height: 10em;
     resize: vertical;
 }
 
 .import-name-text {
-	min-width: 26.3em;
+	width: 100%;
     min-height: 1em;
     overflow: auto;
     display: inline;

@@ -304,14 +304,14 @@ function getHazards(gen, defender, defenderSide) {
         return { damage: damage, texts: texts };
     }
     if (defenderSide.isSR && !defender.hasAbility('Magic Guard', 'Mountaineer')) {
-        var rockType = gen.types.get('roca');
+        var rockType = gen.types.get('rock');
         var effectiveness = rockType.effectiveness[defender.types[0]] *
             (defender.types[1] ? rockType.effectiveness[defender.types[1]] : 1);
         damage += Math.floor((effectiveness * defender.maxHP()) / 8);
         texts.push('Trampa Rocas');
     }
     if (defenderSide.steelsurge && !defender.hasAbility('Magic Guard', 'Mountaineer')) {
-        var steelType = gen.types.get('acero');
+        var steelType = gen.types.get('steel');
         var effectiveness = steelType.effectiveness[defender.types[0]] *
             (defender.types[1] ? steelType.effectiveness[defender.types[1]] : 1);
         damage += Math.floor((effectiveness * defender.maxHP()) / 8);
