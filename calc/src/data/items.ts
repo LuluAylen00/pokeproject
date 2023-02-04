@@ -258,6 +258,7 @@ const DPP = ADV.concat([
 const BW = DPP.concat([
   'Absorb Bulb',
   'Air Balloon',
+  'Assault Vest',
   'Binding Band',
   'Bug Gem',
   'Burn Drive',
@@ -347,7 +348,6 @@ export const MEGA_STONES: {[species: string]: string} = {
 const XY = BW.concat(
   [
     ...Object.keys(MEGA_STONES),
-    'Assault Vest',
     'Blue Orb',
     'Fairy Gem',
     'Jaw Fossil',

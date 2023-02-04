@@ -318,6 +318,7 @@ var DPP = ADV.concat([
 var BW = DPP.concat([
     'Absorb Bulb',
     'Air Balloon',
+    'Assault Vest',
     'Binding Band',
     'Bug Gem',
     'Burn Drive',
@@ -403,7 +404,6 @@ exports.MEGA_STONES = {
     Venusaurite: 'Venusaur'
 };
 var XY = BW.concat(__spreadArray(__spreadArray([], __read(Object.keys(exports.MEGA_STONES)), false), [
-    'Assault Vest',
     'Blue Orb',
     'Fairy Gem',
     'Jaw Fossil',
